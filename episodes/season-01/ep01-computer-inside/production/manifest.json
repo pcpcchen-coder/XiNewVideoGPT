@@ -1,20 +1,50 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "episode": "S01E01",
   "slug": "computer-inside",
   "title": "電腦裡面有什麼？",
+  "subtitle": "跟著一筆資料，走進電腦的五大單元",
   "lecturer": "陳犀牛 Chen XiNew",
   "audience": "七年級與親子共學",
   "language": "zh-TW",
-  "slideCount": 10,
-  "video": {"width": 1920, "height": 1080, "fps": 30, "codec": "h264", "audioCodec": "aac"},
+  "slideCount": 12,
+  "transitionSeconds": 0.55,
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "codec": "h264",
+    "audioCodec": "aac"
+  },
+  "tts": {
+    "engine": "meSpeak/eSpeak offline",
+    "voice": "zh",
+    "persona": "warm AI rhino lecturer",
+    "speed": 118,
+    "pitch": 38
+  },
+  "music": {
+    "title": "Data Kitchen",
+    "type": "original procedural ambient loop",
+    "bpm": 80
+  },
   "poses": [
-    "open-palms", "pointer", "open-palms", "point-up", "pointer",
-    "pointer", "point-up", "open-palms", "point-up", "thumbs-up"
+    "point-up",
+    "pointer",
+    "open-palms",
+    "open-palms",
+    "point-up",
+    "pointer",
+    "open-palms",
+    "pointer",
+    "point-up",
+    "pointer",
+    "open-palms",
+    "thumbs-up"
   ],
   "sources": {
-    "course": "https://github.com/pcpcchen-coder/video-production-skill-kimi",
-    "ip": "https://github.com/pcpcchen-coder/XiNewIPs"
+    "courseInspiration": "https://github.com/pcpcchen-coder/video-production-skill-kimi",
+    "ip": "https://github.com/pcpcchen-coder/XiNewIPs",
+    "content": "original rewrite for XiNewVideoGPT v2"
   }
 }
-

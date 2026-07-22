@@ -1,0 +1,94 @@
+[
+  {
+    "slide": 1,
+    "eyebrow": "CHEN XiNew · TECH CLASS",
+    "title": "電腦裡面\n有什麼？",
+    "subtitle": "跟著一筆資料，走進五大單元",
+    "takeaway": "今天不背零件，改走一次資料旅程。"
+  },
+  {
+    "slide": 2,
+    "eyebrow": "先建立地圖",
+    "title": "每筆資料，都走同一條主線",
+    "subtitle": "裝置外型會變，五個基本單元不變",
+    "steps": ["輸入", "處理", "記憶", "儲存", "輸出"]
+  },
+  {
+    "slide": 3,
+    "eyebrow": "一個好懂的比喻",
+    "title": "把電腦想成一間資料廚房",
+    "subtitle": "食材進來 → 主廚料理 → 砧板暫放 → 冰箱保存 → 成品上桌",
+    "labels": ["輸入／食材", "CPU／主廚", "RAM／砧板", "SSD／冰箱", "輸出／上菜"]
+  },
+  {
+    "slide": 4,
+    "eyebrow": "電腦與世界的兩端",
+    "title": "入口與出口，決定電腦怎麼對話",
+    "leftTitle": "輸入 INPUT",
+    "leftItems": ["鍵盤與滑鼠", "麥克風與相機", "觸控與感測器"],
+    "rightTitle": "輸出 OUTPUT",
+    "rightItems": ["螢幕與投影", "喇叭與耳機", "印表機與震動"],
+    "takeaway": "觸控螢幕，同時是入口也是出口。"
+  },
+  {
+    "slide": 5,
+    "eyebrow": "處理 PROCESS",
+    "title": "CPU 的任務，是把指令照順序做完",
+    "steps": ["取得", "理解", "執行"],
+    "takeaway": "速度、核心數與工作分配，共同決定表現。"
+  },
+  {
+    "slide": 6,
+    "eyebrow": "記憶 MEMORY",
+    "title": "RAM 越大，同時攤開的工作越多",
+    "bullets": ["正在使用的資料", "切換程式更順暢", "關機後內容清空"],
+    "takeaway": "RAM 是工作檯，不是永久倉庫。"
+  },
+  {
+    "slide": 7,
+    "eyebrow": "儲存 STORAGE",
+    "title": "SSD 負責長期保存，關機也不忘記",
+    "bullets": ["照片、遊戲、作業", "沒有轉動零件", "讀寫快、安靜、省電"],
+    "takeaway": "RAM 管現在；SSD 留到明天。"
+  },
+  {
+    "slide": 8,
+    "eyebrow": "連接 CONNECT",
+    "title": "主機板，是所有零件共用的道路系統",
+    "bullets": ["插槽＝交流道", "銅線＝資料道路", "規格＝道路寬度"],
+    "takeaway": "零件再快，也要靠道路把資料送到。"
+  },
+  {
+    "slide": 9,
+    "eyebrow": "支援 SUPPORT",
+    "title": "效能要持續，還需要三位重要隊友",
+    "columns": [
+      {"title": "GPU", "subtitle": "大量計算畫面"},
+      {"title": "電源", "subtitle": "穩定供應電力"},
+      {"title": "散熱", "subtitle": "把多餘熱量帶走"}
+    ]
+  },
+  {
+    "slide": 10,
+    "eyebrow": "把零件串成一次體驗",
+    "title": "按下一個鍵，資料就跑完一整圈",
+    "steps": ["鍵盤送出訊號", "CPU 讀取程式", "RAM 提供資料", "GPU 畫出結果", "螢幕顯示畫面"],
+    "takeaway": "看見畫面的那一刻，五個單元都已經合作過。"
+  },
+  {
+    "slide": 11,
+    "eyebrow": "遷移 TRANSFER",
+    "title": "手機只是把同一套架構縮小",
+    "bullets": ["晶片高度整合", "電池取代電源供應器", "觸控同時輸入與輸出"],
+    "takeaway": "外型不同，資料旅程一樣。"
+  },
+  {
+    "slide": 12,
+    "eyebrow": "一題確認你真的懂了",
+    "title": "正在剪影片的素材，暫時放在哪裡？",
+    "answer": "RAM 記憶體",
+    "explain": "按下儲存後，才會長期寫入 SSD。",
+    "recap": ["輸入", "處理", "記憶", "儲存", "輸出"],
+    "next": "下一集：電腦為什麼只需要 0 和 1？"
+  }
+]

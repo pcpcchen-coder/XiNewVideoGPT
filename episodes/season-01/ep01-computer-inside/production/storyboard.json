@@ -1,12 +1,14 @@
 [
-  {"slide": 1, "visual": "開場（比喻場景）", "what": "大標題＋打開的電腦主機＋火柴人醫生拿放大鏡"},
-  {"slide": 2, "visual": "流程圖", "what": "輸入→處理→記憶/儲存→輸出 五大單元一條龍"},
-  {"slide": 3, "visual": "比喻場景", "what": "廚房全景：門口食材、廚師、砧板、冰箱、出菜口"},
-  {"slide": 4, "visual": "比喻場景", "what": "廚師（CPU）快速翻炒，標示每秒數十億次"},
-  {"slide": 5, "visual": "對比圖", "what": "大砧板 vs 小砧板；關機=砧板清空"},
-  {"slide": 6, "visual": "對比圖", "what": "冰箱（傳統硬碟）vs 開放層架（固態硬碟），存照片遊戲作業"},
-  {"slide": 7, "visual": "流程圖", "what": "主機板高速公路連接 CPU/記憶體/硬碟三座城市"},
-  {"slide": 8, "visual": "比喻場景", "what": "三配角：顯示卡畫家、電源心臟、風扇冷氣"},
-  {"slide": 9, "visual": "對比圖", "what": "桌機 vs 手機，五單元一一對應"},
-  {"slide": 10, "visual": "總結（流程圖）", "what": "五單元總複習＋預告 0 和 1"}
+  {"slide": 1, "claim": "電腦內部可以沿著資料旅程理解", "visual": "desktop-cutaway", "pose": "point-up", "motion": "slow-push-in"},
+  {"slide": 2, "claim": "所有電腦共享輸入到輸出的五步主線", "visual": "five-step-flow", "pose": "pointer", "motion": "left-to-right"},
+  {"slide": 3, "claim": "廚房比喻能把抽象單元變成具體角色", "visual": "kitchen-analogy", "pose": "open-palms", "motion": "pan-across"},
+  {"slide": 4, "claim": "輸入與輸出是電腦對外溝通的兩端", "visual": "input-output-split", "pose": "open-palms", "motion": "split-reveal"},
+  {"slide": 5, "claim": "CPU 以取得、解碼、執行循環處理指令", "visual": "cpu-crop", "pose": "point-up", "motion": "focus-pulse"},
+  {"slide": 6, "claim": "RAM 是正在工作時的暫存空間", "visual": "ram-crop", "pose": "pointer", "motion": "stack-reveal"},
+  {"slide": 7, "claim": "SSD 是關機後仍保留資料的長期儲存", "visual": "ssd-crop", "pose": "open-palms", "motion": "archive-glow"},
+  {"slide": 8, "claim": "主機板提供零件交換資料的共同道路", "visual": "motherboard-network", "pose": "pointer", "motion": "route-trace"},
+  {"slide": 9, "claim": "GPU、電源和散熱讓效能能正確且持續輸出", "visual": "gpu-power-cooling", "pose": "point-up", "motion": "three-beat"},
+  {"slide": 10, "claim": "一次按鍵會觸發完整的資料循環", "visual": "data-journey", "pose": "pointer", "motion": "path-chase"},
+  {"slide": 11, "claim": "手機只是把同一套五單元架構高度整合", "visual": "smartphone-exploded", "pose": "open-palms", "motion": "layer-float"},
+  {"slide": 12, "claim": "能判斷資料當下的位置，就掌握了電腦架構", "visual": "recap-quiz", "pose": "thumbs-up", "motion": "recap-lockup"}
 ]

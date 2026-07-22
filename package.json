@@ -1,0 +1,11 @@
+{
+  "name": "xinew-video-gpt",
+  "private": true,
+  "version": "2.0.0",
+  "description": "XiNew teaching video production pipeline",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "mespeak": "2.0.2",
+    "pinyin-pro": "3.27.0"
+  }
+}

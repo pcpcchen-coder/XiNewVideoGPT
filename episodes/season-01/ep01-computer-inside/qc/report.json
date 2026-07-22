@@ -1,27 +1,18 @@
 {
   "episode": "S01E01",
-  "generatedAt": "2026-07-22T06:46:43.871567+00:00",
+  "version": "full-remake-v2",
+  "generatedAt": "2026-07-22T08:16:57.428696+00:00",
   "pass": true,
   "checks": [
     {
       "name": "slide_count",
       "pass": true,
-      "detail": "10/10"
+      "detail": "12/12"
     },
     {
       "name": "audio_count",
       "pass": true,
-      "detail": "10/10"
-    },
-    {
-      "name": "subtitle_exists",
-      "pass": true,
-      "detail": "zh-TW.srt"
-    },
-    {
-      "name": "font_exists",
-      "pass": true,
-      "detail": "Noto Sans CJK TC"
+      "detail": "12/12"
     },
     {
       "name": "slide_dimensions",
@@ -29,9 +20,44 @@
       "detail": "all 1920x1080"
     },
     {
-      "name": "character_alpha",
+      "name": "timing_count",
       "pass": true,
-      "detail": "4 reusable poses"
+      "detail": "12/12"
+    },
+    {
+      "name": "new_tts",
+      "pass": true,
+      "detail": "meSpeak/eSpeak offline"
+    },
+    {
+      "name": "subtitle_cues",
+      "pass": true,
+      "detail": "36/36"
+    },
+    {
+      "name": "font_exists",
+      "pass": true,
+      "detail": "Noto Sans CJK TC"
+    },
+    {
+      "name": "pptx_slides",
+      "pass": true,
+      "detail": "12/12"
+    },
+    {
+      "name": "pptx_notes",
+      "pass": true,
+      "detail": "12/12"
+    },
+    {
+      "name": "original_music",
+      "pass": true,
+      "detail": "32.16s"
+    },
+    {
+      "name": "ip_character_alpha",
+      "pass": true,
+      "detail": "4 XiNew poses"
     },
     {
       "name": "video_codec",
@@ -44,6 +70,11 @@
       "detail": "aac"
     },
     {
+      "name": "audio_sample_rate",
+      "pass": true,
+      "detail": "48000 Hz"
+    },
+    {
       "name": "video_dimensions",
       "pass": true,
       "detail": "1920x1080"
@@ -51,12 +82,12 @@
     {
       "name": "duration",
       "pass": true,
-      "detail": "183.54s"
+      "detail": "425.73s"
     },
     {
       "name": "github_file_size",
       "pass": true,
-      "detail": "25.1 MiB"
+      "detail": "52.7 MiB"
     },
     {
       "name": "decode_test",

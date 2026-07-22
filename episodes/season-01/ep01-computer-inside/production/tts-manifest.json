@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-07-22T08:06:14.645Z",
+  "engine": "meSpeak/eSpeak offline",
+  "voice": "zh",
+  "persona": "warm AI rhino lecturer",
+  "speed": 118,
+  "pitch": 38,
+  "method": "Traditional Chinese text -> numbered pinyin -> offline eSpeak waveform -> warm voice mastering",
+  "scenes": [
+    {
+      "slide": 1,
+      "duration": 34.296,
+      "audio": "audio/slide_01.mp3",
+      "sha256": "2d909b2d035e595f332bb67742c725057291baa49f03dd8d387052c052dba134"
+    },
+    {
+      "slide": 2,
+      "duration": 32.664,
+      "audio": "audio/slide_02.mp3",
+      "sha256": "3a25687b6cd45aeac5819d788ff7ebeb92d0fffc8d3c8b0a9a15b52453e03fe2"
+    },
+    {
+      "slide": 3,
+      "duration": 35.832,
+      "audio": "audio/slide_03.mp3",
+      "sha256": "e801c56999f0feea81d661dbecdb5a751b017363a27b6c718c414afbea2f88c1"
+    },
+    {
+      "slide": 4,
+      "duration": 32.352,
+      "audio": "audio/slide_04.mp3",
+      "sha256": "bbac5320f8007a447dd7bd421507082ccc91a1b589354d11254e6e7e7f7c28d9"
+    },
+    {
+      "slide": 5,
+      "duration": 35.352,
+      "audio": "audio/slide_05.mp3",
+      "sha256": "d1c073050b4e7fbb4671ade471c9c573676fe9a454dd3c7d7b9084492655f7b8"
+    },
+    {
+      "slide": 6,
+      "duration": 37.608,
+      "audio": "audio/slide_06.mp3",
+      "sha256": "0d35ee016fae14ceb2e651b9361af218f63def521324c13dcffc0c14a9d2e391"
+    },
+    {
+      "slide": 7,
+      "duration": 37.464,
+      "audio": "audio/slide_07.mp3",
+      "sha256": "0278757f29982327082bacddc30505132e648c60545acbe3d4ee6ea461579837"
+    },
+    {
+      "slide": 8,
+      "duration": 32.304,
+      "audio": "audio/slide_08.mp3",
+      "sha256": "2ae870b5e6e2880662067469f80b1103d62a2a378cf0f7333e85f7fc623460ef"
+    },
+    {
+      "slide": 9,
+      "duration": 36,
+      "audio": "audio/slide_09.mp3",
+      "sha256": "98d39403c42a918f3a1cc2866a68f557b9e113c74e8811b9f9a2aa059c822fcc"
+    },
+    {
+      "slide": 10,
+      "duration": 37.032,
+      "audio": "audio/slide_10.mp3",
+      "sha256": "e79268a2a6c0d5bda206488890a1127377eb88f5ca876df8d7a2f080bf51f090"
+    },
+    {
+      "slide": 11,
+      "duration": 37.656,
+      "audio": "audio/slide_11.mp3",
+      "sha256": "30690ed31dd9516a951a2d0e79fb29f63c745f8d23ab4acde0cb9941b89569ad"
+    },
+    {
+      "slide": 12,
+      "duration": 37.2,
+      "audio": "audio/slide_12.mp3",
+      "sha256": "6eabecc66288a431726cdf5340f3014292375af42ca22ee3dcbee0726f530578"
+    }
+  ]
+}

@@ -1,62 +1,86 @@
 # XiNewVideoGPT
 
-以 **陳犀牛 Chen XiNew** 為固定講師的 AI 教學影片製作倉庫。第一個里程碑，是融合 [`video-production-skill-kimi`](https://github.com/pcpcchen-coder/video-production-skill-kimi) 的十步影片產線，與 [`XiNewIPs`](https://github.com/pcpcchen-coder/XiNewIPs) 的角色／品牌設定，重製第一集《電腦裡面有什麼？》。
+以 **陳犀牛 Chen XiNew** 為固定講師的 AI 教學影片製作倉庫。專案融合 [`video-production-skill-kimi`](https://github.com/pcpcchen-coder/video-production-skill-kimi) 的影片製作方法，與 [`XiNewIPs`](https://github.com/pcpcchen-coder/XiNewIPs) 的角色／品牌設定，建立可延伸的完整製作線。
 
-## 第一集成果
+## 第一集完整重製成果
 
-- 主題：電腦的五大基本單元與廚房比喻
-- 對象：七年級學生
-- 講師：陳犀牛 Chen XiNew
-- 規格：1920×1080、H.264/AAC、繁中字幕、十幕
-- 特色：四種一致角色姿勢、IP 色彩系統、科技教室舞台、字幕安全區、逐幕微動態
-- 成品：[`episodes/season-01/ep01-computer-inside/output/ep01-computer-inside-zh-TW.mp4`](episodes/season-01/ep01-computer-inside/output/ep01-computer-inside-zh-TW.mp4)
-- 封面：[`episodes/season-01/ep01-computer-inside/output/thumbnail.jpg`](episodes/season-01/ep01-computer-inside/output/thumbnail.jpg)
-- 驗收：[`episodes/season-01/ep01-computer-inside/qc/report.md`](episodes/season-01/ep01-computer-inside/qc/report.md)
+- 主題：跟著一筆資料，理解電腦的五大基本單元。
+- 對象：七年級學生與親子共學。
+- 講師：陳犀牛 Chen XiNew。
+- 片長：7 分 06 秒，共 12 幕。
+- 規格：1920×1080、H.264、AAC 48 kHz、繁中字幕。
+- 劇本：全新 12 幕腳本、36 個句級字幕段落。
+- 語音：全片重新以離線中文 TTS 合成，具可重建 manifest 與時間碼。
+- PPT：12 頁 16:9 可編輯簡報，每頁含完整講者備註。
+- 視覺：六組新教學插圖、四種 XiNew 角色姿勢、IP 品牌舞台。
+- 動態：逐幕微推鏡、掃描光與六種輪替轉場。
+- 音樂：原創 80 BPM《Data Kitchen》科技氛圍配樂，旁白期間自動 ducking。
+- 驗收：18 項自動檢查全部通過；整體音量 -16.0 LUFS，decode 零錯誤。
+
+主要交付：
+
+- [繁中字幕成品](episodes/season-01/ep01-computer-inside/output/ep01-computer-inside-zh-TW.mp4)
+- [無字幕母帶](episodes/season-01/ep01-computer-inside/output/ep01-computer-inside-master.mp4)
+- [可編輯 PPTX](episodes/season-01/ep01-computer-inside/production/presentation/ep01-computer-inside.pptx)
+- [完整劇本](episodes/season-01/ep01-computer-inside/production/narration.json)
+- [YouTube 封面](episodes/season-01/ep01-computer-inside/output/thumbnail.jpg)
+- [驗收報告](episodes/season-01/ep01-computer-inside/qc/report.md)
+- [人工視聽檢查](episodes/season-01/ep01-computer-inside/qc/manual-review.md)
 
 ## 倉庫結構
 
 ```text
 XiNewVideoGPT/
 ├── assets/
-│   ├── characters/                  # 角色設定、可重用透明講師姿勢
-│   ├── fonts/                       # 繁中字幕字型
-│   └── xinew-brand-identity.png     # IP 品牌色與標誌參考
-├── docs/
-│   ├── architecture.md              # 產線、檔案責任與資料流
-│   └── toolchain-fallbacks.md       # 缺工具時的替代策略
+│   ├── characters/                  # IP 設定與四種透明講師姿勢
+│   ├── fonts/                       # Noto Sans CJK TC 與授權
+│   └── xinew-brand-identity.png
+├── docs/                            # 製作架構與工具替代策略
 ├── episodes/
-│   └── season-01/
-│       └── ep01-computer-inside/
-│           ├── README.md
-│           ├── production/          # 計畫、旁白、分鏡、來源投影片、manifest
-│           ├── assets/slides/       # 品牌化後逐幕畫面
-│           ├── audio/               # 每幕語音
-│           ├── subtitles/           # 可上傳 YouTube 的 SRT
-│           ├── output/              # 最終影片與封面
-│           └── qc/                  # ASR 與影音驗收報告
-├── pipeline/
-│   ├── scripts/                     # 渲染、組裝、驗收
-│   └── templates/                   # 後續集數範本
+│   └── season-01/ep01-computer-inside/
+│       ├── production/
+│       │   ├── manifest.json        # 集數、TTS、音樂、轉場與輸出規格
+│       │   ├── narration.json       # 12 幕／36 句完整劇本
+│       │   ├── slides.json          # PPT 可見文案
+│       │   ├── storyboard.json      # 教學目的、視覺與動作
+│       │   ├── timing.json          # 實際 TTS 句級時間碼
+│       │   ├── tts-manifest.json    # 引擎、參數、音檔雜湊
+│       │   └── presentation/        # 可編輯 PPTX
+│       ├── assets/
+│       │   ├── visuals/             # 六組新教學視覺
+│       │   └── slides/              # 12 張 1920×1080 影片畫面
+│       ├── audio/                   # 12 段全新 TTS
+│       ├── music/                   # 原創背景音樂與說明
+│       ├── subtitles/               # 來源與最終 SRT
+│       ├── output/                  # 母帶、字幕版、封面
+│       ├── qc/                      # 自動報告與 contact sheet
+│       └── archive/v1-first-cut/    # 第一版可追溯素材
+├── pipeline/scripts/                # TTS、音樂、渲染、合成、驗收
 ├── Makefile
+├── package.json
 └── requirements.txt
 ```
 
-## 一鍵重製
+## 一鍵重製影音
 
-需求：Python 3.10+、Pillow、FFmpeg、FFprobe。
+需求：Node.js 20+、Python 3.10+、Pillow、FFmpeg、FFprobe。
 
 ```bash
-python3 -m pip install -r requirements.txt
+make install
 make all
 ```
 
 個別執行：
 
 ```bash
-make render      # 產生十張品牌化投影片、封面與 contact sheet
-make assemble    # 合成影片並燒入繁中字幕
-make verify      # 數量、透明度、編碼、解析度、decode test
+make tts         # 依 narration.json 重建 12 段 TTS、句級 timing 與來源字幕
+make music       # 以 FFmpeg 振盪器重建原創 Data Kitchen 循環
+make render      # 從 12 張投影片建立封面與 contact sheet
+make assemble    # 推鏡、掃描光、轉場、配樂 ducking、字幕燒入
+make verify      # PPT、語音、音樂、字幕、編碼、尺寸、decode 共 18 項檢查
 ```
+
+PPTX 與 12 張投影片 PNG 為已驗證的創作原件並直接提交。更新簡報內容時，同步修改 `production/slides.json`、PPTX 與 `assets/slides/`，再執行 `make assemble verify`。
 
 ## 後續影片放置規則
 
@@ -66,21 +90,21 @@ make verify      # 數量、透明度、編碼、解析度、decode test
 episodes/<season>/epNN-<slug>/
 ```
 
-新增一集時，複製 `pipeline/templates/episode/`，至少準備：
+新集數至少準備：
 
-1. `production/manifest.json`：集數、標題、講師姿勢分配、輸出規格。
-2. `production/narration.json`：一幕一段旁白。
-3. `production/storyboard.json`：每幕的教學目的與視覺錨點。
-4. `production/source_slides/slide_NN.png`：無講師的教學底圖。
-5. `audio/slide_NN.mp3`：與旁白一一對應的配音。
-6. `subtitles/zh-TW.srt`：最終字幕。
+1. `production/manifest.json`：集數、講師、姿勢、TTS、音樂與輸出規格。
+2. `production/narration.json`：幕 → 句的旁白結構；可另填 TTS 專用發音。
+3. `production/slides.json`：觀眾實際看見的低密度文案。
+4. `production/storyboard.json`：每幕唯一教學任務、視覺與動作。
+5. `production/presentation/*.pptx` 與 `assets/slides/slide_NN.png`。
+6. `audio/`、`music/`、`subtitles/`、`output/` 與 `qc/`。
 
-驗收門檻：幕數一致、1920×1080、H.264/AAC、字幕可讀、全片可 decode、成品小於 GitHub 單檔限制。
+驗收門檻：幕數與備註一致、1920×1080、H.264/AAC 48 kHz、字幕可讀、音量適合網路影片、全片可 decode、成品小於 GitHub 單檔限制。
 
 ## 素材與來源
 
-- 課程腳本、原始投影片、配音與字幕取自 `video-production-skill-kimi` 第一集，重製版保留已驗證的教學內容與 ASR 結果。
-- 角色外觀與品牌規則取自 `XiNewIPs`。
-- 新增的四種講師姿勢以 IP 設定圖作為嚴格參考生成，再以 chroma key 去背。
+- 第一版的教材與製作方法參考 `video-production-skill-kimi`，完整重製版的劇本、語音、PPT 內容、教學視覺、動畫時間軸與音樂皆重新製作。
+- 角色外觀與品牌規則取自 `XiNewIPs`；四種講師姿勢以 IP 設定圖作為嚴格參考生成，再以 chroma key 去背。
+- 六組電腦教學視覺以 OpenAI 圖像生成製作，不含品牌標誌或生成文字。
+- 背景音樂由專案腳本程式化合成，不含外部取樣。
 - 繁中文字型為 Noto Sans CJK TC；授權資訊見 [Google Noto CJK](https://github.com/notofonts/noto-cjk)。
-
