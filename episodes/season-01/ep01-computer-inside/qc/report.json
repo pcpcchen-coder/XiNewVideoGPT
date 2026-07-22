@@ -1,0 +1,67 @@
+{
+  "episode": "S01E01",
+  "generatedAt": "2026-07-22T06:46:43.871567+00:00",
+  "pass": true,
+  "checks": [
+    {
+      "name": "slide_count",
+      "pass": true,
+      "detail": "10/10"
+    },
+    {
+      "name": "audio_count",
+      "pass": true,
+      "detail": "10/10"
+    },
+    {
+      "name": "subtitle_exists",
+      "pass": true,
+      "detail": "zh-TW.srt"
+    },
+    {
+      "name": "font_exists",
+      "pass": true,
+      "detail": "Noto Sans CJK TC"
+    },
+    {
+      "name": "slide_dimensions",
+      "pass": true,
+      "detail": "all 1920x1080"
+    },
+    {
+      "name": "character_alpha",
+      "pass": true,
+      "detail": "4 reusable poses"
+    },
+    {
+      "name": "video_codec",
+      "pass": true,
+      "detail": "h264"
+    },
+    {
+      "name": "audio_codec",
+      "pass": true,
+      "detail": "aac"
+    },
+    {
+      "name": "video_dimensions",
+      "pass": true,
+      "detail": "1920x1080"
+    },
+    {
+      "name": "duration",
+      "pass": true,
+      "detail": "183.54s"
+    },
+    {
+      "name": "github_file_size",
+      "pass": true,
+      "detail": "25.1 MiB"
+    },
+    {
+      "name": "decode_test",
+      "pass": true,
+      "detail": "0 errors"
+    }
+  ]
+}

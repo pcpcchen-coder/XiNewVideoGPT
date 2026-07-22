@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "episode": "S01E01",
+  "slug": "computer-inside",
+  "title": "電腦裡面有什麼？",
+  "lecturer": "陳犀牛 Chen XiNew",
+  "audience": "七年級與親子共學",
+  "language": "zh-TW",
+  "slideCount": 10,
+  "video": {"width": 1920, "height": 1080, "fps": 30, "codec": "h264", "audioCodec": "aac"},
+  "poses": [
+    "open-palms", "pointer", "open-palms", "point-up", "pointer",
+    "pointer", "point-up", "open-palms", "point-up", "thumbs-up"
+  ],
+  "sources": {
+    "course": "https://github.com/pcpcchen-coder/video-production-skill-kimi",
+    "ip": "https://github.com/pcpcchen-coder/XiNewIPs"
+  }
+}
+

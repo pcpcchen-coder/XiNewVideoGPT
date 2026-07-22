@@ -1,0 +1,8 @@
+# Rebuildable intermediates
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+**/qc/clips/
+**/qc/frames/
+assets/characters/source/
+
