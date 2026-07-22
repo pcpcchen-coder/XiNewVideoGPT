@@ -2,7 +2,7 @@ PYTHON ?= python3
 NODE ?= node
 EPISODE ?= episodes/season-01/ep01-computer-inside
 
-.PHONY: install tts music render assemble verify all
+.PHONY: install tts tts-f music render assemble verify all
 
 install:
 	npm install
@@ -10,6 +10,9 @@ install:
 
 tts:
 	$(NODE) pipeline/scripts/synthesize_narration.cjs $(EPISODE)
+
+tts-f:
+	$(NODE) pipeline/scripts/synthesize_elevenlabs_narration.cjs $(EPISODE)
 
 music:
 	$(PYTHON) pipeline/scripts/generate_music.py --episode $(EPISODE)

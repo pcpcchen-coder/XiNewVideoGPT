@@ -1,7 +1,7 @@
 {
   "episode": "S01E01",
   "version": "full-remake-v2",
-  "generatedAt": "2026-07-22T08:16:57.428696+00:00",
+  "generatedAt": "2026-07-22T12:37:21.030912+00:00",
   "pass": true,
   "checks": [
     {
@@ -27,7 +27,7 @@
     {
       "name": "new_tts",
       "pass": true,
-      "detail": "meSpeak/eSpeak offline"
+      "detail": "ElevenLabs"
     },
     {
       "name": "subtitle_cues",
@@ -82,12 +82,12 @@
     {
       "name": "duration",
       "pass": true,
-      "detail": "425.73s"
+      "detail": "205.60s"
     },
     {
       "name": "github_file_size",
       "pass": true,
-      "detail": "52.7 MiB"
+      "detail": "31.8 MiB"
     },
     {
       "name": "decode_test",

@@ -1,83 +1,83 @@
 {
-  "generatedAt": "2026-07-22T08:06:14.645Z",
-  "engine": "meSpeak/eSpeak offline",
-  "voice": "zh",
+  "generatedAt": "2026-07-22T12:04:27.050Z",
+  "engine": "ElevenLabs",
+  "voice": "George F",
+  "voiceId": "fQj4gJSexpu8RDE2Ii5m",
+  "model": "eleven_multilingual_v2",
   "persona": "warm AI rhino lecturer",
-  "speed": 118,
-  "pitch": 38,
-  "method": "Traditional Chinese text -> numbered pinyin -> offline eSpeak waveform -> warm voice mastering",
+  "method": "Original narration.json sentences -> ElevenLabs George F voice -> per-slide normalized MP3",
   "scenes": [
     {
       "slide": 1,
-      "duration": 34.296,
+      "duration": 14.824188,
       "audio": "audio/slide_01.mp3",
-      "sha256": "2d909b2d035e595f332bb67742c725057291baa49f03dd8d387052c052dba134"
+      "sha256": "ce5a80e98543ab00c514faa1f70d6ac0aea5f33d93c96e47b6f8bb529ae62aca"
     },
     {
       "slide": 2,
-      "duration": 32.664,
+      "duration": 14.777729,
       "audio": "audio/slide_02.mp3",
-      "sha256": "3a25687b6cd45aeac5819d788ff7ebeb92d0fffc8d3c8b0a9a15b52453e03fe2"
+      "sha256": "e1eb899d8ab75a9b475dd71b6fb0237bd4fe48fb927330ba0e19b41c0793bc21"
     },
     {
       "slide": 3,
-      "duration": 35.832,
+      "duration": 17.146167,
       "audio": "audio/slide_03.mp3",
-      "sha256": "e801c56999f0feea81d661dbecdb5a751b017363a27b6c718c414afbea2f88c1"
+      "sha256": "c888abdd36b780883aee62d11160a6570f32de390babc783666646669c433007"
     },
     {
       "slide": 4,
-      "duration": 32.352,
+      "duration": 16.170938,
       "audio": "audio/slide_04.mp3",
-      "sha256": "bbac5320f8007a447dd7bd421507082ccc91a1b589354d11254e6e7e7f7c28d9"
+      "sha256": "774ad4854a472a713fff416f429cb06167744a61780bb71362bdcc2d76b1fd00"
     },
     {
       "slide": 5,
-      "duration": 35.352,
+      "duration": 18.260729,
       "audio": "audio/slide_05.mp3",
-      "sha256": "d1c073050b4e7fbb4671ade471c9c573676fe9a454dd3c7d7b9084492655f7b8"
+      "sha256": "ef592238080571e585fb44088d8cfee9bf544044ae2733364dfdef7ae35e89ea"
     },
     {
       "slide": 6,
-      "duration": 37.608,
+      "duration": 17.610563,
       "audio": "audio/slide_06.mp3",
-      "sha256": "0d35ee016fae14ceb2e651b9361af218f63def521324c13dcffc0c14a9d2e391"
+      "sha256": "49b41929d3af617cd1f0f100725156ff87afe39e62c52947f328a36ba2e3c68b"
     },
     {
       "slide": 7,
-      "duration": 37.464,
+      "duration": 17.2855,
       "audio": "audio/slide_07.mp3",
-      "sha256": "0278757f29982327082bacddc30505132e648c60545acbe3d4ee6ea461579837"
+      "sha256": "2b8416b1cf32af13cfba3987272f5bc26131ee0d1ceed88a671390234b13c682"
     },
     {
       "slide": 8,
-      "duration": 32.304,
+      "duration": 15.427896,
       "audio": "audio/slide_08.mp3",
-      "sha256": "2ae870b5e6e2880662067469f80b1103d62a2a378cf0f7333e85f7fc623460ef"
+      "sha256": "fdebb58a74348b987187721864f84064d08039f9de97f8f411c57c2d8ed53f5a"
     },
     {
       "slide": 9,
-      "duration": 36,
+      "duration": 17.796333,
       "audio": "audio/slide_09.mp3",
-      "sha256": "98d39403c42a918f3a1cc2866a68f557b9e113c74e8811b9f9a2aa059c822fcc"
+      "sha256": "0ee83a9480ebc661cf1358a95b41f7f9843d88d24dea9fb5c9310b8aa9a45dc6"
     },
     {
       "slide": 10,
-      "duration": 37.032,
+      "duration": 17.657021,
       "audio": "audio/slide_10.mp3",
-      "sha256": "e79268a2a6c0d5bda206488890a1127377eb88f5ca876df8d7a2f080bf51f090"
+      "sha256": "65e102360324ebca0b3b372b4970a79b93a6c9e8acc4fd363752702870d4e84a"
     },
     {
       "slide": 11,
-      "duration": 37.656,
+      "duration": 19.607479,
       "audio": "audio/slide_11.mp3",
-      "sha256": "30690ed31dd9516a951a2d0e79fb29f63c745f8d23ab4acde0cb9941b89569ad"
+      "sha256": "f4417eff56ae43dd19e3cb029646ef971be2571f8f8e7e87b2117c1f133b8139"
     },
     {
       "slide": 12,
-      "duration": 37.2,
+      "duration": 19.050208,
       "audio": "audio/slide_12.mp3",
-      "sha256": "6eabecc66288a431726cdf5340f3014292375af42ca22ee3dcbee0726f530578"
+      "sha256": "42684b4a597909469205cd28494ee5eb364bf8a635f0fdd89371a141e2e8588a"
     }
   ]
 }

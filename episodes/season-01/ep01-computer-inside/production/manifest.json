@@ -17,11 +17,13 @@
     "audioCodec": "aac"
   },
   "tts": {
-    "engine": "meSpeak/eSpeak offline",
-    "voice": "zh",
+    "engine": "ElevenLabs",
+    "voice": "George F",
     "persona": "warm AI rhino lecturer",
     "speed": 118,
-    "pitch": 38
+    "pitch": 38,
+    "voiceId": "fQj4gJSexpu8RDE2Ii5m",
+    "model": "eleven_multilingual_v2"
   },
   "music": {
     "title": "Data Kitchen",

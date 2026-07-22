@@ -148,11 +148,20 @@ def main() -> None:
     )
     subtitle_filter = f"subtitles=filename='{final_srt.as_posix()}':fontsdir='{fonts.as_posix()}':force_style='{style}'"
     captioned = output / "ep01-computer-inside-zh-TW.mp4"
-    run([
-        "ffmpeg", "-y", "-v", "error", "-i", str(master), "-vf", subtitle_filter,
-        "-c:v", "libx264", "-preset", "fast", "-crf", "20", "-c:a", "copy",
-        "-movflags", "+faststart", str(captioned),
-    ])
+    try:
+        run([
+            "ffmpeg", "-y", "-v", "error", "-i", str(master), "-vf", subtitle_filter,
+            "-c:v", "libx264", "-preset", "fast", "-crf", "20", "-c:a", "copy",
+            "-movflags", "+faststart", str(captioned),
+        ])
+    except subprocess.CalledProcessError:
+        run([
+            "python3", str(root / "pipeline/scripts/burn_subtitles_pillow.py"),
+            "--input", str(master),
+            "--srt", str(final_srt),
+            "--font", str(fonts / "NotoSansCJKtc-Regular.otf"),
+            "--output", str(captioned),
+        ])
     print(captioned)
 
 
