@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the original Data Kitchen ambient loop with FFmpeg oscillators."""
+"""Generate the episode's original ambient loop with FFmpeg oscillators."""
 
 from __future__ import annotations
 
@@ -26,7 +26,11 @@ def main() -> None:
     manifest = json.loads((ep / "production/manifest.json").read_text(encoding="utf-8"))
     out_dir = ep / "music"
     out_dir.mkdir(parents=True, exist_ok=True)
-    out = out_dir / "data-kitchen-loop.wav"
+    music = manifest["music"]
+    declared = Path(music["file"])
+    out = ep / declared
+    if out.parent != out_dir:
+        raise ValueError(f"Music output must stay inside {out_dir}: {declared}")
 
     inputs: list[str] = []
     for chord in CHORDS:
@@ -45,9 +49,9 @@ def main() -> None:
         "ffmpeg", "-y", "-v", "error", *inputs,
         "-filter_complex", filter_graph, "-map", "[out]", "-ar", "44100", "-ac", "2", str(out),
     ], check=True)
-    (out_dir / "README.md").write_text(
-        "# Data Kitchen\n\n"
-        f"本集原創背景音樂，{manifest['music']['bpm']} BPM、32 秒無人聲科技氛圍循環。"
+    (out_dir / "GENERATED-MUSIC.md").write_text(
+        f"# {music['title']}\n\n"
+        f"本集原創背景音樂，{music['bpm']} BPM、32 秒無人聲科技氛圍循環。"
         "由 `pipeline/scripts/generate_music.py` 以正弦振盪器、和弦進行與 FFmpeg 效果器程式化產生，"
         "不含外部取樣或第三方音樂。影片混音時會在旁白出現時自動降低音量。\n",
         encoding="utf-8",

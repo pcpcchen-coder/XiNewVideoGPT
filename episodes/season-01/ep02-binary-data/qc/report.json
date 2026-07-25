@@ -1,0 +1,118 @@
+{
+  "episode": "S01E02",
+  "version": "ip-lecturer-edge-tts-theme-v1",
+  "generatedAt": "2026-07-25T08:10:26.577538+00:00",
+  "pass": true,
+  "checks": [
+    {
+      "name": "slide_count",
+      "pass": true,
+      "detail": "12/12"
+    },
+    {
+      "name": "audio_count",
+      "pass": true,
+      "detail": "12/12"
+    },
+    {
+      "name": "slide_dimensions",
+      "pass": true,
+      "detail": "all 1920x1080"
+    },
+    {
+      "name": "timing_count",
+      "pass": true,
+      "detail": "12/12"
+    },
+    {
+      "name": "edge_tts_voice",
+      "pass": true,
+      "detail": "Microsoft Edge TTS / zh-TW-YunJheNeural"
+    },
+    {
+      "name": "tts_hashes",
+      "pass": true,
+      "detail": "12 SHA-256 records"
+    },
+    {
+      "name": "subtitle_cues",
+      "pass": true,
+      "detail": "36/36"
+    },
+    {
+      "name": "font_exists",
+      "pass": true,
+      "detail": "Noto Sans CJK TC"
+    },
+    {
+      "name": "pptx_slides",
+      "pass": true,
+      "detail": "12/12"
+    },
+    {
+      "name": "pptx_notes_sources",
+      "pass": true,
+      "detail": "12 notes / 12 with sources"
+    },
+    {
+      "name": "pptx_empty_placeholders",
+      "pass": true,
+      "detail": "0 empty"
+    },
+    {
+      "name": "original_music",
+      "pass": true,
+      "detail": "32.16s"
+    },
+    {
+      "name": "opening_theme",
+      "pass": true,
+      "detail": "犀牛角亮起來 / 120.00s"
+    },
+    {
+      "name": "ip_character_alpha",
+      "pass": true,
+      "detail": "4 XiNew poses"
+    },
+    {
+      "name": "lesson_duration",
+      "pass": true,
+      "detail": "249.33s / timing 249.34s"
+    },
+    {
+      "name": "video_codec",
+      "pass": true,
+      "detail": "h264"
+    },
+    {
+      "name": "audio_codec",
+      "pass": true,
+      "detail": "aac"
+    },
+    {
+      "name": "audio_sample_rate",
+      "pass": true,
+      "detail": "48000 Hz"
+    },
+    {
+      "name": "video_dimensions",
+      "pass": true,
+      "detail": "1920x1080"
+    },
+    {
+      "name": "full_duration",
+      "pass": true,
+      "detail": "369.34s / expected 369.34s"
+    },
+    {
+      "name": "github_file_size",
+      "pass": true,
+      "detail": "39.7 MiB"
+    },
+    {
+      "name": "decode_test",
+      "pass": true,
+      "detail": "0 errors"
+    }
+  ]
+}

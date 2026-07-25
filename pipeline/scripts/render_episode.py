@@ -49,7 +49,12 @@ def main() -> None:
     font_path = root / "assets/fonts/NotoSansCJKtc-Regular.otf"
     title_font = ImageFont.truetype(str(font_path), 30)
     number_font = ImageFont.truetype(str(font_path), 18)
-    draw.text((35, 25), "S01E01 完整重製 · CONTACT SHEET", font=title_font, fill=(255, 193, 47))
+    draw.text(
+        (35, 25),
+        f"{manifest['episode']} · {manifest['title']} · CONTACT SHEET",
+        font=title_font,
+        fill=(255, 193, 47),
+    )
     for i, slide_path in enumerate(slides):
         image = Image.open(slide_path).convert("RGB").resize((thumb_w, thumb_h), Image.Resampling.LANCZOS)
         x = 35 + (i % columns) * thumb_w

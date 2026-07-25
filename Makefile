@@ -1,14 +1,17 @@
 PYTHON ?= python3
 NODE ?= node
-EPISODE ?= episodes/season-01/ep01-computer-inside
+EPISODE ?= episodes/season-01/ep02-binary-data
 
-.PHONY: install tts tts-f music render assemble verify all
+.PHONY: install tts tts-offline tts-f music render assemble verify all
 
 install:
 	npm install
 	$(PYTHON) -m pip install -r requirements.txt
 
 tts:
+	$(PYTHON) pipeline/scripts/synthesize_edge_narration.py $(EPISODE)
+
+tts-offline:
 	$(NODE) pipeline/scripts/synthesize_narration.cjs $(EPISODE)
 
 tts-f:

@@ -2,6 +2,26 @@
 
 以 **陳犀牛 Chen XiNew** 為固定講師的 AI 教學影片製作倉庫。專案融合 [`video-production-skill-kimi`](https://github.com/pcpcchen-coder/video-production-skill-kimi) 的影片製作方法，與 [`XiNewIPs`](https://github.com/pcpcchen-coder/XiNewIPs) 的角色／品牌設定，建立可延伸的完整製作線。
 
+## 第二集：為什麼電腦只懂 0 和 1？
+
+- 講師：陳犀牛 Chen XiNew；沿用第一集的深海藍、探索橙與 12 幕教學結構。
+- 內容：從兩種可靠狀態、電晶體、bit／byte 與二進位卡，延伸到文字、圖片、聲音如何編碼。
+- 語音：全片固定使用 Microsoft Edge TTS `zh-TW-YunJheNeural`，36 句皆有實際音檔時間碼與 SHA-256。
+- 片頭：以五幕 XiNew IP／課程視覺，完整接上 2:00《犀牛角亮起來》主題曲。
+- 正片：4:09；含片頭總長 6:09。1920×1080、H.264、AAC 48 kHz、繁中燒錄字幕。
+- PPT：12 頁可編輯簡報，逐頁含三句講者備註與來源。
+- 驗收：22 項自動檢查全數通過；整體音量 -15.0 LUFS，整片 decode 零錯誤，字幕版 39.7 MiB。
+
+主要交付：
+
+- [繁中字幕成品](episodes/season-01/ep02-binary-data/output/ep02-binary-data-zh-TW.mp4)
+- [無字幕母帶](episodes/season-01/ep02-binary-data/output/ep02-binary-data-master.mp4)
+- [無片頭課程版](episodes/season-01/ep02-binary-data/output/ep02-binary-data-lesson.mp4)
+- [可編輯 PPTX](episodes/season-01/ep02-binary-data/production/presentation/ep02-binary-data.pptx)
+- [完整劇本](episodes/season-01/ep02-binary-data/production/narration.json)
+- [YouTube 封面](episodes/season-01/ep02-binary-data/output/thumbnail.jpg)
+- [驗收報告](episodes/season-01/ep02-binary-data/qc/report.md)
+
 ## 第一集完整重製成果
 
 - 主題：跟著一筆資料，理解電腦的五大基本單元。
@@ -63,21 +83,22 @@ XiNewVideoGPT/
 
 ## 一鍵重製影音
 
-需求：Node.js 20+、Python 3.10+、Pillow、FFmpeg、FFprobe。
+需求：Node.js 20+、Python 3.10+、Pillow、Edge-TTS、FFmpeg、FFprobe。
 
 ```bash
 make install
-make all
+make all             # 預設重製第二集
 ```
 
 個別執行：
 
 ```bash
-make tts         # 依 narration.json 重建 12 段 TTS、句級 timing 與來源字幕
-make music       # 以 FFmpeg 振盪器重建原創 Data Kitchen 循環
+make tts         # 以 manifest 指定的 Edge-TTS 聲線重建旁白與句級時間碼
+make tts-offline # 第一集舊版離線 TTS 相容入口
+make music       # 以 FFmpeg 振盪器重建本集原創背景循環
 make render      # 從 12 張投影片建立封面與 contact sheet
-make assemble    # 推鏡、掃描光、轉場、配樂 ducking、字幕燒入
-make verify      # PPT、語音、音樂、字幕、編碼、尺寸、decode 共 18 項檢查
+make assemble    # 推鏡、轉場、配樂 ducking、片頭蒙太奇與字幕燒入
+make verify      # PPT、語音、片頭、字幕、編碼、尺寸、decode 完整檢查
 ```
 
 PPTX 與 12 張投影片 PNG 為已驗證的創作原件並直接提交。更新簡報內容時，同步修改 `production/slides.json`、PPTX 與 `assets/slides/`，再執行 `make assemble verify`。
