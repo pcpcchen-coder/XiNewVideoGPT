@@ -187,10 +187,8 @@ def build_animated_lesson(
     return animated_speech
 
 
-def mix_lesson(episode: Path, manifest: dict, speech: Path, output: Path) -> None:
+def prepare_voice_only_lesson(speech: Path, output: Path) -> None:
     seconds = duration(speech)
-    music = episode / manifest["music"]["file"]
-    music_fade = max(0.0, seconds - 2.0)
     run(
         [
             "ffmpeg",
@@ -199,20 +197,12 @@ def mix_lesson(episode: Path, manifest: dict, speech: Path, output: Path) -> Non
             "error",
             "-i",
             str(speech),
-            "-stream_loop",
-            "-1",
-            "-i",
-            str(music),
-            "-filter_complex",
-            f"[1:a]atrim=0:{seconds:.3f},asetpts=PTS-STARTPTS,volume=0.82,"
-            f"afade=t=in:st=0:d=1.5,afade=t=out:st={music_fade:.3f}:d=2[music];"
-            "[music][0:a]sidechaincompress=threshold=0.028:ratio=7:attack=25:release=420[ducked];"
-            "[0:a][ducked]amix=inputs=2:duration=first:normalize=0,"
-            "loudnorm=I=-16:TP=-1.5:LRA=9[mix]",
+            "-filter:a",
+            "loudnorm=I=-16:TP=-1.5:LRA=9",
             "-map",
             "0:v",
             "-map",
-            "[mix]",
+            "0:a",
             "-c:v",
             "copy",
             "-c:a",
@@ -447,8 +437,8 @@ def main() -> None:
     print("1/6 Animating the twelve lesson scenes.", flush=True)
     speech = build_animated_lesson(episode, manifest, timing, clips)
     lesson = output_dir / manifest["output"]["lesson"]
-    print("2/6 Mixing original lesson music under the Edge-TTS narration.", flush=True)
-    mix_lesson(episode, manifest, speech, lesson)
+    print("2/6 Preparing the voice-only Edge-TTS lesson track.", flush=True)
+    prepare_voice_only_lesson(speech, lesson)
     final_srt = subtitle_dir / "zh-TW.srt"
     write_final_srt(timing, final_srt)
     captioned_lesson = clips / f"{manifest['slug']}-lesson-captioned.mp4"

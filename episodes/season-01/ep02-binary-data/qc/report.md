@@ -15,16 +15,16 @@
 | `pptx_slides` | PASS | 12/12 |
 | `pptx_notes_sources` | PASS | 12 notes / 12 with sources |
 | `pptx_empty_placeholders` | PASS | 0 empty |
-| `original_music` | PASS | 32.16s |
-| `opening_theme` | PASS | 犀牛角亮起來 / 120.00s |
+| `lesson_background_music` | PASS | disabled; lesson contains narration only |
+| `opening_theme` | PASS | 犀牛角亮起來 / 60.00s |
 | `ip_character_alpha` | PASS | 4 XiNew poses |
 | `lesson_duration` | PASS | 249.33s / timing 249.34s |
 | `video_codec` | PASS | h264 |
 | `audio_codec` | PASS | aac |
 | `audio_sample_rate` | PASS | 48000 Hz |
 | `video_dimensions` | PASS | 1920x1080 |
-| `full_duration` | PASS | 369.34s / expected 369.34s |
-| `github_file_size` | PASS | 39.7 MiB |
+| `full_duration` | PASS | 309.35s / expected 309.34s |
+| `github_file_size` | PASS | 33.3 MiB |
 | `decode_test` | PASS | 0 errors |
 
-產生時間：2026-07-25T08:10:26.577538+00:00
+產生時間：2026-07-25T08:55:08.649464+00:00

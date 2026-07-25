@@ -22,8 +22,8 @@
 - `production/presentation/ep02-binary-data.pptx`：十二頁可編輯簡報，含逐頁講者備註與來源。
 - `production/narration.json`：十二幕、三十六句完整旁白。
 - `audio/slide_01.mp3` 至 `slide_12.mp3`：同聲線 Edge TTS 配音。
-- `music/chen-xinew-opening-theme.mp4`：指定《犀牛角亮起來》主題曲來源檔。
-- `output/ep02-binary-data-master.mp4`：完整主題曲片頭、教學動畫、旁白與背景音樂母帶。
+- `music/chen-xinew-opening-theme-30sec.m4a`：指定《犀牛角亮起來》主題曲來源檔（媒體實長 60 秒）。
+- `output/ep02-binary-data-master.mp4`：完整主題曲片頭、教學動畫與純旁白母帶。
 - `output/ep02-binary-data-zh-TW.mp4`：燒入繁中字幕的主交付。
 - `output/thumbnail.jpg`：1280×720 封面。
 - `qc/contact-sheet.jpg`：十二幕總覽。

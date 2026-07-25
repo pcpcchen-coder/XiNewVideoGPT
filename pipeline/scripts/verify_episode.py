@@ -107,16 +107,20 @@ def main() -> None:
     )
     check("pptx_empty_placeholders", empty_placeholders == 0, f"{empty_placeholders} empty")
 
-    music = episode / manifest["music"]["file"]
-    music_seconds = media_duration(music)
-    check("original_music", 31.5 <= music_seconds <= 32.5, f"{music_seconds:.2f}s")
+    music_enabled = manifest.get("music", {}).get("enabled", True)
+    check(
+        "lesson_background_music",
+        not music_enabled,
+        "disabled; lesson contains narration only" if not music_enabled else "enabled",
+    )
     theme = episode / manifest["openingTheme"]["file"]
     theme_info = probe(theme)
     theme_seconds = float(theme_info["format"]["duration"])
+    expected_theme_seconds = float(manifest["openingTheme"]["durationSeconds"])
     theme_audio = [stream for stream in theme_info["streams"] if stream["codec_type"] == "audio"]
     check(
         "opening_theme",
-        119.0 <= theme_seconds <= 121.0 and bool(theme_audio),
+        abs(theme_seconds - expected_theme_seconds) < 0.25 and bool(theme_audio),
         f"{manifest['openingTheme']['title']} / {theme_seconds:.2f}s",
     )
 
@@ -174,7 +178,7 @@ def main() -> None:
 
     report = {
         "episode": manifest["episode"],
-        "version": "ip-lecturer-edge-tts-theme-v1",
+        "version": "ip-lecturer-edge-tts-voice-only-v2",
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "pass": all(item["pass"] for item in checks),
         "checks": checks,

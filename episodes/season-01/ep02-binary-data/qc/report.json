@@ -1,7 +1,7 @@
 {
   "episode": "S01E02",
-  "version": "ip-lecturer-edge-tts-theme-v1",
-  "generatedAt": "2026-07-25T08:10:26.577538+00:00",
+  "version": "ip-lecturer-edge-tts-voice-only-v2",
+  "generatedAt": "2026-07-25T08:55:08.649464+00:00",
   "pass": true,
   "checks": [
     {
@@ -60,14 +60,14 @@
       "detail": "0 empty"
     },
     {
-      "name": "original_music",
+      "name": "lesson_background_music",
       "pass": true,
-      "detail": "32.16s"
+      "detail": "disabled; lesson contains narration only"
     },
     {
       "name": "opening_theme",
       "pass": true,
-      "detail": "犀牛角亮起來 / 120.00s"
+      "detail": "犀牛角亮起來 / 60.00s"
     },
     {
       "name": "ip_character_alpha",
@@ -102,12 +102,12 @@
     {
       "name": "full_duration",
       "pass": true,
-      "detail": "369.34s / expected 369.34s"
+      "detail": "309.35s / expected 309.34s"
     },
     {
       "name": "github_file_size",
       "pass": true,
-      "detail": "39.7 MiB"
+      "detail": "33.3 MiB"
     },
     {
       "name": "decode_test",

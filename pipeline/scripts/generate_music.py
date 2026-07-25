@@ -27,6 +27,9 @@ def main() -> None:
     out_dir = ep / "music"
     out_dir.mkdir(parents=True, exist_ok=True)
     music = manifest["music"]
+    if not music.get("enabled", True):
+        print("Lesson background music is disabled; no music file generated.")
+        return
     declared = Path(music["file"])
     out = ep / declared
     if out.parent != out_dir:

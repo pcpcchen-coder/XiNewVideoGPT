@@ -28,15 +28,15 @@
   },
   "openingTheme": {
     "title": "犀牛角亮起來",
-    "source": "https://github.com/pcpcchen-coder/XiNewIPs/blob/main/assets/%E9%99%B3%E7%8A%80%E7%89%9B%E9%96%8B%E5%A0%B4%E4%B8%BB%E9%A1%8C%E6%9B%B2_%E7%8A%80%E7%89%9B%E8%A7%92%E4%BA%AE%E8%B5%B7%E4%BE%86_v0.mp4",
-    "file": "music/chen-xinew-opening-theme.mp4",
-    "mode": "full-track opening montage"
+    "source": "https://github.com/pcpcchen-coder/XiNewIPs/blob/main/assets/%E9%99%B3%E7%8A%80%E7%89%9B%E9%96%8B%E5%A0%B4%E4%B8%BB%E9%A1%8C%E6%9B%B2_%E7%8A%80%E7%89%9B%E8%A7%92%E4%BA%AE%E8%B5%B7%E4%BE%86_30Sec.m4a",
+    "file": "music/chen-xinew-opening-theme-30sec.m4a",
+    "durationSeconds": 60.0,
+    "mode": "full-source opening montage"
   },
   "music": {
-    "title": "Binary Lanterns",
-    "type": "original procedural ambient loop",
-    "bpm": 84,
-    "file": "music/binary-lanterns-loop.wav"
+    "enabled": false,
+    "mode": "voice-only lesson",
+    "reason": "No background music during slide explanation"
   },
   "transitionSeconds": 0.55,
   "poses": [
