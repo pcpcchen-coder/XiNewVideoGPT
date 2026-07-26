@@ -28,6 +28,32 @@ def media_duration(path: Path) -> float:
     return float(probe(path)["format"]["duration"])
 
 
+def frame_rgb(path: Path, seconds: float) -> bytes:
+    result = subprocess.run(
+        [
+            "ffmpeg",
+            "-v",
+            "error",
+            "-ss",
+            f"{seconds:.3f}",
+            "-i",
+            str(path),
+            "-frames:v",
+            "1",
+            "-vf",
+            "scale=320:180",
+            "-pix_fmt",
+            "rgb24",
+            "-f",
+            "rawvideo",
+            "-",
+        ],
+        check=True,
+        capture_output=True,
+    )
+    return result.stdout
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--episode", required=True)
@@ -163,6 +189,17 @@ def main() -> None:
         "github_file_size",
         video.stat().st_size < 100 * 1024 * 1024,
         f"{video.stat().st_size / 1024 / 1024:.1f} MiB",
+    )
+    stable_a = frame_rgb(video, theme_seconds + 3.0)
+    stable_b = frame_rgb(video, theme_seconds + 4.0)
+    if len(stable_a) != len(stable_b) or not stable_a:
+        stable_delta = float("inf")
+    else:
+        stable_delta = sum(abs(a - b) for a, b in zip(stable_a, stable_b)) / len(stable_a)
+    check(
+        "stable_scene_frames",
+        stable_delta < 0.1,
+        f"mean RGB delta {stable_delta:.4f}; no zoom/pan jitter",
     )
 
     decode = subprocess.run(

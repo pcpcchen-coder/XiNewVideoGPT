@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 
-TRANSITIONS = ["fade", "smoothleft", "circleopen", "wipeup", "dissolve", "slideleft"]
+TRANSITIONS = ["fade"]
 
 
 def run(cmd: list[str]) -> None:
@@ -71,6 +71,7 @@ def build_animated_lesson(
     fps = manifest["video"]["fps"]
     transition = manifest["transitionSeconds"]
     scene_durations: list[float] = []
+    pipeline_mtime = Path(__file__).stat().st_mtime
 
     for n in range(1, count + 1):
         slide = episode / f"assets/slides/slide_{n:02d}.png"
@@ -78,18 +79,14 @@ def build_animated_lesson(
         clip = clips / f"animated_{n:02d}.mp4"
         seconds = duration(audio)
         scene_durations.append(seconds)
-        if clip.exists() and clip.stat().st_mtime >= max(slide.stat().st_mtime, audio.stat().st_mtime):
+        if clip.exists() and clip.stat().st_mtime >= max(
+            slide.stat().st_mtime,
+            audio.stat().st_mtime,
+            pipeline_mtime,
+        ):
             continue
-        frames = max(1, round(seconds * fps))
-        x_anchor = [0.15, 0.50, 0.82][(n - 1) % 3]
-        y_anchor = [0.28, 0.52][(n - 1) % 2]
         vf = (
-            "zoompan="
-            "z='min(zoom+0.000045,1.028)':"
-            f"x='(iw-iw/zoom)*{x_anchor}':y='(ih-ih/zoom)*{y_anchor}':"
-            f"d={frames}:s=1920x1080:fps={fps},"
-            "drawbox=x=0:y='mod(t*115,ih)':w=iw:h=3:color=0x46c8ff@0.045:t=fill,"
-            "vignette=PI/5,format=yuv420p"
+            f"scale=1920:1080:flags=lanczos,setsar=1,fps={fps},format=yuv420p"
         )
         run(
             [
@@ -244,15 +241,10 @@ def build_opening_montage(
     for index, image in enumerate(images, start=1):
         clip = clips / f"opening_{index:02d}.mp4"
         montage_clips.append(clip)
-        frames = max(1, round(segment_seconds * fps))
-        x_anchor = [0.20, 0.72, 0.50, 0.28, 0.65][index - 1]
         vf = (
             "scale=1920:1080:force_original_aspect_ratio=decrease,"
             "pad=1920:1080:(ow-iw)/2:(oh-ih)/2:color=0x031426,"
-            "zoompan="
-            "z='min(zoom+0.00007,1.045)':"
-            f"x='(iw-iw/zoom)*{x_anchor}':y='(ih-ih/zoom)*0.5':"
-            f"d={frames}:s=1920x1080:fps={fps},"
+            f"setsar=1,fps={fps},"
             f"fade=t=in:st=0:d=0.8,fade=t=out:st={max(0, segment_seconds - 0.8):.3f}:d=0.8,"
             "format=yuv420p"
         )

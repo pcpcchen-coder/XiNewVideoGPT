@@ -24,7 +24,8 @@
 | `audio_sample_rate` | PASS | 48000 Hz |
 | `video_dimensions` | PASS | 1920x1080 |
 | `full_duration` | PASS | 309.35s / expected 309.34s |
-| `github_file_size` | PASS | 33.3 MiB |
+| `github_file_size` | PASS | 16.7 MiB |
+| `stable_scene_frames` | PASS | mean RGB delta 0.0107; no zoom/pan jitter |
 | `decode_test` | PASS | 0 errors |
 
-產生時間：2026-07-25T08:55:08.649464+00:00
+產生時間：2026-07-26T23:10:30.989874+00:00

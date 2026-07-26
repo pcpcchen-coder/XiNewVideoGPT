@@ -11,7 +11,7 @@
 - 正片：4:09；含片頭總長 5:09。1920×1080、H.264、AAC 48 kHz、繁中燒錄字幕。
 - 教學音訊：投影片講解過程只保留 Edge-TTS 旁白，不使用背景音樂。
 - PPT：12 頁可編輯簡報，逐頁含三句講者備註與來源。
-- 驗收：22 項自動檢查全數通過；整片 decode 零錯誤。
+- 驗收：23 項自動檢查全數通過；包含穩定畫格差異檢查，整片 decode 零錯誤。
 
 主要交付：
 
@@ -98,7 +98,7 @@ make tts         # 以 manifest 指定的 Edge-TTS 聲線重建旁白與句級�
 make tts-offline # 第一集舊版離線 TTS 相容入口
 make music       # 以 FFmpeg 振盪器重建本集原創背景循環
 make render      # 從 12 張投影片建立封面與 contact sheet
-make assemble    # 推鏡、轉場、配樂 ducking、片頭蒙太奇與字幕燒入
+make assemble    # 穩定畫面、平滑淡化、片頭蒙太奇與字幕燒入
 make verify      # PPT、語音、片頭、字幕、編碼、尺寸、decode 完整檢查
 ```
 
