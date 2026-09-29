@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L003",
+  "requestedAt": "2026-09-29T20:35:00+08:00",
+  "workflowStatus": "waiting_for_local_work_connection",
+  "platformStatus": "unverified_user_reports_incomplete_manual_upload",
+  "publicationOwner": "local-agent",
+  "publicationMode": "local-browser-assisted-upload",
+  "authorizedToUpload": true,
+  "authorizedToPublish": true,
+  "authorizationBasis": "Latest user asks to move this task to this local computer and upload L003 to @xinew-says; continues earlier explicit request to publish L003 publicly.",
+  "scope": "L003 only. Inspect existing Studio items and finish an existing matching upload before creating a new one. No deletion of existing videos.",
+  "channel": {
+    "name": "犀牛說",
+    "url": "https://www.youtube.com/@xinew-says",
+    "expectedId": "UCLAQhbdu5MFIDoUPH6bDQuQ",
+    "mustVerifyInStudio": true
+  },
+  "source": {
+    "fileName": "l003-keyboard-ninja-zh-TW.mp4",
+    "bytes": 76593749,
+    "sha256": "fabc3fc9d865e6ca92a3d85cdaff7c1a4bba4ca24f8b38e31fbee7bcf286271c"
+  },
+  "actualLocalConnectionVerified": false,
+  "uploadedByThisAttempt": false,
+  "videoUrl": null,
+  "guide": "docs/LOCAL_UPLOAD_L003.md",
+  "note": "No platform success claimed. This request supersedes the previous manual-user-upload rule for L003 only. Existing publication/status.json predates this request."
+}

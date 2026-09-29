@@ -1,5 +1,7 @@
 # 新工作階段從這裡接手
 
+**L003 最新例外：** 使用者於 2026-09-29 20:35（台北）要求改用本機接手上傳。處理本集發布時，先讀 [本機交接](docs/LOCAL_UPLOAD_L003.md) 與 [本次請求](publication/L003-local-upload-request.json)；下方自行上傳規則仍為其他課次預設。尚未確認本機連線或平台上傳完成。
+
 更新：2026-09-29。先讀 [AGENTS.md](AGENTS.md) 與 [series-policy.json](series-policy.json)。
 
 **雲端完成製作及交付；使用者負責 YouTube 上傳。** 此決定取代 9/27 manifest 與舊 SOP 的代理自動公開設定。不要重試 Google 登入，也不要把上傳作為製作成功的前提。

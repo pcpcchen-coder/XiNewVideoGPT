@@ -12,5 +12,16 @@
   },
   "supersedes": "Historical L003 manifest authorization and earlier browser-publication SOP.",
   "canonicalGuide": "docs/CLOUD_PRODUCTION_GUIDE.md",
-  "statusRegistry": "curriculum/production-status.json"
+  "statusRegistry": "curriculum/production-status.json",
+  "episodeOverrides": {
+    "L003": {
+      "publicationOwner": "local-agent",
+      "publicationMode": "local-browser-assisted-upload",
+      "authorizedToUpload": true,
+      "authorizedToPublish": true,
+      "request": "publication/L003-local-upload-request.json",
+      "guide": "docs/LOCAL_UPLOAD_L003.md",
+      "requiresVerifiedLocalConnection": true
+    }
+  }
 }

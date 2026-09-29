@@ -3,7 +3,7 @@
 ## 先讀與決策順序
 
 1. 本次使用者指令。
-2. `series-policy.json`：雲端製作、使用者上傳（2026-09-29）。
+2. `series-policy.json` 及其中 `episodeOverrides`：系列預設雲端製作、使用者上傳；L003 已有新指令改由本機代理接手，先讀 `docs/LOCAL_UPLOAD_L003.md`。
 3. `CLOUD_START_HERE.md`、`docs/CLOUD_PRODUCTION_GUIDE.md`。
 4. `curriculum/catalog.json`、`curriculum/production-status.json` 與本課 `lesson.json`。
 5. 歷史文件及 L003 範例僅作證據與參考；有衝突時依上述順序。
@@ -11,7 +11,7 @@
 ## 執行邊界
 
 - 每次只做指定課次。要求「下一集」時用 `pipeline/status.py --next` 找尚未製作的課，先核對課表。L004–L192 目前皆未製作。
-- 不登入／上傳／公開 YouTube、不建立 OAuth、不安排背景批次。使用者另有明確新指示才改變分工。
+- 系列預設不登入／上傳／公開 YouTube、不建立 OAuth、不安排背景批次。L003 最新明確例外是本機瀏覽器上傳並完成公開；先核對實際本機連線、頻道及既有影片。其他課次仍依原分工。
 - 沒有錄音就做課前教學版並明說；不可虛構逐字稿。私人錄音只放 `lessons/Lxxx/private/`，不得進公開 Git 或交付 ZIP。
 - 192 堂主題／目標以課表為準。576 組是 YouTube 搜尋入口，不是已核驗的固定影片；若選影片須逐支核對標題、網址、內容及適齡性。
 
