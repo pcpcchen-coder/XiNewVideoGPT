@@ -1,5 +1,7 @@
 # L003：接到本機並完成 YouTube 上傳
 
+> 最新結果（2026-09-29 21:20，台北）：L003 已由本機完成上傳及公開，唯一影片為 [nhWH6BQna5A](https://youtu.be/nhWH6BQna5A)。標題、說明、13 個章節時間戳、原縮圖與繁中 CC 均已保存並核對。**著作權檢查仍在進行且超出預期，未宣稱通過。後續只接續此影片，不得重新上傳。** 詳見[本機發布驗收](../episodes/academy/l003-keyboard-ninja/publication/local-upload-review.md)。下方為原始交接背景；歷史「尚未查看／未取得本機連線」描述已由本次觀測取代。
+
 更新：2026-09-29 20:35（Asia/Taipei）。
 
 ## 本次指令與範圍

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29",
+  "updatedAt": "2026-09-29T21:20:17+08:00",
   "lessons": [
     {
       "lessonId": "L001",
@@ -29,10 +29,10 @@
       "title": "鍵盤忍者：快捷鍵競速",
       "learningObjectives": "熟悉複製貼上、切換 App、截圖、Spotlight 與復原",
       "productionStatus": "verified",
-      "publicationStatus": "awaiting_user_upload",
-      "publicationOwner": "user",
-      "videoUrl": null,
-      "evidence": "L003 archived QC and unchanged SHA-256 verified 2026-09-29",
+      "publicationStatus": "published_verified",
+      "publicationOwner": "local-agent",
+      "videoUrl": "https://youtu.be/nhWH6BQna5A",
+      "evidence": "Local Studio public status and watch page verified 2026-09-29T21:20:17+08:00; metadata, original thumbnail and published zh-TW CC checked. Copyright check still running. See episodes/academy/l003-keyboard-ninja/publication/local-upload-review.md.",
       "episodePath": "episodes/academy/l003-keyboard-ninja"
     },
     {

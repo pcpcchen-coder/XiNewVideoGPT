@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "lessonId": "L003",
   "requestedAt": "2026-09-29T20:35:00+08:00",
-  "workflowStatus": "waiting_for_local_work_connection",
-  "platformStatus": "unverified_user_reports_incomplete_manual_upload",
+  "workflowStatus": "published_verified_copyright_check_pending",
+  "platformStatus": "public_verified",
   "publicationOwner": "local-agent",
   "publicationMode": "local-browser-assisted-upload",
   "authorizedToUpload": true,
@@ -21,9 +21,13 @@
     "bytes": 76593749,
     "sha256": "fabc3fc9d865e6ca92a3d85cdaff7c1a4bba4ca24f8b38e31fbee7bcf286271c"
   },
-  "actualLocalConnectionVerified": false,
-  "uploadedByThisAttempt": false,
-  "videoUrl": null,
+  "actualLocalConnectionVerified": true,
+  "uploadedByThisAttempt": true,
+  "videoUrl": "https://youtu.be/nhWH6BQna5A",
   "guide": "docs/LOCAL_UPLOAD_L003.md",
-  "note": "No platform success claimed. This request supersedes the previous manual-user-upload rule for L003 only. Existing publication/status.json predates this request."
+  "note": "Local Mac Chrome and channel verified. One new upload created after all 25 previous Studio items were inspected. Published with approved metadata, thumbnail and zh-TW CC. Continue only video nhWH6BQna5A; do not re-upload. Copyright check remains pending.",
+  "videoId": "nhWH6BQna5A",
+  "publishedByThisAttempt": true,
+  "observedAt": "2026-09-29T21:20:17+08:00",
+  "verificationRecord": "episodes/academy/l003-keyboard-ninja/publication/local-upload-review.md"
 }

@@ -1,6 +1,6 @@
 # 新工作階段從這裡接手
 
-**L003 最新例外：** 使用者於 2026-09-29 20:35（台北）要求改用本機接手上傳。處理本集發布時，先讀 [本機交接](docs/LOCAL_UPLOAD_L003.md) 與 [本次請求](publication/L003-local-upload-request.json)；下方自行上傳規則仍為其他課次預設。尚未確認本機連線或平台上傳完成。
+**L003 最新結果：** 本機已於 2026-09-29 完成上傳與公開：[nhWH6BQna5A](https://youtu.be/nhWH6BQna5A)。縮圖、說明、章節時間戳與繁中 CC 均已核對；著作權檢查仍在進行，未宣稱通過。請讀[本機驗收](episodes/academy/l003-keyboard-ninja/publication/local-upload-review.md)；後續接續同一影片，不得重新上傳。下方自行上傳規則仍為其他課次預設。
 
 更新：2026-09-29。先讀 [AGENTS.md](AGENTS.md) 與 [series-policy.json](series-policy.json)。
 

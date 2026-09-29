@@ -12,7 +12,7 @@
 |---|---|---|---|---|
 | L001 | 開學任務：把 MacBook 變成我的工作站 | completed_historical | published_historical | [YouTube](https://youtu.be/JrYLz3D-7p4) |
 | L002 | 檔案與資料夾尋寶 | completed_historical | published_historical | [YouTube](https://youtu.be/soztdVd9Xys) |
-| L003 | 鍵盤忍者：快捷鍵競速 | verified | awaiting_user_upload | — |
+| L003 | 鍵盤忍者：快捷鍵競速 | verified | published_verified | [YouTube](https://youtu.be/nhWH6BQna5A) |
 | L004 | 網路到底是什麼：封包接力賽 | planned | not_uploaded | — |
 | L005 | 搜尋高手：把大問題拆成好問題 | planned | not_uploaded | — |
 | L006 | 真真假假：來源與證據偵探 | planned | not_uploaded | — |
