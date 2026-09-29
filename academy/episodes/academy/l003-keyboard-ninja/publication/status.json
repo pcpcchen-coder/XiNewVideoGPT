@@ -1,0 +1,18 @@
+{
+  "lessonId": "L003",
+  "status": "awaiting_user_upload",
+  "authorizedToPublish": false,
+  "channelName": "犀牛說",
+  "channelId": "UCLAQhbdu5MFIDoUPH6bDQuQ",
+  "targetTitle": "父子科技學院 L003｜鍵盤忍者：快捷鍵競速",
+  "videoFile": "l003-keyboard-ninja-zh-TW.mp4",
+  "videoSha256": "fabc3fc9d865e6ca92a3d85cdaff7c1a4bba4ca24f8b38e31fbee7bcf286271c",
+  "videoUrl": null,
+  "copyrightCheck": "unknown — not uploaded",
+  "blockingReason": null,
+  "observedAt": "2026-09-29",
+  "publicationMode": "manual-user-upload",
+  "publisher": "user",
+  "previousBlockingReason": "Cloud Google sign-in returned 502 / [Errno 111] Connection refused; root cause unconfirmed.",
+  "note": "User superseded agent publishing with manual upload on 2026-09-29. No publication URL received."
+}

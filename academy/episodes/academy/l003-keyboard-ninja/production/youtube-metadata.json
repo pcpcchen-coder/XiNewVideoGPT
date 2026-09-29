@@ -1,0 +1,63 @@
+{
+  "title": "父子科技學院 L003｜鍵盤忍者：快捷鍵競速",
+  "description": "父子科技學院 L003｜鍵盤忍者：快捷鍵競速\n\n爸爸用 Mac mini 示範，孩子用 MacBook Air 跟做。本片依 192 堂課表製作，適合國中生與家長課前暖身、暫停實作。這是課前教學版，不是實際授課錄音。\n\n五項任務：複製貼上、復原、切換 App、Spotlight 搜尋、區域截圖並找到檔案。\n先暖身，再進行三輪計時：第一輪建立紀錄、第二輪從相同起點重做、第三輪孩子設計題目給爸爸。五項結果正確才停表，修正時間也算入；不同題目分開記錄。\n\n章節\n00:00 陳犀牛系列片頭\n01:00 鍵盤忍者：快捷鍵競速\n01:30 三輪挑戰，先求正確\n01:59 複製貼上，先確認位置\n02:25 復原，回到修改前\n02:52 切換 App，讓工具接力\n03:17 Spotlight 幫你找工具\n03:44 截圖，只留下需要的範圍\n04:11 截圖完成，還要找得到\n04:38 第一、二輪：和自己比\n05:09 第三輪：孩子設計挑戰\n05:40 兩小時的快捷鍵挑戰\n06:10 最後一關：能做，也能教\n\n兩小時課堂：開場10分、示範15分、共同實作40分、休息10分、獨立改造30分、孩子教爸爸10分、錄音整理5分。\n今日作品：快捷鍵小抄、三輪紀錄、任務截圖、孩子出題卡。\n\n可以自行建立練習文字：\n我的忍者代號：竹風\n我會先確認位置，再使用快捷鍵。\n今天的目標：五項操作都做對。\n\n第一堂：https://youtu.be/JrYLz3D-7p4\n第二堂：https://youtu.be/soztdVd9Xys\nApple 官方操作參考：\nhttps://support.apple.com/zh-tw/102650\nhttps://support.apple.com/zh-tw/102646\n\n講師角色：陳犀牛 Chen XiNew\n旁白：Edge-TTS zh-TW-YunJheNeural 合成語音\n畫面為教學圖解，並非 macOS 操作錄屏；按鍵行為可能依系統、App 與自訂設定而異。\n只使用練習文件，截圖前關閉私人視窗與通知，完成後檢查實際結果。\n字幕已燒入影片；另有繁中 CC 字幕軌時，開啟 CC 可能看到重疊字幕。\n",
+  "chapters": [
+    {
+      "seconds": 0,
+      "title": "陳犀牛系列片頭"
+    },
+    {
+      "seconds": 60.277,
+      "title": "鍵盤忍者：快捷鍵競速"
+    },
+    {
+      "seconds": 90.781,
+      "title": "三輪挑戰，先求正確"
+    },
+    {
+      "seconds": 119.533,
+      "title": "複製貼上，先確認位置"
+    },
+    {
+      "seconds": 145.525,
+      "title": "復原，回到修改前"
+    },
+    {
+      "seconds": 172.813,
+      "title": "切換 App，讓工具接力"
+    },
+    {
+      "seconds": 197.053,
+      "title": "Spotlight 幫你找工具"
+    },
+    {
+      "seconds": 224.413,
+      "title": "截圖，只留下需要的範圍"
+    },
+    {
+      "seconds": 251.029,
+      "title": "截圖完成，還要找得到"
+    },
+    {
+      "seconds": 278.581,
+      "title": "第一、二輪：和自己比"
+    },
+    {
+      "seconds": 309.037,
+      "title": "第三輪：孩子設計挑戰"
+    },
+    {
+      "seconds": 340.237,
+      "title": "兩小時的快捷鍵挑戰"
+    },
+    {
+      "seconds": 370.261,
+      "title": "最後一關：能做，也能教"
+    }
+  ],
+  "privacyStatus": "public",
+  "madeForKids": false,
+  "audienceBasis": "以國中生與家長為一般受眾的科技操作課程",
+  "reviewStatus": "user-authorized-publication",
+  "channelId": "UCLAQhbdu5MFIDoUPH6bDQuQ"
+}

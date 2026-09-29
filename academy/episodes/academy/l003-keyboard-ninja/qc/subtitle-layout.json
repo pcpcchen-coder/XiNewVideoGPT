@@ -1,0 +1,407 @@
+{
+  "style": "FontName=Noto Sans CJK TC,FontSize=16,Bold=1,PrimaryColour=&H00FFFFFF,OutlineColour=&H7A000000,BackColour=&H7A000000,BorderStyle=1,Outline=1.2,Shadow=0,Alignment=2,MarginV=20,MarginL=24,MarginR=24",
+  "safeBand": [
+    890,
+    1025
+  ],
+  "cueCount": 36,
+  "passed": true,
+  "cues": [
+    {
+      "slide": 1,
+      "sentence": 1,
+      "bounds": [
+        416,
+        893,
+        1503,
+        1001
+      ],
+      "safe": true
+    },
+    {
+      "slide": 1,
+      "sentence": 2,
+      "bounds": [
+        406,
+        893,
+        1501,
+        1007
+      ],
+      "safe": true
+    },
+    {
+      "slide": 1,
+      "sentence": 3,
+      "bounds": [
+        473,
+        893,
+        1449,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 2,
+      "sentence": 1,
+      "bounds": [
+        438,
+        893,
+        1482,
+        1001
+      ],
+      "safe": true
+    },
+    {
+      "slide": 2,
+      "sentence": 2,
+      "bounds": [
+        437,
+        893,
+        1469,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 2,
+      "sentence": 3,
+      "bounds": [
+        478,
+        893,
+        1439,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 3,
+      "sentence": 1,
+      "bounds": [
+        510,
+        893,
+        1411,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 3,
+      "sentence": 2,
+      "bounds": [
+        461,
+        893,
+        1447,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 3,
+      "sentence": 3,
+      "bounds": [
+        479,
+        893,
+        1428,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 4,
+      "sentence": 1,
+      "bounds": [
+        452,
+        893,
+        1470,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 4,
+      "sentence": 2,
+      "bounds": [
+        480,
+        893,
+        1428,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 4,
+      "sentence": 3,
+      "bounds": [
+        459,
+        893,
+        1449,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 5,
+      "sentence": 1,
+      "bounds": [
+        500,
+        893,
+        1407,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 5,
+      "sentence": 2,
+      "bounds": [
+        498,
+        893,
+        1410,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 5,
+      "sentence": 3,
+      "bounds": [
+        479,
+        892,
+        1429,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 6,
+      "sentence": 1,
+      "bounds": [
+        458,
+        893,
+        1449,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 6,
+      "sentence": 2,
+      "bounds": [
+        422,
+        893,
+        1485,
+        1007
+      ],
+      "safe": true
+    },
+    {
+      "slide": 6,
+      "sentence": 3,
+      "bounds": [
+        521,
+        893,
+        1387,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 7,
+      "sentence": 1,
+      "bounds": [
+        459,
+        893,
+        1451,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 7,
+      "sentence": 2,
+      "bounds": [
+        183,
+        953,
+        1724,
+        1006
+      ],
+      "safe": true
+    },
+    {
+      "slide": 7,
+      "sentence": 3,
+      "bounds": [
+        416,
+        893,
+        1501,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 8,
+      "sentence": 1,
+      "bounds": [
+        478,
+        893,
+        1431,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 8,
+      "sentence": 2,
+      "bounds": [
+        499,
+        893,
+        1407,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 8,
+      "sentence": 3,
+      "bounds": [
+        458,
+        893,
+        1449,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 9,
+      "sentence": 1,
+      "bounds": [
+        401,
+        893,
+        1506,
+        1007
+      ],
+      "safe": true
+    },
+    {
+      "slide": 9,
+      "sentence": 2,
+      "bounds": [
+        458,
+        893,
+        1449,
+        1001
+      ],
+      "safe": true
+    },
+    {
+      "slide": 9,
+      "sentence": 3,
+      "bounds": [
+        459,
+        893,
+        1460,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 10,
+      "sentence": 1,
+      "bounds": [
+        417,
+        893,
+        1490,
+        1001
+      ],
+      "safe": true
+    },
+    {
+      "slide": 10,
+      "sentence": 2,
+      "bounds": [
+        417,
+        893,
+        1490,
+        1001
+      ],
+      "safe": true
+    },
+    {
+      "slide": 10,
+      "sentence": 3,
+      "bounds": [
+        416,
+        893,
+        1490,
+        1001
+      ],
+      "safe": true
+    },
+    {
+      "slide": 11,
+      "sentence": 1,
+      "bounds": [
+        479,
+        893,
+        1440,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 11,
+      "sentence": 2,
+      "bounds": [
+        458,
+        892,
+        1462,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 11,
+      "sentence": 3,
+      "bounds": [
+        417,
+        893,
+        1490,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 12,
+      "sentence": 1,
+      "bounds": [
+        437,
+        893,
+        1469,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 12,
+      "sentence": 2,
+      "bounds": [
+        437,
+        893,
+        1469,
+        1000
+      ],
+      "safe": true
+    },
+    {
+      "slide": 12,
+      "sentence": 3,
+      "bounds": [
+        499,
+        893,
+        1404,
+        1001
+      ],
+      "safe": true
+    }
+  ]
+}

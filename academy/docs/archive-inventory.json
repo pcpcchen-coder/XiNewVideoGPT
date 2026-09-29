@@ -1,0 +1,401 @@
+{
+  "source": "<ORIGINAL_MAC_HOME>/Downloads/Kimi_Agent_继续制作下一集/XiNewVideoGPT.zip",
+  "sha256": "29a70fff81eb9e214bb59b743767cb3ccf7a8d8bea92ed6f4ab265dee005f69f",
+  "files": [
+    {
+      "path": "開集SOP.md",
+      "sha256": "ce10b46af4b7e571d4e85724dbdb94727f0d07a55cf680ccc3679f169ac28aaa",
+      "bytes": 6972
+    },
+    {
+      "path": "assets/xinew-brand-identity.png",
+      "sha256": "627a52fc05723523f4081cde5df60c3a96d25b8482b4651fd2eb12ce97564bec",
+      "bytes": 1808005
+    },
+    {
+      "path": "pipeline/scripts/generate_visuals_ep10.py",
+      "sha256": "ae8f7a851a923bfce0ee9eb92064bd578e63b8c0a4a8b30ca891d97c2d76914a",
+      "bytes": 14485
+    },
+    {
+      "path": "pipeline/scripts/synthesize_narration_ep10.py",
+      "sha256": "0b34d4eeaf1b0154023675c7f3caee66cfa57864699b50b2b457fbcd0a79e6e9",
+      "bytes": 5957
+    },
+    {
+      "path": "pipeline/scripts/verify_episode_ep10.py",
+      "sha256": "ac07344129c860906cc04353bd9ac7b91d355c520085f8924585af6eff594118",
+      "bytes": 6574
+    },
+    {
+      "path": "pipeline/scripts/build_deck_ep10.py",
+      "sha256": "c5c3c369b2dd552b08277e4764165747ffab2c69dceeee6bf043e59ae1b41471",
+      "bytes": 12108
+    },
+    {
+      "path": "pipeline/scripts/assemble_episode_ep10.py",
+      "sha256": "0beae46e8369f5cc83f2ebf63c925267cf9c76ef16513776ba6095e58cbb7d6b",
+      "bytes": 8988
+    },
+    {
+      "path": "assets/opening/開場影片-v2.mp4",
+      "sha256": "1acd858b2a0e624f99c267620b15db5e637f7f6ac7fa057b7e5a9df492a7d04a",
+      "bytes": 89043634
+    },
+    {
+      "path": "assets/characters/xinew-key-visual.png",
+      "sha256": "d4358ef48b16e1ba158349c8e99ed42e3257e49e84000b2677a7067325672267",
+      "bytes": 2223406
+    },
+    {
+      "path": "assets/characters/xinew-turnaround.png",
+      "sha256": "aebab6ef1546be11810167fe7234d281be0208f3469070a9f8de7b8e7fd7f5bc",
+      "bytes": 1915038
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKtc-Regular.otf",
+      "sha256": "dce08bd4fd91aa8aa76ed8fea4b694c2dfb8550f67871e326843212ddbeb88b4",
+      "bytes": 16435884
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "bytes": 4301
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/README.md",
+      "sha256": "238abcbd0e3c779abe6b0bd79e2e4c488e9f71e186cfa349889b03784ee12ed3",
+      "bytes": 2354
+    },
+    {
+      "path": "assets/characters/cutouts/xinew-thumbs-up.png",
+      "sha256": "e8ffd05f8be86bba3dc9ca710a76d67a5af04bda88d2b4706f21b6fb2980a1f9",
+      "bytes": 598561
+    },
+    {
+      "path": "assets/characters/cutouts/xinew-open-palms.png",
+      "sha256": "3d58e633ac8700b128d531f828bacb57db1fb368d764d6e6b8b6fd39aa64f174",
+      "bytes": 612467
+    },
+    {
+      "path": "assets/characters/cutouts/xinew-point-up.png",
+      "sha256": "8f3927a71e502d69868aa0d53cd77d0f57785686f6494bde29f4cea563c6340a",
+      "bytes": 667601
+    },
+    {
+      "path": "assets/characters/cutouts/xinew-pointer.png",
+      "sha256": "18b9db6fce8db244f14540909ce98f421c29524f1141812a92e13fdc05d249df",
+      "bytes": 494639
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/music/theme-song-1min.m4a",
+      "sha256": "977899d67a0818b98d6ad909b403798fb38ac21bc20f553f25d211f74a9362a6",
+      "bytes": 995926
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/music/data-kitchen-loop.wav",
+      "sha256": "2524e245335fd89f4bd11956d9ee5c5f3fdad0dd53c665ec8571eafcaaef7cd0",
+      "bytes": 5673102
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/output/thumbnail.png",
+      "sha256": "c46006c755ced4c068e728718dedfc8247102551c448796900bb8927964f8cf7",
+      "bytes": 322460
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/output/contact-sheet.png",
+      "sha256": "cd1ea7fb0f0ff46f32f6c5cec5f6d06cd47e24233f20f7de2d0d8e62fe96e1b6",
+      "bytes": 928012
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/output/ep10-ai-and-our-future-master.mp4",
+      "sha256": "2b46d36011ab6a16abb1fc2d40e78698a8c882139dd84b53d1a82550739b5294",
+      "bytes": 90727722
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/output/ep10-ai-and-our-future-zh-TW.mp4",
+      "sha256": "da8a15722b6158e9505b549123fddbae6bcb875e7ff8b9df7a8dad0824116f07",
+      "bytes": 84461468
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/audio/slide_09.mp3",
+      "sha256": "3eca14b833a0f0a8d8cf86153a204161181c54f503d7285d295522be71a5880c",
+      "bytes": 310605
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/audio/slide_08.mp3",
+      "sha256": "f36713e3150672b7005ee4c0f7b06ca6a788f097934d0981e8790f5a30a74adf",
+      "bytes": 302445
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/audio/slide_11.mp3",
+      "sha256": "257511033e64cd451c4fab58559705ef5abac091eba62b2bf2116dfffbc0a627",
+      "bytes": 366765
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/audio/slide_05.mp3",
+      "sha256": "d30aef6649fd50650a1ab83ae1b462dc23b046637722a27a5f7dfdb7e77e643e",
+      "bytes": 285645
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/audio/slide_04.mp3",
+      "sha256": "67f37f3c188ebcb54cdeb699cac0d309d0b946cf6ffe90b902e2728360cce9b2",
+      "bytes": 323565
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/audio/slide_10.mp3",
+      "sha256": "0a7f8a5cc1b442c98d8ec923e4820433ac732c4448b406ff8f15fd0e681a9b05",
+      "bytes": 290925
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/audio/slide_06.mp3",
+      "sha256": "15275df5edd0fa585032749f943d1dd8b5439fd4ea2e914028ba63569b8efd6e",
+      "bytes": 260205
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/audio/slide_12.mp3",
+      "sha256": "ae009f3dbe775b9d8a83adcdd1947fc120d00e18a38a0d4b5f388b2a72f89ad5",
+      "bytes": 381165
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/audio/slide_07.mp3",
+      "sha256": "983576b7336b0778175d9d5845fe649537cfa44de0f7ed6edc096baf28d119d7",
+      "bytes": 262125
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/audio/slide_03.mp3",
+      "sha256": "3c7eacde53654d2825a8319fa39723b420ee4c98dc8151555257f04e4807eacd",
+      "bytes": 306765
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/audio/slide_02.mp3",
+      "sha256": "50a4cf00c14259ad5bc712a0dabfc9640cd4d0807d6179bacaadc6e0c5ab70ed",
+      "bytes": 315885
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/audio/slide_01.mp3",
+      "sha256": "60de01e3982952b6cf551ae97a53e0aa56da2c545e4c848c0601387b3aed47e5",
+      "bytes": 351885
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/production/tts-manifest.json",
+      "sha256": "560d765c6aa52a28a0aad2e5d7aadb2914bccc21c4258e909dc0fa585d47b1bd",
+      "bytes": 2421
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/production/timing.json",
+      "sha256": "2426b087d8e5d0952febc70343ef17d0fc798466f19fe097c2340e193ab65b5d",
+      "bytes": 8787
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/production/slides.json",
+      "sha256": "a4d1f686ae9a0d9d08addbdc87291f2081af97ad676bc6cb77ac2e113a92f9e8",
+      "bytes": 3536
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/production/storyboard.json",
+      "sha256": "db7dee3596184658cf0402f8adf1acd329524a60203df85f7c5756a6d16d897d",
+      "bytes": 2864
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/production/manifest.json",
+      "sha256": "cca9bdece59086c5e4c03c22c3303422b8088fc6b0d4d395b611b1d8925b5b2f",
+      "bytes": 1798
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/production/plan.md",
+      "sha256": "17708d16a959fdb28e6d5c556308c4f2a8ff645d0baedba26f4e63696f2ed7a9",
+      "bytes": 3304
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/production/narration.json",
+      "sha256": "0ad2ad97314d5feded7c6ed174237a34cd32149719feb18b49ecbeea4e53831d",
+      "bytes": 4487
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/subtitles/zh-TW.srt",
+      "sha256": "0c5a2b599be59d8fd7e86851718f9772dee790f5265f1e7befc271c6b68ed803",
+      "bytes": 3366
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/subtitles/zh-TW-source.srt",
+      "sha256": "8124a696230259dfdae6a000ca99fb4a9090b9f9ff56bbb5eacaf047c465ae7a",
+      "bytes": 3366
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/qc/assembly.json",
+      "sha256": "043ff9a51a41452fa4641c1eca95021601bcd4685c9c231d1822877b9654b34a",
+      "bytes": 799
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/qc/manual-review.md",
+      "sha256": "f4e9deacbabdd18376108258ae2e89e3c27d9c22363606588770a00df7f7717c",
+      "bytes": 2240
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/qc/report.json",
+      "sha256": "8fc4888b387ab4b1e73edb870d64a11d7576b4d44234f029c666bc91444d9bf0",
+      "bytes": 2083
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/qc/report.md",
+      "sha256": "735b30fda1e33c576fd62e504487cd7ccc0d5bb840d6669d1ff2b3ee3248e6d9",
+      "bytes": 3064
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/production/presentation/ep10-ai-and-our-future.pptx",
+      "sha256": "843f9e6ccbb10db6bd076f6637e2919d6482a5cfe6356ff8a25fa62b67ccf3f6",
+      "bytes": 2253996
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide_06.png",
+      "sha256": "4e01d3c88ecab3264406fcc6494c945cdb2e46a9b30bb8130c07d79d40ef147d",
+      "bytes": 196589
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide_12.png",
+      "sha256": "a07e784f8152f2acd9c3ff4035e6c2f5fd4a85c637d61d7992c032f5d10953bf",
+      "bytes": 320188
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide_07.png",
+      "sha256": "a83555292f0059e96265ec2a1bd02c992345392288920cdfbb2d71524ad38504",
+      "bytes": 236897
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide_11.png",
+      "sha256": "64bf5cb3d1f6b1ae0ec3070cd3958adc1030470ba49a76b1796a36e74c52c685",
+      "bytes": 213012
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide_05.png",
+      "sha256": "4a3a29d9c6ac706d4aae338f22e05bce7f5ac513d6406b1b0a845f5f7f23f4d2",
+      "bytes": 233866
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide_04.png",
+      "sha256": "11be7477732ec97e0fcd1a94345fabbe1ba31d0fc9bfb844a17ab5ae5e4c7689",
+      "bytes": 203364
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide_10.png",
+      "sha256": "4f43f856fc3e5ce2e4845a9dfbb574d1dd9f06d1e286635b1bb758fcc9f899d1",
+      "bytes": 352763
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide_01.png",
+      "sha256": "c46006c755ced4c068e728718dedfc8247102551c448796900bb8927964f8cf7",
+      "bytes": 322460
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide_03.png",
+      "sha256": "de8cec5a7f2bf5e517461539dcf3afd5a4aaff45a4edfe078346c83c777c910f",
+      "bytes": 209163
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide_02.png",
+      "sha256": "46ea6c273af9761ba175c4a5146d7c99ced5a0edea4bc249458fc58f16f12a78",
+      "bytes": 198799
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide-09.png",
+      "sha256": "5ef06951e01f6aee1eb98b4ded532389857a23c3d30f09a4820c42493dafd32a",
+      "bytes": 211087
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide-08.png",
+      "sha256": "636f09867feb0eb2bdd6f593c16508999fb1b9f241527869335ad0c3f0d4a5e2",
+      "bytes": 251381
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide-03.png",
+      "sha256": "de8cec5a7f2bf5e517461539dcf3afd5a4aaff45a4edfe078346c83c777c910f",
+      "bytes": 209163
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide-02.png",
+      "sha256": "46ea6c273af9761ba175c4a5146d7c99ced5a0edea4bc249458fc58f16f12a78",
+      "bytes": 198799
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide-01.png",
+      "sha256": "c46006c755ced4c068e728718dedfc8247102551c448796900bb8927964f8cf7",
+      "bytes": 322460
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide-05.png",
+      "sha256": "4a3a29d9c6ac706d4aae338f22e05bce7f5ac513d6406b1b0a845f5f7f23f4d2",
+      "bytes": 233866
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide-11.png",
+      "sha256": "64bf5cb3d1f6b1ae0ec3070cd3958adc1030470ba49a76b1796a36e74c52c685",
+      "bytes": 213012
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide-10.png",
+      "sha256": "4f43f856fc3e5ce2e4845a9dfbb574d1dd9f06d1e286635b1bb758fcc9f899d1",
+      "bytes": 352763
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide-04.png",
+      "sha256": "11be7477732ec97e0fcd1a94345fabbe1ba31d0fc9bfb844a17ab5ae5e4c7689",
+      "bytes": 203364
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide-12.png",
+      "sha256": "a07e784f8152f2acd9c3ff4035e6c2f5fd4a85c637d61d7992c032f5d10953bf",
+      "bytes": 320188
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide-06.png",
+      "sha256": "4e01d3c88ecab3264406fcc6494c945cdb2e46a9b30bb8130c07d79d40ef147d",
+      "bytes": 196589
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide-07.png",
+      "sha256": "a83555292f0059e96265ec2a1bd02c992345392288920cdfbb2d71524ad38504",
+      "bytes": 236897
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide_09.png",
+      "sha256": "5ef06951e01f6aee1eb98b4ded532389857a23c3d30f09a4820c42493dafd32a",
+      "bytes": 211087
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/slides/slide_08.png",
+      "sha256": "636f09867feb0eb2bdd6f593c16508999fb1b9f241527869335ad0c3f0d4a5e2",
+      "bytes": 251381
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/visuals/tutor-map.png",
+      "sha256": "ebaeaf0b260122e2c3c380fe310d48eed4c837bd1e45ad1badb448cf68f3c743",
+      "bytes": 93269
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/visuals/agent-tasks.png",
+      "sha256": "6a6b307f01faa5c6c6e37971f250a402918845f4d4e05922f0c90944a230ca05",
+      "bytes": 63873
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/visuals/day-map.png",
+      "sha256": "6fc56a6d1f3e320c501c2aec40975e24df7996ac93c1ffd5401bf23b17813d41",
+      "bytes": 73926
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/visuals/future-hero.png",
+      "sha256": "0ce4cb5f89324351d5b45bc4ffd6e0dc0f80d8bd3414a0eeaffab91622230fa6",
+      "bytes": 97430
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/visuals/creative-director.png",
+      "sha256": "392825926ba7476840a4d025832203502eddb10f37008909bc05dd24b6bec859",
+      "bytes": 78874
+    },
+    {
+      "path": "episodes/season-01/ep10-ai-and-our-future/assets/visuals/drive-wheel.png",
+      "sha256": "1e906c027f53853350b77d9c4a5ae3324bdf53a60518bcbd427ff036e350eeb8",
+      "bytes": 93154
+    }
+  ]
+}

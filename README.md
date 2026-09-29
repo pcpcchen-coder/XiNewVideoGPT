@@ -1,3 +1,5 @@
+> **父子科技學院 L001–L192（2026-09-29 更新）**：請從 [academy/README.md](academy/README.md) 與 [雲端接續入口](academy/CLOUD_START_HERE.md) 開始。L003 已製作並保留驗收資料；後續採「雲端製作、使用者自行上傳」。以下為原 EP 系列紀錄，與學院課號／製作規格分開管理。
+
 # XiNewVideoGPT
 
 以 **陳犀牛 Chen XiNew** 為固定講師的 AI 教學影片製作倉庫。專案融合 [`video-production-skill-kimi`](https://github.com/pcpcchen-coder/video-production-skill-kimi) 的影片製作方法，與 [`XiNewIPs`](https://github.com/pcpcchen-coder/XiNewIPs) 的角色／品牌設定，建立可延伸的完整製作線。

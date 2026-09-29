@@ -1,0 +1,806 @@
+{
+  "assets/xinew-brand-identity.png": {
+    "sha256": "627a52fc05723523f4081cde5df60c3a96d25b8482b4651fd2eb12ce97564bec",
+    "bytes": 1808005
+  },
+  "assets/opening/開場影片-v2.mp4": {
+    "sha256": "1acd858b2a0e624f99c267620b15db5e637f7f6ac7fa057b7e5a9df492a7d04a",
+    "bytes": 89043634
+  },
+  "assets/characters/xinew-key-visual.png": {
+    "sha256": "d4358ef48b16e1ba158349c8e99ed42e3257e49e84000b2677a7067325672267",
+    "bytes": 2223406
+  },
+  "assets/characters/xinew-turnaround.png": {
+    "sha256": "aebab6ef1546be11810167fe7234d281be0208f3469070a9f8de7b8e7fd7f5bc",
+    "bytes": 1915038
+  },
+  "assets/fonts/NotoSansCJKtc-Regular.otf": {
+    "sha256": "dce08bd4fd91aa8aa76ed8fea4b694c2dfb8550f67871e326843212ddbeb88b4",
+    "bytes": 16435884
+  },
+  "assets/fonts/OFL.txt": {
+    "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "bytes": 4301
+  },
+  "assets/characters/cutouts/xinew-thumbs-up.png": {
+    "sha256": "e8ffd05f8be86bba3dc9ca710a76d67a5af04bda88d2b4706f21b6fb2980a1f9",
+    "bytes": 598561
+  },
+  "assets/characters/cutouts/xinew-open-palms.png": {
+    "sha256": "3d58e633ac8700b128d531f828bacb57db1fb368d764d6e6b8b6fd39aa64f174",
+    "bytes": 612467
+  },
+  "assets/characters/cutouts/xinew-point-up.png": {
+    "sha256": "8f3927a71e502d69868aa0d53cd77d0f57785686f6494bde29f4cea563c6340a",
+    "bytes": 667601
+  },
+  "assets/characters/cutouts/xinew-pointer.png": {
+    "sha256": "18b9db6fce8db244f14540909ce98f421c29524f1141812a92e13fdc05d249df",
+    "bytes": 494639
+  },
+  "curriculum/catalog.json": {
+    "sha256": "c1c413e7910a8a569491d2bf76d11392bbd8d23dd11f1b39b457ceaf879636cb",
+    "bytes": 1393181
+  },
+  "docs/validation.md": {
+    "sha256": "7dcfe7da49d2088ad22b721e5a7afdf33fbbb91bd17954a9b42abbaea9a44c3a",
+    "bytes": 2973
+  },
+  "docs/repository-audit.md": {
+    "sha256": "fd66564e3f0556fa86eb053aa5ca1ac6d11ef68a9dec2d1cd0bc124de7a24390",
+    "bytes": 6435
+  },
+  "docs/archive-inventory.json": {
+    "sha256": "1ab5b7a51f0f5fe547d842f38487cd4dd06938a77a73abb6304f39a6407cc135",
+    "bytes": 15746
+  },
+  "docs/pipeline-integration.md": {
+    "sha256": "8ce740e09a5bf66d69b37b081caee50a3b6c395464a243dd2c14f590dd4f7eb0",
+    "bytes": 12592
+  },
+  "docs/production-and-publication-sop.md": {
+    "sha256": "e30305b4fcc427458a180bffba3535e215730ab72e3f9936eedc126266224074",
+    "bytes": 6309
+  },
+  "docs/first-lesson-delivery.md": {
+    "sha256": "d6220d97d065859f7b5bfe5f58944afdad85cc370d5c9b1e5717f0ce08993e9e",
+    "bytes": 1727
+  },
+  "docs/runtime-observed.json": {
+    "sha256": "f6de23d0f8b04d297faf5bd4865dbcb09fe92dc85615cd3aaa1bfdaaebc809c4",
+    "bytes": 314
+  },
+  "pipeline/academy.py": {
+    "sha256": "7c1729d196e49eb72d2fe65799e58ebc2aacdb20526e2bc0cbb094e6e7b52958",
+    "bytes": 19225
+  },
+  "pipeline/scripts/assemble_episode.py": {
+    "sha256": "d20ce2331ee9d3e6251a75bc1319761988e1b8cd9bc3e6c80a480c3607b4b0e5",
+    "bytes": 9910
+  },
+  "pipeline/scripts/verify_episode.py": {
+    "sha256": "d164c9fbf6ed4f7e5a40568bc2bf8cfbbe7ef13ec72d6a446eb52c2616be2875",
+    "bytes": 9417
+  },
+  "pipeline/scripts/build_deck.py": {
+    "sha256": "ff1a6ca55657eab71816341693df146dd47d395e25cee98b6dcb8b122451158f",
+    "bytes": 12299
+  },
+  "pipeline/scripts/burn_subtitles_pillow.py": {
+    "sha256": "f48c53b28d77ed6c8b1a92ebec6c4bb2f345a7e1700bccc9283d103e286ec32b",
+    "bytes": 6011
+  },
+  "pipeline/scripts/generate_visuals_ep10.py": {
+    "sha256": "ae8f7a851a923bfce0ee9eb92064bd578e63b8c0a4a8b30ca891d97c2d76914a",
+    "bytes": 14485
+  },
+  "pipeline/scripts/synthesize_narration_ep10.py": {
+    "sha256": "0b34d4eeaf1b0154023675c7f3caee66cfa57864699b50b2b457fbcd0a79e6e9",
+    "bytes": 5957
+  },
+  "pipeline/scripts/build_template.mjs": {
+    "sha256": "d71ccc90e3e0c44f8bb611db6c0ba8f473c19ef790c53ad0f8c36b229fc00af0",
+    "bytes": 4345
+  },
+  "pipeline/scripts/verify_episode_ep10.py": {
+    "sha256": "ac07344129c860906cc04353bd9ac7b91d355c520085f8924585af6eff594118",
+    "bytes": 6574
+  },
+  "pipeline/scripts/build_deck_ep10.py": {
+    "sha256": "c5c3c369b2dd552b08277e4764165747ffab2c69dceeee6bf043e59ae1b41471",
+    "bytes": 12108
+  },
+  "pipeline/scripts/build_l001.mjs": {
+    "sha256": "6cf67852aa6662e897c3f117711bf1cc94aae4f18cfb2b618bfd53a35918d91f",
+    "bytes": 10778
+  },
+  "pipeline/scripts/assemble_episode_ep10.py": {
+    "sha256": "0beae46e8369f5cc83f2ebf63c925267cf9c76ef16513776ba6095e58cbb7d6b",
+    "bytes": 8988
+  },
+  "pipeline/scripts/synthesize_narration.py": {
+    "sha256": "51428415c5c49fed654c6466862776f35ed3144151c1a80549d732f096fec50b",
+    "bytes": 6158
+  },
+  "tests/test_academy.py": {
+    "sha256": "ec7bc3971cfdca56df2b49d76026523b48f7bea215236237334e47964d7e031a",
+    "bytes": 2737
+  },
+  "lessons/L002/brief.md": {
+    "sha256": "7be682d113aff9bbf6b39339751072f8366efcdcd7c746202f07a574e51ff425",
+    "bytes": 966
+  },
+  "lessons/L002/lesson.json": {
+    "sha256": "08eaba525fa6f5cde28601950c27cc6844a344ce05bf14eef9a212e42c5fa22b",
+    "bytes": 7070
+  },
+  "lessons/L001/brief.md": {
+    "sha256": "5aed47e63097cfedc51f3b1410eeac1a5a04bfa9ea8ef42722ce956ed69860cc",
+    "bytes": 1042
+  },
+  "lessons/L001/lesson.json": {
+    "sha256": "b0ca8e9fb042c25d1a92f1d9afd8736809f38f4b2470f29fa563d5aa5591216e",
+    "bytes": 7630
+  },
+  "lessons/L002/editorial/README.md": {
+    "sha256": "f2bab2a5ae8d8587bfaf5418ef2fc30d0692f3b33d7404f06e563d6fa1900d26",
+    "bytes": 415
+  },
+  "lessons/L001/editorial/README.md": {
+    "sha256": "f2bab2a5ae8d8587bfaf5418ef2fc30d0692f3b33d7404f06e563d6fa1900d26",
+    "bytes": 415
+  },
+  "episodes/academy/l001-mac-workstation/README.md": {
+    "sha256": "3ad3f661fe0610d3990561480e6fdaf81565d88ac4c3b9ce2ba06e34387453a6",
+    "bytes": 3484
+  },
+  "episodes/academy/l002-file-treasure/publication/youtube-receipt.json": {
+    "sha256": "021e53f1041ae6ce47f2239e10277f739db2748f8b9b005bf77bcb4422d614c0",
+    "bytes": 1267
+  },
+  "episodes/academy/l002-file-treasure/output/l002-file-treasure-master.mp4": {
+    "sha256": "8f6163201ef9c8670df723763588cc94e07e0036857916a02f8ae1cc9f98a764",
+    "bytes": 78413739
+  },
+  "episodes/academy/l002-file-treasure/output/classroom.zip": {
+    "sha256": "d61e9b5dde808d9e1c978ac71dbcc6f29e30595af6b49fbbcc65c8311526b90a",
+    "bytes": 6538
+  },
+  "episodes/academy/l002-file-treasure/output/l002-file-treasure-zh-TW.mp4": {
+    "sha256": "f783c122a348735d8fb08eabed10ff48649b356ac582e1bd29556afb0b88fe9a",
+    "bytes": 63774006
+  },
+  "episodes/academy/l002-file-treasure/output/narration-only.mp3": {
+    "sha256": "6a669f7c46db8565bc4898dd49a6871a58b114122fc5b008aac09a821a7c7ddf",
+    "bytes": 7487469
+  },
+  "episodes/academy/l002-file-treasure/output/thumbnail.png": {
+    "sha256": "f68fe436273a3e0d78995f6e8df364855c4961a9ae741241bfb7439344fd640a",
+    "bytes": 284611
+  },
+  "episodes/academy/l002-file-treasure/output/contact-sheet.png": {
+    "sha256": "f2ae715d54ed7d5aa26d6c8aac711c502870d3a53cd2abdf1b476a0a02df2743",
+    "bytes": 1014588
+  },
+  "episodes/academy/l002-file-treasure/classroom/爸爸先讀.txt": {
+    "sha256": "2955d561159a10e5a28826c0ecbf896b5caa5230e8fe28af689119bb56d49352",
+    "bytes": 1232
+  },
+  "episodes/academy/l002-file-treasure/audio/slide_09.mp3": {
+    "sha256": "380e8b01b814cfa805fca8c1a61b66328f8b1fce3470d0ac06a4fdd01fb2276b",
+    "bytes": 515085
+  },
+  "episodes/academy/l002-file-treasure/audio/slide_08.mp3": {
+    "sha256": "b9520518cb9263ee55098fd44528c65c569add64d2d35af39d919e085d4c416e",
+    "bytes": 516525
+  },
+  "episodes/academy/l002-file-treasure/audio/slide_11.mp3": {
+    "sha256": "a2d107be6be7c4cfb617630840588124228211d2dbe727b59241e17fbdc091d4",
+    "bytes": 554445
+  },
+  "episodes/academy/l002-file-treasure/audio/slide_05.mp3": {
+    "sha256": "44e841c8d2e2c89c86843d0e1b40a3cca77672bcdd5beda5dd0763ed954d3028",
+    "bytes": 497325
+  },
+  "episodes/academy/l002-file-treasure/audio/slide_04.mp3": {
+    "sha256": "1284cf6aafe97881ae62e72c0c1a61a00b3c305b9e73e5cde76b7f82092419c4",
+    "bytes": 510285
+  },
+  "episodes/academy/l002-file-treasure/audio/slide_10.mp3": {
+    "sha256": "4597f68dd01a7acee3b436e5d2f26b3cc1aa2268aeb2f16a6c9927fec8340570",
+    "bytes": 505485
+  },
+  "episodes/academy/l002-file-treasure/audio/slide_06.mp3": {
+    "sha256": "b2bb740cbea1e985267cfe121ee5cbacead672121c444fac66ea5ccc162ed0d5",
+    "bytes": 475725
+  },
+  "episodes/academy/l002-file-treasure/audio/slide_12.mp3": {
+    "sha256": "d798e781d63a109c58ba6c43a1d8cbe0be7e64e89a0e9e1464e2df8c63d969a9",
+    "bytes": 560205
+  },
+  "episodes/academy/l002-file-treasure/audio/slide_07.mp3": {
+    "sha256": "ebb1777deacb119754b8a86484f60dd580c33bd38c41c9effc7db14653e977ed",
+    "bytes": 554445
+  },
+  "episodes/academy/l002-file-treasure/audio/slide_03.mp3": {
+    "sha256": "0b24da66ba11592ddedc6a871a32ff1738f5fd65c02fd816dedf34b542308731",
+    "bytes": 519885
+  },
+  "episodes/academy/l002-file-treasure/audio/slide_02.mp3": {
+    "sha256": "fc03cc4f6fd07185f39a86da5dfbdfb0343074c8fd9c70a951385811acb28e7a",
+    "bytes": 490605
+  },
+  "episodes/academy/l002-file-treasure/audio/slide_01.mp3": {
+    "sha256": "95423f51f2c4ec09d3f02d0638c109c30336cd9e6c5c7371135e01379ae33053",
+    "bytes": 553005
+  },
+  "episodes/academy/l002-file-treasure/production/sources.json": {
+    "sha256": "2c144b709cf47085345f42cd0c4cd2a780f7c2c0a243b0fb712e7251e1fc1110",
+    "bytes": 458
+  },
+  "episodes/academy/l002-file-treasure/production/tts-manifest.json": {
+    "sha256": "0f92bc383cdeeb7f1e416424e186f61e0296d29a0478945be8110abfc35e3390",
+    "bytes": 2582
+  },
+  "episodes/academy/l002-file-treasure/production/youtube-description.txt": {
+    "sha256": "0c566969e17c225f51de7b8776ded3ff520f56edeeef904f976f17bc15a2bcd6",
+    "bytes": 1793
+  },
+  "episodes/academy/l002-file-treasure/production/timing.json": {
+    "sha256": "2a3c9c06ab1a0997ca3cf652e0140adf4d9f492c22332ace82feb0c36f8017db",
+    "bytes": 11257
+  },
+  "episodes/academy/l002-file-treasure/production/template-text.json": {
+    "sha256": "b5e8a3575c10324e3b959b23a4fe036c02fd75cd260f8afc29b140914ccc5a80",
+    "bytes": 12728
+  },
+  "episodes/academy/l002-file-treasure/production/START_HERE.md": {
+    "sha256": "dd2ceea749746d0b7614a102586e26dc5f8f4206b1f788070ae63aea6c1dd3f5",
+    "bytes": 1122
+  },
+  "episodes/academy/l002-file-treasure/production/narration-script.md": {
+    "sha256": "38412bb6fd8d518c165662c5b450c1885d1d8a5ecd4729c1cc431a11f43ac84f",
+    "bytes": 4955
+  },
+  "episodes/academy/l002-file-treasure/production/slides.json": {
+    "sha256": "057b66887083e809315a669582e622ac0c762af1b4b4199b3360d02a686d58bf",
+    "bytes": 1791
+  },
+  "episodes/academy/l002-file-treasure/production/fact-check.md": {
+    "sha256": "030bf72fff496383724552f78d9711eeab134996b78732ac8028c2c73bdc80f1",
+    "bytes": 451
+  },
+  "episodes/academy/l002-file-treasure/production/youtube-metadata.json": {
+    "sha256": "7339cbc5393492626a688c40978b82df09212148df9805a1a9a899dbee72f566",
+    "bytes": 3094
+  },
+  "episodes/academy/l002-file-treasure/production/storyboard.json": {
+    "sha256": "bcc086b74bef47cc862b6722dcf6cb6d3bd359780536b397c93ba379096a7518",
+    "bytes": 2592
+  },
+  "episodes/academy/l002-file-treasure/production/manifest.json": {
+    "sha256": "1f2848497df3ce2fa10f983ffe9bac6b0cdcd771676f38576f398f6db9a00104",
+    "bytes": 2243
+  },
+  "episodes/academy/l002-file-treasure/production/plan.md": {
+    "sha256": "8b8ec281ebcb42c2a056dab04eb3cdf3dc65fc25fcd72e9594216cb21d249125",
+    "bytes": 268
+  },
+  "episodes/academy/l002-file-treasure/production/narration.json": {
+    "sha256": "a5b78c39a9ee40cf51e64ce6d2d8aa198320c4834cfdf37daa76d6a5333a46f5",
+    "bytes": 14473
+  },
+  "episodes/academy/l002-file-treasure/subtitles/zh-TW.srt": {
+    "sha256": "23e451caf04f578a9c271138038694332653ad474f8bfa28a1d7ead654ef34bb",
+    "bytes": 5757
+  },
+  "episodes/academy/l002-file-treasure/subtitles/zh-TW-source.srt": {
+    "sha256": "b68277a675461d0ce1b59c835988e203996047d05fe63c766f8c890d72a1ef8f",
+    "bytes": 5757
+  },
+  "episodes/academy/l002-file-treasure/qc/assembly.json": {
+    "sha256": "7aa641d11bf4d4f2496bd355fc29f91466db8c643426fab04d81e75e0f3f7e99",
+    "bytes": 1008
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review.jpg": {
+    "sha256": "424e473993344c7c0b15b3418d6755b49511c2726efdded86e0ae54330472c7c",
+    "bytes": 189800
+  },
+  "episodes/academy/l002-file-treasure/qc/report.json": {
+    "sha256": "13063aa53953bb78ceb709c39d1046ea19c8b1a5de0c43736f18f528d81f2daf",
+    "bytes": 2761
+  },
+  "episodes/academy/l002-file-treasure/qc/visual-review.json": {
+    "sha256": "d48b638f4125b3080b095f48988e70fe0e32137855d772cf342155d1fd02e08e",
+    "bytes": 551
+  },
+  "episodes/academy/l002-file-treasure/qc/verified-inputs.json": {
+    "sha256": "50278efc30692e70ac94171df7825fd0f2893e964e33c1e5acc61cc4d78794d0",
+    "bytes": 4622
+  },
+  "episodes/academy/l002-file-treasure/qc/stable-scenes.json": {
+    "sha256": "b21a8961dccaded0e2a30f42d6afb29f5c944e4905223a1627412252de14bb73",
+    "bytes": 362
+  },
+  "episodes/academy/l002-file-treasure/qc/presentation-validation.json": {
+    "sha256": "51b717a6b3884517dd029cca26bf3ccde8a18d581c3a660ef214a14584c2e037",
+    "bytes": 3802
+  },
+  "episodes/academy/l002-file-treasure/qc/classroom-validation.json": {
+    "sha256": "e0252324485914dc7010fa083ec747b0b9f50f22ffeb6a52d24764d7818bdeb7",
+    "bytes": 1782
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/L002_尋寶紀錄_v01.txt": {
+    "sha256": "b0a51bb45d727fa1b375436cc7c4977b629f115aacd5a363195a7a9412d52d9c",
+    "bytes": 736
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/練習B/先讀我.txt": {
+    "sha256": "840bbb366cee827955885cda4e0d25a5727b4579007d6268757742dcaeef3531",
+    "bytes": 107
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/練習A/先讀我.txt": {
+    "sha256": "840bbb366cee827955885cda4e0d25a5727b4579007d6268757742dcaeef3531",
+    "bytes": 107
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/尋寶地圖/02_海岸/線索08.rtf": {
+    "sha256": "08d88e45337b7df8ec3d89ee8fff8695f6c06e3891bc4404b5be480151575ee1",
+    "bytes": 577
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/尋寶地圖/02_海岸/線索05.txt": {
+    "sha256": "1988356915a27052b2571f5aaf015d404ff10dc104cdf19c4e352ffd76b2fd6d",
+    "bytes": 199
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/尋寶地圖/02_海岸/線索07.rtf": {
+    "sha256": "a2db9fcc89170891aa9ead9c21b293d1613b031c1ad95e0f72fc3f60e6831798",
+    "bytes": 577
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/尋寶地圖/02_海岸/線索06.txt": {
+    "sha256": "db7cab2507a70ba230adab9a578110042a61a34152a56e4184c3a6dcdb3b932a",
+    "bytes": 199
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/尋寶地圖/01_森林/線索02.txt": {
+    "sha256": "a6788b44c87392683224012019ceb475dce6d471668761b7fa19de7029fbbb58",
+    "bytes": 199
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/尋寶地圖/01_森林/線索03.rtf": {
+    "sha256": "449aa5511cb4054f58b122734010bd23333fd12ccc8cf32af435ab150dd88977",
+    "bytes": 578
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/尋寶地圖/01_森林/線索01.txt": {
+    "sha256": "7bbf0ed5c0c4a8a0200471b45553044087e8339cf9e5b8f326c8062c361fd425",
+    "bytes": 199
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/尋寶地圖/01_森林/線索04.rtf": {
+    "sha256": "9e2fe6cb381d1a45b9474ccdb0fc609ff806561bc3372ea993bb760f27e2db94",
+    "bytes": 577
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/尋寶地圖/03_太空/線索09.txt": {
+    "sha256": "8a481a5e8fe5b76c8c4b6a2edde85265c116be782314b78a680404f8576bf2c6",
+    "bytes": 199
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/尋寶地圖/03_太空/線索10.txt": {
+    "sha256": "3bac228564c87e76881023454463e7433add8df24fcfb0e64500e1c0a949ac17",
+    "bytes": 199
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/尋寶地圖/03_太空/線索11.rtf": {
+    "sha256": "5227f2805ec4a826940a227fccc36274b102640862fd72082eb343872531e283",
+    "bytes": 577
+  },
+  "episodes/academy/l002-file-treasure/classroom/L002_尋寶/尋寶地圖/03_太空/線索12.rtf": {
+    "sha256": "9afbb6de68a99013f8c13053c75ea21f567d86bcbbe6de042002ab4f87af7ddc",
+    "bytes": 664
+  },
+  "episodes/academy/l002-file-treasure/production/presentation/l002-file-treasure.pptx": {
+    "sha256": "5610808fa1c28e060793e9e0eedc384216541b690fb7a6240d988cdc7e3d1cc5",
+    "bytes": 2508814
+  },
+  "episodes/academy/l002-file-treasure/assets/slides/slide_06.png": {
+    "sha256": "7ae65505313a9ede818d7245db7a131c58da3b0caee07a0c807c27813d0a9d91",
+    "bytes": 214874
+  },
+  "episodes/academy/l002-file-treasure/assets/slides/slide_12.png": {
+    "sha256": "d971b2ffbe935a2e94b9cfc1fa8e05a33b5b114ef5967e0d173b34d6399f3ed2",
+    "bytes": 299924
+  },
+  "episodes/academy/l002-file-treasure/assets/slides/slide_07.png": {
+    "sha256": "2aa019e9389a988a153614f216676e06d8c1aa8931f79142c36b2e7db5db3e72",
+    "bytes": 200739
+  },
+  "episodes/academy/l002-file-treasure/assets/slides/slide_11.png": {
+    "sha256": "ea25f913cff4ee92fd821c0c7c2588df36a94b08edb1de34ad79bda29f062c25",
+    "bytes": 230281
+  },
+  "episodes/academy/l002-file-treasure/assets/slides/slide_05.png": {
+    "sha256": "d2f2a66437e518b4ca462f72bee6d43c1c3c9c991ae4e79a21046514f9691e4c",
+    "bytes": 203322
+  },
+  "episodes/academy/l002-file-treasure/assets/slides/slide_04.png": {
+    "sha256": "b633d0faa86571e52897dd293fdea38bda1faee912da7ae095572e184eff93d5",
+    "bytes": 171474
+  },
+  "episodes/academy/l002-file-treasure/assets/slides/slide_10.png": {
+    "sha256": "e5d1077388e9e2f483247b2e61a5e8d3b71d25fd26275bd32a73ba6f095d439d",
+    "bytes": 272290
+  },
+  "episodes/academy/l002-file-treasure/assets/slides/slide_01.png": {
+    "sha256": "f68fe436273a3e0d78995f6e8df364855c4961a9ae741241bfb7439344fd640a",
+    "bytes": 284611
+  },
+  "episodes/academy/l002-file-treasure/assets/slides/slide_03.png": {
+    "sha256": "cfc90cd9c4458b7ab282bab234be79fb189cc1947e732cd014523f46819ce107",
+    "bytes": 259982
+  },
+  "episodes/academy/l002-file-treasure/assets/slides/slide_02.png": {
+    "sha256": "3a8f53f733145922d9cac74aefa0fdcc7d5c9ae82068a2f0695ee0a651c513b7",
+    "bytes": 208993
+  },
+  "episodes/academy/l002-file-treasure/assets/slides/slide_09.png": {
+    "sha256": "c0f35462a8430c84db34d39631d4e24dbbd67f60c812b875880171f5e2d6bf85",
+    "bytes": 211055
+  },
+  "episodes/academy/l002-file-treasure/assets/slides/slide_08.png": {
+    "sha256": "6872abc02c1b540fed50011204ccfec9a33425a98e947a5b2f2d76916ea7ae47",
+    "bytes": 247794
+  },
+  "episodes/academy/l002-file-treasure/assets/visuals/README.md": {
+    "sha256": "739da064c72bad55c926b8907f728a4e651413c06428fadc3d4b876370279789",
+    "bytes": 242
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review/01.png": {
+    "sha256": "adfa45407c64cb9a41f2a3cc83cae0008d592c7139a1784a8e863f769aca795d",
+    "bytes": 464763
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review/03.png": {
+    "sha256": "4ca6f100c44d7fce7f2e05262377a59589679cf83420dc49dcb230c18c0b6682",
+    "bytes": 448567
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review/02.png": {
+    "sha256": "ed27589da89944c0bf0eb3fab52675566ef3357b51f27e7f5b01a83a8199f4b4",
+    "bytes": 477085
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review/06.png": {
+    "sha256": "b802d22eab16fec724c3efe40d1cc2d08f19bc56a6c40a726bf1fea7fda80eb7",
+    "bytes": 493735
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review/12.png": {
+    "sha256": "95864655b03e5b1c6dcbc849fc3f96a46bdad271335933b6276a2ebcdd413865",
+    "bytes": 531594
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review/07.png": {
+    "sha256": "5f035cc8e57dbfc147f8824dfed43a60264112d608dc40cf79954e6af2117910",
+    "bytes": 471602
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review/11.png": {
+    "sha256": "4f3e5088da37976dafb47a162eb0e70a4bf700a1cb3d918a258ea85a7f08ef7f",
+    "bytes": 488714
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review/05.png": {
+    "sha256": "1c2e371041ec1ec2b03dcd326fbe0e5bbcdc0a8ca167b2fd85afd8425083193d",
+    "bytes": 455997
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review/04.png": {
+    "sha256": "d27853bd6af7b5901a7f715d0b03826da4f8fe245ea22e2849e590303bc1f06f",
+    "bytes": 404667
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review/10.png": {
+    "sha256": "73e177941f996a5637e39b1877325b8ad6209c0dfdc142b9603ce58d8f8441f5",
+    "bytes": 461190
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review/09.png": {
+    "sha256": "8e9a67c2736a93cbb0423e0987973517a225b126c693766bf64354681ad54632",
+    "bytes": 462976
+  },
+  "episodes/academy/l002-file-treasure/qc/caption-review/08.png": {
+    "sha256": "0de15614273630742b0068a5b952750833b988cd2142d0d029e519210ebc6aab",
+    "bytes": 492125
+  },
+  "episodes/academy/l001-mac-workstation/output/narration-only.mp3": {
+    "sha256": "c13aeded554d37658da111808604fca73ede5be8b6168c6c5588e7567cfcfce5",
+    "bytes": 3853893
+  },
+  "episodes/academy/l001-mac-workstation/output/l001-mac-workstation-master.mp4": {
+    "sha256": "6482ae2278f264c3f3c96e89283237512e092f092cf5dcc3e4144eb9a02a0774",
+    "bytes": 79029793
+  },
+  "episodes/academy/l001-mac-workstation/output/l001-mac-workstation-zh-TW.mp4": {
+    "sha256": "4edb3161814ffe12d64b401c4e6f2f845c677177a807bfa44c45ea87d8b79888",
+    "bytes": 64413356
+  },
+  "episodes/academy/l001-mac-workstation/output/thumbnail.png": {
+    "sha256": "1572a93f15a579911e286515369c1e7d1056313167ba48cc0aef83d2c9892976",
+    "bytes": 298689
+  },
+  "episodes/academy/l001-mac-workstation/output/contact-sheet.png": {
+    "sha256": "20a16e25a970f61004cdcf87923fd8c048e3febc5dc75f5552ed09808d30b0d6",
+    "bytes": 1013992
+  },
+  "episodes/academy/l001-mac-workstation/audio/slide_09.mp3": {
+    "sha256": "569aba4149afd045ec44851b67c3a855401456c586950e3e3a50baa5d3a57645",
+    "bytes": 540525
+  },
+  "episodes/academy/l001-mac-workstation/audio/slide_08.mp3": {
+    "sha256": "208c0c93459baa49a4844fa7e697f1f058c2722b85d00630ab27190ff958d447",
+    "bytes": 587565
+  },
+  "episodes/academy/l001-mac-workstation/audio/slide_11.mp3": {
+    "sha256": "ee6999ef8ac87a83843b87e4a24f5a4f253bfc0681261dbabc5dc9c63fc48978",
+    "bytes": 582285
+  },
+  "episodes/academy/l001-mac-workstation/audio/slide_05.mp3": {
+    "sha256": "bd83f664d5e82bea7c85566a027974795a97f9325e54c6edeb77f3a76f3359e3",
+    "bytes": 546285
+  },
+  "episodes/academy/l001-mac-workstation/audio/slide_04.mp3": {
+    "sha256": "61047453dbe70fc2e544e578fa9593e5af7c83daaa5808128cab1abfd2ec3319",
+    "bytes": 527565
+  },
+  "episodes/academy/l001-mac-workstation/audio/slide_10.mp3": {
+    "sha256": "182c8c8436e2e8d9a8bc28b725239fe617606ed2b5c281ce1a67c9e5fa9c63fb",
+    "bytes": 548685
+  },
+  "episodes/academy/l001-mac-workstation/audio/slide_06.mp3": {
+    "sha256": "0423ef09c6f3df0e992fa288f3ca4b0a55d4285ddfa5ed4cd6cd6a4688ef9dad",
+    "bytes": 489645
+  },
+  "episodes/academy/l001-mac-workstation/audio/slide_12.mp3": {
+    "sha256": "a26a9d1904481deb293e54b8a9ad9416ab3c3507269aac9a6c95d6de2cb81034",
+    "bytes": 596685
+  },
+  "episodes/academy/l001-mac-workstation/audio/slide_07.mp3": {
+    "sha256": "1a0055764e76a38bb4ab16da5046ee57523f0b4c90c7bb6cd553e97770e48396",
+    "bytes": 585645
+  },
+  "episodes/academy/l001-mac-workstation/audio/slide_03.mp3": {
+    "sha256": "a2ff89c3aecede47ae044a2cb6cf6907b5954c9aac42b883679de4ee3fdb9712",
+    "bytes": 537165
+  },
+  "episodes/academy/l001-mac-workstation/audio/slide_02.mp3": {
+    "sha256": "16b93b11b896789afec354f21ac794908ddd3d9627982942a4b8f293acbb6705",
+    "bytes": 523725
+  },
+  "episodes/academy/l001-mac-workstation/audio/slide_01.mp3": {
+    "sha256": "448086df898cf590ea4ac3d0c8dc43d643b31603be693742869979f43c7d1d83",
+    "bytes": 505965
+  },
+  "episodes/academy/l001-mac-workstation/production/sources.json": {
+    "sha256": "9df72f1f31e6536c35403eed68d5f4b23afd14d24985bc38e44e591ab61ba122",
+    "bytes": 714
+  },
+  "episodes/academy/l001-mac-workstation/production/tts-manifest.json": {
+    "sha256": "f11d9f3da244045ee0857ffe6c651eb9dd5a87a47196a1faf82e636a2f8c4b03",
+    "bytes": 2582
+  },
+  "episodes/academy/l001-mac-workstation/production/youtube-description.txt": {
+    "sha256": "fd8d729d32dd3328c4fed7dc58b82be1938d74509574acf691c5aec63463077a",
+    "bytes": 1258
+  },
+  "episodes/academy/l001-mac-workstation/production/timing.json": {
+    "sha256": "e452fc518df82e11d652e108174f3419ef10afeae76ecc8c88052cbbfef6e33b",
+    "bytes": 11607
+  },
+  "episodes/academy/l001-mac-workstation/production/START_HERE.md": {
+    "sha256": "421be14e73e829b73f3cbeb5b4bffca5ef1ed853042073c5b949d7b0dead4950",
+    "bytes": 1570
+  },
+  "episodes/academy/l001-mac-workstation/production/narration-script.md": {
+    "sha256": "9780cceeb48972d462c6159da37d341cc8759311dba67df1924e03377c318206",
+    "bytes": 5354
+  },
+  "episodes/academy/l001-mac-workstation/production/slides.json": {
+    "sha256": "524b91ee248e9b3679358772f33d41e798c65f3f75c831036acbb8deca8b80a4",
+    "bytes": 1866
+  },
+  "episodes/academy/l001-mac-workstation/production/fact-check.md": {
+    "sha256": "2a79cdae4dc2b7257404ea305863313f8e29931834e24a5bb513eb6576bab934",
+    "bytes": 865
+  },
+  "episodes/academy/l001-mac-workstation/production/youtube-metadata.json": {
+    "sha256": "6a24c04be5c3d84e7df9251707c037fbfa71e767a463d69bbacd5094d616d707",
+    "bytes": 2579
+  },
+  "episodes/academy/l001-mac-workstation/production/storyboard.json": {
+    "sha256": "425d46f4fc696db3ba90b5bc17efaea8c8725c5a63b9a3217ff581fdd6a4865b",
+    "bytes": 2574
+  },
+  "episodes/academy/l001-mac-workstation/production/manifest.json": {
+    "sha256": "c41a24bf93cde51b0571893375cf4ee39c9b890c6885fbf19b7b2a9c70b2a838",
+    "bytes": 2360
+  },
+  "episodes/academy/l001-mac-workstation/production/plan.md": {
+    "sha256": "a4fd108dffb4912494b9579a94e90b2a0d3efd2cd1da18a3541f28d300476bea",
+    "bytes": 762
+  },
+  "episodes/academy/l001-mac-workstation/production/narration.json": {
+    "sha256": "2888de7cab2d4854fc7ea1a74ee99829f7f370ab0952e664f8f415c003d42d73",
+    "bytes": 15331
+  },
+  "episodes/academy/l001-mac-workstation/subtitles/zh-TW.srt": {
+    "sha256": "375cb5360fdc6bc6bee793d2841a23b54adbcf92124206a775f8c8a4279a543a",
+    "bytes": 6079
+  },
+  "episodes/academy/l001-mac-workstation/subtitles/zh-TW-source.srt": {
+    "sha256": "5c1258f690bf9f9547e1d524cae72cebe66bf999de4b7df2f5e0fd1ddfc7facb",
+    "bytes": 6079
+  },
+  "episodes/academy/l001-mac-workstation/qc/assembly.json": {
+    "sha256": "cc4dc9a8a2b7f8e84c5a8d7ca3d10004541aa1ea6f58e0fd806aa36e239f3087",
+    "bytes": 1016
+  },
+  "episodes/academy/l001-mac-workstation/qc/captioned-scene-review.jpg": {
+    "sha256": "7e5258ad0a9922df7b80c575872f9c703b74e18424cf916746867f743ed5ffc3",
+    "bytes": 315731
+  },
+  "episodes/academy/l001-mac-workstation/qc/report.json": {
+    "sha256": "6002e3117c92f1fe798347e9fd75ee8ddfbb2cd8648ade590a8367e599cd8b72",
+    "bytes": 2761
+  },
+  "episodes/academy/l001-mac-workstation/qc/verified-inputs.json": {
+    "sha256": "9268a110196dcee2cd850b41d23773052d48bb6808d88d5471070c323d14e3bc",
+    "bytes": 4431
+  },
+  "episodes/academy/l001-mac-workstation/qc/visual-review.md": {
+    "sha256": "41ecdec34a3b16a1c2361a9ed14a0af11d9b77b873a1ecab8cdb1fc8f08d3e13",
+    "bytes": 728
+  },
+  "episodes/academy/l001-mac-workstation/qc/stable-scenes.json": {
+    "sha256": "4c6c72878753ec4bafebd73ef682aebc2e16b9ed132b2945696b874468d014cd",
+    "bytes": 359
+  },
+  "episodes/academy/l001-mac-workstation/qc/presentation-validation.json": {
+    "sha256": "8653df8d8860e95ce7f0ed54de79c633abb530ec9c6fe9a67cedc41eacda163a",
+    "bytes": 3738
+  },
+  "episodes/academy/l001-mac-workstation/production/presentation/l001-mac-workstation.pptx": {
+    "sha256": "64cbaac878ada48619a3130242be9c915f074576a936d7ab9a788ebacf97fb73",
+    "bytes": 2510418
+  },
+  "episodes/academy/l001-mac-workstation/assets/slides/slide_06.png": {
+    "sha256": "d7ce7a63f0f13288b0e44dd3250c5a4387974d1585fe4f7889e9215713fca105",
+    "bytes": 173761
+  },
+  "episodes/academy/l001-mac-workstation/assets/slides/slide_12.png": {
+    "sha256": "f2b3a3a9f61799fabce512471db9086b8e7655f215810ec53f4b0aa381ab7f92",
+    "bytes": 288640
+  },
+  "episodes/academy/l001-mac-workstation/assets/slides/slide_07.png": {
+    "sha256": "d9ad2366b2766b29a011fbf12ef27d765df85dc130045f0b4ea92d45d7167fca",
+    "bytes": 209434
+  },
+  "episodes/academy/l001-mac-workstation/assets/slides/slide_11.png": {
+    "sha256": "2103a7856c58ef857b06fa8679c3b835d53afcd99c0fbdc55379d793e9fb14c6",
+    "bytes": 230569
+  },
+  "episodes/academy/l001-mac-workstation/assets/slides/slide_05.png": {
+    "sha256": "a792903c55c5bf1b25301bbf2d0af2faea8cad1492ec3e50cafdaa0b4dbd6f6c",
+    "bytes": 210430
+  },
+  "episodes/academy/l001-mac-workstation/assets/slides/slide_04.png": {
+    "sha256": "8939e4b8570c05688685ff5fbc2e488ae4fa281e1d9cd9cdc44aede436a1c0ae",
+    "bytes": 206028
+  },
+  "episodes/academy/l001-mac-workstation/assets/slides/slide_10.png": {
+    "sha256": "606d03defc0df058f33629ef937bd9356afbcdfa05c792fe4254a83c276f6185",
+    "bytes": 273679
+  },
+  "episodes/academy/l001-mac-workstation/assets/slides/slide_01.png": {
+    "sha256": "1572a93f15a579911e286515369c1e7d1056313167ba48cc0aef83d2c9892976",
+    "bytes": 298689
+  },
+  "episodes/academy/l001-mac-workstation/assets/slides/slide_03.png": {
+    "sha256": "2cb3132da60c81f8873014a6003f13a467439625c181b7299082fadad2c01a63",
+    "bytes": 284775
+  },
+  "episodes/academy/l001-mac-workstation/assets/slides/slide_02.png": {
+    "sha256": "39bffb8858a26243524522c2270b3868df10da4e7485fd6e3d83b4eb009904dd",
+    "bytes": 216027
+  },
+  "episodes/academy/l001-mac-workstation/assets/slides/slide_09.png": {
+    "sha256": "02fd2637d7746caf46ea03d335822d05017b071fa25af1b8eda7f5f2e76c00fa",
+    "bytes": 215004
+  },
+  "episodes/academy/l001-mac-workstation/assets/slides/slide_08.png": {
+    "sha256": "06ffc309bf597fcc6d36f6a9447380e9457cde4fdb3afa613b3a96c3537f5c45",
+    "bytes": 229594
+  },
+  "episodes/academy/l001-mac-workstation/assets/visuals/README.md": {
+    "sha256": "739da064c72bad55c926b8907f728a4e651413c06428fadc3d4b876370279789",
+    "bytes": 242
+  },
+  "episodes/academy/l001-mac-workstation/qc/frames/scene-04.png": {
+    "sha256": "049edafb30d4d9633e03f75b3e7a6afb8d6bdd89363738881adc754f03b6a31f",
+    "bytes": 509109
+  },
+  "episodes/academy/l001-mac-workstation/qc/frames/scene-10.png": {
+    "sha256": "b0d55c95db387dd78eaec6f6cd8c947a580adf6a2751cd05a8b84a3318d62552",
+    "bytes": 488880
+  },
+  "episodes/academy/l001-mac-workstation/qc/frames/scene-11.png": {
+    "sha256": "27c65c3ce67bd2f2f4e6aae9519ff1cc678a713e7b2a7e9da276b1e7bbaecf5c",
+    "bytes": 488360
+  },
+  "episodes/academy/l001-mac-workstation/qc/frames/scene-05.png": {
+    "sha256": "580346647fd2fc21bd1279186b3c5143b9035bf1c764c74891b8ef828d0fcfb5",
+    "bytes": 452063
+  },
+  "episodes/academy/l001-mac-workstation/qc/frames/scene-07.png": {
+    "sha256": "836aa703fe41e8451bb02e48089e5dced6b33efe557519a8a2a279a60ecf28c7",
+    "bytes": 476971
+  },
+  "episodes/academy/l001-mac-workstation/qc/frames/scene-06.png": {
+    "sha256": "902d86b129f0e25940c1bc90bf28aeae7ca1353d93099da628d82b6f06160e49",
+    "bytes": 421731
+  },
+  "episodes/academy/l001-mac-workstation/qc/frames/scene-12.png": {
+    "sha256": "867c9626e0c2dffefa0ff5a1171c5bb734eae1adb9f7d375c9745c8d70c875fb",
+    "bytes": 515795
+  },
+  "episodes/academy/l001-mac-workstation/qc/frames/scene-02.png": {
+    "sha256": "a2a27c367c145d42e14f2626c1ac3cc9ca31990895c499e4dcac46acb2f80c1c",
+    "bytes": 494313
+  },
+  "episodes/academy/l001-mac-workstation/qc/frames/scene-03.png": {
+    "sha256": "a50c6111e1531ade37ea131439facb56a134ee83000d447abc7a5a5280f132bb",
+    "bytes": 515418
+  },
+  "episodes/academy/l001-mac-workstation/qc/frames/scene-01.png": {
+    "sha256": "fc33e35c3bbfc5a044bfc96cc00b7d7e094de0bac174423e881b7c0a25ad48b8",
+    "bytes": 475100
+  },
+  "episodes/academy/l001-mac-workstation/qc/frames/scene-08.png": {
+    "sha256": "5e6fadc9b5b820263504cb9d77144db00a75b4a250a165f3085421be3c4281ca",
+    "bytes": 487491
+  },
+  "episodes/academy/l001-mac-workstation/qc/frames/scene-09.png": {
+    "sha256": "713e9ff5bf2e0292811cf5376765f03cbca28c7a6ee4898c0ca6bd0d2b2a6f44",
+    "bytes": 484961
+  },
+  "README.md": {
+    "sha256": "0c7c37acfe6f9fcb3ddfb0de5a1e4a7da346107fe04c01352d7b606c5c0a44b6",
+    "bytes": 1508
+  },
+  "requirements.txt": {
+    "sha256": "3899cec7d97745fbed04d1ee8d3692ca8115fa18c53725404bc8885dce46a414",
+    "bytes": 116
+  },
+  "開集SOP.md": {
+    "sha256": "ce10b46af4b7e571d4e85724dbdb94727f0d07a55cf680ccc3679f169ac28aaa",
+    "bytes": 6972
+  },
+  ".gitignore": {
+    "sha256": "ed86c0a930a83a36c944671607fe9b914a0f650f233541c8a9db3db083971463",
+    "bytes": 78
+  },
+  "authoring/l002/delivery.py": {
+    "sha256": "db92c806873d2780d26ba75908e77c59d3ad50c7ce8b419426cd6ad2bdba0acd",
+    "bytes": 3856
+  },
+  "authoring/l002/prepare_content.py": {
+    "sha256": "1834563d3d7a5db1edd93da2cda3f2b55daa82327415ee66b13e69ece3a71fe1",
+    "bytes": 7940
+  },
+  "authoring/l002/classroom.py": {
+    "sha256": "ada6fa3534d4647ea42541de0835a1d7c70d259ccd5962d547982c836efd9759",
+    "bytes": 3531
+  },
+  "authoring/l002/review.py": {
+    "sha256": "4a57fc716848f6c005fbad4e4eaec0a0efccf6afd109d39836e26a5ff42fba77",
+    "bytes": 833
+  },
+  "authoring/l002/deck_content.py": {
+    "sha256": "6f2c806f3972ebef893860516f3544750578dd55dce94d872a0aa775dcebbf24",
+    "bytes": 4055
+  },
+  "curriculum/父子科技學院_V2_192堂_YouTube教材庫.xlsx": {
+    "sha256": "0f9bf834ce2614e9b3d7de3e6431d34bc02eeb5c7986aea831db747d91d47496",
+    "bytes": 198586
+  },
+  "CLOUD_START_HERE.md": {
+    "sha256": "4273b89da00ffeb45835274d15511e963f17a827f7fd91d3ce11c962969db478",
+    "bytes": 3323
+  },
+  "CLOUD_CURRICULUM_INDEX.md": {
+    "sha256": "100efbba60cc2318b84a4c63ff03175ea8da6c705d057bed98d189b6dea9fc7e",
+    "bytes": 18366
+  }
+}

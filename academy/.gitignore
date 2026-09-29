@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+lessons/*/private/
+**/qc/clips/
+delivery/
+.cloud-deps/
+.build-*/
+**/private/
+# Per-episode heavyweight outputs are saved separately with hashes.
+episodes/academy/*/output/*.mp4
+episodes/academy/*/output/narration-only.mp3
+# OAuth is not part of the manual-upload pipeline.
+.env
+.env.*
+token.json
+client_secret*.json
+# The shared original is reconstructed from the tracked byte-exact parts.
+/assets/opening/開場影片-v2.mp4
+/assets/opening/.restore-*/

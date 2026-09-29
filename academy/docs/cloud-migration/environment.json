@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-27",
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "font": "Noto Sans CJK TC",
+  "artifactTool": "import/export/render confirmed",
+  "edgeTTS": {
+    "status": "confirmed",
+    "sceneCount": 12,
+    "sentences": 36,
+    "durationSeconds": 338.568,
+    "voice": "zh-TW-YunJheNeural",
+    "TLSVerification": true
+  },
+  "cloudBrowserLogin": "not inherited; needs current session authentication",
+  "ASR": "not tested; no recording supplied",
+  "runtimeBundle": "26.921.11914"
+}

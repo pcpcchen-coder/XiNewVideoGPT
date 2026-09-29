@@ -1,0 +1,149 @@
+--- original/pipeline/scripts/build_l001.mjs
++++ cloud/pipeline/scripts/build_l001.mjs
+@@ -14,8 +14,8 @@
+ const {finalizePresentation}=await import(path.join(skill,'container_tools/artifact_tool_utils.mjs'));
+ const n=JSON.parse(await fs.readFile(path.join(ep,'production/narration.json'),'utf8'));
+ const refPath=path.join(root,'episodes/season-01/ep10-ai-and-our-future/production/presentation/ep10-ai-and-our-future.pptx');
+-const ref=await PresentationFile.importPptx(await FileBlob.load(refPath));
+-await fs.writeFile(path.join(build,'reference-inspection.ndjson'),(await ref.inspect({kind:'slide,textbox,layout',maxChars:60000})).ndjson);
++// Cloud restoration: original EP10 reference is absent; the builder never used it for layout.
++await fs.writeFile(path.join(build,'restoration-note.txt'),'Restored from supplied build_l001.mjs and original assets. Original L001 PPTX and narration absent.');
+ const p=Presentation.create({slideSize:{width:1280,height:720}});
+ const C={navy:'#041222',blue:'#1982C4',orange:'#FFC12F',cyan:'#46C8FF',white:'#F7F7F8',gray:'#A8B8C9',panel:'#101B28'};
+ const font='Noto Sans CJK TC';
+@@ -115,6 +115,7 @@
+ const candidate=path.join(build,'candidate.pptx');
+ await (await PresentationFile.exportPptx(p)).save(candidate);
+ const final=path.join(build,`final-output/final-${buildId}.pptx`);
++await fs.mkdir(path.dirname(final),{recursive:true});
+ await finalizePresentation({workspaceDir:root,candidatePath:candidate,finalPath:final,pythonExecutable:py,
+  integrityValidatorPath:path.join(skill,'container_tools/inspect_presentation_package_integrity.py'),
+  layoutValidatorPath:path.join(skill,'container_tools/inspect_presentation_layout_geometry.py'),
+@@ -124,6 +125,7 @@
+ await fs.copyFile(final,path.join(ep,'production/presentation/l001-mac-workstation.pptx'));
+ // Render the final PPTX, not a separate visual approximation.
+ const finalDeck=await PresentationFile.importPptx(await FileBlob.load(final));
++await fs.writeFile(path.join(build,'source-inspection.ndjson'),(await finalDeck.inspect({kind:'slide,textbox',maxChars:150000})).ndjson);
+ for(let i=0;i<finalDeck.slides.items.length;i++){
+  const blob=await finalDeck.export({slide:finalDeck.slides.items[i],format:'png',scale:1.5});
+  await fs.writeFile(path.join(ep,`assets/slides/slide_${String(i+1).padStart(2,'0')}.png`),new Uint8Array(await blob.arrayBuffer()));
+--- original/pipeline/scripts/build_template.mjs
++++ cloud/pipeline/scripts/build_template.mjs
+@@ -13,7 +13,8 @@
+ const template=path.join(root,m.templateEpisode,'production/presentation',path.basename(m.templateEpisode)+'.pptx');
+ const p=await PresentationFile.importPptx(await FileBlob.load(template));
+ const snapshot=(await p.inspect({kind:'slide,textbox',maxChars:150000})).ndjson;
+-const records=snapshot.split('\n').filter(Boolean).map(x=>JSON.parse(x));
++const normalize=r=>({...r,slide:r.slide??(r.slideIndex+1),bbox:r.bbox??(r.position?[r.position.left,r.position.top,r.position.width,r.position.height]:undefined)});
++const records=snapshot.split('\n').filter(Boolean).map(x=>normalize(JSON.parse(x)));
+ const build=path.join(root,'.build-'+m.episode.toLowerCase());await fs.mkdir(build,{recursive:true});
+ await fs.writeFile(path.join(build,'source-inspection.ndjson'),snapshot);
+ for(const r of records.filter(r=>r.kind==='textbox')){
+@@ -30,8 +31,10 @@
+   }else shape.text.replace(r.text,value);
+  }
+ }
++// Keep original layout; reduce timeline numerals only to prevent label contact.
++for(const r of records.filter(r=>r.kind==='textbox'&&r.slide===11&&/^\d+–\d+$/.test(r.text)))p.resolve(r.id).text.style={...r.style,fontFamily:'Noto Sans CJK TC',fontSize:25};
+ for(const e of edits)if(!records.some(r=>r.kind==='textbox'&&r.slide===e.slide&&r.text===e.old))throw new Error('Missing template text: '+e.old);
+-const updated=(await p.inspect({kind:'textbox',maxChars:150000})).ndjson.split('\n').filter(Boolean).map(x=>JSON.parse(x));
++const updated=(await p.inspect({kind:'textbox',maxChars:150000})).ndjson.split('\n').filter(Boolean).map(x=>normalize(JSON.parse(x)));
+ for(const e of edits)if(!updated.some(r=>r.slide===e.slide&&r.text===e.new))throw new Error('Replacement failed: '+e.new);
+ for(let i=0;i<p.slides.items.length;i++)p.slides.items[i].speakerNotes.textFrame.setText(n[i].sentences.map(s=>s.text).join('\n')+'\n\n[Sources]\n'+n[i].sources.join('\n'));
+ const candidate=path.join(build,'candidate.pptx');await(await PresentationFile.exportPptx(p)).save(candidate);
+--- original/pipeline/scripts/synthesize_narration.py
++++ cloud/pipeline/scripts/synthesize_narration.py
+@@ -9,6 +9,13 @@
+ 
+ import asyncio
+ import edge_tts
++import edge_tts.communicate
++import os
++import ssl
++# Extend trust with the current environment CA; certificate verification stays enabled.
++_ca_bundle = os.environ.get("XINEW_CA_BUNDLE") or ssl.get_default_verify_paths().cafile
++if _ca_bundle:
++    edge_tts.communicate._SSL_CTX.load_verify_locations(_ca_bundle)
+ import hashlib
+ import argparse
+ import tempfile
+--- original/pipeline/scripts/assemble_episode.py
++++ cloud/pipeline/scripts/assemble_episode.py
+@@ -31,7 +31,15 @@
+ 
+ def run(cmd: list[str]) -> str:
+     if cmd[0] == "ffmpeg":
+-        cmd = [cmd[0], "-filter_complex_threads", "1", *cmd[1:]]
++        # Bound decoder/encoder threads for this 8 GiB cloud environment.
++        if "-i" in cmd:
++            bounded = [cmd[0], "-filter_complex_threads", "1", "-filter_threads", "2"]
++            for arg in cmd[1:-1]:
++                if arg == "-i": bounded.extend(["-threads", "2"])
++                bounded.append(arg)
++            cmd = [*bounded, "-threads", "4", cmd[-1]]
++        else:
++            cmd = [cmd[0], "-filter_complex_threads", "1", *cmd[1:]]
+     r = subprocess.run(cmd, capture_output=True, text=True)
+     if r.returncode != 0:
+         raise RuntimeError(f"failed: {' '.join(cmd[:3])}...\n{r.stderr[-2500:]}")
+@@ -126,7 +134,8 @@
+     parts = [intro_clip] + [EP / s["audio"] for s in scenes]
+     base_audio = WORK / "base-audio.m4a"
+     ins = sum([["-i", str(p)] for p in parts], [])
+-    fc_in = "".join(f"[{i}:a]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo[a{i}];"
++    fc_in = "".join(f"[{i}:a]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,"
++                    f"apad,atrim=duration={durations[i]:.9f},asetpts=PTS-STARTPTS[a{i}];"
+                     for i in range(len(parts)))
+     fc_in += "".join(f"[a{i}]" for i in range(len(parts))) + f"concat=n={len(parts)}:v=0:a=1[aout]"
+     run(["ffmpeg", "-y", "-v", "error", *ins, "-filter_complex", fc_in,
+@@ -135,10 +144,27 @@
+     # 4) no background music under slides — narration only (per spec)
+     mixed = base_audio
+ 
+-    # 5) master + loudness target -16 LUFS (two-step to dodge loudnorm reinit bug)
++    # 5) Measured mastering: target -16 LUFS, accepted -18 to -14; preserve source waveform when feasible.
+     normed = WORK / "normed.wav"
++    analysis = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(mixed), "-af",
++        "loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
++        capture_output=True, text=True, check=True)
++    stats = json.loads(analysis.stderr[analysis.stderr.rfind("{"):])
++    gain = min(-16 - float(stats["input_i"]), -1.5 - float(stats["input_tp"]) - .1)
++    predicted = float(stats["input_i"]) + gain
++    if -18 <= predicted <= -14:
++        norm_filter = f"volume={gain:.6f}dB"
++        norm_method = "measured constant gain; source waveform and peak headroom preserved"
++    else:
++        norm_filter = ("loudnorm=I=-16:TP=-1.5:LRA=11:linear=true:"
++            f"measured_I={stats['input_i']}:measured_TP={stats['input_tp']}:"
++            f"measured_LRA={stats['input_lra']}:measured_thresh={stats['input_thresh']}:offset={stats['target_offset']}")
++        norm_method = "two-pass loudnorm"
+     run(["ffmpeg", "-y", "-v", "error", "-i", str(mixed),
+-         "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-c:a", "pcm_s16le", str(normed)])
++         "-af", norm_filter, "-c:a", "pcm_s16le", str(normed)])
++    (EP / "qc/loudness-normalization.json").write_text(json.dumps({
++        "method": norm_method, "analysis": stats, "secondPassFilter": norm_filter,
++        "predictedIntegratedLUFS": predicted, "requestedRangeLUFS": [-18, -14]}, indent=2) + "\n")
+     master = EP / "output" / f"{EP.name}-master.mp4"
+     run(["ffmpeg", "-y", "-v", "error", "-i", str(animated), "-i", str(normed),
+          "-map", "0:v", "-map", "1:a", "-ar", "48000", "-ac", "2",
+@@ -160,9 +186,9 @@
+                     f"{srt_time(parse(en) + intro_len)}\n{text}\n")
+     (EP / "subtitles/zh-TW.srt").write_text("\n".join(cues) + "\n", encoding="utf-8")
+ 
+-    style = ("FontName=Noto Sans CJK TC,FontSize=14,Bold=1,PrimaryColour=&H00FFFFFF,"
++    style = ("FontName=Noto Sans CJK TC,FontSize=16,Bold=1,PrimaryColour=&H00FFFFFF,"
+              "OutlineColour=&H7A000000,BackColour=&H7A000000,BorderStyle=1,Outline=1.2,"
+-             "Shadow=0,Alignment=2,MarginV=60,MarginL=110,MarginR=110")
++             "Shadow=0,Alignment=2,MarginV=20,MarginL=24,MarginR=24")
+     zh = EP / "output" / f"{EP.name}-zh-TW.mp4"
+     filters = run(["ffmpeg", "-hide_banner", "-filters"])
+     if " subtitles " in filters:
+@@ -204,7 +230,7 @@
+                     "note": "User-supplied opening v2; duration measured during this build"},
+         "backgroundMusic": "none — narration only under slides",
+         "animated": str(animated), "master": str(master), "zh": str(zh),
+-        "masterDuration": duration(master),
++        "masterDuration": duration(master), "loudnessNormalization": norm_method,
+     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+     print("master:", master, f"{duration(master):.2f}s")
+ 

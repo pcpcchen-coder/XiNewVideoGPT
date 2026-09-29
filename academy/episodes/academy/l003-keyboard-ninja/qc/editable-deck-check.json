@@ -1,0 +1,90 @@
+{
+  "slides": [
+    {
+      "slide": 1,
+      "editableTextRuns": 11,
+      "nativeShapes": 12,
+      "embeddedPictures": 1,
+      "notesMatch": true
+    },
+    {
+      "slide": 2,
+      "editableTextRuns": 20,
+      "nativeShapes": 22,
+      "embeddedPictures": 0,
+      "notesMatch": true
+    },
+    {
+      "slide": 3,
+      "editableTextRuns": 17,
+      "nativeShapes": 19,
+      "embeddedPictures": 1,
+      "notesMatch": true
+    },
+    {
+      "slide": 4,
+      "editableTextRuns": 18,
+      "nativeShapes": 25,
+      "embeddedPictures": 0,
+      "notesMatch": true
+    },
+    {
+      "slide": 5,
+      "editableTextRuns": 15,
+      "nativeShapes": 19,
+      "embeddedPictures": 0,
+      "notesMatch": true
+    },
+    {
+      "slide": 6,
+      "editableTextRuns": 15,
+      "nativeShapes": 20,
+      "embeddedPictures": 0,
+      "notesMatch": true
+    },
+    {
+      "slide": 7,
+      "editableTextRuns": 16,
+      "nativeShapes": 21,
+      "embeddedPictures": 0,
+      "notesMatch": true
+    },
+    {
+      "slide": 8,
+      "editableTextRuns": 16,
+      "nativeShapes": 15,
+      "embeddedPictures": 0,
+      "notesMatch": true
+    },
+    {
+      "slide": 9,
+      "editableTextRuns": 15,
+      "nativeShapes": 17,
+      "embeddedPictures": 0,
+      "notesMatch": true
+    },
+    {
+      "slide": 10,
+      "editableTextRuns": 17,
+      "nativeShapes": 19,
+      "embeddedPictures": 1,
+      "notesMatch": true
+    },
+    {
+      "slide": 11,
+      "editableTextRuns": 21,
+      "nativeShapes": 29,
+      "embeddedPictures": 0,
+      "notesMatch": true
+    },
+    {
+      "slide": 12,
+      "editableTextRuns": 18,
+      "nativeShapes": 20,
+      "embeddedPictures": 1,
+      "notesMatch": true
+    }
+  ],
+  "oldLessonTextAbsent": true,
+  "passed": true
+}

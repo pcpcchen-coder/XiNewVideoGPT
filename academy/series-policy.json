@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "effectiveDate": "2026-09-29",
+  "productionOwner": "cloud-agent",
+  "publicationOwner": "user",
+  "publicationMode": "manual-user-upload",
+  "autoPublish": false,
+  "scope": "Only explicitly requested lessons; do not start all remaining lessons automatically.",
+  "channel": {
+    "name": "犀牛說",
+    "id": "UCLAQhbdu5MFIDoUPH6bDQuQ"
+  },
+  "supersedes": "Historical L003 manifest authorization and earlier browser-publication SOP.",
+  "canonicalGuide": "docs/CLOUD_PRODUCTION_GUIDE.md",
+  "statusRegistry": "curriculum/production-status.json"
+}

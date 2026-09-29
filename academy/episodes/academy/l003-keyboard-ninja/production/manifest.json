@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "episode": "L003",
+  "slug": "l003-keyboard-ninja",
+  "title": "鍵盤忍者：快捷鍵競速",
+  "subtitle": "父子科技學院 第三堂｜依課表製作的課前教學版",
+  "lessonIds": [
+    "L003"
+  ],
+  "editorialStatus": "authored",
+  "recordingSource": null,
+  "slideCount": 12,
+  "transitionSeconds": 0.55,
+  "deckRenderer": "artifact-tool-template",
+  "templateEpisode": "episodes/academy/l001-mac-workstation",
+  "templateProvenance": "Original PPTX absent from v2 ZIP; restored from supplied build_l001.mjs and original assets.",
+  "layoutProfile": "academy-native-v1",
+  "seriesHeader": "父子科技學院  ·  KEYBOARD NINJA",
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "zh-TW-YunJheNeural",
+    "persona": "陳犀牛 Chen XiNew",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "music": {
+    "backgroundMusic": "none — narration only under teaching slides",
+    "opening": "assets/opening/開場影片-v2.mp4"
+  },
+  "signoff": {
+    "text": "我是陳犀牛，保持好奇，我們下次見！"
+  },
+  "sources": {
+    "curriculum": "curriculum/catalog.json：L003；來源 V2 Excel 逐堂課程第 3 堂",
+    "keys": "https://support.apple.com/zh-tw/102650",
+    "screenshot": "https://support.apple.com/zh-tw/102646"
+  },
+  "authorization": {
+    "produceL003": true,
+    "publishWhenVerified": true,
+    "channelId": "UCLAQhbdu5MFIDoUPH6bDQuQ",
+    "reuploadL001L002": false
+  }
+}

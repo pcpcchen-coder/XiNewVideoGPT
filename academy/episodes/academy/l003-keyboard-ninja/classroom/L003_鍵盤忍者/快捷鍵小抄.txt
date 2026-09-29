@@ -1,0 +1,24 @@
+L003 快捷鍵小抄（Cmd = Command）
+
+Command-C           複製選取內容
+Command-V           貼到目前游標位置
+Command-Z           復原可復原的上一個動作
+Shift-Command-Z     重做（依 App 而異）
+Command-Tab         按住 Command，以 Tab 選 App，放開後切換
+Command-空白鍵      Spotlight 搜尋（可能與自訂設定衝突）
+Shift-Command-4     拖曳選取截圖範圍，放開拍攝
+Esc                 在選取截圖範圍時取消
+Shift-Command-3     拍攝整個螢幕
+Shift-Command-5     開啟截圖工具，查看選項與儲存位置
+
+我的提醒：
+我最常忘記的按鍵：________________
+按之前先檢查：____________________
+遇到問題時我會：__________________
+
+快捷鍵依目前 App、系統版本與自訂設定而異。
+截圖前確認沒有帳號、通知、學校或私人資料。
+
+Apple 官方來源：
+https://support.apple.com/zh-tw/102650
+https://support.apple.com/zh-tw/102646

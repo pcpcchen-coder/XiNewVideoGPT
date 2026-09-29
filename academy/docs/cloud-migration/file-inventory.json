@@ -1,0 +1,1203 @@
+{
+  "schemaVersion": 1,
+  "archive": {
+    "name": "Academy_Cloud_Handoff_2026-09-27_L003.zip",
+    "bytes": 295998099,
+    "sha256": "b7366b204bdc0bf09ab5939e73d9dc0f3b2a023d118f13c1416f17bdb622f463",
+    "contentFilesIncludingManifest": 171,
+    "verifiedEntries": 170,
+    "lookup": "使用此對話已保存的同名接續包；亦可由 ChatGPT Library 按完整檔名搜尋。"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "ed86c0a930a83a36c944671607fe9b914a0f650f233541c8a9db3db083971463",
+      "bytes": 78,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "CLOUD_CURRICULUM_INDEX.md",
+      "sha256": "100efbba60cc2318b84a4c63ff03175ea8da6c705d057bed98d189b6dea9fc7e",
+      "bytes": 18366,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "CLOUD_START_HERE.md",
+      "sha256": "c2818e82c2d0b13f03945f38c0eca478f8ca4a1b344adc389a78e821dcfc5bbb",
+      "bytes": 2980,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f8778239500e5a91e7e737b5ea9a7b843c263d1f163bfe521e913299590af147",
+      "bytes": 1767,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "assets/characters/cutouts/xinew-open-palms.png",
+      "sha256": "3d58e633ac8700b128d531f828bacb57db1fb368d764d6e6b8b6fd39aa64f174",
+      "bytes": 612467,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "assets/characters/cutouts/xinew-point-up.png",
+      "sha256": "8f3927a71e502d69868aa0d53cd77d0f57785686f6494bde29f4cea563c6340a",
+      "bytes": 667601,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "assets/characters/cutouts/xinew-pointer.png",
+      "sha256": "18b9db6fce8db244f14540909ce98f421c29524f1141812a92e13fdc05d249df",
+      "bytes": 494639,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "assets/characters/cutouts/xinew-thumbs-up.png",
+      "sha256": "e8ffd05f8be86bba3dc9ca710a76d67a5af04bda88d2b4706f21b6fb2980a1f9",
+      "bytes": 598561,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "assets/characters/xinew-key-visual.png",
+      "sha256": "d4358ef48b16e1ba158349c8e99ed42e3257e49e84000b2677a7067325672267",
+      "bytes": 2223406,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "assets/characters/xinew-turnaround.png",
+      "sha256": "aebab6ef1546be11810167fe7234d281be0208f3469070a9f8de7b8e7fd7f5bc",
+      "bytes": 1915038,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKtc-Regular.otf",
+      "sha256": "dce08bd4fd91aa8aa76ed8fea4b694c2dfb8550f67871e326843212ddbeb88b4",
+      "bytes": 16435884,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "bytes": 4301,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "assets/opening/開場影片-v2.mp4",
+      "sha256": "1acd858b2a0e624f99c267620b15db5e637f7f6ac7fa057b7e5a9df492a7d04a",
+      "bytes": 89043634,
+      "storage": "git-split-auto-restored",
+      "note": "Exact original reconstructed from assets/opening/manifest.json and tracked parts by cloud-runtime.sh."
+    },
+    {
+      "path": "assets/xinew-brand-identity.png",
+      "sha256": "627a52fc05723523f4081cde5df60c3a96d25b8482b4651fd2eb12ce97564bec",
+      "bytes": 1808005,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l002/classroom.py",
+      "sha256": "ada6fa3534d4647ea42541de0835a1d7c70d259ccd5962d547982c836efd9759",
+      "bytes": 3531,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l002/deck_content.py",
+      "sha256": "6f2c806f3972ebef893860516f3544750578dd55dce94d872a0aa775dcebbf24",
+      "bytes": 4055,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l002/delivery.py",
+      "sha256": "db92c806873d2780d26ba75908e77c59d3ad50c7ce8b419426cd6ad2bdba0acd",
+      "bytes": 3856,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l002/prepare_content.py",
+      "sha256": "1834563d3d7a5db1edd93da2cda3f2b55daa82327415ee66b13e69ece3a71fe1",
+      "bytes": 7940,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l002/review.py",
+      "sha256": "4a57fc716848f6c005fbad4e4eaec0a0efccf6afd109d39836e26a5ff42fba77",
+      "bytes": 833,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l003/classroom.py",
+      "sha256": "cc5b7a671f962cc4a9424e0eb825c96d64322cce8389c528cca0a1ca0aa02fe6",
+      "bytes": 7176,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l003/delivery.py",
+      "sha256": "39e7794a1603487d67f31a2d3d6bf0e39dc8b7dcf20bfa7d603ab84aeb50371f",
+      "bytes": 4974,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l003/extra_media_review.py",
+      "sha256": "10c90321c3aa4ca9f9be67cb525b665d3f77b52e033197574bf830685b2ae7e1",
+      "bytes": 2458,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l003/prepare_content.py",
+      "sha256": "fc438a1f06393800f93105c73c02d5f01286d2d3ce1fa104ad5a077ab1597746",
+      "bytes": 14810,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l003/reburn_captions.py",
+      "sha256": "da4260a3d603ab82df9cf4ef7d10436a7fa43ec71fe247cbcc340b8d9f6e917e",
+      "bytes": 994,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l003/repair_audio_timing.py",
+      "sha256": "b2d03fa0f398a12d928b11860592843b3cadbaa23cddfc51f6d05e4341c27cfe",
+      "bytes": 3762,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l003/save_handoff.py",
+      "sha256": "cc24fffa47f8a2843c1f9aa8fe97ef9170696a10901e7d211a036a5d3ade3b44",
+      "bytes": 2574,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "authoring/l003/subtitle_layout_check.py",
+      "sha256": "8b3b836d20c85b93ff0222d9110b20979eb71b95049f33b926890d753dc411dc",
+      "bytes": 2059,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "cloud-runtime.sh",
+      "sha256": "6cfb67f51fca888af1f5e8ce24ae4942cb688a6d42dcc5eb9a3b3bc1d9d04111",
+      "bytes": 801,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "curriculum/catalog.json",
+      "sha256": "c1c413e7910a8a569491d2bf76d11392bbd8d23dd11f1b39b457ceaf879636cb",
+      "bytes": 1393181,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "curriculum/父子科技學院_V2_192堂_YouTube教材庫.xlsx",
+      "sha256": "0f9bf834ce2614e9b3d7de3e6431d34bc02eeb5c7986aea831db747d91d47496",
+      "bytes": 198586,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/archive-inventory.json",
+      "sha256": "1ab5b7a51f0f5fe547d842f38487cd4dd06938a77a73abb6304f39a6407cc135",
+      "bytes": 15746,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/cloud-migration/README.md",
+      "sha256": "65bdd692ed458ca6c68a813ad54cc5bc1c1d971f90ad5e21a539382af3bccff5",
+      "bytes": 3195,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/cloud-migration/archive-verification.json",
+      "sha256": "dc884eaefe920d48ffd548afec28c2a62a383054c8343f0b507a9d1813d2af9e",
+      "bytes": 11704,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/cloud-migration/cloud-porting.patch",
+      "sha256": "08d7de121d609bf170137bd31859fd599977bdb3a352fa5e6a62bfd28d1533a0",
+      "bytes": 9726,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/cloud-migration/environment.json",
+      "sha256": "f37dcb127b9cf55c0c87a4ccf55990e7cb4ee9dc9c4c3349bb0e035045861a8a",
+      "bytes": 589,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/cloud-migration/original-CLOUD_START_HERE.md",
+      "sha256": "4273b89da00ffeb45835274d15511e963f17a827f7fd91d3ce11c962969db478",
+      "bytes": 3323,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/cloud-migration/original-README.md",
+      "sha256": "0c7c37acfe6f9fcb3ddfb0de5a1e4a7da346107fe04c01352d7b606c5c0a44b6",
+      "bytes": 1508,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/cloud-migration/source-SHA256SUMS.json",
+      "sha256": "c19fc4286582ba728e4adc4c806d3d9d4786f7f3b2b257779beee3b48edf04be",
+      "bytes": 34053,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/first-lesson-delivery.md",
+      "sha256": "d6220d97d065859f7b5bfe5f58944afdad85cc370d5c9b1e5717f0ce08993e9e",
+      "bytes": 1727,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/pipeline-integration.md",
+      "sha256": "8ce740e09a5bf66d69b37b081caee50a3b6c395464a243dd2c14f590dd4f7eb0",
+      "bytes": 12592,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/production-and-publication-sop.md",
+      "sha256": "e30305b4fcc427458a180bffba3535e215730ab72e3f9936eedc126266224074",
+      "bytes": 6309,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/repository-audit.md",
+      "sha256": "fd66564e3f0556fa86eb053aa5ca1ac6d11ef68a9dec2d1cd0bc124de7a24390",
+      "bytes": 6435,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/runtime-observed.json",
+      "sha256": "f6de23d0f8b04d297faf5bd4865dbcb09fe92dc85615cd3aaa1bfdaaebc809c4",
+      "bytes": 314,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "docs/validation.md",
+      "sha256": "7dcfe7da49d2088ad22b721e5a7afdf33fbbb91bd17954a9b42abbaea9a44c3a",
+      "bytes": 2973,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/assets/slides/slide_01.png",
+      "sha256": "a8669005750d19510c890e037dc4546eb71b7ebbca0697503842cd58f402be51",
+      "bytes": 299400,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/assets/slides/slide_02.png",
+      "sha256": "2a749615e83f3824bf69a1f522f7bdcfdd849ed167d60b6d81a7488e5bb7b618",
+      "bytes": 219400,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/assets/slides/slide_03.png",
+      "sha256": "4855f432b40d4c65be30adf11b090b82a2c33ee78bbf2efccba0c7f5d6179305",
+      "bytes": 285703,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/assets/slides/slide_04.png",
+      "sha256": "06f760c44cf889b2a5b0d6493c418281ac0ed3121c5b543794dc6b2b1c1f04e2",
+      "bytes": 209103,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/assets/slides/slide_05.png",
+      "sha256": "7265248fa86e9a2c6e72b73b07050dd002c5a9bbf15b4e1d9ba261c366fa446c",
+      "bytes": 212818,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/assets/slides/slide_06.png",
+      "sha256": "7236b1697b96cd5ddd072a2d482d5c2216f69b925bb5bac107088f04526ac434",
+      "bytes": 177004,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/assets/slides/slide_07.png",
+      "sha256": "30c17b27837e88c18400843d42318b9d036e585e691ed81df1266bf1d185fc64",
+      "bytes": 213661,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/assets/slides/slide_08.png",
+      "sha256": "2c803a833bfad189be2d03d86b95e5d4a205c35ec328e3ffe39deb8ec20d62c3",
+      "bytes": 230318,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/assets/slides/slide_09.png",
+      "sha256": "5b03201ec277b5284723ba06276bc260ce4d2d30211d559cda5d43bebafea335",
+      "bytes": 218797,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/assets/slides/slide_10.png",
+      "sha256": "c631c54627e13c42c513eb731bee934a973ba1f07c1d1956abd28fd44199fc99",
+      "bytes": 274202,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/assets/slides/slide_11.png",
+      "sha256": "aef3c79172a8cd86ef6bff4a1d0469e932285d4fb784b4509526a11c8920fa06",
+      "bytes": 231826,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/assets/slides/slide_12.png",
+      "sha256": "d0f82860048b7486196e9ecc6c1d1b3373c848e592420ae67d59221a56b64330",
+      "bytes": 289666,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/production/narration.json",
+      "sha256": "b5dcd6cf0027df67ae95c06575ba6b0bee8265b88a6e5658782c539e4a0678bb",
+      "bytes": 3509,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l001-mac-workstation/production/presentation/l001-mac-workstation.pptx",
+      "sha256": "e3ce4c66cfbfff5ca37cb04358381b6359766d9cf588fe25f641b2213ebfc40b",
+      "bytes": 2506919,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/README.md",
+      "sha256": "c151536f112fd94db136a57c853f4c308c78d4c83649680d19d15533094694d4",
+      "bytes": 274,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/assets/slides/slide_01.png",
+      "sha256": "53d9905e713881434a742a5d21753359987670318baacf24bdbdb40411d84014",
+      "bytes": 306152,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/assets/slides/slide_02.png",
+      "sha256": "3b2fd3b779cb142bee1bff24e9623630800a86a279878de128105901bd41a9a6",
+      "bytes": 214540,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/assets/slides/slide_03.png",
+      "sha256": "d1f7c1fe79f77a2d50e58f29509381283c8355a3f3e26157133dc0edb4304605",
+      "bytes": 289842,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/assets/slides/slide_04.png",
+      "sha256": "f7dd367da8ac4d0e129123a5b8648e1660cf3a799b56688d38bfbbe4271cd1b6",
+      "bytes": 189678,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/assets/slides/slide_05.png",
+      "sha256": "3825c2aea05fedb7957628c4679c3d7467319c11edbaf305c9be86ee1a42a34f",
+      "bytes": 208088,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/assets/slides/slide_06.png",
+      "sha256": "78623fb2a5a1751ee3e117fe406a356654c5af80c64e23e9c36695725af25759",
+      "bytes": 207175,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/assets/slides/slide_07.png",
+      "sha256": "c884991285e429bb5355a8b81b7d999e692513922f312edd046fc627a3094420",
+      "bytes": 221435,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/assets/slides/slide_08.png",
+      "sha256": "bcb2f86c21fb37cbed8559fac9b0e5973e2f9dfb1951611e5ee99f711fb020df",
+      "bytes": 240829,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/assets/slides/slide_09.png",
+      "sha256": "bae549fae0747ee805cb474ceea4dfe87c400614c9f906fff43f06409be64748",
+      "bytes": 208033,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/assets/slides/slide_10.png",
+      "sha256": "224bbe11161bbb1b0ff00adc3bd1cf5b21490d453690c244408dadc3c613f248",
+      "bytes": 275132,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/assets/slides/slide_11.png",
+      "sha256": "bf0bab33162fb21d6055d459af590f8db266c77dc3915aca6a7c9961f55fa643",
+      "bytes": 246594,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/assets/slides/slide_12.png",
+      "sha256": "51b57b3c96b63967de72776bbd21950a7d4c78bda220c7e3711a12a7c58128af",
+      "bytes": 302958,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/audio/slide_01.mp3",
+      "sha256": "cb006704fdd55a2c4a7a02328aa7e589184e5ad9593b18dc147957d0bffb073b",
+      "bytes": 610605,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/audio/slide_02.mp3",
+      "sha256": "5bc1ffa5948212e98dbadbba5185330620cad2f142ce3b9427987eab28ae7365",
+      "bytes": 575565,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/audio/slide_03.mp3",
+      "sha256": "45ff411cb9ecdd83ea97ee7dce1e2c3d6c36d643e5df4ee35dcc4183b5ac0333",
+      "bytes": 520365,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/audio/slide_04.mp3",
+      "sha256": "81a740ccecdd9a25cae3345e982ac89a814951482bfc69b786308549f904958b",
+      "bytes": 546285,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/audio/slide_05.mp3",
+      "sha256": "7a405922f373c7e2b3af9581ee87e911274015376cb7cda83d60c2d7b7e40b38",
+      "bytes": 485325,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/audio/slide_06.mp3",
+      "sha256": "5fcb9a9b370a3aad44b0e9f7441e44a0148f9469d88c803e89931623ecbdb15e",
+      "bytes": 547725,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/audio/slide_07.mp3",
+      "sha256": "6e250452095acac901b8e97e744b0de8edc77812d8d2fdc8a3c84755c75b490c",
+      "bytes": 532845,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/audio/slide_08.mp3",
+      "sha256": "f75ddecd487979e35a849f1e875b38700789a4dcfed299576966bf17f0bfba34",
+      "bytes": 551565,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/audio/slide_09.mp3",
+      "sha256": "f6917b490b19df85f61e22d9b57996f44d5d07911919e6f9e590290151499c1e",
+      "bytes": 609645,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/audio/slide_10.mp3",
+      "sha256": "4193b8d0a03a6212a37a657378732291792a5ccc3b825bf7e289ce5cf18bdfca",
+      "bytes": 624525,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/audio/slide_11.mp3",
+      "sha256": "392744bc608732bb308d0f1678a6a61b89ee20fd18aeb5ef04a0a649952c3215",
+      "bytes": 601005,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/audio/slide_12.mp3",
+      "sha256": "ef21d9ad853140fcffa617cc142f1bd8783debd6494780d8590ba7aa33cb6551",
+      "bytes": 572205,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/classroom/L003_鍵盤忍者/00_練習文字_原稿.txt",
+      "sha256": "281eb9e2c1596ad0b45b267ead84d59edf973fabb8fc7064e96f0898320d1304",
+      "bytes": 117,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/classroom/L003_鍵盤忍者/01_練習文字_工作副本.txt",
+      "sha256": "281eb9e2c1596ad0b45b267ead84d59edf973fabb8fc7064e96f0898320d1304",
+      "bytes": 117,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/classroom/L003_鍵盤忍者/三輪紀錄.csv",
+      "sha256": "072d823b4f9bfdfa3347b706d9e10075277917bf0fe6cde7a83379d9131ab6d8",
+      "bytes": 183,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/classroom/L003_鍵盤忍者/五項任務.txt",
+      "sha256": "e91c9b4046366efc85a6acf183d4f79b8d0519514f31b90d941d4a54ae4ad5b2",
+      "bytes": 965,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/classroom/L003_鍵盤忍者/孩子出題卡.txt",
+      "sha256": "8b0c0869f05e8bb0eacdc3eeddd46b1327a235eef3c22491935da53a8dcc4dc1",
+      "bytes": 991,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/classroom/L003_鍵盤忍者/快捷鍵小抄.txt",
+      "sha256": "fc89cb20b68c566b647820664bc9590bc9e2d4740de6d0beb0de868b3a7f13bb",
+      "bytes": 963,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/classroom/L003_鍵盤忍者/爸爸先讀.txt",
+      "sha256": "78e55cb7a42f87b75caf02edbb2dbaee8b73059aea60a72a775454f31fa1a517",
+      "bytes": 1679,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/classroom/L003_鍵盤忍者/驗收與回顧.txt",
+      "sha256": "c60f92b0b824320af6945e91ba32f208d7aed025c5f9e15edce5ad00f4a3af99",
+      "bytes": 616,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/output/classroom.zip",
+      "sha256": "e7913207e9d662cb6c38d06715bf5553250226ef452f17c8c1e572de8f14e11d",
+      "bytes": 4694,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/output/contact-sheet.png",
+      "sha256": "64cb429f378bf69187025755f341c991360ef0b03c96aa5f373bcff920a9fb1a",
+      "bytes": 983526,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/output/l003-keyboard-ninja-master.mp4",
+      "sha256": "75bc239c179201b7b2e425566e9b08cfe685975cfa9b27c730c590a8c5cffee1",
+      "bytes": 79267446,
+      "storage": "handoff-archive-only",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/output/l003-keyboard-ninja-zh-TW.mp4",
+      "sha256": "fabc3fc9d865e6ca92a3d85cdaff7c1a4bba4ca24f8b38e31fbee7bcf286271c",
+      "bytes": 76593749,
+      "storage": "handoff-archive-only",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/output/narration-only.mp3",
+      "sha256": "9d8fc6df6cf541c57569325c4aa7d0fbe8abece55f1b0f663b938b48586c8ba2",
+      "bytes": 8126829,
+      "storage": "handoff-archive-only",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/output/thumbnail.png",
+      "sha256": "53d9905e713881434a742a5d21753359987670318baacf24bdbdb40411d84014",
+      "bytes": 306152,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/START_HERE.md",
+      "sha256": "6bcb59f9b3991f7f1ea5b18ac20b9af70d16568e0bf4f705f458a19c765f0bd4",
+      "bytes": 1289,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/chapters.txt",
+      "sha256": "d22aadb0255628614c62a57cabbeb4f5fc7c49dbb02d12be82bf77d6fd5d91cd",
+      "bytes": 459,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/fact-check.md",
+      "sha256": "7bc3ac63b0d71218777dced7dbbfbd9a0439db3418c586a8683f0e19244392dd",
+      "bytes": 982,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/manifest.json",
+      "sha256": "5df6928fd3ce5fc782202ca8ea550596a6b8447b23a05bf7af28e0dad2691429",
+      "bytes": 1441,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/narration-script.md",
+      "sha256": "271a6c391c81ed7c18ad7e698e3267ce3560efd76e2d7609d52333288afd973b",
+      "bytes": 5558,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/narration.json",
+      "sha256": "4ca9bd581d5ae58fbd6ff9476e967869f074c3327570ea51b959afa1ac8ad9a1",
+      "bytes": 14878,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/plan.md",
+      "sha256": "63ca15287c7983be4ec264c3c10135ee0d33eeadafdeb1eb7e1339debdf2542c",
+      "bytes": 287,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/presentation/l003-keyboard-ninja.pptx",
+      "sha256": "0af3893ba2c441924b3a06de08ae9f4f0e578694f40bcae6ad47ea5157d50479",
+      "bytes": 2509170,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/slides.json",
+      "sha256": "aba60e9b13a90080c575869c60bc88e73d81430791d55b1671684565fd2ea777",
+      "bytes": 1853,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/sources.json",
+      "sha256": "852de917e7566addab96035223f17a3af57e01a3539b5977910faa0cb45f8b76",
+      "bytes": 203,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/storyboard.json",
+      "sha256": "e935decbffa80359cc8c29e6f56bf9b3b8895d19da3ff457052afe44b303e6fc",
+      "bytes": 3208,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/template-text.json",
+      "sha256": "5d2f06e52fabe0f911457f48dd79a7216a75235765e1e51fcd95e1bc919562d8",
+      "bytes": 12823,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/timing.json",
+      "sha256": "c6964edf7b6a3dabc8a10d22b701ed9825fa74eb9a30a3e3ddd1da96608d14a3",
+      "bytes": 11677,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/tts-manifest.json",
+      "sha256": "fc1654f743a91db4a1c0f76bbcb4fb22fc91608aba1ad7a253aa201c56da94a8",
+      "bytes": 2540,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/youtube-description.txt",
+      "sha256": "1204d307523e87b1657b40005ee744bd4ba520b27942509b7aec10e627f8a73c",
+      "bytes": 1991,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/production/youtube-metadata.json",
+      "sha256": "45e7db7398255ef5b5074a454d00ca37e59cf8c52cb7e437a95d6e75c023f983",
+      "bytes": 3473,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/publication/status.json",
+      "sha256": "d5e8adbccdcc560150a8becaf366d616147d44e3e1e02c9455ca18e3e503bf13",
+      "bytes": 591,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/assembly.json",
+      "sha256": "767770456c84230fe5f2fe42239d57f4b88a8acbff61562ce454f8fe3005dd0d",
+      "bytes": 1322,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/audio-provenance-before-final-mastering.json",
+      "sha256": "1ab3ea9079b65c177c8c3668a24823a38665f99b37fd0c91cd763d3698a97557",
+      "bytes": 1953,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/audio-provenance.json",
+      "sha256": "87ff8cb512c88ecff4ad2de54225af7245f7d1b228db42000b1cbc26a67fb9f4",
+      "bytes": 1951,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/classroom-validation.json",
+      "sha256": "9a4ba698875ac14c2c177bac0920025c9862efa1545c17052694e3f0a7976077",
+      "bytes": 125,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/editable-deck-check.json",
+      "sha256": "e23585bd332a1bd4fb99e2706d35c12cc8b343f128141c34221343f1f9b41ecf",
+      "bytes": 1765,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/loudness-normalization.json",
+      "sha256": "169ea36ff225b7419cd458beebc6413cb6536fbc1c16fc6f91b27841be71ddb6",
+      "bytes": 525,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/manual-review.md",
+      "sha256": "64784999e7b231f4b3a87657ea95500c59a934a8bd5cb3e7ae08327e0f5bb5d5",
+      "bytes": 1063,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/presentation-validation.json",
+      "sha256": "652bcbfaa7f0e4995b457464b9e3e18d5e79b8d3952a1499b5e467070a745b83",
+      "bytes": 3758,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/report.json",
+      "sha256": "27a2af73fd17bbad5d3fb46d1e6f22da84d2317ccca5b2d59a055f504c351fbb",
+      "bytes": 2761,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/report.md",
+      "sha256": "7811bddd2418d06dec9035c62695795476bd152fb8695d8f4ad23c60ef774993",
+      "bytes": 1157,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/slide-visual-review.md",
+      "sha256": "4e0defdaeb68ea3110066397543687ce296d0b226589958425c9c75fd2d355c0",
+      "bytes": 664,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/stable-scenes.json",
+      "sha256": "d631305c024d6b4f6555512f46f9ccb1878f3c6844370e608908638b9b9f4c47",
+      "bytes": 366,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/subtitle-layout.json",
+      "sha256": "e71d873cbbebc6dab786740e5275ec70df8acbde2a530c7c418e61b621931151",
+      "bytes": 5750,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/verified-inputs.json",
+      "sha256": "269bd4ccb452f99e0c23f4a694673749081bc1fd1b8445f7a68c471ab30bce33",
+      "bytes": 4722,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/opening-transition.png",
+      "sha256": "f2a457c7fc7288ac744efbc4da18790a3b9f31c00dc3aa28fbd7c9971246cf1e",
+      "bytes": 782605,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/opening.png",
+      "sha256": "813de26debb05efca25b67678b389cdb407ecad0513e8cac565f9c3181cf1766",
+      "bytes": 1161554,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/slide_01.png",
+      "sha256": "f542edcb31b60455f55af15d71ef80e5bcab68267405ccc6f3a40705c569976e",
+      "bytes": 627983,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/slide_02.png",
+      "sha256": "945b7a6e9c65395b7c394a597e59cc1f3b9d4a8f8f56b54ad3e6d79759433d58",
+      "bytes": 527153,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/slide_03.png",
+      "sha256": "334d1aefe3329581b9543258792da751c0788805c19188395466c982ea623feb",
+      "bytes": 586714,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/slide_04.png",
+      "sha256": "7e1311763e4f63ed995f3a6b51aa094d5c392e79be72473fbf9cb69c6a643042",
+      "bytes": 517832,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/slide_05.png",
+      "sha256": "4ab8d39a79bbc4a95ad9b419aefb0e0b0c62ec125c609c2c1709cb063a451b2c",
+      "bytes": 525528,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/slide_06.png",
+      "sha256": "2751075b9d6b43a3cd870bc3fadbe66434068b398a3753d1d80abdfef4750a25",
+      "bytes": 538816,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/slide_07.png",
+      "sha256": "641dbfc47762a2a8352f2d586c1d57ac1af5aeba8579a61d92e7504a99eeb3ca",
+      "bytes": 524111,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/slide_08.png",
+      "sha256": "6ec5ae12528f90788235a37c23901136b3dd6d660a10455d104d1cf26545ff4d",
+      "bytes": 532838,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/slide_09.png",
+      "sha256": "65180892da0791c7e10d550115e42faa222028efc128ec1a78d3bdfa79ca9eb2",
+      "bytes": 585081,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/slide_10.png",
+      "sha256": "696f763fbc48c98ca7bda0898e5132928fd40e32253b205e49f8e028c5c86864",
+      "bytes": 540447,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/slide_11.png",
+      "sha256": "689cd0a45847adfa16e1e07fe4241030c43004684925636d77fc749997339fbb",
+      "bytes": 551280,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/qc/video-frames/slide_12.png",
+      "sha256": "5a3d960959ea2b6b85a279b3ba9ff92d71534776db149bd70692c90ea539fcd2",
+      "bytes": 643194,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/subtitles/zh-TW-source.srt",
+      "sha256": "0ea2a62734413f2a810602d510791d0d715c8e5445234bafa322af122e1e02a0",
+      "bytes": 6215,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "episodes/academy/l003-keyboard-ninja/subtitles/zh-TW.srt",
+      "sha256": "e7f1effc13304df131a689fb5600d098c41f5f052d259921c1170720e1bf7471",
+      "bytes": 6215,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "lessons/L001/brief.md",
+      "sha256": "5aed47e63097cfedc51f3b1410eeac1a5a04bfa9ea8ef42722ce956ed69860cc",
+      "bytes": 1042,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "lessons/L001/editorial/README.md",
+      "sha256": "f2bab2a5ae8d8587bfaf5418ef2fc30d0692f3b33d7404f06e563d6fa1900d26",
+      "bytes": 415,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "lessons/L001/lesson.json",
+      "sha256": "b0ca8e9fb042c25d1a92f1d9afd8736809f38f4b2470f29fa563d5aa5591216e",
+      "bytes": 7630,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "lessons/L002/brief.md",
+      "sha256": "7be682d113aff9bbf6b39339751072f8366efcdcd7c746202f07a574e51ff425",
+      "bytes": 966,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "lessons/L002/editorial/README.md",
+      "sha256": "f2bab2a5ae8d8587bfaf5418ef2fc30d0692f3b33d7404f06e563d6fa1900d26",
+      "bytes": 415,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "lessons/L002/lesson.json",
+      "sha256": "08eaba525fa6f5cde28601950c27cc6844a344ce05bf14eef9a212e42c5fa22b",
+      "bytes": 7070,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "lessons/L003/brief.md",
+      "sha256": "f37acf43b8749ee3b26bad60721811d5da2336927d9b1d02f1a8b05852ab294b",
+      "bytes": 931,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "lessons/L003/editorial/README.md",
+      "sha256": "f2bab2a5ae8d8587bfaf5418ef2fc30d0692f3b33d7404f06e563d6fa1900d26",
+      "bytes": 415,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "lessons/L003/lesson.json",
+      "sha256": "c4582adf01237c7d2bec9255e3704529bd095266881f1d40b04f2d23062d6a54",
+      "bytes": 6629,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/academy.py",
+      "sha256": "7c1729d196e49eb72d2fe65799e58ebc2aacdb20526e2bc0cbb094e6e7b52958",
+      "bytes": 19225,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/scripts/assemble_episode.py",
+      "sha256": "ab0a005ecbd69db45f5b41fe28288489e6e74286fd7316735617e750763875e3",
+      "bytes": 11580,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/scripts/assemble_episode_ep10.py",
+      "sha256": "0beae46e8369f5cc83f2ebf63c925267cf9c76ef16513776ba6095e58cbb7d6b",
+      "bytes": 8988,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/scripts/build_deck.py",
+      "sha256": "ff1a6ca55657eab71816341693df146dd47d395e25cee98b6dcb8b122451158f",
+      "bytes": 12299,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/scripts/build_deck_ep10.py",
+      "sha256": "c5c3c369b2dd552b08277e4764165747ffab2c69dceeee6bf043e59ae1b41471",
+      "bytes": 12108,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/scripts/build_l001.mjs",
+      "sha256": "57284f6401e2801830ca1812a3377df6253449e787e7333053b2d3129082e99a",
+      "bytes": 11012,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/scripts/build_template.mjs",
+      "sha256": "90468e88895b81f05fe015030c1792d4f8fb478f28e3f733ef8ee127171f7b32",
+      "bytes": 4791,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/scripts/burn_subtitles_pillow.py",
+      "sha256": "f48c53b28d77ed6c8b1a92ebec6c4bb2f345a7e1700bccc9283d103e286ec32b",
+      "bytes": 6011,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/scripts/generate_visuals_ep10.py",
+      "sha256": "ae8f7a851a923bfce0ee9eb92064bd578e63b8c0a4a8b30ca891d97c2d76914a",
+      "bytes": 14485,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/scripts/synthesize_narration.py",
+      "sha256": "cacbaa6ac8726b630373e13a79947ad5ca0b8aa0cb25eca2a8a3fbe55a9014a5",
+      "bytes": 6466,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/scripts/synthesize_narration_ep10.py",
+      "sha256": "0b34d4eeaf1b0154023675c7f3caee66cfa57864699b50b2b457fbcd0a79e6e9",
+      "bytes": 5957,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/scripts/verify_episode.py",
+      "sha256": "d164c9fbf6ed4f7e5a40568bc2bf8cfbbe7ef13ec72d6a446eb52c2616be2875",
+      "bytes": 9417,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "pipeline/scripts/verify_episode_ep10.py",
+      "sha256": "ac07344129c860906cc04353bd9ac7b91d355c520085f8924585af6eff594118",
+      "bytes": 6574,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "requirements-cloud.txt",
+      "sha256": "2187b320426296c97f52edefe12b3fe0f714d2b453cd004d1d1c5117bc0ba4cb",
+      "bytes": 200,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "3899cec7d97745fbed04d1ee8d3692ca8115fa18c53725404bc8885dce46a414",
+      "bytes": 116,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "tests/test_academy.py",
+      "sha256": "ec7bc3971cfdca56df2b49d76026523b48f7bea215236237334e47964d7e031a",
+      "bytes": 2737,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    },
+    {
+      "path": "開集SOP.md",
+      "sha256": "ce10b46af4b7e571d4e85724dbdb94727f0d07a55cf680ccc3679f169ac28aaa",
+      "bytes": 6972,
+      "storage": "git-working-copy",
+      "note": "原包雜湊；整合後的程式／文件可能已更新。"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-27T07:36:26.960653+00:00",
+  "version": "opening v2 (native 1080p30) + static scenes, narration only",
+  "scenes": 12,
+  "opening": {
+    "file": "/workspace/scratch/f0eef020d543/academy_work/assets/opening/開場影片-v2.mp4",
+    "seconds": 60.277,
+    "note": "User-supplied opening v2; duration measured during this build"
+  },
+  "backgroundMusic": "none — narration only under slides",
+  "animated": "/tmp/xinew-assemble-px2w_1s9/animated.mp4",
+  "master": "/workspace/scratch/f0eef020d543/academy_work/episodes/academy/l003-keyboard-ninja/output/l003-keyboard-ninja-master.mp4",
+  "zh": "/workspace/scratch/f0eef020d543/academy_work/episodes/academy/l003-keyboard-ninja/output/l003-keyboard-ninja-zh-TW.mp4",
+  "masterDuration": 398.848,
+  "subtitleRenderer": "libass",
+  "subtitleStyle": "FontName=Noto Sans CJK TC,FontSize=16,Bold=1,PrimaryColour=&H00FFFFFF,OutlineColour=&H7A000000,BackColour=&H7A000000,BorderStyle=1,Outline=1.2,Shadow=0,Alignment=2,MarginV=20,MarginL=24,MarginR=24",
+  "subtitleLayoutCheck": "qc/subtitle-layout.json",
+  "audioTiming": "Decoded segments padded/trimmed to declared scene duration before concatenation; compensates MP3 encoder padding.",
+  "loudnessNormalization": "measured constant gain; peak headroom preserved within accepted loudness range"
+}

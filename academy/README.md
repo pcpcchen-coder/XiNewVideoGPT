@@ -1,0 +1,33 @@
+# 父子科技學院｜雲端製作到 L192
+
+**目前分工：雲端製作影片、簡報、教材與上傳資料；George 自己上傳 YouTube。**
+這個 `academy/` 是獨立製作根目錄，保留原系列角色、片頭與版型。根目錄 EP 系列是早期作品，課號與流程不可混用。
+
+| 要做的事 | 入口 |
+|---|---|
+| 新對話接手 | [CLOUD_START_HERE.md](CLOUD_START_HERE.md) |
+| 每集製作與環境設定 | [雲端製作教學](docs/CLOUD_PRODUCTION_GUIDE.md) |
+| 了解這次轉移、L003 與 502 | [遷移及第三集紀錄](docs/MIGRATION_AND_L003.md) |
+| 找程式、素材、成片與雜湊 | [檔案清單](docs/FILE_MANIFEST.md) |
+| 看 192 堂主題與目標 | [完整課程索引](CLOUD_CURRICULUM_INDEX.md) |
+| 看每集製作／發布進度 | [192 堂狀態表](docs/PRODUCTION_STATUS.md) |
+| 啟動下一集 | [可複用指令模板](docs/NEXT_EPISODE_PROMPT.md) |
+| 自己上傳 YouTube | [上傳教學](docs/MANUAL_YOUTUBE_UPLOAD.md) |
+| 本次整合驗證 | [驗證紀錄](docs/VALIDATION_2026-09-29.md) |
+
+## 現況
+
+- L001、L002：移交文字記錄為已公開；本次未重新驗證影片／版權或重傳。
+- L003「鍵盤忍者：快捷鍵競速」：成片及 23/23 技術檢查記錄已保存；本次核對原成品雜湊一致，待使用者上傳。
+- L004–L192：課表與製作骨架可接續，並非影片已完成，也沒有啟動批次製作。
+- 下一堂 L004：「網路到底是什麼：封包接力賽」。
+- 192 堂共 576 組 YouTube 搜尋入口；沒有把它們標成已精選的 576 支影片。
+
+```sh
+cd academy
+./cloud-runtime.sh python pipeline/academy.py doctor
+./cloud-runtime.sh python pipeline/status.py --next
+./cloud-runtime.sh python -m unittest discover -s tests -v
+```
+
+共用片頭（分段保存，啟動時自動原樣還原）、角色、字型、還原模板、課表、L003 原稿／音訊／字幕／投影片及 QC 隨 Git 保存。L003 的兩支大型影片與純旁白 MP3 從已保存接續包還原，見檔案清單。歷史原稿與雜湊另存，不能把歷史報告當成本次執行證據。

@@ -1,0 +1,83 @@
+{
+  "analysisSampleRate": 48000,
+  "openingFirst30SecondsChannelCorrelations": [
+    0.9896607738868239,
+    0.9896805815207896
+  ],
+  "narrationSamples": [
+    {
+      "slide": 1,
+      "sampleSeconds": 10.0,
+      "correlation": 0.9971443620186281,
+      "offsetVsTimingSeconds": 0.0
+    },
+    {
+      "slide": 2,
+      "sampleSeconds": 10.0,
+      "correlation": 0.9946444188000807,
+      "offsetVsTimingSeconds": 0.0
+    },
+    {
+      "slide": 3,
+      "sampleSeconds": 10.0,
+      "correlation": 0.9985011904569024,
+      "offsetVsTimingSeconds": 0.0
+    },
+    {
+      "slide": 4,
+      "sampleSeconds": 10.0,
+      "correlation": 0.9978763941287231,
+      "offsetVsTimingSeconds": 0.0
+    },
+    {
+      "slide": 5,
+      "sampleSeconds": 10.0,
+      "correlation": 0.9989905088297304,
+      "offsetVsTimingSeconds": 0.0
+    },
+    {
+      "slide": 6,
+      "sampleSeconds": 10.0,
+      "correlation": 0.9985686880695571,
+      "offsetVsTimingSeconds": 0.0
+    },
+    {
+      "slide": 7,
+      "sampleSeconds": 10.0,
+      "correlation": 0.9994485341031304,
+      "offsetVsTimingSeconds": 0.0
+    },
+    {
+      "slide": 8,
+      "sampleSeconds": 10.0,
+      "correlation": 0.9995648980729168,
+      "offsetVsTimingSeconds": 0.0
+    },
+    {
+      "slide": 9,
+      "sampleSeconds": 10.0,
+      "correlation": 0.9994667714083009,
+      "offsetVsTimingSeconds": 0.0
+    },
+    {
+      "slide": 10,
+      "sampleSeconds": 10.0,
+      "correlation": 0.9995001379261986,
+      "offsetVsTimingSeconds": 0.0
+    },
+    {
+      "slide": 11,
+      "sampleSeconds": 10.0,
+      "correlation": 0.9996042929891799,
+      "offsetVsTimingSeconds": 0.0
+    },
+    {
+      "slide": 12,
+      "sampleSeconds": 10.0,
+      "correlation": 0.9995520671059083,
+      "offsetVsTimingSeconds": 0.0
+    }
+  ],
+  "scope": "Audio correlation confirms matching sampled source content; not a full human listening review or YouTube copyright result.",
+  "passed": false
+}

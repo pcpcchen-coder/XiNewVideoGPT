@@ -1,0 +1,8 @@
+# Local install; do not copy a macOS .venv.
+Pillow>=12,<13
+python-pptx>=1,<2
+openpyxl>=3.1,<4
+edge-tts==7.2.8
+numpy>=2,<3
+scipy>=1.14,<2
+# Editable PPTX authoring uses local Node artifact-tool and Presentations skill.
