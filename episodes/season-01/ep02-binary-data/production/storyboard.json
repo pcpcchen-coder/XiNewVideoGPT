@@ -1,0 +1,86 @@
+[
+  {
+    "slide": 1,
+    "claim": "所有數位內容最後都能化成兩種開關狀態",
+    "visual": "binary-chip-hero",
+    "pose": "point-up",
+    "motion": "slow-push-in"
+  },
+  {
+    "slide": 2,
+    "claim": "兩種距離很遠的狀態，能降低雜訊造成的誤判",
+    "visual": "off-on-switches",
+    "pose": "pointer",
+    "motion": "split-reveal"
+  },
+  {
+    "slide": 3,
+    "claim": "電晶體把關閉與開啟映射成零與一",
+    "visual": "binary-chip-detail",
+    "pose": "open-palms",
+    "motion": "focus-pulse"
+  },
+  {
+    "slide": 4,
+    "claim": "位元是單一狀態，八個位元形成一個位元組",
+    "visual": "bit-byte-split",
+    "pose": "pointer",
+    "motion": "eight-beat"
+  },
+  {
+    "slide": 5,
+    "claim": "五個二進位位置能組合出零到三十一",
+    "visual": "binary-cards",
+    "pose": "open-palms",
+    "motion": "card-flip"
+  },
+  {
+    "slide": 6,
+    "claim": "十三可由八、四與一組成，對應零一一零一",
+    "visual": "binary-thirteen",
+    "pose": "pointer",
+    "motion": "path-chase"
+  },
+  {
+    "slide": 7,
+    "claim": "八個位元共有兩百五十六種排列，更多位元組構成更大檔案",
+    "visual": "byte-range",
+    "pose": "point-up",
+    "motion": "stack-reveal"
+  },
+  {
+    "slide": 8,
+    "claim": "文字經過字元編碼，先變成編號再變成位元",
+    "visual": "text-encoder",
+    "pose": "pointer",
+    "motion": "left-to-right"
+  },
+  {
+    "slide": 9,
+    "claim": "圖片由像素顏色數值組成，再以位元保存",
+    "visual": "pixel-data",
+    "pose": "open-palms",
+    "motion": "pixel-zoom"
+  },
+  {
+    "slide": 10,
+    "claim": "聲音透過固定間隔取樣，成為一串數值與位元",
+    "visual": "sound-sampling",
+    "pose": "pointer",
+    "motion": "wave-scan"
+  },
+  {
+    "slide": 11,
+    "claim": "數字、文字、圖片與聲音共享數值到位元再到開關的路徑",
+    "visual": "content-to-bits",
+    "pose": "open-palms",
+    "motion": "four-to-one"
+  },
+  {
+    "slide": 12,
+    "claim": "能把十三寫成零一一零一，就掌握了二進位的核心",
+    "visual": "recap-quiz",
+    "pose": "thumbs-up",
+    "motion": "answer-lockup"
+  }
+]

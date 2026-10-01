@@ -1,0 +1,70 @@
+{
+  "episode": "S01E02",
+  "slug": "ep02-binary-data",
+  "title": "為什麼電腦只懂 0 和 1？",
+  "subtitle": "從微型開關到文字、圖片與聲音",
+  "audience": "七年級學生與親子共學",
+  "lecturer": "陳犀牛 Chen XiNew",
+  "language": "zh-TW",
+  "slideCount": 12,
+  "sentenceCount": 36,
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "audioSampleRate": 48000
+  },
+  "tts": {
+    "engine": "Microsoft Edge TTS",
+    "voice": "zh-TW-YunJheNeural",
+    "locale": "zh-TW",
+    "gender": "Male",
+    "persona": "warm, curious XiNew science lecturer",
+    "rate": "-4%",
+    "pitch": "-2Hz",
+    "volume": "+0%"
+  },
+  "openingTheme": {
+    "title": "犀牛角亮起來",
+    "source": "https://github.com/pcpcchen-coder/XiNewIPs/blob/main/assets/%E9%99%B3%E7%8A%80%E7%89%9B%E9%96%8B%E5%A0%B4%E4%B8%BB%E9%A1%8C%E6%9B%B2_%E7%8A%80%E7%89%9B%E8%A7%92%E4%BA%AE%E8%B5%B7%E4%BE%86_30Sec.m4a",
+    "file": "music/chen-xinew-opening-theme-30sec.m4a",
+    "durationSeconds": 60.0,
+    "mode": "full-source opening montage"
+  },
+  "music": {
+    "enabled": false,
+    "mode": "voice-only lesson",
+    "reason": "No background music during slide explanation"
+  },
+  "transitionSeconds": 0.55,
+  "poses": [
+    "point-up",
+    "pointer",
+    "open-palms",
+    "pointer",
+    "open-palms",
+    "pointer",
+    "point-up",
+    "pointer",
+    "open-palms",
+    "pointer",
+    "open-palms",
+    "thumbs-up"
+  ],
+  "output": {
+    "lesson": "ep02-binary-data-lesson.mp4",
+    "master": "ep02-binary-data-master.mp4",
+    "captioned": "ep02-binary-data-zh-TW.mp4",
+    "deck": "ep02-binary-data.pptx"
+  },
+  "sources": {
+    "courseInspiration": "https://github.com/pcpcchen-coder/video-production-skill-kimi",
+    "ip": "https://github.com/pcpcchen-coder/XiNewIPs",
+    "episodeTemplate": "https://github.com/pcpcchen-coder/XiNewVideoGPT",
+    "binaryActivity": "https://classic.csunplugged.org/activities/binary-numbers/",
+    "unicode": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-2/",
+    "edgeVoice": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support"
+  }
+}
