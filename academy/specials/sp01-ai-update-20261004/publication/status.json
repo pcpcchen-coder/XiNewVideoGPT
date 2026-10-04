@@ -1,0 +1,41 @@
+{
+  "episode": "SP01",
+  "status": "published_verified",
+  "authorizedToUpload": true,
+  "authorizedToPublish": true,
+  "publisher": "local-agent",
+  "publicationMode": "local-browser-assisted-upload",
+  "channelName": "犀牛說",
+  "channelId": "UCLAQhbdu5MFIDoUPH6bDQuQ",
+  "videoId": "6Bq4jI0Xook",
+  "videoUrl": "https://youtu.be/6Bq4jI0Xook",
+  "privacyStatus": "public",
+  "requestedPrivacyStatus": "public",
+  "processingStatus": "complete_sd_and_hd",
+  "copyrightCheck": "completed_no_issues_found",
+  "videoFile": "SP01_AI_Update_2026-10-04_zh-TW.mp4",
+  "videoBytes": 64735371,
+  "videoSha256": "7bdadad1dd8627230db9e07d22f1d06cd280fb4e219b67458bdfa316ac7b7eb2",
+  "deduplication": "Inspected all 26 existing Studio items; no SP01 or matching title. One upload created. The old v07 draft with 3:31 duration is a different lesson.",
+  "note": "Published once and verified in Studio and on the watch page. Continue only video 6Bq4jI0Xook; do not re-upload.",
+  "observedAt": "2026-10-04T17:28:14+08:00",
+  "publicationDate": "2026-10-04",
+  "verificationRecord": "local-upload-review.md",
+  "fields": {
+    "title": "verified_matches_metadata",
+    "description": "verified_matches_description_ignoring_trailing_newline",
+    "thumbnail": "original_cover_uploaded_saved_and_verified",
+    "chapters": "six timestamps saved; five body-section time links visible; native segmented chapters not verified",
+    "captions": "zh-TW published; public player offers Chinese (Taiwan); previews at 01:05, 02:12, 03:25 matched source",
+    "madeForKids": false,
+    "category": "Education",
+    "videoLanguage": "zh-TW",
+    "paidPromotion": false,
+    "aiUsageDisclosure": true
+  },
+  "limitations": [
+    "Clickable external links still require one-time channel verification.",
+    "Burned-in subtitles and optional CC can appear as two layers.",
+    "No full human listening review or new editorial fact check in this local upload task."
+  ]
+}

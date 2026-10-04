@@ -1,0 +1,31 @@
+犀牛說番外篇 SP01｜AI 近期發展：工程團隊怎麼用
+
+資料截至 2026/10/04。用五頁簡報整理工作代理、模型能力與任務成本、語音和畫面互動，最後以規格比對為例，提出兩週內可驗收的團隊試行。
+
+本片含原版開場與完整配音，適合工程團隊分享。SP01 是一次性番外篇，不占用父子科技學院 L001–L192 課程編號。
+
+章節
+00:00 陳犀牛系列片頭
+01:00 AI 近期發展：工程團隊怎麼用
+01:26 工作代理開始持續接手任務
+01:56 模型能力與每件任務的成本
+02:29 語音、畫面與長任務
+02:58 團隊試行：一個可驗收任務
+
+官方來源（雲端製作查核日：2026/10/04）
+OpenAI｜Introducing dots
+https://openai.com/index/introducing-dots/
+OpenAI｜Introducing GPT-6.1 Sol
+https://openai.com/index/introducing-gpt-6-1-sol/
+Anthropic｜Introducing Claude Sonnet 5.5
+https://www.anthropic.com/claude-sonnet-5-5
+Google｜Introducing Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/
+Google｜Gemini 4 Argon: our next era of frontier intelligence
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/
+
+模型能力、速度與價格敘述以影片查核當時的原廠公告為依據；服務開放範圍與價格可能變動。第 5 頁的樣本數、時程與驗收門檻是試行提案，不是已達成實績。
+
+講師角色：陳犀牛 Chen XiNew
+旁白：Microsoft Edge TTS／zh-TW-YunJheNeural（合成語音）
+成片已含繁體中文字幕；另提供中文（台灣）CC 字幕軌，開啟時可能顯示雙層字幕。

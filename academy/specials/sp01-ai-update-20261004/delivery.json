@@ -3,7 +3,7 @@
   "status": "verified",
   "narrationStatus": "completed",
   "completeNarratedMp4": true,
-  "published": false,
+  "published": true,
   "files": [
     {
       "filename": "SP01_AI_Update_2026-10-04.pptx",
@@ -46,5 +46,15 @@
       0,
       0
     ]
+  },
+  "publication": {
+    "status": "published_verified",
+    "videoId": "6Bq4jI0Xook",
+    "videoUrl": "https://youtu.be/6Bq4jI0Xook",
+    "privacyStatus": "public",
+    "observedAt": "2026-10-04T17:28:14+08:00",
+    "publisher": "local-agent",
+    "copyrightCheck": "completed_no_issues_found",
+    "record": "publication/local-upload-review.md"
   }
 }

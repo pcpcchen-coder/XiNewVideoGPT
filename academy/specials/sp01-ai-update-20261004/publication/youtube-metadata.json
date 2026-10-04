@@ -1,0 +1,20 @@
+{
+  "episode": "SP01",
+  "title": "犀牛說 SP01｜AI 近期發展：工程團隊怎麼用（2026/10/04）",
+  "descriptionFile": "youtube-description.txt",
+  "chaptersFile": "chapters.txt",
+  "requestedPrivacyStatus": "public",
+  "madeForKids": false,
+  "videoLanguage": "zh-TW",
+  "category": "Education",
+  "paidPromotion": false,
+  "captionsSource": "../subtitles/zh-TW.srt",
+  "approvedVideoSha256": "7bdadad1dd8627230db9e07d22f1d06cd280fb4e219b67458bdfa316ac7b7eb2",
+  "provenance": "Local publication fields derived from the verified SP01 manifest, narration, sources and measured timing. Original production inputs and QC preserved.",
+  "authorization": {
+    "date": "2026-10-04",
+    "uploadRequest": "你能幫我把SP01送上 youtube 嗎？",
+    "visibilityChoice": "公開（和 L003 一樣）"
+  },
+  "aiUsageDisclosure": true
+}
