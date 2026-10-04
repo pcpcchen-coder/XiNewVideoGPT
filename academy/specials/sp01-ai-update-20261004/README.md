@@ -13,7 +13,7 @@
 
 已完成：5 頁可編輯 PPTX、逐頁講稿、官方來源、原版有聲片頭、離線播放入口。
 
-**正文未合成新旁白，尚無完整配音 MP4。** 原 Edge-TTS 流程需將講稿傳至 Microsoft 外部語音服務，自動審核因本次未明確授權外送而拒絕。未重試或改走另一外部服務。若使用者明確同意，才接續 `zh-TW-YunJheNeural`。
+2026-10-04 11:16:35（台北）使用者明確回覆「同意配音」，同意將本次講稿送交 Microsoft TTS。已解除本次 SP01 配音阻擋，使用原聲線 `zh-TW-YunJheNeural`。最新成片狀態與驗收見 `delivery.json`、`qc/report.json`。這項同意僅用於本次講稿，不代表新增 YouTube 公開授權。
 
 ## 使用
 
@@ -28,6 +28,9 @@ PPTX 的五頁皆可編輯，備註保存講稿與來源。片頭是包內獨立
 ```sh
 ./cloud-runtime.sh python pipeline/academy.py doctor
 ./cloud-runtime.sh "$CODEX_PRIMARY_RUNTIME_NODE" specials/sp01-ai-update-20261004/build_deck.mjs
+./cloud-runtime.sh python pipeline/scripts/synthesize_narration.py --episode specials/sp01-ai-update-20261004
+./cloud-runtime.sh python specials/sp01-ai-update-20261004/assemble_special.py --episode specials/sp01-ai-update-20261004
+./cloud-runtime.sh python specials/sp01-ai-update-20261004/verify_special.py --episode specials/sp01-ai-update-20261004
 ./cloud-runtime.sh python specials/sp01-ai-update-20261004/package_special.py
 ```
 
@@ -44,3 +47,7 @@ PPTX 的五頁皆可編輯，備註保存講稿與來源。片頭是包內獨立
 - 未在使用者的 PowerPoint 或瀏覽器實機播放。雲端 Chromium 測試器因下載失敗無法完成播放 UI 實測，不能標記為已通過。
 
 大型交付的檔名、大小、雜湊和保存定位見 `delivery.json`。
+
+## 配音版交付
+
+完整字幕片 `SP01_AI_Update_2026-10-04_zh-TW.mp4` 含原片頭與五頁旁白。無字幕母帶、SRT、PPTX 與製作時間資料放在更新的交付包。字幕字級與邊界依本次畫面調整，其他系列設定沿用原組裝器。`verify_special.py` 是本次五頁／15 段的獨立檢查器，不改動 L001–L192 的一般驗收規格。

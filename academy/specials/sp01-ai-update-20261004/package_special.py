@@ -71,6 +71,20 @@ Speaker_Notes_and_Sources.txt 已備妥講稿與來源。
 
 未上傳或公開到 YouTube。
 '''
+video=E/'output'/f'{E.name}-zh-TW.mp4'
+if video.exists():
+ report=json.loads((E/'qc/report.json').read_text())
+ assert report['passed']==report['total'], 'Video verification must pass before packaging'
+ for rel,digest in report['fingerprints'].items():assert sha(E/rel)==digest, 'Verified input changed: '+rel
+ (PACK/'audio').mkdir(exist_ok=True)
+ for f in (E/'audio').glob('slide_*.mp3'):shutil.copy2(f,PACK/'audio'/f.name)
+ (PACK/'qc').mkdir(exist_ok=True)
+ for name in ['report.json','assembly.json','loudness-normalization.json','audio-sync.json','manual-review.md']:shutil.copy2(E/'qc'/name,PACK/'qc'/name)
+ readme=readme.replace('原開場有聲音。五頁正文尚未合成新旁白，也沒有產生完整配音影片。\n自動審核拒絕將本次講稿傳給 Microsoft TTS，需明確同意外送這份講稿後才能接續原聲線配音。', '完整配音影片已完成，使用原聲線 zh-TW-YunJheNeural。\n2026-10-04 使用者已同意將本次講稿送交 Microsoft TTS。\n直接播放 SP01_AI_Update_2026-10-04_zh-TW.mp4，可觀看含原開場、五頁配音及繁中字幕的完整影片。')
+ for suffix,filename in [('zh-TW','SP01_AI_Update_2026-10-04_zh-TW.mp4'),('master','SP01_AI_Update_2026-10-04_master.mp4')]:
+  shutil.copy2(E/'output'/f'{E.name}-{suffix}.mp4',PACK/filename)
+ shutil.copy2(E/'subtitles/zh-TW.srt',PACK/'SP01_AI_Update_2026-10-04.srt')
+ for name in ['timing.json','tts-manifest.json']:shutil.copy2(E/'production'/name,PACK/'sources'/name)
 (PACK/'README.txt').write_text(readme)
 manifest=[{'path':str(p.relative_to(PACK)),'bytes':p.stat().st_size,'sha256':sha(p)}for p in sorted(PACK.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json']
 (PACK/'SHA256SUMS.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')

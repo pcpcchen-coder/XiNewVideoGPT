@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-10-04T03:27:04.304888+00:00",
+  "version": "opening v2 (native 1080p30) + static scenes, narration only",
+  "scenes": 5,
+  "opening": {
+    "file": "/workspace/scratch/f0eef020d543/XiNewVideoGPT/academy/assets/opening/開場影片-v2.mp4",
+    "seconds": 60.277,
+    "note": "User-supplied opening v2; duration measured during this build"
+  },
+  "backgroundMusic": "none — narration only under slides",
+  "animated": "/tmp/xinew-assemble-_uhds2vl/animated.mp4",
+  "master": "/workspace/scratch/f0eef020d543/XiNewVideoGPT/academy/specials/sp01-ai-update-20261004/output/sp01-ai-update-20261004-master.mp4",
+  "zh": "/workspace/scratch/f0eef020d543/XiNewVideoGPT/academy/specials/sp01-ai-update-20261004/output/sp01-ai-update-20261004-zh-TW.mp4",
+  "masterDuration": 211.328,
+  "loudnessNormalization": "measured constant gain; source waveform and peak headroom preserved"
+}

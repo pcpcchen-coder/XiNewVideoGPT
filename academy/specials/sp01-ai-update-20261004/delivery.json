@@ -1,8 +1,8 @@
 {
   "createdAt": "2026-10-04",
-  "status": "deck-and-opening-ready",
-  "narrationStatus": "awaiting-explicit-external-tts-consent",
-  "completeNarratedMp4": false,
+  "status": "verified",
+  "narrationStatus": "completed",
+  "completeNarratedMp4": true,
   "published": false,
   "files": [
     {
@@ -15,11 +15,36 @@
     },
     {
       "filename": "SP01_AI_Update_Presentation_Pack.zip",
-      "bytes": 92084305,
-      "sha256": "931dc5c69f45dc3cf2c2b313f82e66dc389a30cad1104b96858a7fa0ed007663",
+      "bytes": 227197134,
+      "sha256": "4f6c39c853dba94bd65ffd0e4c0ffbcdf37397e0a4098c9031bcd143a33794da",
       "libraryFileId": "libfile_9680130659b0819184171687f7a8bc3c",
+      "fileId": "file_000000004b1481f5bdd19848162568fe",
+      "currentVersionNumber": 1,
       "download": "https://chatgpt.com/api/library/files/libfile_9680130659b0819184171687f7a8bc3c/download",
       "access": "Owner authentication required"
+    },
+    {
+      "filename": "SP01_AI_Update_2026-10-04_zh-TW.mp4",
+      "bytes": 64735371,
+      "sha256": "7bdadad1dd8627230db9e07d22f1d06cd280fb4e219b67458bdfa316ac7b7eb2",
+      "libraryFileId": "libfile_930123a390688191b638eefd0424bc9d",
+      "fileId": "file_00000000c5dc81f59e1d1ede21f8dc6a",
+      "currentVersionNumber": 0,
+      "download": "https://chatgpt.com/api/library/files/libfile_930123a390688191b638eefd0424bc9d/download",
+      "access": "Owner authentication required"
     }
-  ]
+  ],
+  "durationSeconds": 211.33,
+  "voice": "zh-TW-YunJheNeural",
+  "validation": {
+    "passed": 23,
+    "total": 23,
+    "sceneSyncOffsetsSeconds": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
 }

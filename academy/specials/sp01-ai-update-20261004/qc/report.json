@@ -1,0 +1,130 @@
+{
+  "episode": "SP01",
+  "checks": [
+    {
+      "check": "opening_conform_duration",
+      "status": "PASS",
+      "detail": "conformed 60.277s; original 60.266667s; tolerance one frame"
+    },
+    {
+      "check": "production_files",
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "check": "pptx_exists",
+      "status": "PASS",
+      "detail": "1891551 bytes"
+    },
+    {
+      "check": "slide_count",
+      "status": "PASS",
+      "detail": "slides=5 narration=5 storyboard=5"
+    },
+    {
+      "check": "sentences_per_scene",
+      "status": "PASS",
+      "detail": "15 sentences across 5 scenes"
+    },
+    {
+      "check": "slide_images",
+      "status": "PASS",
+      "detail": "5 pngs, dims={(1920, 1080)}"
+    },
+    {
+      "check": "audio_files",
+      "status": "PASS",
+      "detail": "5 scene mp3s"
+    },
+    {
+      "check": "audio_duration_matches_timing",
+      "status": "PASS",
+      "detail": "sum=151.03s timing=151.03s"
+    },
+    {
+      "check": "audio_non_silent",
+      "status": "PASS",
+      "detail": "silent=[]"
+    },
+    {
+      "check": "music_profile",
+      "status": "PASS",
+      "detail": "manifest declares narration only; listening review still required"
+    },
+    {
+      "check": "subtitle_cues",
+      "status": "PASS",
+      "detail": "15 cues"
+    },
+    {
+      "check": "subtitle_offset_intro",
+      "status": "PASS",
+      "detail": "first cue at 60.28s (intro 60.277s)"
+    },
+    {
+      "check": "output_files",
+      "status": "PASS",
+      "detail": "master, zh-TW, thumbnail, contact-sheet"
+    },
+    {
+      "check": "duration",
+      "status": "PASS",
+      "detail": "211.33s vs expected 211.31s"
+    },
+    {
+      "check": "zh_burned_copy",
+      "status": "PASS",
+      "detail": "zh 211.33s, subtitles burned"
+    },
+    {
+      "check": "video_format",
+      "status": "PASS",
+      "detail": "h264 1920x1080 @30/1"
+    },
+    {
+      "check": "audio_format",
+      "status": "PASS",
+      "detail": "aac 48000Hz x2"
+    },
+    {
+      "check": "full_decode",
+      "status": "PASS",
+      "detail": "0 decode error bytes"
+    },
+    {
+      "check": "loudness",
+      "status": "PASS",
+      "detail": "integrated -16.2 LUFS"
+    },
+    {
+      "check": "captioned_full_decode",
+      "status": "PASS",
+      "detail": "0 decode error bytes"
+    },
+    {
+      "check": "frame_rate",
+      "status": "PASS",
+      "detail": "30/1"
+    },
+    {
+      "check": "all_subtitle_timings",
+      "status": "PASS",
+      "detail": "all cues match sentence timing plus measured opening"
+    },
+    {
+      "check": "stable_scene_frames",
+      "status": "PASS",
+      "detail": "5 scenes; max mean RGB delta=0.097141 (<0.1)"
+    }
+  ],
+  "passed": 23,
+  "total": 23,
+  "fingerprints": {
+    "output/sp01-ai-update-20261004-master.mp4": "3667f66f94bb606f20853236e6b85c461699d21259814f7c247d56c5acd77963",
+    "output/sp01-ai-update-20261004-zh-TW.mp4": "7bdadad1dd8627230db9e07d22f1d06cd280fb4e219b67458bdfa316ac7b7eb2",
+    "production/narration.json": "721ddfda5cad203e31c3e1dcb63d0867a6e7f1df41a723824e05d78ac53b2a59",
+    "production/manifest.json": "f865fc52d59fb9a8a07a5c8f8cfb5eb154628eca1513dbbdd6c69e4c083d7003",
+    "production/timing.json": "a23ae7667ff9fc72fdcec35fa10f537d7ba5f3d9135c25eefc1db83feaf34083",
+    "subtitles/zh-TW.srt": "6d274b808f67a47a0b27ac6e8f6ecbd77e809fd29d7e26eaae4da9808b614dee"
+  }
+}

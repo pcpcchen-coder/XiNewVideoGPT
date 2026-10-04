@@ -1,0 +1,31 @@
+{
+  "method": "Cross-correlate scene midpoint audio against decoded master at measured scene offset; 8 kHz mono; tolerance 60 ms",
+  "probes": [
+    {
+      "slide": 1,
+      "offsetSeconds": 0.0,
+      "passed": true
+    },
+    {
+      "slide": 2,
+      "offsetSeconds": 0.0,
+      "passed": true
+    },
+    {
+      "slide": 3,
+      "offsetSeconds": 0.0,
+      "passed": true
+    },
+    {
+      "slide": 4,
+      "offsetSeconds": 0.0,
+      "passed": true
+    },
+    {
+      "slide": 5,
+      "offsetSeconds": 0.0,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

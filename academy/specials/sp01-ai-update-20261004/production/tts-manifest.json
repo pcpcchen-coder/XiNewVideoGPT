@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-10-04T03:22:03.990526+00:00",
+  "narrationSha256": "721ddfda5cad203e31c3e1dcb63d0867a6e7f1df41a723824e05d78ac53b2a59",
+  "engine": "edge-tts",
+  "voice": "zh-TW-YunJheNeural",
+  "persona": "陳犀牛 Chen XiNew",
+  "rate": "+0%",
+  "pitch": "+0Hz",
+  "packageVersion": "7.2.8",
+  "method": "Traditional Chinese text -> edge-tts zh-TW-YunJheNeural -> warm voice mastering",
+  "scenes": [
+    {
+      "slide": 1,
+      "duration": 25.992,
+      "audio": "audio/slide_01.mp3",
+      "sha256": "dde9c44966be5bbfcdccb908cd42c89c2dc73e377202eed4298a54dfd19e9451"
+    },
+    {
+      "slide": 2,
+      "duration": 30.504,
+      "audio": "audio/slide_02.mp3",
+      "sha256": "584d041298c236fc77d2c72a1c9b150f69189c047093210a3444db1aa87e2027"
+    },
+    {
+      "slide": 3,
+      "duration": 32.856,
+      "audio": "audio/slide_03.mp3",
+      "sha256": "3f88b0fb252c31b8db4d6c3bbd27d7999ba19f59d6be7a493b17f72afa71d667"
+    },
+    {
+      "slide": 4,
+      "duration": 28.536,
+      "audio": "audio/slide_04.mp3",
+      "sha256": "f76f57e94c55de24896b6fa660197bf7244a3100321e0f6a0efab2818b32f1d7"
+    },
+    {
+      "slide": 5,
+      "duration": 33.144,
+      "audio": "audio/slide_05.mp3",
+      "sha256": "d55fffac92dd70597d50bc539297209a7a5be456c33a7189812895a5e1fc8ef6"
+    }
+  ]
+}

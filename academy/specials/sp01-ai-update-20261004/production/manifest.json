@@ -19,7 +19,13 @@
   },
   "authorization": {
     "produceSpecial": true,
-    "publishWhenVerified": false
+    "publishWhenVerified": false,
+    "externalTts": {
+      "provider": "Microsoft Edge TTS",
+      "scope": "SP01 narration only",
+      "consent": "同意配音",
+      "consentedAt": "2026-10-04T11:16:35+08:00"
+    }
   },
   "exception": {
     "reason": "User explicitly requested a one-off five-slide AI-news special with opening.",
@@ -28,5 +34,10 @@
     "updatesCurriculum": false
   },
   "factCheckDate": "2026-10-04",
-  "sharingWeek": "2026-10-05/2026-10-11"
+  "sharingWeek": "2026-10-05/2026-10-11",
+  "layoutProfile": "academy-native-v1",
+  "music": {
+    "backgroundMusic": "none — narration only under slides",
+    "opening": "assets/opening/開場影片-v2.mp4"
+  }
 }
