@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "episode": "SP01",
+  "slug": "sp01-ai-update-20261004",
+  "title": "AI 近期發展：工程團隊怎麼用",
+  "subtitle": "團隊分享番外篇，資料截至 2026-10-04",
+  "slideCount": 5,
+  "lessonIds": [],
+  "editorialStatus": "authored",
+  "recordingSource": null,
+  "transitionSeconds": 0.55,
+  "deckRenderer": "artifact-tool-template",
+  "templateEpisode": "episodes/academy/l001-mac-workstation",
+  "templateProvenance": "Reuse current L001 restored template slides 1,3,5,9,12; original pre-migration PPTX was absent.",
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "zh-TW-YunJheNeural",
+    "persona": "陳犀牛 Chen XiNew"
+  },
+  "authorization": {
+    "produceSpecial": true,
+    "publishWhenVerified": false
+  },
+  "exception": {
+    "reason": "User explicitly requested a one-off five-slide AI-news special with opening.",
+    "slideCount": 5,
+    "narrationParagraphs": 15,
+    "updatesCurriculum": false
+  },
+  "factCheckDate": "2026-10-04",
+  "sharingWeek": "2026-10-05/2026-10-11"
+}

@@ -1,0 +1,25 @@
+{
+  "createdAt": "2026-10-04",
+  "status": "deck-and-opening-ready",
+  "narrationStatus": "awaiting-explicit-external-tts-consent",
+  "completeNarratedMp4": false,
+  "published": false,
+  "files": [
+    {
+      "filename": "SP01_AI_Update_2026-10-04.pptx",
+      "bytes": 1891551,
+      "sha256": "5ff7f0e709740c1ac00f7053850688bb82b2048ee8d332c27d125eec9aa8388e",
+      "libraryFileId": "libfile_e08f2e4c027881918a153d583bc49cee",
+      "download": "https://chatgpt.com/api/library/files/libfile_e08f2e4c027881918a153d583bc49cee/download",
+      "access": "Owner authentication required"
+    },
+    {
+      "filename": "SP01_AI_Update_Presentation_Pack.zip",
+      "bytes": 92084305,
+      "sha256": "931dc5c69f45dc3cf2c2b313f82e66dc389a30cad1104b96858a7fa0ed007663",
+      "libraryFileId": "libfile_9680130659b0819184171687f7a8bc3c",
+      "download": "https://chatgpt.com/api/library/files/libfile_9680130659b0819184171687f7a8bc3c/download",
+      "access": "Owner authentication required"
+    }
+  ]
+}

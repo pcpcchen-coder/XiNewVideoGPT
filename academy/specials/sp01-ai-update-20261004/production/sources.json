@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-04",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Introducing dots",
+      "publisher": "OpenAI",
+      "date": "2026-09-29",
+      "url": "https://openai.com/index/introducing-dots/",
+      "claim": "持續運作的工作代理，有雲端電腦、工具連線及行動審查。依市場與方案逐步推出。"
+    },
+    {
+      "id": "S2",
+      "title": "Introducing GPT-6.1 Sol",
+      "publisher": "OpenAI",
+      "date": "2026-09-29",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "claim": "標準 API 每百萬 tokens 輸入 $2、輸出 $10，為 Astra 標準單價 1/5。能力接近為原廠特定評測敘述。"
+    },
+    {
+      "id": "S3",
+      "title": "Introducing Claude Sonnet 5.5",
+      "publisher": "Anthropic",
+      "date": "2026-09-28",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "claim": "標準 API 輸入 $2、輸出 $10／百萬 tokens。原廠稱輸出生成速度比 Sonnet 5 快 30% 以上，任務成本最多低 30%，不是所有任務保證。"
+    },
+    {
+      "id": "S4",
+      "title": "Introducing Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking",
+      "publisher": "Google",
+      "date": "2026-09-15",
+      "updated": "2026-09-17",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "claim": "近即時視覺語音互動，在背景執行工具與 API，開發者可由 Gemini API／AI Studio 接入，部分企業介面為 private preview。"
+    },
+    {
+      "id": "S5",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "publisher": "Google",
+      "date": "2026-09-30",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "claim": "強化長流程推理與工程任務。截至查核時限 Fairwind 計畫受信任資安防禦組織，不能視為一般帳號全面可用。"
+    }
+  ]
+}
