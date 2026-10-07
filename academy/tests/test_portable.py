@@ -85,4 +85,12 @@ class PortableTests(unittest.TestCase):
         latin=cw.wrap_caption('一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四 after:2026/01/01 一二三四五六')
         self.assertTrue(any('after:2026/01/01' in x for x in latin))  # never split inside a Latin/number run
         with self.assertRaisesRegex(ValueError,'two lines'): cw.wrap_caption('字'*90)
+    def test_status_blocks_summarise_delivered_range_and_next_lesson(self):
+        import status as st
+        self.assertEqual(st._ranges(['L004','L006','L005','L009']),'L004–L006、L009')
+        data=st.records(); blocks=st.status_blocks(data)
+        nxt=next(x for x in data if x['productionStatus'] not in {'verified','completed_historical'})
+        self.assertIn(nxt['lessonId'],blocks['sentence']); self.assertIn('不重製',blocks['sentence'])
+        self.assertIn('大型輸出',blocks['large-files']); self.assertTrue(blocks['list'].startswith('\n- L'))
+        for name in st.STATUS_DOCS: self.assertRegex((st.ROOT/name).read_text(encoding='utf-8'),st.MARK)
 if __name__=='__main__': unittest.main()

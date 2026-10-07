@@ -38,12 +38,71 @@ def norm(text):
     return re.sub(r'[^0-9a-z一-鿿]', '', text)
 
 
+DIGITS = '零一二三四五六七八九'
+
+
+def number_zh(digits):
+    """Read a digit run the way narration says it: 10 -> 十, 180 -> 一百八十; long runs digit by digit."""
+    if len(digits) > 4 or (len(digits) > 1 and digits[0] == '0'):
+        return ''.join(DIGITS[int(d)] for d in digits)
+    n, out = int(digits), ''
+    if n == 0:
+        return '零'
+    for unit, name in ((1000, '千'), (100, '百'), (10, '十')):
+        q, n = divmod(n, unit)
+        if q:
+            out += ('' if (unit == 10 and q == 1 and not out) else DIGITS[q]) + name
+        elif out and n and not out.endswith('零'):
+            out += '零'
+    return out + (DIGITS[n] if n else '')
+
+
+def sound(text):
+    """Toneless pinyin syllables (digits read as Chinese numerals); None when pypinyin is not installed.
+
+    Homophones such as 攻防戰/工房站 then compare equal. It cannot see tones, and pypinyin guesses
+    the reading of polyphonic characters, so this is supporting evidence only.
+    """
+    try:
+        from pypinyin import lazy_pinyin
+    except ImportError:
+        return None
+    spoken = re.sub(r'\d+', lambda m: number_zh(m.group()), text)
+    return [x.lower() for x in lazy_pinyin(re.sub(r'[^0-9A-Za-z一-鿿]', '', spoken))]
+
+
+def score_sound(rows):
+    for r in rows:
+        a, b = sound(r['text']), sound(r['heard'])
+        if a is None:
+            return None
+        r['soundSimilarity'] = round(difflib.SequenceMatcher(None, a, b).ratio(), 3)
+    values = [r['soundSimilarity'] for r in rows]
+    return {'minSoundSimilarity': min(values), 'meanSoundSimilarity': round(sum(values) / len(values), 3),
+            'soundBelow0_80': [r['cue'] for r in rows if r['soundSimilarity'] < 0.80],
+            'soundMethod': 'toneless pinyin syllables via pypinyin, digits read as Chinese numerals; homophones compare equal, tones are not checked'}
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--model', required=True, type=Path)
+    p.add_argument('--model', type=Path)
     p.add_argument('--episode', required=True, type=Path)
+    p.add_argument('--rescore', action='store_true', help='recompute scores from the existing transcript, without the model')
     args = p.parse_args()
     E = (R / args.episode).resolve()
+    if args.rescore:
+        path = E / 'qc/asr-review.json'
+        report = json.loads(path.read_text(encoding='utf-8'))
+        extra = score_sound(report['rows'])
+        if extra is None:
+            raise SystemExit('pypinyin is not installed in this interpreter')
+        rows = report.pop('rows')
+        report.update(extra); report['rows'] = rows
+        path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        print({k: v for k, v in report.items() if k != 'rows'})
+        return
+    if args.model is None:
+        raise SystemExit('--model is required unless --rescore is used')
     if not args.model.is_dir():
         raise SystemExit('Supply an existing local model directory; no implicit download')
     from faster_whisper import WhisperModel
@@ -76,6 +135,7 @@ def main():
         'meanSimilarity': round(sum(r['similarity'] for r in rows) / len(rows), 3),
         'below0_80': [r['cue'] for r in rows if r['similarity'] < 0.80],
         'limits': 'machine transcription, not human listening; cannot judge tone, naturalness, or subtle mispronunciation',
+        **(score_sound(rows) or {}),
         'rows': rows}
     (E / 'qc/asr-review.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print({k: v for k, v in report.items() if k != 'rows'})

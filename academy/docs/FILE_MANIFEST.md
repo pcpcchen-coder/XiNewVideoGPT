@@ -36,6 +36,7 @@
 
 以上三檔沒有新增至 Git。精確原件保存在 `Academy_Cloud_Handoff_2026-09-27_L003.zip`；字幕 MP4 也單獨保存為 `l003-keyboard-ninja-zh-TW.mp4`。未建立公開 Release 下載網址，勿編造連結。
 
+<!-- academy-status:large-files -->
 ## L004 大型輸出（L004-v1，2026-10-07）
 
 | 檔案 | Bytes | SHA-256 |
@@ -45,9 +46,7 @@
 | `narration-only.mp3` | 8,641,773 | `6e635b402a3e8ebba29188c31876250b1be34b0dc0e1129c405f54f99ec8fc67` |
 | `L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip`（完整交付包） | 166,314,066 | `c45306c0584192380e0cc148e557009653ecf166a7dfa1f254eb50f0ee480f8e` |
 
-以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中（單檔上限 30 MiB），各段雜湊、還原命令與包內 20 個檔案的雜湊見
-`episodes/academy/l004-network-relay/delivery.json`。本 repo 為公開，未建立 Release，勿編造下載連結。
-L004 的來源、PPTX、12 張 PNG、12 段 TTS 音檔、SRT、教材與 QC 都在 Git；附件無法取得時可依 delivery.json 的命令重新組裝，重建結果須作新版本並重新驗收。
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l004-network-relay/delivery.json`。
 
 ## L005 大型輸出（L005-v1，2026-10-07）
 
@@ -58,8 +57,7 @@ L004 的來源、PPTX、12 張 PNG、12 段 TTS 音檔、SRT、教材與 QC 都�
 | `narration-only.mp3` | 8,403,309 | `738e1c7ce726b37c552f629d0cfe58751f75049bff047279264d85d04240bd6b` |
 | `L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip`（完整交付包） | 168,971,465 | `72f62864f23028a0572236a5bf519a27228a3aac77c8859cd8f2238d873a6757` |
 
-以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見
-`episodes/academy/l005-search-master/delivery.json`。未建立 Release，勿編造下載連結。
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l005-search-master/delivery.json`。
 
 ## L006 大型輸出（L006-v1，2026-10-07）
 
@@ -70,8 +68,21 @@ L004 的來源、PPTX、12 張 PNG、12 段 TTS 音檔、SRT、教材與 QC 都�
 | `narration-only.mp3` | 8,160,237 | `a699cfe8cc08e12c75c69b4ed86f6f3a9e26351b2d2cff6b1c4b39609abaf50b` |
 | `L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip`（完整交付包） | 167,425,803 | `bf14765e46b4d5cbbf5a359024449937402466ee20959a0bd04c07f5e1650f6f` |
 
-以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見
-`episodes/academy/l006-source-evidence/delivery.json`。未建立 Release，勿編造下載連結。
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l006-source-evidence/delivery.json`。
+
+## L007 大型輸出（L007-v1，2026-10-07）
+
+| 檔案 | Bytes | SHA-256 |
+|---|---:|---|
+| `l007-password-castle-zh-TW.mp4` | 75,838,863 | `4fd72a7383cad5105150226b7824d2cbb1f3657bacd7afd14938c46ca55f9c96` |
+| `l007-password-castle-master.mp4` | 78,947,376 | `176b2ebf939a898b94fcc8da1490fea838a288a99b4fbb5f71a73ea6fc113f25` |
+| `narration-only.mp3` | 7,672,365 | `47e5045522afe649644c85e418b61c7e7990ecd55528122bf63c07caec408ba6` |
+| `L007-v1_父子科技學院_密碼城堡與雙重驗證_2026-10-07.zip`（完整交付包） | 165,718,943 | `a0e9582f6380f84054deab526049b8c35877fa876b953c1a3a79a0e0f35e7356` |
+
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l007-password-castle/delivery.json`。
+
+本 repo 為公開，未建立 Release，勿編造下載連結。附件無法取得時可依各課 delivery.json 的命令重新組裝，重建結果須作新版本並重新驗收。
+<!-- /academy-status:large-files -->
 
 ## 新工作區取回 L003
 

@@ -6,7 +6,7 @@
 ## 1. 先核對目前狀態
 
 從最新 `main` 接手。先讀根目錄 CLAUDE.md、AGENTS.md、academy/AGENTS.md、series-policy.json、CLOUD_START_HERE.md。
-L004「網路到底是什麼：封包接力賽」已於 2026-10-07 依本指南完成並交付（見第 7 節與該集 delivery.json），不重製。L005「搜尋高手」與 L006「來源與證據偵探」同日完成並交付（見第 8 節）。下一課是 L007 密碼城堡與雙重驗證。下方以 L004 為例的命令，換成實際課號與 slug 使用。
+<!-- academy-status:sentence -->L004–L007 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；下一堂是 L008「釣魚郵件偵探社」，接手仍讀狀態表。<!-- /academy-status:sentence -->實作後的備註見第 7、8 節與各集 delivery.json。下方以 L004 為例的命令，換成實際課號與 slug 使用。
 SP01 是番外篇，不佔課號。L003 已公開的最新紀錄以 publication 為準。
 不需要 ChatGPT Library 登入、不需要舊集大型母帶，也不需要 Google OAuth 就能製作新課。
 
@@ -146,3 +146,25 @@ HANDOFF.md 必須含：lessonId、episodePath、最後成功階段、當前 comm
 - **破音字：** 機器辨識分不出聲調。L006 的「拿秤量一量」被聽成「車輛」，另外單獨合成同一句、取字級時間後量基頻走勢，才推斷是二聲；這只能當旁證。
   寫旁白時盡量避開破音字緊接在一起的寫法，避不開就在 `qc/manual-review.md` 列出時間點請使用者親耳確認。
 - **L006 沿用的做法：** `authoring/l006/` 以 L005 的結構為底，內容全部重寫；兩個渲染選項都開。練習用的例子全部虛構並逐張標示，不拿真實公司或媒體當可疑例子。
+
+## 9. L007 起的共用工具（2026-10-07）
+
+連做四集時，把每集重複的機械工作收進共用工具；各課的 `authoring/lxxx/` 只留內容。
+
+- **內容**：`authoring/lesson_builder.py` 負責套版對應檢查、旁白／投影片／分鏡／manifest、來源與查核文件，
+  並檢查 36 句沒有和任何前集重複。各課的 `prepare_content.py` 只放文字並呼叫 `build()`。
+- **教材**：`authoring/classroom_pack.py` 寫文字檔、CSV、列印包 PDF 並記錄 `qc/classroom-validation.json`。
+- **來源查核**：可以派研究子代理下載原始頁面、回報逐字引文，原文存成各課 `production/source-notes.md`；
+  `fact-check.md` 要寫清楚哪些是逐字讀到、哪些只是擷取摘要，主代理沒有逐頁重讀也要寫。
+- **看圖**：`pipeline/qa/review_sheets.py` 產生投影片、列印包、特殊畫格的總表（放暫存區，不是交付物）。
+- **驗收報告**：verify 之後用 `pipeline/qa/write_report.py` 由該集自己的 QC 數值產生 `qc/report.md`；
+  檢視方法、發現與限制仍要自己寫在 `manual-review.md`、`slide-visual-review.md`。
+- **交付文字包**：`pipeline/handover_bundle.py` 依 `delivery.json` 和 `qc/handover-notes.json` 產生說明檔與 HTML 報告，放在 `delivery/drive-Lxxx/`。
+- **文件同步**：`pipeline/status.py --write` 會重寫各文件裡 `<!-- academy-status:… -->` 標記之間的已交付清單、下一堂與大型檔表；
+  交付後不要手改這些段落。
+- **Edge TTS 不穩時**：服務有時連續回「沒有收到音訊」。合成腳本現在會拉長重試間隔（最多七次），
+  並把通過完整性檢查的句子存進 `.build-tts-cache/`（以聲線與整句文字為鍵，不進 Git），中斷後重跑不必從頭來。
+  合成可能超過十分鐘，請在背景執行。
+- **語音辨識加上拼音比對**：`asr_review.py` 另外算一個以無聲調拼音比對的相似度（數字讀成國字、同音字視為相同），
+  需要在辨識用的環境裝 `pypinyin`；`--rescore` 可以不重跑模型、只重算分數。它看不到聲調，破音字仍要人聽。
+

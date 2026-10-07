@@ -1,0 +1,110 @@
+[
+  {
+    "slide": 1,
+    "title": "密碼城堡與雙重驗證",
+    "purpose": "開場：課前教學版揭露、城堡比喻與作品",
+    "visual": "封面版型：任務標籤、兩行主題、一句任務說明；原陳犀牛角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "準備紙牌與紙筆；預告攻防戰與安全清單",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 2,
+    "title": "守城堡的三道防線",
+    "purpose": "概念：三道防線（長密碼、不重複、雙重驗證）",
+    "visual": "三步流程卡：長密碼 → 不重複 → 第二道門（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出今天要完成的作品",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 3,
+    "title": "長密碼：城牆越高越難爬",
+    "purpose": "概念：長度優先、用不相關的詞組成長句、避開個人資訊與常見密碼",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "用詞語牌排出一組夠長的練習密碼",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 4,
+    "title": "密碼城堡的四個零件",
+    "purpose": "概念：長密碼、唯一密碼、密碼管理器、雙重驗證各自的作用",
+    "visual": "零件卡面板：四張卡（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出每個零件像城堡的哪個部分",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 5,
+    "title": "撞庫攻擊：一把鑰匙開很多門？",
+    "purpose": "概念：資料外洩與撞庫；每個帳號用不同密碼",
+    "visual": "雙框流程：一個網站外洩 → 撞庫攻擊（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說說看為什麼一把鑰匙不能開所有的門",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 6,
+    "title": "密碼管理器：鑰匙保管箱",
+    "purpose": "概念：密碼管理器產生並記住密碼；Mac 內建「密碼」App；由家長一起設定",
+    "visual": "三張步驟卡：幫你產生／幫你記住／你要守好（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "和爸爸看一次 Mac 上的「密碼」App（不念出內容）",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 7,
+    "title": "雙重驗證：第二道門",
+    "purpose": "概念：雙重驗證的第二關與種類；驗證碼不給任何人",
+    "visual": "路徑一行（輸入密碼→通過第二關→進門）＋三張卡（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "練習對索取驗證碼的人說「不行」",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 8,
+    "title": "紙牌攻防：誰守得住城堡？",
+    "purpose": "活動規則：紙牌攻防的角色與安全界線",
+    "visual": "左側三步驟；右側角色扮演重點（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "暫停影片：分好守城的人和攻擊方",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 9,
+    "title": "兩回合比一比：差在哪裡？",
+    "purpose": "共同實作與比較：重複密碼對上不重複加第二道門",
+    "visual": "左右比較卡＋黃字說明要記錄並交換角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "兩回合各記下被攻破的帳號數量",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 10,
+    "title": "換你盤點：家庭帳號安全清單",
+    "purpose": "獨立改造與安全：家庭帳號安全清單、三項檢查、自選規則",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成清單；自訂一條城堡規則",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的密碼城堡課",
+    "purpose": "120 分鐘安排：10／15／40／10／30／10／5",
+    "visual": "六列時間表與今日生活技能（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "依時間表進行；休息十分鐘",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：教爸爸守城堡",
+    "purpose": "作品驗收與回顧：說出四個零件，指出一個限制或安全注意；固定結尾",
+    "visual": "三點驗收條列＋陳犀牛＋結尾語（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "孩子教爸爸；錄音回答四個問題；作品命名存檔",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  }
+]

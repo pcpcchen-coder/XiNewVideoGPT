@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T12:35:11+08:00",
+  "updatedAt": "2026-10-07T17:53:04+08:00",
   "lessons": [
     {
       "lessonId": "L001",
@@ -72,12 +72,12 @@
       "lessonId": "L007",
       "title": "密碼城堡與雙重驗證",
       "learningObjectives": "理解長密碼、唯一密碼、密碼管理器與 2FA 的作用",
-      "productionStatus": "planned",
-      "publicationStatus": "not_uploaded",
+      "productionStatus": "verified",
+      "publicationStatus": "awaiting_user_upload",
       "publicationOwner": "user",
       "videoUrl": null,
-      "evidence": "none",
-      "episodePath": null
+      "evidence": "Produced 2026-10-07 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L007-v1 SHA-256 a0e9582f6380f84054deab526049b8c35877fa876b953c1a3a79a0e0f35e7356 delivered as 6 session attachments. See episodes/academy/l007-password-castle/delivery.json and qc/manual-review.md.",
+      "episodePath": "episodes/academy/l007-password-castle"
     },
     {
       "lessonId": "L008",

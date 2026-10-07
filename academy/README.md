@@ -20,11 +20,14 @@
 
 - L001、L002：移交文字記錄為已公開；本次未重新驗證影片／版權或重傳。
 - L003「鍵盤忍者：快捷鍵競速」：成片及 23/23 技術檢查記錄已保存；本次核對原成品雜湊一致，已另行由本機上傳並公開，最新發布紀錄見 CLOUD_START_HERE.md。
-- L004「網路到底是什麼：封包接力賽」：2026-10-07 由 Claude 以可攜流程製作，25/25 技術檢查、逐頁與逐段檢視完成，L004-v1 已交付；尚未上傳，待使用者播放確認後自行上傳。
-- L005「搜尋高手：把大問題拆成好問題」：2026-10-07 由 Claude 以可攜流程製作，25/25 技術檢查、逐頁與逐段檢視完成，L005-v1 已交付；尚未上傳。
-- L006「真真假假：來源與證據偵探」：2026-10-07 由 Claude 以可攜流程製作，25/25 技術檢查、逐頁與逐段檢視完成，L006-v1 已交付；尚未上傳。
-- L007–L192：課表與製作骨架可接續，並非影片已完成，也沒有啟動批次製作。
-- 下一堂 L007：「密碼城堡與雙重驗證」。
+<!-- academy-status:list -->
+- L004「網路到底是什麼：封包接力賽」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L004-v1 已交付；尚未上傳。紀錄見 [delivery.json](episodes/academy/l004-network-relay/delivery.json)、[manual-review.md](episodes/academy/l004-network-relay/qc/manual-review.md)。
+- L005「搜尋高手：把大問題拆成好問題」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L005-v1 已交付；尚未上傳。紀錄見 [delivery.json](episodes/academy/l005-search-master/delivery.json)、[manual-review.md](episodes/academy/l005-search-master/qc/manual-review.md)。
+- L006「真真假假：來源與證據偵探」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L006-v1 已交付；尚未上傳。紀錄見 [delivery.json](episodes/academy/l006-source-evidence/delivery.json)、[manual-review.md](episodes/academy/l006-source-evidence/qc/manual-review.md)。
+- L007「密碼城堡與雙重驗證」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L007-v1 已交付；尚未上傳。紀錄見 [delivery.json](episodes/academy/l007-password-castle/delivery.json)、[manual-review.md](episodes/academy/l007-password-castle/qc/manual-review.md)。
+- L008–L192：課表與製作骨架可接續，並非影片已完成，也沒有啟動批次製作。
+- 下一堂 L008「釣魚郵件偵探社」。
+<!-- /academy-status:list -->
 - 192 堂共 576 組 YouTube 搜尋入口；沒有把它們標成已精選的 576 支影片。
 
 ```sh

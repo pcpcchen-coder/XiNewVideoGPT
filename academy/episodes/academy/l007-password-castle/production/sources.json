@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L007",
+  "checkedAt": "2026-10-07",
+  "method": "A research subagent downloaded each page/PDF on the check date and reported verbatim quotes (production/source-notes.md); the producing agent mapped them to claims. Not a human full read.",
+  "curriculum": "curriculum/catalog.json：L007；來源 V2 Excel 逐堂課程第 7 堂",
+  "sources": [
+    {
+      "id": "nist_password",
+      "title": "How Do I Create a Good Password?",
+      "publisher": "NIST（2025-04-28 建立，2025-08-20 更新）",
+      "url": "https://www.nist.gov/cybersecurity-and-privacy/how-do-i-create-good-password",
+      "usedFor": "密碼至少 15 個字元；長度比複雜度更重要；建議使用密碼管理器；多重驗證在密碼外洩時仍有幫助"
+    },
+    {
+      "id": "nist_800_63b",
+      "title": "SP 800-63B-4 Digital Identity Guidelines",
+      "publisher": "NIST（2025-08-26 版）",
+      "url": "https://pages.nist.gov/800-63-4/sp800-63b.html",
+      "usedFor": "服務提供者不得強制定期更換密碼或強加組成規則；需手動輸入的驗證碼不算防釣魚"
+    },
+    {
+      "id": "cisa_tipsheet",
+      "title": "Secure Our World Passwords Tip Sheet",
+      "publisher": "CISA（2023-08-14；讀取自 mass.gov 上的 PDF 副本，cisa.gov 無法直接下載）",
+      "url": "https://www.mass.gov/files/documents/2023/10/06/Secure-Our-World-Passwords-Tip-Sheet.pdf",
+      "usedFor": "至少 16 個字元；5 到 7 個不相關的詞組成密語；密碼管理器只需記住一組強密碼"
+    },
+    {
+      "id": "ftc_passwords",
+      "title": "Creating Strong Passwords and Other Ways To Protect Your Accounts",
+      "publisher": "U.S. Federal Trade Commission（2024-11）",
+      "url": "https://consumer.ftc.gov/articles/creating-strong-passwords-and-other-ways-protect-your-accounts",
+      "usedFor": "至少 12 個字元；隨機詞語組成密語；簡訊或電子郵件驗證碼是最弱的雙重驗證；資料外洩時立刻改密碼"
+    },
+    {
+      "id": "ftc_2fa",
+      "title": "Use Two-Factor Authentication To Protect Your Accounts",
+      "publisher": "U.S. Federal Trade Commission（2022-09）",
+      "url": "https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts",
+      "usedFor": "就算知道帳號密碼，沒有第二項憑證也登不進去；不要重複使用帳號密碼；不要把驗證碼給主動找上門的人；安全金鑰最強、簡訊碼聊勝於無"
+    },
+    {
+      "id": "owasp_stuffing",
+      "title": "Credential stuffing",
+      "publisher": "OWASP",
+      "url": "https://community.owasp.org/attacks/Credential_stuffing",
+      "usedFor": "撞庫：外洩的帳號密碼被拿去大量嘗試其他網站"
+    },
+    {
+      "id": "apple_passwords_app",
+      "title": "使用「密碼」App 在 Apple 裝置間製作、管理及共享密碼和通行密鑰",
+      "publisher": "Apple 支援（台灣）",
+      "url": "https://support.apple.com/zh-tw/120758",
+      "usedFor": "自 macOS Sequoia 起內建「密碼」App，可產生並儲存高強度密碼"
+    },
+    {
+      "id": "apple_safari_autofill",
+      "title": "在 Mac 上的 Safari 中自動填寫使用者名稱與密碼",
+      "publisher": "Apple 支援（台灣）",
+      "url": "https://support.apple.com/zh-tw/guide/safari/ibrwf71ba236/mac",
+      "usedFor": "教材：Safari 會替任何使用這台 Mac 同一使用者帳號的人自動填寫，共用電腦要注意"
+    },
+    {
+      "id": "apple_2fa",
+      "title": "「Apple 帳號」的雙重認證",
+      "publisher": "Apple 支援（台灣，2026-08-13）",
+      "url": "https://support.apple.com/zh-tw/102660",
+      "usedFor": "即使有人知道密碼，仍然只有你可以存取帳號；六位數驗證碼顯示在受信任裝置"
+    },
+    {
+      "id": "apple_security",
+      "title": "安全性與「Apple 帳號」",
+      "publisher": "Apple 支援（台灣，2024-09-24）",
+      "url": "https://support.apple.com/zh-tw/102614",
+      "usedFor": "切勿把密碼、驗證碼提供給任何人；Apple 不會要求提供"
+    },
+    {
+      "id": "apple_child",
+      "title": "為小孩建立「Apple 帳號」",
+      "publisher": "Apple 支援（台灣，2026-09-21）",
+      "url": "https://support.apple.com/zh-tw/102617",
+      "usedFor": "教材：未滿 13 歲（依地區而異）的兒童帳號須由家長或監護人建立"
+    },
+    {
+      "id": "google_2sv",
+      "title": "開啟兩步驟驗證功能",
+      "publisher": "Google 帳戶說明",
+      "url": "https://support.google.com/accounts/answer/185839?hl=zh-Hant&co=GENIE.Platform%3DDesktop",
+      "usedFor": "教材：兩步驟驗證又稱雙重驗證；請勿把驗證碼提供給任何人"
+    },
+    {
+      "id": "moda_acs",
+      "title": "強化帳密安全，落實三大防護原則",
+      "publisher": "數位發展部資通安全署新聞稿（民國 115 年 1 月 12 日）",
+      "url": "https://moda.gov.tw/ACS/press/news/press/18660",
+      "usedFor": "密碼至少 15 個字元；避免生日、電話；常見弱密碼 123456；啟用兩步驟驗證；駭客以外洩帳密撞庫"
+    },
+    {
+      "id": "twcert_otp",
+      "title": "常見的 OTP 驗證",
+      "publisher": "TWCERT/CC（2024-12-04）",
+      "url": "https://www.twcert.org.tw/newepaper/cp-92-8285-1c028-3.html",
+      "usedFor": "切勿隨意將 OTP 提供給他人"
+    },
+    {
+      "id": "catalog_reference",
+      "title": "Online Privacy and Security",
+      "publisher": "U.S. Federal Trade Commission 消費者網站",
+      "url": "https://consumer.ftc.gov/identity-theft-and-online-security/online-privacy-and-security",
+      "usedFor": "課表 R23 主要參考網址；本課引用的是同一網站的密碼與雙重驗證兩篇文章"
+    }
+  ],
+  "notVerified": [
+    "cisa.gov 網頁無法直接下載；CISA 的引文取自 mass.gov 上的提示單 PDF 副本",
+    "165 全民防騙網、教育部：沒有找到可用的密碼或雙重驗證指引頁面",
+    "台灣兒童建立 Apple 帳號的確切年齡門檻沒有查核"
+  ],
+  "youtubeSearchEntries": {
+    "status": "not selected, not watched",
+    "note": "課表的三組 YouTube 連結是動態搜尋入口，本次未挑選或觀看任何影片，也未在影片或教材中引用。"
+  }
+}

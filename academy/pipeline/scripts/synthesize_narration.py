@@ -24,7 +24,9 @@ import argparse
 import tempfile
 import json
 import subprocess
+import shutil
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -75,6 +77,11 @@ def _core(text: str) -> str:
     return "".join(ch for ch in text if ch.isalnum())
 
 
+ATTEMPTS = 7
+CACHE = Path(__file__).resolve().parents[2] / ".build-tts-cache"
+REUSED: list[str] = []
+
+
 def synthesize(text: str, out: Path) -> None:
     """Synthesize one sentence and refuse a truncated stream.
 
@@ -83,8 +90,16 @@ def synthesize(text: str, out: Path) -> None:
     the boundary metadata must cover the whole input text and the decoded audio must reach
     the end time of the last boundary.
     """
+    # Resume cache: a sentence that already passed the completeness check in an interrupted run
+    # (same voice, same exact text) is not fetched again. Keyed by text, so nothing can be
+    # reused across different sentences or lessons. .build-*/ is git-ignored.
+    cached = CACHE / (hashlib.sha256(f"{VOICE}|+0%|+0Hz|{text}".encode("utf-8")).hexdigest() + ".mp3")
+    if cached.is_file():
+        shutil.copyfile(cached, out)
+        REUSED.append(text[:12])
+        return
     reason = "no attempt"
-    for attempt in range(1, 6):
+    for attempt in range(1, ATTEMPTS + 1):
         try:
             audio, spoken, last_end = asyncio.run(_fetch(text))
             out.write_bytes(audio)
@@ -96,11 +111,16 @@ def synthesize(text: str, out: Path) -> None:
             elif duration(out) < last_end - 0.35:
                 reason = f"audio {duration(out):.2f}s shorter than reported speech end {last_end:.2f}s"
             else:
+                CACHE.mkdir(exist_ok=True)
+                shutil.copyfile(out, cached)
+                time.sleep(0.8)  # be gentle with the service between sentences
                 return
         except Exception as error:  # network or service error: retry, then surface it
             reason = f"{type(error).__name__}: {error}"
         print(f"  retry {attempt} ({reason}): {text[:16]}...", flush=True)
-    raise RuntimeError(f"TTS incomplete after 5 attempts ({reason}) for: {text}")
+        if attempt < ATTEMPTS:
+            time.sleep(min(2 ** attempt, 30))  # the service fails in bursts; immediate retries all hit the same burst
+    raise RuntimeError(f"TTS incomplete after {ATTEMPTS} attempts ({reason}) for: {text}")
 
 
 def main() -> None:
@@ -175,6 +195,7 @@ def main() -> None:
         "packageVersion": edge_tts.__version__,
         "method": "Traditional Chinese text -> edge-tts zh-TW-YunJheNeural -> warm voice mastering",
         "completenessCheck": "per sentence: boundary metadata covers the input text and audio reaches the last boundary end (0.35 s tolerance)",
+        "sentencesResumedFromInterruptedRun": len(REUSED),
         "scenes": [{"slide": s["slide"], "duration": s["duration"], "audio": s["audio"],
                     "sha256": s["sha256"]} for s in scenes],
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

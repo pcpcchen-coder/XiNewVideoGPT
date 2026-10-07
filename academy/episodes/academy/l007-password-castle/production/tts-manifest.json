@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-10-07T09:24:41.890179+00:00",
+  "narrationSha256": "5910890f3614d48af0ca33b948c519392b0852ed384bb62ace2267987045c7b7",
+  "engine": "edge-tts",
+  "voice": "zh-TW-YunJheNeural",
+  "persona": "陳犀牛 Chen XiNew",
+  "rate": "+0%",
+  "pitch": "+0Hz",
+  "packageVersion": "7.2.8",
+  "method": "Traditional Chinese text -> edge-tts zh-TW-YunJheNeural -> warm voice mastering",
+  "completenessCheck": "per sentence: boundary metadata covers the input text and audio reaches the last boundary end (0.35 s tolerance)",
+  "scenes": [
+    {
+      "slide": 1,
+      "duration": 27.888,
+      "audio": "audio/slide_01.mp3",
+      "sha256": "71612e3c8ea115b109b87298839c6de19afc9c64eec59484073c7ccc85406bea"
+    },
+    {
+      "slide": 2,
+      "duration": 25.824,
+      "audio": "audio/slide_02.mp3",
+      "sha256": "133e0473678736e2641a061152d807c4222cd6816a11c516fe62afa3492dc92e"
+    },
+    {
+      "slide": 3,
+      "duration": 27.96,
+      "audio": "audio/slide_03.mp3",
+      "sha256": "3cde05bf999730325a02dffeceb991649f96c90e50f21ea1175e802ccfe10e1f"
+    },
+    {
+      "slide": 4,
+      "duration": 21.576,
+      "audio": "audio/slide_04.mp3",
+      "sha256": "ebbc8695f5d0303b7a70ae4dfd1d8a77cf13aa7506f934ee11a4b19206071043"
+    },
+    {
+      "slide": 5,
+      "duration": 24.36,
+      "audio": "audio/slide_05.mp3",
+      "sha256": "679e165d8cb6a37c421f38e3073c2b610bde260c978cfed50885ad8d7f3b884e"
+    },
+    {
+      "slide": 6,
+      "duration": 25.152,
+      "audio": "audio/slide_06.mp3",
+      "sha256": "ebbe8e48ee1addbd49e6a8b6d7bca218e90ddba178088292ae133dd5f375cc58"
+    },
+    {
+      "slide": 7,
+      "duration": 28.536,
+      "audio": "audio/slide_07.mp3",
+      "sha256": "5b1a7feeb06854ae7d7f9a84b910ed4a5a1eb32ceeca04e0d78edd9ba7e9f8d8"
+    },
+    {
+      "slide": 8,
+      "duration": 26.352,
+      "audio": "audio/slide_08.mp3",
+      "sha256": "fcd7a2b22ca395ce48f45bfa7e9506d09288b23bf8555661a5baa252e507b759"
+    },
+    {
+      "slide": 9,
+      "duration": 24.456,
+      "audio": "audio/slide_09.mp3",
+      "sha256": "a6d463703469a6fd4292e303b068aaf8a651348c23c8a6db824e2c42e8ec58a8"
+    },
+    {
+      "slide": 10,
+      "duration": 29.52,
+      "audio": "audio/slide_10.mp3",
+      "sha256": "838d34eb97c87f4dd2790a792b36687ec9dede16049b5b20d9628918be4ed9a8"
+    },
+    {
+      "slide": 11,
+      "duration": 27.672,
+      "audio": "audio/slide_11.mp3",
+      "sha256": "6a972cd95c6c012f3e0e20653e77460facaeaabf2dceafe463e1fe1766fa5baa"
+    },
+    {
+      "slide": 12,
+      "duration": 30.336,
+      "audio": "audio/slide_12.mp3",
+      "sha256": "5d0867464f5228c3758c8e07e6cda3649ecb3aa3d5a5e5c8a34d81c12616987b"
+    }
+  ]
+}

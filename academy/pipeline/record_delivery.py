@@ -90,6 +90,8 @@ def main():
         'validation': {'passed': report['passed'], 'total': report['total'], 'integratedLufs': lufs,
                        'sceneAudioMaxLagMs': media['maxAbsLagMs'], 'sceneAudioMinCorrelation': media['minCorrelation'],
                        'asrMinSimilarity': asr['minSimilarity'], 'asrMeanSimilarity': asr['meanSimilarity'],
+                       **({'asrMinSoundSimilarity': asr['minSoundSimilarity'], 'asrMeanSoundSimilarity': asr['meanSoundSimilarity']}
+                          if 'minSoundSimilarity' in asr else {}),
                        'captionLineBreak': assembly.get('captionLineBreak', {}).get('mode', 'libass-auto'),
                        'reviewRecords': REVIEWS, 'notDone': NOT_DONE + a.not_done},
         'package': {'filename': zip_name, 'bytes': split['bytes'], 'sha256': split['sha256'],

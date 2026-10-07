@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L007",
+  "episodePath": "episodes/academy/l007-password-castle",
+  "version": "L007-v1",
+  "createdAt": "2026-10-07",
+  "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
+  "status": "verified",
+  "publicationStatus": "awaiting_user_upload",
+  "contentMode": "curriculum-based-preclass (no recording)",
+  "durationSeconds": 379.933,
+  "openingSeconds": 60.277,
+  "voice": "zh-TW-YunJheNeural",
+  "ttsEngine": "edge-tts 7.2.8",
+  "backgroundMusic": "none under teaching slides",
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "validation": {
+    "passed": 25,
+    "total": 25,
+    "integratedLufs": -17.1,
+    "sceneAudioMaxLagMs": 0.0,
+    "sceneAudioMinCorrelation": 0.994051,
+    "asrMinSimilarity": 0.696,
+    "asrMeanSimilarity": 0.951,
+    "asrMinSoundSimilarity": 0.939,
+    "asrMeanSoundSimilarity": 0.989,
+    "captionLineBreak": "kinsoku",
+    "reviewRecords": [
+      "qc/report.md",
+      "qc/manual-review.md",
+      "qc/slide-visual-review.md"
+    ],
+    "notDone": [
+      "human full listening review",
+      "PowerPoint/Keynote open test",
+      "macOS hands-on test",
+      "YouTube copyright check",
+      "card game not play-tested; no real account screens shown"
+    ]
+  },
+  "package": {
+    "filename": "L007-v1_父子科技學院_密碼城堡與雙重驗證_2026-10-07.zip",
+    "bytes": 165718943,
+    "sha256": "a0e9582f6380f84054deab526049b8c35877fa876b953c1a3a79a0e0f35e7356",
+    "contents": "whitelisted package folder L007-v1 with checksums.json (20 files)",
+    "internalChecksums": {
+      "UPLOAD_README.md": "09971facbff2fba2d11cb1289f63827f706127a8932da528ae5cfcedf18cbb00",
+      "youtube-draft.json": "b82d88836a8a7a43250feccb91214b131ab2d05644244b1c169c751c6d677c4f",
+      "youtube-metadata.json": "cee1aa37ea5c731438669a189b98576b5a7538acf4141a40fa440cebd63b008f",
+      "manual-review.md": "2807c016dcbaed13613038bb9652b7dcc696c5f6c9897c362981999ded0f2d4e",
+      "repo-guide.md": "ac1036815d54592c329632e610b8be0e407574fff740d8be79f09ee3cd09e207",
+      "sources.json": "b0f9f419f612bde8e163758fe980ae07ccc0b33f8db73011c6fc5fe86136f546",
+      "narration-only.mp3": "47e5045522afe649644c85e418b61c7e7990ecd55528122bf63c07caec408ba6",
+      "report.json": "9608b03fcf61593e9f12fcdded6bebc2e3634f7917d256025a011176057e5ce7",
+      "fact-check.md": "5d48cce4e96357ae4b00639edd812e1349f002871295f681e5b3c83a1204a973",
+      "l007-password-castle.pptx": "93d5785c04d6f703edc699164ffba243bc38c09230dd8b45604549553908de8c",
+      "classroom.zip": "ca4afd02a7a2a49e5c4a1508ce593a4542cae7ed80374b5a8e1148b340901f91",
+      "zh-TW.srt": "39f89bf7d57dad8e981f23fd51d5ad6a8fc64ea8ce1dcdd0c529bfade569ae49",
+      "l007-password-castle-zh-TW.mp4": "4fd72a7383cad5105150226b7824d2cbb1f3657bacd7afd14938c46ca55f9c96",
+      "report.md": "02fa1de824ff901122a746c1b25f4aca3ce15178dba92c7d49e9cf34024bf7cd",
+      "youtube-description.txt": "86319a22b142babb636fb566d96f4257e1a23b33c607f002174d31da2ca87863",
+      "l007-password-castle-master.mp4": "176b2ebf939a898b94fcc8da1490fea838a288a99b4fbb5f71a73ea6fc113f25",
+      "chapters.txt": "acf683a0e2f47f79da40747b009948374a0ac141f61425d2fcde580bc7400e9a",
+      "thumbnail.png": "7197d76e945c388404e5b71680230baf04d1e9188ac220299f79023123cca2a5",
+      "narration-script.md": "5d4761b488e3c494e7381386d49cdfa6a04f645596ed2663943483f81f359f1d",
+      "START_HERE.md": "ef0983494d4c4619e2baec82f22cb97d855edb8f21e16ad71da158d135568b23"
+    }
+  },
+  "largeFiles": [
+    {
+      "filename": "l007-password-castle-zh-TW.mp4",
+      "bytes": 75838863,
+      "sha256": "4fd72a7383cad5105150226b7824d2cbb1f3657bacd7afd14938c46ca55f9c96",
+      "role": "captioned video for upload (burned zh-TW subtitles)",
+      "inGit": false
+    },
+    {
+      "filename": "l007-password-castle-master.mp4",
+      "bytes": 78947376,
+      "sha256": "176b2ebf939a898b94fcc8da1490fea838a288a99b4fbb5f71a73ea6fc113f25",
+      "role": "master without burned subtitles",
+      "inGit": false
+    },
+    {
+      "filename": "narration-only.mp3",
+      "bytes": 7672365,
+      "sha256": "47e5045522afe649644c85e418b61c7e7990ecd55528122bf63c07caec408ba6",
+      "role": "narration only, no opening",
+      "inGit": false
+    }
+  ],
+  "inGit": [
+    {
+      "filename": "l007-password-castle.pptx",
+      "bytes": 2509467,
+      "sha256": "93d5785c04d6f703edc699164ffba243bc38c09230dd8b45604549553908de8c",
+      "path": "production/presentation/l007-password-castle.pptx"
+    },
+    {
+      "filename": "zh-TW.srt",
+      "bytes": 5815,
+      "sha256": "39f89bf7d57dad8e981f23fd51d5ad6a8fc64ea8ce1dcdd0c529bfade569ae49",
+      "path": "subtitles/zh-TW.srt"
+    },
+    {
+      "filename": "thumbnail.png",
+      "bytes": 225646,
+      "sha256": "7197d76e945c388404e5b71680230baf04d1e9188ac220299f79023123cca2a5",
+      "path": "output/thumbnail.png"
+    },
+    {
+      "filename": "classroom.zip",
+      "bytes": 469042,
+      "sha256": "ca4afd02a7a2a49e5c4a1508ce593a4542cae7ed80374b5a8e1148b340901f91",
+      "path": "output/classroom.zip"
+    },
+    {
+      "filename": "contact-sheet.png",
+      "bytes": 1009806,
+      "sha256": "8149b1ed94af745674fadd52b2b67eb527f1abd779aedce1a8db2cbca91434a6",
+      "path": "output/contact-sheet.png"
+    }
+  ],
+  "persistence": {
+    "location": "Attachments delivered in the Claude session that produced this lesson (private to the account owner)",
+    "session": "https://claude.ai/code/session_01GE2NEiPKZa5XzbFCCWKxiy",
+    "reason": "30 MiB per-file attachment limit; the package ZIP was split into 6 byte-exact parts",
+    "parts": [
+      {
+        "filename": "L007-v1_父子科技學院_密碼城堡與雙重驗證_2026-10-07.zip.part01",
+        "bytes": 29360128,
+        "sha256": "dfaa9fd62a2e5ade99e521237f04ba2156de4dc22b1224a4733181a84ca208cd",
+        "conversationFileId": "398a0445-953c-4d89-87e0-8e54eb50e550"
+      },
+      {
+        "filename": "L007-v1_父子科技學院_密碼城堡與雙重驗證_2026-10-07.zip.part02",
+        "bytes": 29360128,
+        "sha256": "2327148a504672af0495b992bdb121e538d4016bd137eea91ea64be19ae8b7fd",
+        "conversationFileId": "f791e44b-9080-4768-b896-6e740f670b9d"
+      },
+      {
+        "filename": "L007-v1_父子科技學院_密碼城堡與雙重驗證_2026-10-07.zip.part03",
+        "bytes": 29360128,
+        "sha256": "4a092e60cc766806cccd91adaaf9972110f50fe52e0bc6dfbac93f9ca147959e",
+        "conversationFileId": "4acd11e5-65d8-408b-9ee8-98e04613cd66"
+      },
+      {
+        "filename": "L007-v1_父子科技學院_密碼城堡與雙重驗證_2026-10-07.zip.part04",
+        "bytes": 29360128,
+        "sha256": "2d9b7f4661216ad90ec42ce5c7271ffcf4e6689993e3d5e727df481a9b77c210",
+        "conversationFileId": "d841493f-c7b7-4286-836a-d94efcbcd514"
+      },
+      {
+        "filename": "L007-v1_父子科技學院_密碼城堡與雙重驗證_2026-10-07.zip.part05",
+        "bytes": 29360128,
+        "sha256": "c0f22e11f7fe21448600d802b53725bb5f0ef92704ef73d18dae45293013fe33",
+        "conversationFileId": "2dbd88d9-f694-4ed7-aaee-6171f6458a66"
+      },
+      {
+        "filename": "L007-v1_父子科技學院_密碼城堡與雙重驗證_2026-10-07.zip.part06",
+        "bytes": 18918303,
+        "sha256": "c1b55ca44b3a84c3ce0ef46f6745aa35bea972bc77398884af8391842331604d",
+        "conversationFileId": "443e0b05-2333-4090-8a31-7c7db0da1a6b"
+      }
+    ],
+    "restore": "cat \"L007-v1_父子科技學院_密碼城堡與雙重驗證_2026-10-07.zip\".part* > \"L007-v1_父子科技學院_密碼城堡與雙重驗證_2026-10-07.zip\" && shasum -a 256 \"L007-v1_父子科技學院_密碼城堡與雙重驗證_2026-10-07.zip\"",
+    "restoredZip": {
+      "filename": "L007-v1_父子科技學院_密碼城堡與雙重驗證_2026-10-07.zip",
+      "bytes": 165718943,
+      "sha256": "a0e9582f6380f84054deab526049b8c35877fa876b953c1a3a79a0e0f35e7356"
+    },
+    "restoreTested": "parts re-joined by pipeline/split_delivery.py in the producing session: SHA-256 equals the ZIP; ZIP integrity tested",
+    "notUsed": {
+      "gitHubRelease": "repository is public; a release would make the unpublished video public",
+      "googleDrive": "connector accepts only inline content; text records only, no large binaries",
+      "git": "large MP4/MP3 stay out of Git per .gitignore"
+    },
+    "ifAttachmentsUnavailable": "rebuild from Git: audio, slides, PPTX, SRT sources and the shared opening are tracked; run assemble → delivery → verify → package. A rebuild is a new version with new hashes."
+  },
+  "continuation": {
+    "state": "L007 complete through package; nothing pending except user playback/listening and manual YouTube upload",
+    "rebuildCommands": [
+      "cd academy && ./setup-portable.sh",
+      "EP=episodes/academy/l007-password-castle",
+      "./portable-runtime.sh python pipeline/academy.py run media-check --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run assemble --episode \"$EP\"   # ~20 min on 2 cores; run in background",
+      "./portable-runtime.sh python pipeline/delivery.py --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run verify --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py package --episode \"$EP\" --output delivery/L007-v2"
+    ],
+    "doNotRerunWithoutReason": "run tts (re-synthesises all audio and invalidates timing, subtitles, video and QC)",
+    "authoring": [
+      "authoring/l007/classroom.py",
+      "authoring/l007/prepare_content.py"
+    ],
+    "sharedTools": [
+      "pipeline/qa/subtitle_precheck.py",
+      "pipeline/qa/deck_check.py",
+      "pipeline/qa/media_review.py",
+      "pipeline/qa/asr_review.py",
+      "pipeline/split_delivery.py",
+      "pipeline/record_delivery.py"
+    ],
+    "nextLesson": "L008 釣魚郵件偵探社 (in production in the same session; see its own delivery.json)"
+  },
+  "publication": {
+    "status": "awaiting_user_upload",
+    "publisher": "user",
+    "uploaded": false,
+    "videoUrl": null,
+    "uploadFile": "l007-password-castle-zh-TW.mp4",
+    "note": "No login, upload or publication was attempted."
+  }
+}

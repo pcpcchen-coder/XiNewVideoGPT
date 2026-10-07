@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "editorialStatus": "authored",
+  "recordingSource": null,
+  "slideCount": 12,
+  "transitionSeconds": 0.55,
+  "deckRenderer": "ooxml-template",
+  "templateEpisode": "episodes/academy/l001-mac-workstation",
+  "templateProvenance": "Original PPTX absent from v2 ZIP; restored from supplied build_l001.mjs and original assets.",
+  "layoutProfile": "academy-native-v1",
+  "seriesHeader": "父子科技學院  ·  PASSWORD CASTLE",
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "zh-TW-YunJheNeural",
+    "persona": "陳犀牛 Chen XiNew",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "music": {
+    "backgroundMusic": "none — narration only under teaching slides",
+    "opening": "assets/opening/開場影片-v2.mp4"
+  },
+  "signoff": {
+    "text": "我是陳犀牛，保持好奇，我們下次見！"
+  },
+  "contentMode": "curriculum-based-preclass",
+  "publicationMode": "manual-user-upload",
+  "autoPublish": false,
+  "episode": "L007",
+  "slug": "l007-password-castle",
+  "title": "密碼城堡與雙重驗證",
+  "subtitle": "父子科技學院 第七堂｜依課表製作的課前教學版",
+  "lessonIds": [
+    "L007"
+  ],
+  "sources": {
+    "curriculum": "curriculum/catalog.json：L007；來源 V2 Excel 逐堂課程第 7 堂",
+    "nist_password": "https://www.nist.gov/cybersecurity-and-privacy/how-do-i-create-good-password",
+    "nist_800_63b": "https://pages.nist.gov/800-63-4/sp800-63b.html",
+    "cisa_tipsheet": "https://www.mass.gov/files/documents/2023/10/06/Secure-Our-World-Passwords-Tip-Sheet.pdf",
+    "ftc_passwords": "https://consumer.ftc.gov/articles/creating-strong-passwords-and-other-ways-protect-your-accounts",
+    "ftc_2fa": "https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts",
+    "owasp_stuffing": "https://community.owasp.org/attacks/Credential_stuffing",
+    "apple_passwords_app": "https://support.apple.com/zh-tw/120758",
+    "apple_safari_autofill": "https://support.apple.com/zh-tw/guide/safari/ibrwf71ba236/mac",
+    "apple_2fa": "https://support.apple.com/zh-tw/102660",
+    "apple_security": "https://support.apple.com/zh-tw/102614",
+    "apple_child": "https://support.apple.com/zh-tw/102617",
+    "google_2sv": "https://support.google.com/accounts/answer/185839?hl=zh-Hant&co=GENIE.Platform%3DDesktop",
+    "moda_acs": "https://moda.gov.tw/ACS/press/news/press/18660",
+    "twcert_otp": "https://www.twcert.org.tw/newepaper/cp-92-8285-1c028-3.html",
+    "catalog_reference": "https://consumer.ftc.gov/identity-theft-and-online-security/online-privacy-and-security"
+  },
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "factCheck": {
+    "checkedAt": "2026-10-07",
+    "record": "production/fact-check.md",
+    "sources": "production/sources.json"
+  },
+  "authorization": {
+    "produceL007": true,
+    "ttsConsent": {
+      "grantedBy": "user",
+      "grantedAt": "2026-10-07",
+      "service": "Microsoft Edge TTS",
+      "voice": "zh-TW-YunJheNeural",
+      "scope": "L007 public narration script only",
+      "basis": "On 2026-10-07 the user asked to produce L007–L010 'following this process' (the L004–L006 process, which sends the public narration script to Edge TTS); stated back to the user before synthesis.",
+      "excluded": "private recordings or any other private data"
+    },
+    "paidLlmApi": false,
+    "uploadToYouTube": false,
+    "publish": false
+  }
+}

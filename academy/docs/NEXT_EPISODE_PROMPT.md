@@ -1,6 +1,6 @@
 # 交給下一個工作階段的指令
 
-先確認 `curriculum/production-status.json`，填入實際指定的課號。以下課號只是範例（L004–L006 已於 2026-10-07 完成，下一課是 L007）；課程內容來自 catalog，不從上一集猜測。
+先確認 `curriculum/production-status.json`，填入實際指定的課號。以下課號只是範例（<!-- academy-status:sentence -->L004–L007 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；下一堂是 L008「釣魚郵件偵探社」，接手仍讀狀態表。<!-- /academy-status:sentence -->）；課程內容來自 catalog，不從上一集猜測。
 
 ```text
 請接手 https://github.com/pcpcchen-coder/XiNewVideoGPT 的父子科技學院。

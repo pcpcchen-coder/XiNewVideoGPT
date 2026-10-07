@@ -1,0 +1,41 @@
+{
+  "folder": "classroom/L007_密碼城堡與雙重驗證",
+  "files": [
+    "00_爸爸先讀.md",
+    "01_活動規則_紙牌密碼攻防.md",
+    "02_列印包_密碼城堡.pdf",
+    "03_家庭帳號安全清單.csv",
+    "03_家庭帳號安全清單_填寫說明.md",
+    "04_爸爸課後設定指引.md",
+    "05_自選規則卡.md",
+    "06_驗收與回顧.md",
+    "07_城堡四零件小抄.md"
+  ],
+  "fileCount": 9,
+  "utf8TextReadable": true,
+  "sheet": {
+    "file": "03_家庭帳號安全清單.csv",
+    "rows": 8,
+    "columns": 11
+  },
+  "printPack": {
+    "file": "02_列印包_密碼城堡.pdf",
+    "pages": 5,
+    "allFontsEmbedded": true,
+    "renderedThisRun": true,
+    "source": "authoring/l007/print/print-pack.html"
+  },
+  "gameProps": {
+    "wordCards": 24,
+    "accounts": [
+      "星星信箱",
+      "恐龍遊戲",
+      "彩虹學習網"
+    ],
+    "fictional": true
+  },
+  "realPasswordsOrAccounts": "none; the list template records service types and check results only",
+  "answersProvided": "guess-count table for the warm-up only",
+  "privateData": "none",
+  "status": "PASS (structure); page-by-page visual review recorded separately"
+}

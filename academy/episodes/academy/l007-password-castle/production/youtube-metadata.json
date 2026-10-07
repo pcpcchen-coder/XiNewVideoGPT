@@ -1,0 +1,62 @@
+{
+  "title": "父子科技學院 L007｜密碼城堡與雙重驗證",
+  "description": "父子科技學院 L007｜密碼城堡與雙重驗證\n\n這是依課表製作的課前教學版，不是實際上課錄音，也沒有虛構的課堂對話。\n\n帳號就像一座城堡，密碼是城門的鑰匙。陳犀牛帶你認識守城的四個零件：長密碼、每個帳號不重複的密碼、密碼管理器，還有雙重驗證。\n看完影片，用紙牌玩一場攻防戰，看看「重複密碼」和「不重複加第二道門」差在哪裡，最後完成一張不寫真密碼的家庭帳號安全清單。\n\n這一集會學到\n・密碼的長度比花樣更重要；把好幾個不相關的詞接成一句長句子\n・每個帳號用不同的密碼，一組外洩才不會被拿去開別的帳號（撞庫）\n・密碼管理器幫你產生並記住密碼；雙重驗證是第二道門\n・驗證碼不給任何人；開了雙重驗證也要小心假的登入網頁\n\n教材用法（classroom.zip）\n先讀「00_爸爸先讀」，列印「02_列印包」（A4 共 5 頁）並剪下紙牌，照「01_活動規則」玩紙牌密碼攻防；\n下半場用「03_家庭帳號安全清單」和「04_清單寫法與檢查表」盤點，完成「05_自選規則卡」，最後用「06_驗收與回顧」讓孩子教爸爸。「07_城堡四零件小抄」可以放在鍵盤旁邊。\n\n注意事項\n・課堂是 120 分鐘，影片只是課前引導，片長另計。\n・全程不要說出、寫下或拍到任何真正的密碼和驗證碼；遊戲只用紙牌和虛構帳號。\n・真的要調整家裡帳號的設定，請爸爸課後私下處理。各家名稱不同：Apple 稱「雙重認證」，Google 稱「兩步驟驗證」。\n・密碼長度各機構建議不同（12 到 16 個字元以上），越長越好；有些網站另有規定，照網站要求。\n\n來源（查核日 2026-10-07）\nNIST「How Do I Create a Good Password?」：https://www.nist.gov/cybersecurity-and-privacy/how-do-i-create-good-password\nCISA「Secure Our World Passwords Tip Sheet」（PDF 副本）：https://www.mass.gov/files/documents/2023/10/06/Secure-Our-World-Passwords-Tip-Sheet.pdf\nFTC「Creating Strong Passwords」：https://consumer.ftc.gov/articles/creating-strong-passwords-and-other-ways-protect-your-accounts\nFTC「Use Two-Factor Authentication」：https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts\nOWASP「Credential stuffing」：https://community.owasp.org/attacks/Credential_stuffing\nApple 支援「密碼」App：https://support.apple.com/zh-tw/120758\nApple 支援「Apple 帳號的雙重認證」：https://support.apple.com/zh-tw/102660\n數位發展部資通安全署「強化帳密安全，落實三大防護原則」：https://moda.gov.tw/ACS/press/news/press/18660\n\n章節\n00:00 陳犀牛系列片頭\n01:00 密碼城堡與雙重驗證\n01:28 守城堡的三道防線\n01:53 長密碼：城牆越高越難爬\n02:21 密碼城堡的四個零件\n02:43 撞庫攻擊：一把鑰匙開很多門？\n03:07 密碼管理器：鑰匙保管箱\n03:33 雙重驗證：第二道門\n04:01 紙牌攻防：誰守得住城堡？\n04:27 兩回合比一比：差在哪裡？\n04:52 換你盤點：家庭帳號安全清單\n05:21 兩小時的密碼城堡課\n05:49 最後一關：教爸爸守城堡\n\n旁白：Edge-TTS zh-TW-YunJheNeural 合成語音。字幕已燒入影片，開啟 CC 可能重疊。\n",
+  "chapters": [
+    {
+      "seconds": 0,
+      "title": "陳犀牛系列片頭"
+    },
+    {
+      "seconds": 60.277,
+      "title": "密碼城堡與雙重驗證"
+    },
+    {
+      "seconds": 88.165,
+      "title": "守城堡的三道防線"
+    },
+    {
+      "seconds": 113.989,
+      "title": "長密碼：城牆越高越難爬"
+    },
+    {
+      "seconds": 141.949,
+      "title": "密碼城堡的四個零件"
+    },
+    {
+      "seconds": 163.525,
+      "title": "撞庫攻擊：一把鑰匙開很多門？"
+    },
+    {
+      "seconds": 187.885,
+      "title": "密碼管理器：鑰匙保管箱"
+    },
+    {
+      "seconds": 213.037,
+      "title": "雙重驗證：第二道門"
+    },
+    {
+      "seconds": 241.573,
+      "title": "紙牌攻防：誰守得住城堡？"
+    },
+    {
+      "seconds": 267.925,
+      "title": "兩回合比一比：差在哪裡？"
+    },
+    {
+      "seconds": 292.381,
+      "title": "換你盤點：家庭帳號安全清單"
+    },
+    {
+      "seconds": 321.901,
+      "title": "兩小時的密碼城堡課"
+    },
+    {
+      "seconds": 349.573,
+      "title": "最後一關：教爸爸守城堡"
+    }
+  ],
+  "privacyStatus": "private",
+  "madeForKids": null,
+  "reviewStatus": "needs-parent-review",
+  "publicationMode": "manual-user-upload"
+}
