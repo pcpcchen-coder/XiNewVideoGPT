@@ -1,5 +1,7 @@
 # 雲端逐集製作教學
 
+ChatGPT 以外環境請優先讀 [Claude 可攜製作指南](CLAUDE_HANDOFF.md)，避免使用此文的專屬 artifact-tool 路徑。
+
 更新：2026-09-29。以下命令均在 repo 的 `academy/` 執行。目標是可靠地接續 L001–L192；每次只做指定課次。
 
 ## 1. 環境與素材

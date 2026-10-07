@@ -1,5 +1,6 @@
 # 新工作階段從這裡接手
 
+**Claude 接手（2026-10-07）：** 先讀 [跨環境製作指南](docs/CLAUDE_HANDOFF.md)；已提供無 ChatGPT 專用依賴的套版與交付入口。[三集啟動指令](docs/CLAUDE_BATCH_PROMPT.md)可直接交給 Claude。
 **SP01 最新結果（2026-10-04）：** 使用者另行授權本機上傳及公開，已完成：[6Bq4jI0Xook](https://youtu.be/6Bq4jI0Xook)。原封面、章節、來源說明與繁中 CC 已驗證；YouTube 著作權檢查未發現任何問題。詳見[SP01 發布驗收](specials/sp01-ai-update-20261004/publication/local-upload-review.md)。不得重複上傳；L001–L192 課程狀態及系列預設不變。
 
 **L003 最新結果：** 本機已於 2026-09-29 完成上傳與公開：[nhWH6BQna5A](https://youtu.be/nhWH6BQna5A)。縮圖、說明、章節時間戳與繁中 CC 均已核對；著作權檢查仍在進行，未宣稱通過。請讀[本機驗收](episodes/academy/l003-keyboard-ninja/publication/local-upload-review.md)；後續接續同一影片，不得重新上傳。下方自行上傳規則仍為其他課次預設。

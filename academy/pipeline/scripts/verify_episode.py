@@ -57,6 +57,17 @@ def main() -> None:
     slides = json.loads((EP / "production/slides.json").read_text(encoding="utf-8"))
     storyboard = json.loads((EP / "production/storyboard.json").read_text(encoding="utf-8"))
 
+    from pptx import Presentation
+    deck = Presentation(pptx)
+    check("editable_deck_structure", len(deck.slides) == 12 and all(
+        any(shape.has_text_frame and shape.text.strip() for shape in slide.shapes)
+        for slide in deck.slides), "12 slides with native editable text")
+    notes_match = len(deck.slides) == len(narration) and all(
+        all(sentence["text"] in slide.notes_slide.notes_text_frame.text
+            for sentence in scene["sentences"])
+        for slide, scene in zip(deck.slides, narration))
+    check("deck_notes_match_narration", notes_match, "all 36 narration sentences present in final PPTX notes")
+
     check("slide_count", len(slides) == manifest["slideCount"] == len(narration) == len(storyboard),
           f"slides={len(slides)} narration={len(narration)} storyboard={len(storyboard)}")
 

@@ -159,7 +159,7 @@ def validate_episode(ep):
     b = read(ep / "production/storyboard.json")
     if not len(n) == len(s) == len(b) == m["slideCount"] == 12:
         raise ValueError("Current series profile requires 12 scenes")
-    edits = read(ep / "production/template-text.json") if m.get("deckRenderer") == "artifact-tool-template" else []
+    edits = read(ep / "production/template-text.json") if m.get("deckRenderer") in {"artifact-tool-template", "ooxml-template"} else []
     if "待編寫" in json.dumps([m, n, s, b, edits], ensure_ascii=False):
         raise ValueError("Unfinished editorial placeholders")
     if m.get("editorialStatus") == "draft":
@@ -237,6 +237,12 @@ def package(ep, dest):
     attestation = read(ep / "qc/verified-inputs.json")
     if attestation != fingerprint(ep):
         raise ValueError("Inputs or deliverables changed after verification; run verify again")
+    required = ["production/fact-check.md", "production/START_HERE.md", "production/chapters.txt",
+                "production/sources.json", "production/youtube-metadata.json", "production/youtube-description.txt",
+                "production/narration-script.md", "output/narration-only.mp3", "output/classroom.zip", "qc/manual-review.md"]
+    for rel in required:
+        if not (ep / rel).is_file() or not (ep / rel).stat().st_size:
+            raise ValueError("Incomplete delivery: " + rel)
     if dest.exists():
         raise FileExistsError(dest)
     # Explicit allowlist; no recordings, transcripts, or unrelated episode files.
@@ -281,12 +287,12 @@ def package(ep, dest):
 
 def fingerprint(ep):
     paths = []
-    for folder in ("production", "audio", "subtitles", "output", "assets/slides"):
+    for folder in ("production", "audio", "subtitles", "output", "assets/slides", "classroom"):
         paths.extend(p for p in (ep / folder).rglob("*") if p.is_file())
     return {p.relative_to(ep).as_posix(): sha(p) for p in sorted(paths)}
 
 
-def new_episode(lesson_id, slug):
+def new_episode(lesson_id, slug, renderer=None):
     if not re.fullmatch(r"L(?:00[1-9]|0[1-9]\d|1[0-8]\d|19[0-2])", lesson_id):
         raise ValueError("Use L001–L192")
     if not re.fullmatch(re.escape(lesson_id.lower()) + r"-[a-z0-9]+(?:-[a-z0-9]+)*", slug):
@@ -302,6 +308,7 @@ def new_episode(lesson_id, slug):
         (ep / folder).mkdir(parents=True)
     manifest.update(episode=lesson_id, slug=slug, title=lesson["sourceRow"]["課程主題"],
                     subtitle=lesson["sourceRow"]["學習目標"], lessonIds=[lesson_id], editorialStatus="draft")
+    if renderer is not None: manifest["deckRenderer"] = renderer
     manifest["sources"] = {"curriculum": f"lessons/{lesson_id}/lesson.json"}
     write(ep / "production/manifest.json", manifest)
     write(ep / "production/narration.json", [
@@ -331,7 +338,7 @@ def main():
     sub = p.add_subparsers(dest="command", required=True)
     a = sub.add_parser("import-curriculum"); a.add_argument("source", type=Path); a.add_argument("--output", type=Path, default=ROOT / "curriculum/catalog.json")
     a = sub.add_parser("init"); a.add_argument("lesson"); a.add_argument("--catalog", type=Path, default=ROOT / "curriculum/catalog.json")
-    a = sub.add_parser("new-episode"); a.add_argument("lesson"); a.add_argument("--slug", required=True)
+    a = sub.add_parser("new-episode"); a.add_argument("lesson"); a.add_argument("--slug", required=True); a.add_argument("--renderer", choices=["artifact-tool-template", "ooxml-template"])
     a = sub.add_parser("ingest"); a.add_argument("lesson"); a.add_argument("source", type=Path); a.add_argument("--recording", type=Path)
     a = sub.add_parser("transcribe"); a.add_argument("lesson"); a.add_argument("recording", type=Path); a.add_argument("--model", type=Path, required=True)
     a = sub.add_parser("run"); a.add_argument("stage", choices=["validate", "media-check", "deck", "render", "tts", "assemble", "verify"]); a.add_argument("--episode", type=Path, required=True)
@@ -342,7 +349,7 @@ def main():
         raise ValueError("Use L001–L192")
     if args.command == "import-curriculum": import_curriculum(args.source, args.output)
     elif args.command == "init": init_lesson(args.catalog, args.lesson)
-    elif args.command == "new-episode": new_episode(args.lesson, args.slug)
+    elif args.command == "new-episode": new_episode(args.lesson, args.slug, args.renderer)
     elif args.command == "ingest": ingest(args.lesson, args.source, args.recording)
     elif args.command == "transcribe": transcribe(args.lesson, args.recording, args.model)
     elif args.command == "doctor":
@@ -366,6 +373,9 @@ def main():
         if args.command == "package": package(ep, args.output.resolve()); return
         validate_episode(ep)
         if args.stage == "media-check": media_check(ep)
+        elif args.stage in ("deck", "render") and read(ep / "production/manifest.json").get("deckRenderer") == "ooxml-template":
+            from portable_deck import build
+            build(ep)
         elif args.stage in ("deck", "render") and read(ep / "production/manifest.json").get("deckRenderer") == "artifact-tool-template":
             node = os.environ.get("RUNTIME_NODE") or shutil.which("node")
             if not node: raise ValueError("Set RUNTIME_NODE")

@@ -19,3 +19,5 @@ client_secret*.json
 # The shared original is reconstructed from the tracked byte-exact parts.
 /assets/opening/開場影片-v2.mp4
 /assets/opening/.restore-*/
+# Portable readiness logs are reproducible intermediates.
+.build-*.log
