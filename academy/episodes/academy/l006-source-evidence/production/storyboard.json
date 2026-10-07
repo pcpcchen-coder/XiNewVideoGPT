@@ -1,0 +1,110 @@
+[
+  {
+    "slide": 1,
+    "title": "真真假假：來源與證據偵探",
+    "purpose": "開場：課前教學版揭露、偵探任務與作品",
+    "visual": "封面版型：任務標籤、兩行主題、一句任務說明；原陳犀牛角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "準備紙筆與瀏覽器；預告偵探三問與來源可信度評分表",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 2,
+    "title": "偵探三問：每則消息都要問",
+    "purpose": "概念：偵探三問（誰說的、證據呢、別人也這麼說嗎）",
+    "visual": "三步流程卡：誰說的？ → 證據呢？ → 別人呢？（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出今天要完成的作品",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 3,
+    "title": "兩種來源：原始與二手",
+    "purpose": "概念：原始來源與二手來源；重要的事回頭找原始來源",
+    "visual": "三點條列＋陳犀牛：原始來源、二手來源、回頭找原始來源（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "各舉一個原始來源與二手來源的例子",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 4,
+    "title": "把消息分成四類",
+    "purpose": "概念：原始來源、二手來源、廣告、意見四類；同一則消息可能混合多類",
+    "visual": "類型卡面板：原始來源、二手來源、廣告、意見（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "替最近看到的一則消息分類",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 5,
+    "title": "意見，還是可以檢查的說法？",
+    "purpose": "例子：意見與可檢查的說法；可檢查的才能當證據",
+    "visual": "雙框對照：意見 ≠ 可以檢查的說法（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "各說一句意見和一句可以檢查的說法",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 6,
+    "title": "廣告與業配：先找標示",
+    "purpose": "概念與例子：廣告與合作內容的標示、目的；沒有標示不代表不是廣告",
+    "visual": "三張步驟卡：找標示／想目的／再比較（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "在一則內容裡找出標示並說出目的",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 7,
+    "title": "證據：可以回頭檢查的東西",
+    "purpose": "概念：證據＝可回頭檢查；出處、日期、數字與照片；熱門不等於真實",
+    "visual": "路徑一行（有出處→有日期→查得到）＋三張檢查卡（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "替一則消息找出處與日期",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 8,
+    "title": "找第二來源：離開這一頁去查",
+    "purpose": "示範：橫向查證找第二來源；互相轉貼不算第二來源；查不到就寫不確定",
+    "visual": "左側三步驟；右側第二來源重點與做法（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "暫停影片：替一則消息找出第二來源",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 9,
+    "title": "偵探競速：快分類，慢判斷",
+    "purpose": "活動規則：競速只用在分類；可信度評分五項各 0 到 2 分並寫理由",
+    "visual": "左右比較卡（快分類／慢判斷）＋黃字說明要寫理由（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "第一回合限時分類；第二回合逐則評分",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 10,
+    "title": "換你當主審：來源可信度評分表",
+    "purpose": "獨立改造與資訊判讀：評分表、自選偵探規則、評分表的限制",
+    "visual": "三點條列＋陳犀牛：評分表、自選規則、限制（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成評分表；自訂一條規則並測試",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的來源偵探課",
+    "purpose": "120 分鐘安排：10／15／40／10／30／10／5",
+    "visual": "六列時間表與今日生活技能（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "依時間表進行；休息十分鐘",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：教爸爸當偵探",
+    "purpose": "作品驗收與回顧：示範偵探三問，指出一個限制或安全注意；固定結尾",
+    "visual": "三點驗收條列＋陳犀牛＋結尾語（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "孩子教爸爸；錄音回答四個問題；作品命名存檔",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  }
+]

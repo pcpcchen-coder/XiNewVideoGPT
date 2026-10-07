@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "editorialStatus": "authored",
+  "recordingSource": null,
+  "slideCount": 12,
+  "transitionSeconds": 0.55,
+  "deckRenderer": "ooxml-template",
+  "templateEpisode": "episodes/academy/l001-mac-workstation",
+  "templateProvenance": "Original PPTX absent from v2 ZIP; restored from supplied build_l001.mjs and original assets.",
+  "layoutProfile": "academy-native-v1",
+  "seriesHeader": "父子科技學院  ·  SOURCE DETECTIVE",
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "zh-TW-YunJheNeural",
+    "persona": "陳犀牛 Chen XiNew",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "music": {
+    "backgroundMusic": "none — narration only under teaching slides",
+    "opening": "assets/opening/開場影片-v2.mp4"
+  },
+  "signoff": {
+    "text": "我是陳犀牛，保持好奇，我們下次見！"
+  },
+  "contentMode": "curriculum-based-preclass",
+  "publicationMode": "manual-user-upload",
+  "autoPublish": false,
+  "episode": "L006",
+  "slug": "l006-source-evidence",
+  "title": "真真假假：來源與證據偵探",
+  "subtitle": "父子科技學院 第六堂｜依課表製作的課前教學版",
+  "lessonIds": [
+    "L006"
+  ],
+  "sources": {
+    "curriculum": "curriculum/catalog.json：L006；來源 V2 Excel 逐堂課程第 6 堂",
+    "loc_primary": "https://loc.gov/programs/teachers/getting-started-with-primary-sources",
+    "cor_three_questions": "https://cor.inquirygroup.org/blog/get-started-now",
+    "princeton_lateral": "https://libguides.princeton.edu/medialiteracy/lateralreading",
+    "ifla_fake_news": "https://www.ifla.org/?p=110161",
+    "ftc_disclosures": "https://ftc.gov/system/files/documents/plain-language/1001a-influencer-guide-508_1.pdf",
+    "ftc_disclosures_blog": "https://www.ftc.gov/business-guidance/blog/2019/11/disclosures-101-new-ftc-resources-social-media-influencers",
+    "ftc_phishing": "https://consumer.ftc.gov/consumer-alerts/2025/04/protect-yourself-phishing-scams",
+    "google_ads_vs_results": "https://support.google.com/google-ads/answer/1722080?hl=zh-Hant",
+    "tfc": "https://tfc-taiwan.org.tw/?p=104895",
+    "catalog_reference": "https://consumer.ftc.gov/identity-theft-and-online-security/online-privacy-and-security"
+  },
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "factCheck": {
+    "checkedAt": "2026-10-07",
+    "record": "production/fact-check.md",
+    "sources": "production/sources.json"
+  },
+  "authorization": {
+    "produceL006": true,
+    "ttsConsent": {
+      "grantedBy": "user",
+      "grantedAt": "2026-10-07",
+      "service": "Microsoft Edge TTS",
+      "voice": "zh-TW-YunJheNeural",
+      "scope": "L006 public narration script only",
+      "basis": "Session launch prompt consented to sending 'these three lessons' public narration to Edge TTS; the user then asked in the same session to continue with the next two lessons; this is the third lesson of the session.",
+      "excluded": "private recordings or any other private data"
+    },
+    "paidLlmApi": false,
+    "uploadToYouTube": false,
+    "publish": false
+  }
+}

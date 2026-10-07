@@ -15,7 +15,7 @@
 | L003 | 鍵盤忍者：快捷鍵競速 | verified | published_verified | [YouTube](https://youtu.be/nhWH6BQna5A) |
 | L004 | 網路到底是什麼：封包接力賽 | verified | awaiting_user_upload | — |
 | L005 | 搜尋高手：把大問題拆成好問題 | verified | awaiting_user_upload | — |
-| L006 | 真真假假：來源與證據偵探 | planned | not_uploaded | — |
+| L006 | 真真假假：來源與證據偵探 | verified | awaiting_user_upload | — |
 | L007 | 密碼城堡與雙重驗證 | planned | not_uploaded | — |
 | L008 | 釣魚郵件偵探社 | planned | not_uploaded | — |
 | L009 | 個資、照片與數位足跡 | planned | not_uploaded | — |

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T12:18:52+08:00",
+  "updatedAt": "2026-10-07T12:35:11+08:00",
   "lessons": [
     {
       "lessonId": "L001",
@@ -61,12 +61,12 @@
       "lessonId": "L006",
       "title": "真真假假：來源與證據偵探",
       "learningObjectives": "分辨原始來源、二手來源、廣告、意見與可驗證證據",
-      "productionStatus": "planned",
-      "publicationStatus": "not_uploaded",
+      "productionStatus": "verified",
+      "publicationStatus": "awaiting_user_upload",
       "publicationOwner": "user",
       "videoUrl": null,
-      "evidence": "none",
-      "episodePath": null
+      "evidence": "Produced 2026-10-07 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L006-v1 SHA-256 bf14765e46b4d5cbbf5a359024449937402466ee20959a0bd04c07f5e1650f6f delivered as 6 session attachments. See episodes/academy/l006-source-evidence/delivery.json and qc/manual-review.md.",
+      "episodePath": "episodes/academy/l006-source-evidence"
     },
     {
       "lessonId": "L007",

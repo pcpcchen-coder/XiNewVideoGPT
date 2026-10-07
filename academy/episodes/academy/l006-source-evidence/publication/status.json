@@ -1,0 +1,16 @@
+{
+  "lessonId": "L006",
+  "status": "awaiting_user_upload",
+  "publicationMode": "manual-user-upload",
+  "publisher": "user",
+  "videoUrl": null,
+  "targetTitle": "父子科技學院 L006｜真真假假：來源與證據偵探",
+  "videoFile": "l006-source-evidence-zh-TW.mp4",
+  "videoSha256": "f79891601ccb84b15a0bdcde33d7010bd3d959c2dfc9d9a8814517d613f777bd",
+  "videoBytes": 76565647,
+  "deliveryVersion": "L006-v1",
+  "deliveryRecord": "delivery.json",
+  "authorizedToUpload": false,
+  "authorizedToPublish": false,
+  "note": "Produced and packaged 2026-10-07. Awaiting user playback and manual upload; no YouTube login, upload or publication attempted."
+}

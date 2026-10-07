@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L006",
+  "checkedAt": "2026-10-07",
+  "method": "Agent (Claude) fetched each URL on the check date and extracted the cited passages; not a human full read. See fact-check.md for claim mapping and limits.",
+  "curriculum": "curriculum/catalog.json：L006；來源 V2 Excel 逐堂課程第 6 堂",
+  "sources": [
+    {
+      "id": "loc_primary",
+      "title": "Getting Started with Primary Sources",
+      "publisher": "Library of Congress（美國國會圖書館）",
+      "url": "https://loc.gov/programs/teachers/getting-started-with-primary-sources",
+      "usedFor": "原始來源＝事情發生當時留下的原始文件與物品；二手來源＝隔了時間或距離，重述、分析或解讀事件的說法"
+    },
+    {
+      "id": "cor_three_questions",
+      "title": "Getting Started with the Civic Online Reasoning Curriculum",
+      "publisher": "Digital Inquiry Group",
+      "url": "https://cor.inquirygroup.org/blog/get-started-now",
+      "usedFor": "偵探三問的依據：Who's behind the information? What's the evidence? What do other sources say?"
+    },
+    {
+      "id": "princeton_lateral",
+      "title": "Media Literacy: Lateral Reading",
+      "publisher": "Princeton University Library",
+      "url": "https://libguides.princeton.edu/medialiteracy/lateralreading",
+      "usedFor": "橫向查證：開新的瀏覽器分頁，用其他可信來源評估這個來源；查誰經營網站、其他來源怎麼說"
+    },
+    {
+      "id": "ifla_fake_news",
+      "title": "How To Spot Fake News – IFLA in the post-truth society",
+      "publisher": "IFLA（國際圖書館協會聯盟）",
+      "url": "https://www.ifla.org/?p=110161",
+      "usedFor": "八個步驟的標題：Consider the source、Check the author、Supporting sources?、Check the date 等；看日期、看佐證"
+    },
+    {
+      "id": "ftc_disclosures",
+      "title": "Disclosures 101 for Social Media Influencers",
+      "publisher": "U.S. Federal Trade Commission",
+      "url": "https://ftc.gov/system/files/documents/plain-language/1001a-influencer-guide-508_1.pdf",
+      "usedFor": "和品牌有金錢、僱傭、個人或家庭關係時要揭露；揭露放在推薦內容旁；用簡單清楚的說法（advertisement、ad、sponsored）"
+    },
+    {
+      "id": "ftc_disclosures_blog",
+      "title": "Disclosures 101: New FTC resources for social media influencers",
+      "publisher": "U.S. Federal Trade Commission（2019-11-05）",
+      "url": "https://www.ftc.gov/business-guidance/blog/2019/11/disclosures-101-new-ftc-resources-social-media-influencers",
+      "usedFor": "material connection 的說明：品牌付費、提供免費或折扣產品等"
+    },
+    {
+      "id": "ftc_phishing",
+      "title": "Protect yourself from phishing scams",
+      "publisher": "U.S. Federal Trade Commission 消費者提醒（2025-06-04）",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2025/04/protect-yourself-phishing-scams",
+      "usedFor": "不點可疑訊息裡的連結、不下載附件；改用自己確定是真的電話、信箱或網站聯絡"
+    },
+    {
+      "id": "google_ads_vs_results",
+      "title": "Google 搜尋結果與廣告的差別",
+      "publisher": "Google Ads 說明",
+      "url": "https://support.google.com/google-ads/answer/1722080?hl=zh-Hant",
+      "usedFor": "廣告有標示的一個例子（L005 查核過，本次沿用同一頁）"
+    },
+    {
+      "id": "tfc",
+      "title": "TFC連續五年獲得國際認證 查核＋數位素養增加民眾假訊息抵抗力",
+      "publisher": "台灣事實查核中心（2023-09-22）",
+      "url": "https://tfc-taiwan.org.tw/?p=104895",
+      "usedFor": "教材：台灣可以參考的查核組織；確認其為獲 IFCN 認證的查核單位。影片旁白未提及"
+    },
+    {
+      "id": "catalog_reference",
+      "title": "Online Privacy and Security",
+      "publisher": "U.S. Federal Trade Commission 消費者網站",
+      "url": "https://consumer.ftc.gov/identity-theft-and-online-security/online-privacy-and-security",
+      "usedFor": "課表 R23 主要參考網址；本課未直接用於任何主張，安全提醒引用的是同一網站的釣魚訊息提醒"
+    }
+  ],
+  "notVerified": [
+    "台灣對廣告、薦證或業配標示的法規：本次沒有查核到官方頁面，影片與教材因此不對台灣法規做任何陳述"
+  ],
+  "youtubeSearchEntries": {
+    "status": "not selected, not watched",
+    "note": "課表的三組 YouTube 連結是動態搜尋入口，本次未挑選或觀看任何影片，也未在影片或教材中引用。"
+  }
+}

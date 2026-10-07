@@ -1,0 +1,14 @@
+{
+  "renderer": "ooxml-template + LibreOffice",
+  "referenceSha256": "e3ce4c66cfbfff5ca37cb04358381b6359766d9cf588fe25f641b2213ebfc40b",
+  "pptxSha256": "8e4ce67c9282a80c097f0d2e2021950db5f1c352682ed226c70f5d28b678929a",
+  "slideCount": 12,
+  "matchedMappings": 117,
+  "xmlParsed": true,
+  "rendered": true,
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "visualReview": "required; not established by structural checks"
+}

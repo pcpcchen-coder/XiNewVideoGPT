@@ -61,6 +61,18 @@ L004 的來源、PPTX、12 張 PNG、12 段 TTS 音檔、SRT、教材與 QC 都�
 以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見
 `episodes/academy/l005-search-master/delivery.json`。未建立 Release，勿編造下載連結。
 
+## L006 大型輸出（L006-v1，2026-10-07）
+
+| 檔案 | Bytes | SHA-256 |
+|---|---:|---|
+| `l006-source-evidence-zh-TW.mp4` | 76,565,647 | `f79891601ccb84b15a0bdcde33d7010bd3d959c2dfc9d9a8814517d613f777bd` |
+| `l006-source-evidence-master.mp4` | 79,501,488 | `716b3fe2a2353e68062d180560b8b93b21d495199c62913a8d7e9d7520a76c10` |
+| `narration-only.mp3` | 8,160,237 | `a699cfe8cc08e12c75c69b4ed86f6f3a9e26351b2d2cff6b1c4b39609abaf50b` |
+| `L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip`（完整交付包） | 167,425,803 | `bf14765e46b4d5cbbf5a359024449937402466ee20959a0bd04c07f5e1650f6f` |
+
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見
+`episodes/academy/l006-source-evidence/delivery.json`。未建立 Release，勿編造下載連結。
+
 ## 新工作區取回 L003
 
 1. 在 ChatGPT Library 按完整檔名找 `Academy_Cloud_Handoff_2026-09-27_L003.zip`；由 Library 能力下載到工作區。一般本機使用者則下載本對話已交付的同名 ZIP。

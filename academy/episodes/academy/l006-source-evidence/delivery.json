@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L006",
+  "episodePath": "episodes/academy/l006-source-evidence",
+  "version": "L006-v1",
+  "createdAt": "2026-10-07",
+  "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
+  "status": "verified",
+  "publicationStatus": "awaiting_user_upload",
+  "contentMode": "curriculum-based-preclass (no recording)",
+  "durationSeconds": 400.256,
+  "openingSeconds": 60.277,
+  "voice": "zh-TW-YunJheNeural",
+  "ttsEngine": "edge-tts 7.2.8",
+  "backgroundMusic": "none under teaching slides",
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "validation": {
+    "passed": 25,
+    "total": 25,
+    "integratedLufs": -17.2,
+    "sceneAudioMaxLagMs": 0.0,
+    "sceneAudioMinCorrelation": 0.99041,
+    "asrMinSimilarity": 0.822,
+    "asrMeanSimilarity": 0.959,
+    "captionLineBreak": "kinsoku",
+    "reviewRecords": [
+      "qc/report.md",
+      "qc/manual-review.md",
+      "qc/slide-visual-review.md"
+    ],
+    "notDone": [
+      "human full listening review",
+      "PowerPoint/Keynote open test",
+      "macOS hands-on test",
+      "YouTube copyright check",
+      "Taiwan advertising/endorsement disclosure rules were not checked",
+      "no real news items were supplied or fact-checked; the five practice cards are invented"
+    ]
+  },
+  "package": {
+    "filename": "L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip",
+    "bytes": 167425803,
+    "sha256": "bf14765e46b4d5cbbf5a359024449937402466ee20959a0bd04c07f5e1650f6f",
+    "contents": "whitelisted package folder L006-v1 with checksums.json (20 files)",
+    "internalChecksums": {
+      "UPLOAD_README.md": "afe24eb4e438a07318e66200261c2360c65cc9446d6df5bf1709ef65ce406289",
+      "youtube-draft.json": "68f9391245ac69a431d524a79609660bf7b165771f1d316be1af1527a9b7e2b2",
+      "youtube-metadata.json": "125fd19a9f1ef171fbee49195331709a7a001a4c33ceecf49a9c84becd13d196",
+      "manual-review.md": "2cf98c0ab3e64fc68ca3a56a00947033073992fc26b6d5106247a697a9611f1f",
+      "repo-guide.md": "3f72119676d285364aec738382f4db3a7b724a8131ae95ef14d23f0e4accfb7d",
+      "sources.json": "7849fc54f66ddd93b5ad7dd5f8f74a7ba9fe023e2c6abdb0a4acfd311cab1758",
+      "narration-only.mp3": "a699cfe8cc08e12c75c69b4ed86f6f3a9e26351b2d2cff6b1c4b39609abaf50b",
+      "report.json": "44d609e970c0d9f6483d4f193eec3bcd4d52131a4c8666dd429926d263b2692a",
+      "fact-check.md": "bb2d3f972dd365490593f4919e26f2d5eb16ec8ace4b830fca9a4cd531b996db",
+      "classroom.zip": "948bc5e3929a2efc82a504d2ccbc154815172074534875e66e02cf5f7220f72e",
+      "l006-source-evidence.pptx": "8e4ce67c9282a80c097f0d2e2021950db5f1c352682ed226c70f5d28b678929a",
+      "zh-TW.srt": "31fec3d11536d7da44c3b10dc9a60243e7a9baa79d0d2a6aa408971fe27865bd",
+      "report.md": "79b6ee8faf7700d029541e0897347115e6cd97d431467cf7cb1f460036afb267",
+      "youtube-description.txt": "04222555ef821861fbd0409dc25e185a0bb46ccb6e03ab325da5a29ee4e7b49e",
+      "chapters.txt": "e5e021f53c2f7bf9e72a8a3840c543c2e616c98d0771ddbd568ba7236bb65f22",
+      "thumbnail.png": "6c7c86737b147e82f524749031990d3c33bdc6d96aae6bf4836288484298e7fd",
+      "l006-source-evidence-master.mp4": "716b3fe2a2353e68062d180560b8b93b21d495199c62913a8d7e9d7520a76c10",
+      "narration-script.md": "2cec4f33dedec5d6b11316970fb7d63de0ae73b92c6a837586aa55a5d4f54bd6",
+      "START_HERE.md": "e777e4d63f79af70b15f2912a9fd0c7a93b47eb816dbfa2cb8fe5fb47f8f2cc0",
+      "l006-source-evidence-zh-TW.mp4": "f79891601ccb84b15a0bdcde33d7010bd3d959c2dfc9d9a8814517d613f777bd"
+    }
+  },
+  "largeFiles": [
+    {
+      "filename": "l006-source-evidence-zh-TW.mp4",
+      "bytes": 76565647,
+      "sha256": "f79891601ccb84b15a0bdcde33d7010bd3d959c2dfc9d9a8814517d613f777bd",
+      "role": "captioned video for upload (burned zh-TW subtitles)",
+      "inGit": false
+    },
+    {
+      "filename": "l006-source-evidence-master.mp4",
+      "bytes": 79501488,
+      "sha256": "716b3fe2a2353e68062d180560b8b93b21d495199c62913a8d7e9d7520a76c10",
+      "role": "master without burned subtitles",
+      "inGit": false
+    },
+    {
+      "filename": "narration-only.mp3",
+      "bytes": 8160237,
+      "sha256": "a699cfe8cc08e12c75c69b4ed86f6f3a9e26351b2d2cff6b1c4b39609abaf50b",
+      "role": "narration only, no opening",
+      "inGit": false
+    }
+  ],
+  "inGit": [
+    {
+      "filename": "l006-source-evidence.pptx",
+      "bytes": 2509326,
+      "sha256": "8e4ce67c9282a80c097f0d2e2021950db5f1c352682ed226c70f5d28b678929a",
+      "path": "production/presentation/l006-source-evidence.pptx"
+    },
+    {
+      "filename": "zh-TW.srt",
+      "bytes": 5949,
+      "sha256": "31fec3d11536d7da44c3b10dc9a60243e7a9baa79d0d2a6aa408971fe27865bd",
+      "path": "subtitles/zh-TW.srt"
+    },
+    {
+      "filename": "thumbnail.png",
+      "bytes": 226865,
+      "sha256": "6c7c86737b147e82f524749031990d3c33bdc6d96aae6bf4836288484298e7fd",
+      "path": "output/thumbnail.png"
+    },
+    {
+      "filename": "classroom.zip",
+      "bytes": 406896,
+      "sha256": "948bc5e3929a2efc82a504d2ccbc154815172074534875e66e02cf5f7220f72e",
+      "path": "output/classroom.zip"
+    },
+    {
+      "filename": "contact-sheet.png",
+      "bytes": 993689,
+      "sha256": "3c22f6352d6474528daa6d5fb51739969bacf750566ee912813aabed4c3d9275",
+      "path": "output/contact-sheet.png"
+    }
+  ],
+  "persistence": {
+    "location": "Attachments delivered in the Claude session that produced this lesson (private to the account owner)",
+    "session": "https://claude.ai/code/session_01GE2NEiPKZa5XzbFCCWKxiy",
+    "reason": "30 MiB per-file attachment limit; the package ZIP was split into 6 byte-exact parts",
+    "parts": [
+      {
+        "filename": "L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip.part01",
+        "bytes": 29360128,
+        "sha256": "1e2f0444243eb99d8e42fac3ec1bbdccfbf5d5e7313b84509f950185b6edaef2",
+        "conversationFileId": "72eed07b-8c03-4d99-be44-1e1102c28336"
+      },
+      {
+        "filename": "L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip.part02",
+        "bytes": 29360128,
+        "sha256": "6587bf5a0945c05911b5a8232633af959ba2e39ee60248cbf29fe88ca664ca33",
+        "conversationFileId": "f674c177-d55d-44f6-931f-ee41f25cb8a3"
+      },
+      {
+        "filename": "L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip.part03",
+        "bytes": 29360128,
+        "sha256": "15b1268d5b70178618f80a49cf2acc013ad5c68e3174fb3203f58d201166a6f0",
+        "conversationFileId": "1af3b901-51dc-4547-81ea-e0a11759910e"
+      },
+      {
+        "filename": "L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip.part04",
+        "bytes": 29360128,
+        "sha256": "8434d6389cff2e3b73b9e1fed2703be6536b109c510a9fdef7209b5bcd80efea",
+        "conversationFileId": "9b5a70d8-8b63-4ceb-b9e4-c9406ee66638"
+      },
+      {
+        "filename": "L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip.part05",
+        "bytes": 29360128,
+        "sha256": "c9f223f16218654da760ea0ffe4f1f9b16f36f9947e794c525bb0b9a43f5edf4",
+        "conversationFileId": "f5859fd1-abc7-49cb-8bd3-7409d312a256"
+      },
+      {
+        "filename": "L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip.part06",
+        "bytes": 20625163,
+        "sha256": "f7ff871bde5187af1946c42ad381ee4e25e52c90120b4eda86b644305daa77ab",
+        "conversationFileId": "f6125f81-ffff-4972-b803-d8ec6df71e04"
+      }
+    ],
+    "restore": "cat \"L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip\".part* > \"L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip\" && shasum -a 256 \"L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip\"",
+    "restoredZip": {
+      "filename": "L006-v1_父子科技學院_真真假假_來源與證據偵探_2026-10-07.zip",
+      "bytes": 167425803,
+      "sha256": "bf14765e46b4d5cbbf5a359024449937402466ee20959a0bd04c07f5e1650f6f"
+    },
+    "restoreTested": "parts re-joined by pipeline/split_delivery.py in the producing session: SHA-256 equals the ZIP; ZIP integrity tested",
+    "notUsed": {
+      "gitHubRelease": "repository is public; a release would make the unpublished video public",
+      "googleDrive": "connector accepts only inline content; text records only, no large binaries",
+      "git": "large MP4/MP3 stay out of Git per .gitignore"
+    },
+    "ifAttachmentsUnavailable": "rebuild from Git: audio, slides, PPTX, SRT sources and the shared opening are tracked; run assemble → delivery → verify → package. A rebuild is a new version with new hashes."
+  },
+  "continuation": {
+    "state": "L006 complete through package; nothing pending except user playback/listening and manual YouTube upload",
+    "rebuildCommands": [
+      "cd academy && ./setup-portable.sh",
+      "EP=episodes/academy/l006-source-evidence",
+      "./portable-runtime.sh python pipeline/academy.py run media-check --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run assemble --episode \"$EP\"   # ~20 min on 2 cores; run in background",
+      "./portable-runtime.sh python pipeline/delivery.py --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run verify --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py package --episode \"$EP\" --output delivery/L006-v2"
+    ],
+    "doNotRerunWithoutReason": "run tts (re-synthesises all audio and invalidates timing, subtitles, video and QC)",
+    "authoring": [
+      "authoring/l006/classroom.py",
+      "authoring/l006/prepare_content.py"
+    ],
+    "sharedTools": [
+      "pipeline/qa/subtitle_precheck.py",
+      "pipeline/qa/deck_check.py",
+      "pipeline/qa/media_review.py",
+      "pipeline/qa/asr_review.py",
+      "pipeline/split_delivery.py",
+      "pipeline/record_delivery.py"
+    ],
+    "nextLesson": "L007 密碼城堡與雙重驗證 (not started; only on user request)"
+  },
+  "publication": {
+    "status": "awaiting_user_upload",
+    "publisher": "user",
+    "uploaded": false,
+    "videoUrl": null,
+    "uploadFile": "l006-source-evidence-zh-TW.mp4",
+    "note": "No login, upload or publication was attempted."
+  }
+}
