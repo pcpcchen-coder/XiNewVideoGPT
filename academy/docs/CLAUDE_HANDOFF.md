@@ -6,7 +6,7 @@
 ## 1. 先核對目前狀態
 
 從最新 `main` 接手。先讀根目錄 CLAUDE.md、AGENTS.md、academy/AGENTS.md、series-policy.json、CLOUD_START_HERE.md。
-L004「網路到底是什麼：封包接力賽」已於 2026-10-07 依本指南完成並交付（見第 7 節與該集 delivery.json），不重製。下一課是 L005 搜尋技巧，其後 L006 是來源與證據。下方以 L004 為例的命令，換成實際課號與 slug 使用。
+L004「網路到底是什麼：封包接力賽」已於 2026-10-07 依本指南完成並交付（見第 7 節與該集 delivery.json），不重製。L005「搜尋高手」同日完成並交付（見第 8 節）。下一課是 L006 來源與證據。下方以 L004 為例的命令，換成實際課號與 slug 使用。
 SP01 是番外篇，不佔課號。L003 已公開的最新紀錄以 publication 為準。
 不需要 ChatGPT Library 登入、不需要舊集大型母帶，也不需要 Google OAuth 就能製作新課。
 
@@ -117,10 +117,30 @@ HANDOFF.md 必須含：lessonId、episodePath、最後成功階段、當前 comm
 以下是第一次用本指南完整做完一集時實際遇到的事，下一集可直接避開。
 
 - **Edge TTS 與代理：** 有些雲端環境的對外連線必須走 HTTPS 代理，而 aiohttp 預設不讀 `HTTPS_PROXY`。`synthesize_narration.py` 現在會把 `XINEW_TTS_PROXY`／`HTTPS_PROXY` 明確交給 edge-tts；沒有代理的環境行為不變。
-  代理對 `speech.platform.bing.com` 偶爾回 403，腳本每句最多試 4 次；整段失敗時先看代理狀態，確認是政策封鎖才停下來交接，不要繞過，也不要換聲線。
+  代理對 `speech.platform.bing.com` 偶爾回 403，腳本每句最多試 5 次；整段失敗時先看代理狀態，確認是政策封鎖才停下來交接，不要繞過，也不要換聲線。
 - **組裝很久：** 2 核心機器上 assemble 約 25 分鐘，會超過一般命令的時間上限。請用 `nohup … &` 在背景跑並輪詢 log；被中斷就清掉暫存後重跑，不會留下半成品。
 - **課別專用程式放 `authoring/lxxx/`：** L004 的內容、教材、字幕預檢、影音量測與語音辨識腳本都在 `authoring/l004/`，可當寫法參考；**內容不可沿用**。
   `subtitle_precheck.py` 可在 TTS 之前就用實際燒字樣式檢查 36 句字幕會不會遮到投影片。
 - **機器聽檢不是聽審：** `asr_review.py` 需要另外準備本機 faster-whisper 模型，照字幕時間切音逐條辨識，可證明每句都在、音畫對位正確；聲調與咬字仍要人聽。
 - **套版文字：** LibreOffice 在英數與中文之間會多加間距，英文字後面接全形標點特別鬆；時間表與標題盡量用國字數字、避免「英文＋全形冒號」。
 - **大型檔保存：** 本 repo 是公開的，影片不要放 GitHub Release。Claude 對話附件單檔上限 30 MiB，L004 把交付 ZIP 切成 6 段位元一致的分段檔，並在 delivery.json 記錄每段雜湊與還原命令。
+
+## 8. L005 之後新增的共用工具與選項（2026-10-07）
+
+做第二集時把只寫給 L004 的檢查改成共用版，並補了三個實際遇到的洞。舊集不受影響，選項都要在該集 manifest 明確開啟。
+
+- **共用檢查（取代每課複製一份）：** `pipeline/qa/subtitle_precheck.py`、`deck_check.py`、`media_review.py`、`asr_review.py`，都用 `--episode episodes/academy/<slug>`。
+  它們會寫入該集的 `qc/`；**不要拿已交付的舊集試跑**，會覆寫那一集的 QC 紀錄。
+- **TTS 截斷防護：** Edge TTS 的連線若在句子唸完前關閉，edge-tts 不報錯，只會得到一段比較短的音檔（L005 第一次合成有一句 45 字只有 5 秒）。
+  `synthesize_narration.py` 現在逐句核對邊界中繼資料是否涵蓋全文、音訊長度是否到最後一個邊界，不符就重試，五次都失敗才停。
+  合成後仍請看一眼每句的語速（字數÷秒數），明顯偏快就是被截斷。
+- **`renderOptions.asianLatinAutoSpace=false`：** LibreOffice 預設會在中文與英數之間自動加間距，畫面會把 `蘋果 -手機` 顯示成減號兩側都有空隙。
+  投影片要呈現「照著打」的字串時開啟這個選項（PPTX→ODP→關閉自動間距→PDF）；開啟後畫面上的空格就是輸入的空格。
+- **`renderOptions.captionLineBreak="kinsoku"`：** libass 依字數平均斷行，第二行常以「，」「、」開頭或把詞拆開。
+  開啟後由 `pipeline/scripts/caption_wrap.py` 在燒字前決定斷行（一行放得下就一行；否則兩行，優先斷在標點之後、不拆英數）。
+  只影響燒進畫面的字幕；交付的 SRT 仍是每條一行。`subtitle_precheck.py` 會核對實際行數和預定斷行一致。ffmpeg 沒有 libass 時退回 Pillow 燒字，不套用這個斷行。
+- **列印包：** `authoring/printpack.py` 提供共用的 A4 版面、Chromium 轉 PDF 與頁數／字型／文字檢查；各課的 `classroom.py` 只寫內容。
+- **封裝之後：** `pipeline/split_delivery.py` 把交付資料夾壓成 ZIP、切成 28 MiB 分段、寫還原說明，並把分段接回去核對雜湊；
+  分段實際交給使用者之後，再用 `pipeline/record_delivery.py` 寫 `delivery.json`、`publication/status.json` 和狀態表（它只讀該集自己的 QC 數值，verify 沒過或缺檢視紀錄就停）。
+- **組裝可重現：** 同一份來源在同一環境重跑 assemble，母帶位元相同；字幕版只在字幕斷行設定改變時不同。
+

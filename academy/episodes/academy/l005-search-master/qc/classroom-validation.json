@@ -1,0 +1,28 @@
+{
+  "folder": "classroom/L005_搜尋高手",
+  "files": [
+    "00_爸爸先讀.md",
+    "01_活動規則_三種搜法尋寶賽.md",
+    "02_列印包_搜尋尋寶.pdf",
+    "03_比較紀錄.csv",
+    "03_比較紀錄_填寫說明.md",
+    "04_搜尋策略卡_寫法與檢查表.md",
+    "05_自選規則卡.md",
+    "06_驗收與回顧.md",
+    "07_四把鑰匙小抄.md"
+  ],
+  "fileCount": 9,
+  "utf8TextReadable": true,
+  "comparisonRows": 6,
+  "comparisonColumns": 11,
+  "printPack": {
+    "file": "02_列印包_搜尋尋寶.pdf",
+    "pages": 5,
+    "allFontsEmbedded": true,
+    "renderedThisRun": true,
+    "source": "authoring/l005/print/print-pack.html"
+  },
+  "answersProvided": false,
+  "privateData": "none",
+  "status": "PASS (structure); page-by-page visual review recorded separately"
+}

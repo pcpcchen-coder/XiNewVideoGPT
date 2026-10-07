@@ -1,0 +1,551 @@
+{
+  "method": "each of 36 sentences burned on its own slide PNG with the assembler libass style; bbox from pixel diff",
+  "burnStyle": "FontName=Noto Sans CJK TC,FontSize=16,Bold=1,PrimaryColour=&H00FFFFFF,OutlineColour=&H7A000000,BackColour=&H7A000000,BorderStyle=1,Outline=1.2,Shadow=0,Alignment=2,MarginV=20,MarginL=24,MarginR=24",
+  "captionLineBreak": "kinsoku",
+  "cues": 36,
+  "lineCountDiffersFromPlan": [],
+  "topMin": 893,
+  "bottomMax": 1002,
+  "leftMin": 127,
+  "rightMax": 1780,
+  "maxLines": 2,
+  "cuesTouchingSlideContent": [],
+  "limits": "static pre-check only; real cue timing, fades and the final captioned MP4 are unchecked until TTS/assembly",
+  "results": [
+    {
+      "slide": 1,
+      "sentence": 1,
+      "chars": 52,
+      "top": 893,
+      "bottom": 1001,
+      "left": 375,
+      "right": 1531,
+      "lines": 2,
+      "plannedLines": [
+        "歡迎回到父子科技學院，我是陳犀牛，今天是第五堂，",
+        "搜尋高手，這是依課表製作的課前教學版，並非實際上課錄音。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 1,
+      "sentence": 2,
+      "chars": 45,
+      "top": 893,
+      "bottom": 1001,
+      "left": 479,
+      "right": 1425,
+      "lines": 2,
+      "plannedLines": [
+        "今天我們來玩搜尋尋寶：寶藏是一個大問題的答案，",
+        "要找到它，得先把大問題拆成幾個好找的小問題。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 1,
+      "sentence": 3,
+      "chars": 37,
+      "top": 953,
+      "bottom": 1000,
+      "left": 189,
+      "right": 1718,
+      "lines": 1,
+      "plannedLines": [
+        "我們會練習關鍵字、引號、減號和時間條件，最後做出一張屬於自己的搜尋策略卡。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 2,
+      "sentence": 1,
+      "chars": 40,
+      "top": 953,
+      "bottom": 1001,
+      "left": 127,
+      "right": 1780,
+      "lines": 1,
+      "plannedLines": [
+        "尋寶有三步，第一步是拆問題，把一個很大的問題，變成幾個小問題，一次只找一個答案。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 2,
+      "sentence": 2,
+      "chars": 38,
+      "top": 953,
+      "bottom": 1000,
+      "left": 169,
+      "right": 1738,
+      "lines": 1,
+      "plannedLines": [
+        "第二步是選關鍵字，挑出最重要的幾個詞，需要的時候，再加上今天要學的搜尋工具。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 2,
+      "sentence": 3,
+      "chars": 45,
+      "top": 893,
+      "bottom": 1000,
+      "left": 458,
+      "right": 1448,
+      "lines": 2,
+      "plannedLines": [
+        "第三步是比結果，看看這一頁是誰寫的、資料新不新、",
+        "有沒有真的回答你的問題，再決定要不要相信。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 3,
+      "sentence": 1,
+      "chars": 35,
+      "top": 953,
+      "bottom": 1001,
+      "left": 231,
+      "right": 1680,
+      "lines": 1,
+      "plannedLines": [
+        "先練關鍵字。把想問的事情寫成一句完整的話，例如：為什麼貓會一直抓沙發？"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 3,
+      "sentence": 2,
+      "chars": 49,
+      "top": 893,
+      "bottom": 1001,
+      "left": 437,
+      "right": 1467,
+      "lines": 2,
+      "plannedLines": [
+        "接著圈出二到四個最重要的詞，像是貓、抓沙發、原因；",
+        "盡量使用網頁上可能出現的說法，不必輸入整句口語。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 3,
+      "sentence": 3,
+      "chars": 45,
+      "top": 893,
+      "bottom": 1001,
+      "left": 395,
+      "right": 1510,
+      "lines": 2,
+      "plannedLines": [
+        "如果結果不理想，就換個說法再試一次，",
+        "例如把抓沙發換成磨爪，這不是失敗，這是高手都會做的事。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 4,
+      "sentence": 1,
+      "chars": 36,
+      "top": 953,
+      "bottom": 1000,
+      "left": 209,
+      "right": 1697,
+      "lines": 1,
+      "plannedLines": [
+        "搜尋尋寶有四把鑰匙：關鍵字幫你說清楚要找什麼，引號用來找完全相符的句子。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 4,
+      "sentence": 2,
+      "chars": 44,
+      "top": 893,
+      "bottom": 1000,
+      "left": 354,
+      "right": 1550,
+      "lines": 2,
+      "plannedLines": [
+        "減號可以排除不想看到的字詞，時間條件則幫你找到夠新的資料，",
+        "每一把鑰匙，適合開不同的寶箱。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 4,
+      "sentence": 3,
+      "chars": 45,
+      "top": 893,
+      "bottom": 1000,
+      "left": 397,
+      "right": 1506,
+      "lines": 2,
+      "plannedLines": [
+        "今天以 Google 搜尋當例子，別的搜尋引擎也有類似的功能，",
+        "不過寫法和效果可能不太一樣。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 5,
+      "sentence": 1,
+      "chars": 48,
+      "top": 893,
+      "bottom": 1001,
+      "left": 458,
+      "right": 1448,
+      "lines": 2,
+      "plannedLines": [
+        "第一把特別的鑰匙是引號。在一句話的前後加上引號，",
+        "就是告訴搜尋引擎：請找出和這些字完全相符的內容。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 5,
+      "sentence": 2,
+      "chars": 43,
+      "top": 893,
+      "bottom": 1000,
+      "left": 417,
+      "right": 1490,
+      "lines": 2,
+      "plannedLines": [
+        "例如想知道床前明月光出自哪一首詩，",
+        "把這五個字放進引號裡搜尋，就比較容易找到原文和出處。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 5,
+      "sentence": 3,
+      "chars": 40,
+      "top": 953,
+      "bottom": 1002,
+      "left": 128,
+      "right": 1780,
+      "lines": 1,
+      "plannedLines": [
+        "引號很適合找一句話的出處、歌名或錯誤訊息；記得照畫面上的寫法，使用半形的雙引號。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 6,
+      "sentence": 1,
+      "chars": 47,
+      "top": 893,
+      "bottom": 1000,
+      "left": 417,
+      "right": 1488,
+      "lines": 2,
+      "plannedLines": [
+        "第二把鑰匙是減號。有些字詞有兩種意思，例如搜尋蘋果，",
+        "你想找水果，結果卻可能出現很多手機的網頁。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 6,
+      "sentence": 2,
+      "chars": 50,
+      "top": 893,
+      "bottom": 1001,
+      "left": 416,
+      "right": 1487,
+      "lines": 2,
+      "plannedLines": [
+        "這時在不想要的字詞前面加上減號，寫成：蘋果，空一格，",
+        "再打減號和手機，搜尋引擎就會排除含有手機的結果。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 6,
+      "sentence": 3,
+      "chars": 42,
+      "top": 893,
+      "bottom": 1000,
+      "left": 502,
+      "right": 1407,
+      "lines": 2,
+      "plannedLines": [
+        "要注意，減號和後面的字詞要緊緊貼在一起，",
+        "中間不能有空格，不然這把鑰匙可能就沒有效果。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 7,
+      "sentence": 1,
+      "chars": 54,
+      "top": 893,
+      "bottom": 1002,
+      "left": 313,
+      "right": 1593,
+      "lines": 2,
+      "plannedLines": [
+        "第三把鑰匙是時間條件。有些問題需要最新的答案，",
+        "例如今年的比賽結果；有些知識很久都不會變，就不一定要限定時間。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 7,
+      "sentence": 2,
+      "chars": 51,
+      "top": 893,
+      "bottom": 1000,
+      "left": 396,
+      "right": 1508,
+      "lines": 2,
+      "plannedLines": [
+        "搜尋之後，點選搜尋框下方的工具，就可以依發布時間篩選；",
+        "也可以照畫面上的寫法，直接在搜尋框加上日期條件。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 7,
+      "sentence": 3,
+      "chars": 45,
+      "top": 893,
+      "bottom": 1000,
+      "left": 417,
+      "right": 1488,
+      "lines": 2,
+      "plannedLines": [
+        "不過，看得到哪些工具，會因為搜尋內容和瀏覽器而不同，",
+        "找不到的時候，先換一種搜尋方式試試看。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 8,
+      "sentence": 1,
+      "chars": 55,
+      "top": 893,
+      "bottom": 1000,
+      "left": 334,
+      "right": 1573,
+      "lines": 2,
+      "plannedLines": [
+        "鑰匙有了，現在來拆問題。假設大問題是：颱風來之前，",
+        "我們家要準備什麼？這個問題太大，一次搜尋很難找到完整的答案。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 8,
+      "sentence": 2,
+      "chars": 41,
+      "top": 893,
+      "bottom": 1000,
+      "left": 521,
+      "right": 1390,
+      "lines": 2,
+      "plannedLines": [
+        "把它拆成三個小問題：颱風警報要在哪裡看？",
+        "要先準備好哪些東西？停電停水的時候怎麼辦？"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 8,
+      "sentence": 3,
+      "chars": 47,
+      "top": 893,
+      "bottom": 1000,
+      "left": 396,
+      "right": 1510,
+      "lines": 2,
+      "plannedLines": [
+        "每個小問題都要能找到一個可以檢查的答案，",
+        "一次只搜尋一個，再把找到的答案和來源，寫回你的策略卡。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 9,
+      "sentence": 1,
+      "chars": 55,
+      "top": 893,
+      "bottom": 1001,
+      "left": 354,
+      "right": 1550,
+      "lines": 2,
+      "plannedLines": [
+        "接著做實驗，同一個大問題用三種方法搜尋。第一種是模糊搜尋，",
+        "只輸入颱風兩個字，數一數前五筆結果，有幾筆真的有用。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 9,
+      "sentence": 2,
+      "chars": 45,
+      "top": 893,
+      "bottom": 1000,
+      "left": 355,
+      "right": 1550,
+      "lines": 2,
+      "plannedLines": [
+        "第二種是精準搜尋，輸入颱風、防災、準備、清單這幾個關鍵字，",
+        "再數一次，比較兩次結果差在哪裡。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 9,
+      "sentence": 3,
+      "chars": 43,
+      "top": 893,
+      "bottom": 1001,
+      "left": 459,
+      "right": 1452,
+      "lines": 2,
+      "plannedLines": [
+        "第三種是分段搜尋，三個小問題各搜一次；",
+        "最後用同樣的標準評分：相關嗎？誰寫的？資料多新？"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 10,
+      "sentence": 1,
+      "chars": 47,
+      "top": 893,
+      "bottom": 1001,
+      "left": 375,
+      "right": 1531,
+      "lines": 2,
+      "plannedLines": [
+        "下半場換你設計，完成自己的搜尋策略卡，",
+        "寫下小問題、用了哪些關鍵字、哪一把鑰匙，以及結果好不好。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 10,
+      "sentence": 2,
+      "chars": 47,
+      "top": 893,
+      "bottom": 1000,
+      "left": 417,
+      "right": 1487,
+      "lines": 2,
+      "plannedLines": [
+        "再替自己加一條搜尋規則，例如每個問題至少換兩種說法，",
+        "或是重要的答案，一定要多看幾個不同的來源。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 10,
+      "sentence": 3,
+      "chars": 55,
+      "top": 893,
+      "bottom": 1000,
+      "left": 309,
+      "right": 1597,
+      "lines": 2,
+      "plannedLines": [
+        "也要記下搜尋的限制：排在最前面不一定最正確，",
+        "有些結果是有標示的廣告，AI 摘要也可能出錯，重要的事要多方查證。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 11,
+      "sentence": 1,
+      "chars": 53,
+      "top": 893,
+      "bottom": 1000,
+      "left": 294,
+      "right": 1612,
+      "lines": 2,
+      "plannedLines": [
+        "兩小時這樣安排：前十分鐘說明任務，十五分鐘認識四把鑰匙和拆問題，",
+        "再用四十分鐘比較三種搜法，然後休息十分鐘。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 11,
+      "sentence": 2,
+      "chars": 51,
+      "top": 893,
+      "bottom": 1000,
+      "left": 334,
+      "right": 1570,
+      "lines": 2,
+      "plannedLines": [
+        "後半段用三十分鐘，完成搜尋策略卡，並測試自己加的那一條規則，",
+        "再用十分鐘交換角色，由孩子教爸爸怎麼搜尋。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 11,
+      "sentence": 3,
+      "chars": 41,
+      "top": 893,
+      "bottom": 1000,
+      "left": 500,
+      "right": 1405,
+      "lines": 2,
+      "plannedLines": [
+        "最後五分鐘錄下今天的發現，替作品命名並存檔，",
+        "把策略卡和比較紀錄，收進本課的資料夾。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 12,
+      "sentence": 1,
+      "chars": 54,
+      "top": 893,
+      "bottom": 1001,
+      "left": 376,
+      "right": 1531,
+      "lines": 2,
+      "plannedLines": [
+        "最後一關，請不看稿，選一個新的大問題，示範給爸爸看：",
+        "怎麼拆成小問題、怎麼選關鍵字，再用上一把今天學到的鑰匙。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 12,
+      "sentence": 2,
+      "chars": 51,
+      "top": 893,
+      "bottom": 1000,
+      "left": 375,
+      "right": 1529,
+      "lines": 2,
+      "plannedLines": [
+        "再指出一個限制或安全注意事項，例如第一筆結果不一定正確，",
+        "還有，不要把密碼、住址這類個人資料打進搜尋框。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 12,
+      "sentence": 3,
+      "chars": 50,
+      "top": 893,
+      "bottom": 1002,
+      "left": 416,
+      "right": 1487,
+      "lines": 2,
+      "plannedLines": [
+        "今天的作品是搜尋策略卡，下次我們要當來源與證據偵探，",
+        "分辨真真假假；我是陳犀牛，保持好奇，我們下次見！"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    }
+  ],
+  "passed": true
+}

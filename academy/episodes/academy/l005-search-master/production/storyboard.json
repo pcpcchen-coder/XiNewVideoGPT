@@ -1,0 +1,110 @@
+[
+  {
+    "slide": 1,
+    "title": "搜尋高手：把大問題拆成好問題",
+    "purpose": "開場：課前教學版揭露、尋寶任務與作品",
+    "visual": "封面版型：任務標籤、兩行主題、一句任務說明；原陳犀牛角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "準備紙筆與瀏覽器；預告四把鑰匙與搜尋策略卡",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 2,
+    "title": "尋寶地圖：三步找到答案",
+    "purpose": "概念：搜尋三步驟（拆問題、選關鍵字、比結果）",
+    "visual": "三步流程卡：拆問題 → 選關鍵字 → 比結果（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出今天要完成的作品",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 3,
+    "title": "關鍵字：挑出最重要的詞",
+    "purpose": "概念與例子：把口語問題換成關鍵字，並換說法重試",
+    "visual": "三點條列＋陳犀牛：完整問題、圈關鍵詞、換說法（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "把自己的一個問題圈出二到四個關鍵詞",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 4,
+    "title": "四把鑰匙，打開不同的寶箱",
+    "purpose": "例子：四種搜尋工具各自的用途；以 Google 為例並說明其他引擎可能不同",
+    "visual": "工具卡面板：關鍵字、引號、減號、時間條件（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "先猜每把鑰匙適合哪一種情況",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 5,
+    "title": "引號：找一字不差的句子",
+    "purpose": "示範：引號＝完全相符",
+    "visual": "雙框對照：一般搜尋 → 加上引號（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "用引號找一句話的出處",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 6,
+    "title": "減號：把不要的結果排除",
+    "purpose": "示範：減號＝排除字詞；運算子與字詞之間不可有空格",
+    "visual": "三張步驟卡：想找水果／出現手機／加上減號（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "實際輸入並比較加減號前後的結果",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 7,
+    "title": "時間條件：找夠新的資料",
+    "purpose": "示範：時間條件；工具會因查詢與瀏覽器而異",
+    "visual": "路徑一行（搜尋之後→工具→依時間篩選）＋三張情境卡（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "判斷自己的問題需不需要最新資料",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 8,
+    "title": "拆問題：大問題變小問題",
+    "purpose": "活動規則：把大問題拆成三個可檢查的小問題",
+    "visual": "左側三個小問題；右側大問題與做法（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "暫停影片：拆自己的大問題",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 9,
+    "title": "同一題，三種搜法比一比",
+    "purpose": "共同實作與比較：模糊、精準、分段三種搜法，用同一套標準評分",
+    "visual": "左右比較卡（模糊／精準）＋黃字說明分段搜尋與評分（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "同一題做三種搜尋，數前五筆並記錄",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 10,
+    "title": "換你設計：我的搜尋策略卡",
+    "purpose": "獨立改造與資訊判讀：策略卡、自選規則、搜尋的限制",
+    "visual": "三點條列＋陳犀牛：策略卡、自選規則、限制（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成策略卡；自訂一條規則並測試",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的搜尋尋寶課",
+    "purpose": "120 分鐘安排：10／15／40／10／30／10／5",
+    "visual": "六列時間表與今日生活技能（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "依時間表進行；休息十分鐘",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：教爸爸找寶藏",
+    "purpose": "作品驗收與回顧：示範拆題與四把鑰匙，指出一個限制或安全注意；固定結尾",
+    "visual": "三點驗收條列＋陳犀牛＋結尾語（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "孩子教爸爸；錄音回答四個問題；作品命名存檔",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  }
+]

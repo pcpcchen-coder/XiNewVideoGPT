@@ -215,11 +215,41 @@ def media_check(ep):
     print("Actual audio hashes and narration/timing match")
 
 
+def disable_asian_latin_autospace(odp_in, odp_out):
+    """Copy an ODP with LibreOffice's automatic CJK/Latin gap switched off.
+
+    LibreOffice inserts a quarter-em gap between CJK and Latin characters by default
+    (style:text-autospace="ideograph-alpha"); PowerPoint does not. The gap misrepresents
+    literal syntax on a slide, e.g. it shows a space between "-" and the excluded word.
+    """
+    import zipfile
+    needle, patched = b'text-autospace="ideograph-alpha"', 0
+    with zipfile.ZipFile(odp_in) as z, zipfile.ZipFile(odp_out, "w") as out:
+        for info in z.infolist():
+            data = z.read(info.filename)
+            if info.filename in ("styles.xml", "content.xml"):
+                patched += data.count(needle)
+                data = data.replace(needle, b'text-autospace="none"')
+            out.writestr(info, data, compress_type=zipfile.ZIP_STORED if info.filename == "mimetype" else zipfile.ZIP_DEFLATED)
+    if not patched:
+        raise ValueError("No text-autospace setting found in the converted ODP; cannot honour renderOptions")
+    return patched
+
+
 def export_slides(ep):
     deck = ep / "production/presentation" / f"{ep.name}.pptx"
+    options = read(ep / "production/manifest.json").get("renderOptions", {})
     with tempfile.TemporaryDirectory(prefix="xinew-render-") as t:
         t = Path(t)
-        run(["soffice", f"-env:UserInstallation={(t / 'profile').as_uri()}", "--headless", "--convert-to", "pdf", "--outdir", t, deck])
+        office = ["soffice", f"-env:UserInstallation={(t / 'profile').as_uri()}", "--headless"]
+        if options.get("asianLatinAutoSpace") is False:
+            # Opt-in per episode: PPTX -> ODP -> patch default style -> PDF. The delivered PPTX is untouched.
+            run([*office, "--convert-to", "odp", "--outdir", t / "odp", deck])
+            (t / "fixed").mkdir()
+            disable_asian_latin_autospace(t / "odp" / f"{ep.name}.odp", t / "fixed" / f"{ep.name}.odp")
+            run([*office, "--convert-to", "pdf", "--outdir", t, t / "fixed" / f"{ep.name}.odp"])
+        else:
+            run([*office, "--convert-to", "pdf", "--outdir", t, deck])
         run(["pdftoppm", "-png", "-scale-to-x", "1920", "-scale-to-y", "1080", t / f"{ep.name}.pdf", t / "slide"])
         images = sorted(t.glob("slide-*.png"), key=lambda p: int(p.stem.split("-")[-1]))
         if len(images) != 12:

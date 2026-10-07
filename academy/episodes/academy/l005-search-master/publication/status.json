@@ -1,0 +1,16 @@
+{
+  "lessonId": "L005",
+  "status": "awaiting_user_upload",
+  "publicationMode": "manual-user-upload",
+  "publisher": "user",
+  "videoUrl": null,
+  "targetTitle": "父子科技學院 L005｜搜尋高手：把大問題拆成好問題",
+  "videoFile": "l005-search-master-zh-TW.mp4",
+  "videoSha256": "1906edbce0208a2fe7b3ce6651c2b0dbbb53a4576ed2399a36a10324d8e1e207",
+  "videoBytes": 77447258,
+  "deliveryVersion": "L005-v1",
+  "deliveryRecord": "delivery.json",
+  "authorizedToUpload": false,
+  "authorizedToPublish": false,
+  "note": "Produced and packaged 2026-10-07. Awaiting user playback and manual upload; no YouTube login, upload or publication attempted."
+}

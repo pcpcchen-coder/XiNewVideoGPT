@@ -49,6 +49,18 @@
 `episodes/academy/l004-network-relay/delivery.json`。本 repo 為公開，未建立 Release，勿編造下載連結。
 L004 的來源、PPTX、12 張 PNG、12 段 TTS 音檔、SRT、教材與 QC 都在 Git；附件無法取得時可依 delivery.json 的命令重新組裝，重建結果須作新版本並重新驗收。
 
+## L005 大型輸出（L005-v1，2026-10-07）
+
+| 檔案 | Bytes | SHA-256 |
+|---|---:|---|
+| `l005-search-master-zh-TW.mp4` | 77,447,258 | `1906edbce0208a2fe7b3ce6651c2b0dbbb53a4576ed2399a36a10324d8e1e207` |
+| `l005-search-master-master.mp4` | 80,001,962 | `954328b57ef18c09a9cc142edcd5cacdd36fb0c84df27db82d25bdb0595d253f` |
+| `narration-only.mp3` | 8,403,309 | `738e1c7ce726b37c552f629d0cfe58751f75049bff047279264d85d04240bd6b` |
+| `L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip`（完整交付包） | 168,971,465 | `72f62864f23028a0572236a5bf519a27228a3aac77c8859cd8f2238d873a6757` |
+
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見
+`episodes/academy/l005-search-master/delivery.json`。未建立 Release，勿編造下載連結。
+
 ## 新工作區取回 L003
 
 1. 在 ChatGPT Library 按完整檔名找 `Academy_Cloud_Handoff_2026-09-27_L003.zip`；由 Library 能力下載到工作區。一般本機使用者則下載本對話已交付的同名 ZIP。

@@ -186,6 +186,24 @@ def main() -> None:
                     f"{srt_time(parse(en) + intro_len)}\n{text}\n")
     (EP / "subtitles/zh-TW.srt").write_text("\n".join(cues) + "\n", encoding="utf-8")
 
+    # Optional pre-broken copy for the burn only; the delivered SRT keeps one line per cue.
+    burn_srt = EP / "subtitles/zh-TW.srt"
+    caption_breaks = {"mode": "libass-auto"}
+    options = json.loads((EP / "production/manifest.json").read_text(encoding="utf-8")).get("renderOptions", {})
+    if options.get("captionLineBreak") == "kinsoku":
+        from caption_wrap import wrap_caption
+        wrapped = []
+        for block in cues:
+            number, rng, text = block.rstrip("\n").split("\n", 2)
+            wrapped.append((number, rng, wrap_caption(text)))
+        burn_srt = WORK / "zh-TW-burn.srt"
+        burn_srt.write_text("\n".join(f"{n}\n{r}\n" + "\n".join(lines) + "\n" for n, r, lines in wrapped) + "\n",
+                            encoding="utf-8")
+        caption_breaks = {"mode": "kinsoku", "twoLineCues": [int(n) for n, _, lines in wrapped if len(lines) == 2],
+                          "note": "breaks chosen by pipeline/scripts/caption_wrap.py for the burn only; delivered SRT is one line per cue"}
+    elif options.get("captionLineBreak") not in (None, "libass-auto"):
+        raise RuntimeError(f"Unknown renderOptions.captionLineBreak: {options.get('captionLineBreak')}")
+
     style = ("FontName=Noto Sans CJK TC,FontSize=16,Bold=1,PrimaryColour=&H00FFFFFF,"
              "OutlineColour=&H7A000000,BackColour=&H7A000000,BorderStyle=1,Outline=1.2,"
              "Shadow=0,Alignment=2,MarginV=20,MarginL=24,MarginR=24")
@@ -193,9 +211,11 @@ def main() -> None:
     filters = run(["ffmpeg", "-hide_banner", "-filters"])
     if " subtitles " in filters:
         run(["ffmpeg", "-y", "-v", "error", "-i", str(master), "-vf",
-             f"subtitles='{EP}/subtitles/zh-TW.srt':fontsdir='{ROOT}/assets/fonts':force_style='{style}'",
+             f"subtitles='{burn_srt}':fontsdir='{ROOT}/assets/fonts':force_style='{style}'",
              "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-c:a", "copy", str(zh)])
     else:
+        if caption_breaks["mode"] == "kinsoku":
+            caption_breaks = {"mode": "pillow-fallback", "note": "ffmpeg has no libass; kinsoku breaks were not applied"}
         run([sys.executable, str(ROOT / "pipeline/scripts/burn_subtitles_pillow.py"),
              "--input", str(master), "--srt", str(EP / "subtitles/zh-TW.srt"),
              "--font", str(ROOT / "assets/fonts/NotoSansCJKtc-Regular.otf"), "--output", str(zh)])
@@ -231,6 +251,7 @@ def main() -> None:
         "backgroundMusic": "none — narration only under slides",
         "animated": str(animated), "master": str(master), "zh": str(zh),
         "masterDuration": duration(master), "loudnessNormalization": norm_method,
+        "captionLineBreak": caption_breaks,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("master:", master, f"{duration(master):.2f}s")
 

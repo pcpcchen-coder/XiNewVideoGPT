@@ -59,17 +59,48 @@ def srt_time(seconds: float) -> str:
     return f"{h:02d}:{m:02d}:{s:02d},{r:03d}"
 
 
+async def _fetch(text: str) -> tuple[bytes, str, float]:
+    """Return audio bytes plus what the service reports it spoke and until when."""
+    audio = bytearray(); spoken: list[str] = []; last_end = 0.0
+    async for chunk in edge_tts.Communicate(text, VOICE, proxy=_PROXY).stream():
+        if chunk["type"] == "audio":
+            audio.extend(chunk["data"])
+        elif "offset" in chunk:
+            spoken.append(chunk.get("text", ""))
+            last_end = max(last_end, (chunk["offset"] + chunk["duration"]) / 1e7)
+    return bytes(audio), "".join(spoken), last_end
+
+
+def _core(text: str) -> str:
+    return "".join(ch for ch in text if ch.isalnum())
+
+
 def synthesize(text: str, out: Path) -> None:
-    for attempt in range(1, 5):
+    """Synthesize one sentence and refuse a truncated stream.
+
+    edge-tts accepts a websocket that closes before `turn.end` as long as some audio arrived,
+    so a dropped connection can yield a sentence cut off mid-way without any error. Guard:
+    the boundary metadata must cover the whole input text and the decoded audio must reach
+    the end time of the last boundary.
+    """
+    reason = "no attempt"
+    for attempt in range(1, 6):
         try:
-            asyncio.run(edge_tts.Communicate(text, VOICE, proxy=_PROXY).save(str(out)))
-            if out.exists() and out.stat().st_size > 2000:
+            audio, spoken, last_end = asyncio.run(_fetch(text))
+            out.write_bytes(audio)
+            want, got = _core(text), _core(spoken)
+            if len(audio) <= 2000:
+                reason = "almost no audio"
+            elif not got or got[-6:] != want[-6:] or len(got) < 0.95 * len(want):
+                reason = f"boundary text stops early ({len(got)}/{len(want)} characters)"
+            elif duration(out) < last_end - 0.35:
+                reason = f"audio {duration(out):.2f}s shorter than reported speech end {last_end:.2f}s"
+            else:
                 return
-        except Exception:
-            if attempt == 4:
-                raise
-        print(f"  retry {attempt}: {text[:16]}...", flush=True)
-    raise RuntimeError(f"TTS failed for: {text}")
+        except Exception as error:  # network or service error: retry, then surface it
+            reason = f"{type(error).__name__}: {error}"
+        print(f"  retry {attempt} ({reason}): {text[:16]}...", flush=True)
+    raise RuntimeError(f"TTS incomplete after 5 attempts ({reason}) for: {text}")
 
 
 def main() -> None:
@@ -143,6 +174,7 @@ def main() -> None:
         "pitch": "+0Hz",
         "packageVersion": edge_tts.__version__,
         "method": "Traditional Chinese text -> edge-tts zh-TW-YunJheNeural -> warm voice mastering",
+        "completenessCheck": "per sentence: boundary metadata covers the input text and audio reaches the last boundary end (0.35 s tolerance)",
         "scenes": [{"slide": s["slide"], "duration": s["duration"], "audio": s["audio"],
                     "sha256": s["sha256"]} for s in scenes],
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

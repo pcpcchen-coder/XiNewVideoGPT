@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L005",
+  "checkedAt": "2026-10-07",
+  "method": "Agent (Claude) fetched each URL on the check date and extracted the cited passages; not a human full read. See fact-check.md for claim mapping and limits.",
+  "curriculum": "curriculum/catalog.json：L005；來源 V2 Excel 逐堂課程第 5 堂",
+  "sources": [
+    {"id": "google_refine", "title": "修正 Google 搜尋結果範圍", "publisher": "Google 搜尋說明", "url": "https://support.google.com/websearch/answer/2466433?hl=zh-Hant", "usedFor": "引號完全相符、減號排除字詞、site:、before:／after:、filetype:；運算子與字詞之間不可加空格；工具→進階搜尋"},
+    {"id": "google_tips", "title": "瞭解搜尋提示以及搜尋結果與您在 Google 所搜尋內容的關聯程度", "publisher": "Google 搜尋說明", "url": "https://support.google.com/websearch/answer/134479?hl=zh-Hant", "usedFor": "從簡單字詞開始；選用網頁上常見的字詞（「我的頭很痛」改為「頭痛」）"},
+    {"id": "google_filters", "title": "利用篩選器縮小搜尋結果範圍（電腦）", "publisher": "Google 搜尋說明", "url": "https://support.google.com/websearch/answer/142143?hl=zh-Hant&co=GENIE.Platform%3DDesktop", "usedFor": "點選搜尋框下方的「工具」；依發布日期篩選；工具會因查詢、結果類型和瀏覽器而異"},
+    {"id": "google_ai_overview", "title": "Google 搜尋提供 AI 摘要，查資料更快更輕鬆", "publisher": "Google 搜尋說明", "url": "https://support.google.com/websearch/answer/14901683?hl=zh-Hant", "usedFor": "AI 回覆可能有誤；重要資訊務必多方查證"},
+    {"id": "google_ads_vs_results", "title": "Google 搜尋結果與廣告的差別", "publisher": "Google Ads 說明", "url": "https://support.google.com/google-ads/answer/1722080?hl=zh-Hant", "usedFor": "廣告有標示；搜尋結果排序取決於關聯性及熱門程度等條件，與廣告計畫各自獨立"},
+    {"id": "google_safesearch", "title": "開啟安全搜尋功能，使用 Google 搜尋更有保障", "publisher": "Google 搜尋說明", "url": "https://support.google.com/websearch/answer/510?hl=zh-Hant", "usedFor": "教材（爸爸先讀）的安全搜尋說明；影片旁白未使用"},
+    {"id": "ddg_syntax", "title": "How to use advanced syntax on DuckDuckGo Search", "publisher": "DuckDuckGo Help Pages", "url": "https://duckduckgo.com/duckduckgo-help-pages/results/syntax/", "usedFor": "其他搜尋引擎也有引號、減號等語法，但行為可能不同"},
+    {"id": "apple_safari_search", "title": "在 Mac 上使用 Safari 搜尋網際網路", "publisher": "Apple 支援（台灣）", "url": "https://support.apple.com/zh-tw/guide/safari/sfrid73436cb/mac", "usedFor": "教材：在「智慧型搜尋」欄位輸入字詞"},
+    {"id": "apple_safari_custom", "title": "在 Mac 上的 Safari 中進行自訂搜尋", "publisher": "Apple 支援（台灣）", "url": "https://support.apple.com/zh-tw/guide/safari/ibrwe75c2a3c/mac", "usedFor": "教材：Safari > 設定 > 搜尋"},
+    {"id": "cwa_typhoon", "title": "颱風消息", "publisher": "交通部中央氣象署", "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_NEWS.html", "usedFor": "教材：寶藏題 A 的官方來源範例與 site:cwa.gov.tw 範例；本課未引用其內容"},
+    {"id": "openai_academy", "title": "OpenAI Academy", "publisher": "OpenAI", "url": "https://academy.openai.com/", "usedFor": "課表 R20 主要參考網址；本課未用於任何主張"}
+  ],
+  "youtubeSearchEntries": {
+    "status": "not selected, not watched",
+    "note": "課表的三組 YouTube 連結是動態搜尋入口，本次未挑選或觀看任何影片，也未在影片或教材中引用。"
+  }
+}

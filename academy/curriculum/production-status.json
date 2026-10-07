@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T10:50:00+08:00",
+  "updatedAt": "2026-10-07T12:18:52+08:00",
   "lessons": [
     {
       "lessonId": "L001",
@@ -50,12 +50,12 @@
       "lessonId": "L005",
       "title": "搜尋高手：把大問題拆成好問題",
       "learningObjectives": "學會關鍵字、引號、排除詞、時間條件與問題拆解",
-      "productionStatus": "planned",
-      "publicationStatus": "not_uploaded",
+      "productionStatus": "verified",
+      "publicationStatus": "awaiting_user_upload",
       "publicationOwner": "user",
       "videoUrl": null,
-      "evidence": "none",
-      "episodePath": null
+      "evidence": "Produced 2026-10-07 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L005-v1 SHA-256 72f62864f23028a0572236a5bf519a27228a3aac77c8859cd8f2238d873a6757 delivered as 6 session attachments. See episodes/academy/l005-search-master/delivery.json and qc/manual-review.md.",
+      "episodePath": "episodes/academy/l005-search-master"
     },
     {
       "lessonId": "L006",

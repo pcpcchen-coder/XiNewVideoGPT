@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "editorialStatus": "authored",
+  "recordingSource": null,
+  "slideCount": 12,
+  "transitionSeconds": 0.55,
+  "deckRenderer": "ooxml-template",
+  "templateEpisode": "episodes/academy/l001-mac-workstation",
+  "templateProvenance": "Original PPTX absent from v2 ZIP; restored from supplied build_l001.mjs and original assets.",
+  "layoutProfile": "academy-native-v1",
+  "seriesHeader": "父子科技學院  ·  SEARCH QUEST",
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "zh-TW-YunJheNeural",
+    "persona": "陳犀牛 Chen XiNew",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "music": {
+    "backgroundMusic": "none — narration only under teaching slides",
+    "opening": "assets/opening/開場影片-v2.mp4"
+  },
+  "signoff": {
+    "text": "我是陳犀牛，保持好奇，我們下次見！"
+  },
+  "contentMode": "curriculum-based-preclass",
+  "publicationMode": "manual-user-upload",
+  "autoPublish": false,
+  "episode": "L005",
+  "slug": "l005-search-master",
+  "title": "搜尋高手：把大問題拆成好問題",
+  "subtitle": "父子科技學院 第五堂｜依課表製作的課前教學版",
+  "lessonIds": [
+    "L005"
+  ],
+  "sources": {
+    "curriculum": "curriculum/catalog.json：L005；來源 V2 Excel 逐堂課程第 5 堂",
+    "google_refine": "https://support.google.com/websearch/answer/2466433?hl=zh-Hant",
+    "google_tips": "https://support.google.com/websearch/answer/134479?hl=zh-Hant",
+    "google_filters": "https://support.google.com/websearch/answer/142143?hl=zh-Hant&co=GENIE.Platform%3DDesktop",
+    "google_ai_overview": "https://support.google.com/websearch/answer/14901683?hl=zh-Hant",
+    "google_ads_vs_results": "https://support.google.com/google-ads/answer/1722080?hl=zh-Hant",
+    "google_safesearch": "https://support.google.com/websearch/answer/510?hl=zh-Hant",
+    "ddg_syntax": "https://duckduckgo.com/duckduckgo-help-pages/results/syntax/",
+    "apple_safari_search": "https://support.apple.com/zh-tw/guide/safari/sfrid73436cb/mac",
+    "apple_safari_custom": "https://support.apple.com/zh-tw/guide/safari/ibrwe75c2a3c/mac",
+    "cwa_typhoon": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_NEWS.html"
+  },
+  "factCheck": {
+    "checkedAt": "2026-10-07",
+    "record": "production/fact-check.md",
+    "sources": "production/sources.json"
+  },
+  "authorization": {
+    "produceL005": true,
+    "ttsConsent": {
+      "grantedBy": "user",
+      "grantedAt": "2026-10-07",
+      "service": "Microsoft Edge TTS",
+      "voice": "zh-TW-YunJheNeural",
+      "scope": "L005 public narration script only",
+      "basis": "Session launch prompt consented to sending 'these three lessons' public narration to Edge TTS; the user then asked in the same session to continue with L005.",
+      "excluded": "private recordings or any other private data"
+    },
+    "paidLlmApi": false,
+    "uploadToYouTube": false,
+    "publish": false
+  },
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L005",
+  "episodePath": "episodes/academy/l005-search-master",
+  "version": "L005-v1",
+  "createdAt": "2026-10-07",
+  "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
+  "status": "verified",
+  "publicationStatus": "awaiting_user_upload",
+  "contentMode": "curriculum-based-preclass (no recording)",
+  "durationSeconds": 410.368,
+  "openingSeconds": 60.277,
+  "voice": "zh-TW-YunJheNeural",
+  "ttsEngine": "edge-tts 7.2.8",
+  "backgroundMusic": "none under teaching slides",
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "validation": {
+    "passed": 25,
+    "total": 25,
+    "integratedLufs": -17.2,
+    "sceneAudioMaxLagMs": 0.0,
+    "sceneAudioMinCorrelation": 0.984772,
+    "asrMinSimilarity": 0.837,
+    "asrMeanSimilarity": 0.965,
+    "captionLineBreak": "kinsoku",
+    "reviewRecords": [
+      "qc/report.md",
+      "qc/manual-review.md",
+      "qc/slide-visual-review.md"
+    ],
+    "notDone": [
+      "human full listening review",
+      "PowerPoint/Keynote open test",
+      "macOS hands-on test",
+      "YouTube copyright check",
+      "search examples were not run against a live search engine"
+    ]
+  },
+  "package": {
+    "filename": "L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip",
+    "bytes": 168971465,
+    "sha256": "72f62864f23028a0572236a5bf519a27228a3aac77c8859cd8f2238d873a6757",
+    "contents": "whitelisted package folder L005-v1 with checksums.json (20 files)",
+    "internalChecksums": {
+      "UPLOAD_README.md": "df693c78f2d483e47aea6b2f0f70f7878c9319200dcde78aa3f617be2fb1d1cd",
+      "youtube-draft.json": "fb74559bb1eaffc7ce828b9105e49073514c6a93e319c44b64534533ad8bd35b",
+      "youtube-metadata.json": "1f43569b020547b1672afc16e977064232045840f116e10571f905e5f01ebc07",
+      "manual-review.md": "603ba297ace4908dd12701e8098a7c0a514ae88f1b7c7a68a715b196ae2dee29",
+      "l005-search-master.pptx": "384dc71b212a6989fe472b26f7ecd31705763e7cf95a6bf445968a1cb424395d",
+      "repo-guide.md": "f965705aa48774c7d27bfaa4ab271b9b37eac0e9f99cd11e916e03182412f579",
+      "sources.json": "c77a19fcfbe1ed54f787e61a248ac15f65dce1c9065db9c1eabe3bbc0200eee9",
+      "narration-only.mp3": "738e1c7ce726b37c552f629d0cfe58751f75049bff047279264d85d04240bd6b",
+      "l005-search-master-zh-TW.mp4": "1906edbce0208a2fe7b3ce6651c2b0dbbb53a4576ed2399a36a10324d8e1e207",
+      "report.json": "d7f7744491d7aa92f40eb40e6586775e88cc539f8631d255a71c9e83caa15e05",
+      "fact-check.md": "eea53d711b104daf5d74ba6cf7e1c74dbc83291b7c6d39fbac274ee2e78d8ba6",
+      "classroom.zip": "dc455445cc805b17a929bbf19cefad88088af233c0f05f86c392c47c51f52034",
+      "zh-TW.srt": "549ca56cbacd8e8f488cb2e6ca4b247f0ce2e619726270f45c477e217a4719bd",
+      "report.md": "b12a69dea1458884c0534d054e5e14aa10de18a6f100ffab57b24b315edef5ce",
+      "youtube-description.txt": "8b5d3e20a1bc733e10b41db56779f616611f5f1a7a876f4fb753d7de17381086",
+      "l005-search-master-master.mp4": "954328b57ef18c09a9cc142edcd5cacdd36fb0c84df27db82d25bdb0595d253f",
+      "chapters.txt": "3fbf34ff5c68fcc1e6d13fa03a37ac6ef6a57043ca0f0619e5adfa034e917ce4",
+      "thumbnail.png": "916c4fc82d7f1e1effd2a98b28e9fb30985e6ae2910349958eb3ef9613ec9aad",
+      "narration-script.md": "49bc95089d683b65e1ae39d37bc43ce74e1645b1a6b0104145a7805ac52b55bc",
+      "START_HERE.md": "c99874a714c2bd59ba089eed2d4ad805f8cf3ca8ad5a4c7bc61d26b00b842357"
+    }
+  },
+  "largeFiles": [
+    {
+      "filename": "l005-search-master-zh-TW.mp4",
+      "bytes": 77447258,
+      "sha256": "1906edbce0208a2fe7b3ce6651c2b0dbbb53a4576ed2399a36a10324d8e1e207",
+      "role": "captioned video for upload (burned zh-TW subtitles)",
+      "inGit": false
+    },
+    {
+      "filename": "l005-search-master-master.mp4",
+      "bytes": 80001962,
+      "sha256": "954328b57ef18c09a9cc142edcd5cacdd36fb0c84df27db82d25bdb0595d253f",
+      "role": "master without burned subtitles",
+      "inGit": false
+    },
+    {
+      "filename": "narration-only.mp3",
+      "bytes": 8403309,
+      "sha256": "738e1c7ce726b37c552f629d0cfe58751f75049bff047279264d85d04240bd6b",
+      "role": "narration only, no opening",
+      "inGit": false
+    }
+  ],
+  "inGit": [
+    {
+      "filename": "l005-search-master.pptx",
+      "bytes": 2509520,
+      "sha256": "384dc71b212a6989fe472b26f7ecd31705763e7cf95a6bf445968a1cb424395d",
+      "path": "production/presentation/l005-search-master.pptx"
+    },
+    {
+      "filename": "zh-TW.srt",
+      "bytes": 6227,
+      "sha256": "549ca56cbacd8e8f488cb2e6ca4b247f0ce2e619726270f45c477e217a4719bd",
+      "path": "subtitles/zh-TW.srt"
+    },
+    {
+      "filename": "thumbnail.png",
+      "bytes": 221982,
+      "sha256": "916c4fc82d7f1e1effd2a98b28e9fb30985e6ae2910349958eb3ef9613ec9aad",
+      "path": "output/thumbnail.png"
+    },
+    {
+      "filename": "classroom.zip",
+      "bytes": 333703,
+      "sha256": "dc455445cc805b17a929bbf19cefad88088af233c0f05f86c392c47c51f52034",
+      "path": "output/classroom.zip"
+    },
+    {
+      "filename": "contact-sheet.png",
+      "bytes": 1002937,
+      "sha256": "906e6f320780143cd0704d1ca7c2ee40c8220ae787c031ce5f33afdc54220a50",
+      "path": "output/contact-sheet.png"
+    }
+  ],
+  "persistence": {
+    "location": "Attachments delivered in the Claude session that produced this lesson (private to the account owner)",
+    "session": "https://claude.ai/code/session_01GE2NEiPKZa5XzbFCCWKxiy",
+    "reason": "30 MiB per-file attachment limit; the package ZIP was split into 6 byte-exact parts",
+    "parts": [
+      {
+        "filename": "L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip.part01",
+        "bytes": 29360128,
+        "sha256": "9354b4fa018b88c80f96e0a5828224ad8f85b94f9ef9ed16189299dacd022b48",
+        "conversationFileId": "d6e04a22-8103-4a1f-ae16-d00198626554"
+      },
+      {
+        "filename": "L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip.part02",
+        "bytes": 29360128,
+        "sha256": "9f6f4f56ec706844001fdc60da2fea02d32b5d041d60969eb781c31155257ac6",
+        "conversationFileId": "f066e5b5-39ad-4ee5-97b6-7981fd26a230"
+      },
+      {
+        "filename": "L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip.part03",
+        "bytes": 29360128,
+        "sha256": "684e859efd11446692c15caa234b8f3e08362d680a3ffb505c26a03946fad32d",
+        "conversationFileId": "645aff6b-b90e-478b-8ebe-a74eb407b3f2"
+      },
+      {
+        "filename": "L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip.part04",
+        "bytes": 29360128,
+        "sha256": "8beac376cd937dfee3035c02c9ecc7ead9e21ac8a25be6d3cb68699a3acdff53",
+        "conversationFileId": "cda79105-efb6-4033-9e5c-bb5d010a377f"
+      },
+      {
+        "filename": "L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip.part05",
+        "bytes": 29360128,
+        "sha256": "401df8c9d00139af759584e036646a6975fc12ccf071b79da7ceea6abc003b0a",
+        "conversationFileId": "051f84f1-5886-43e9-9a8b-c246f779b188"
+      },
+      {
+        "filename": "L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip.part06",
+        "bytes": 22170825,
+        "sha256": "5305ef1f87bafc360ac5cb9859f53336351eaa0dda210e732ba01a1c89431b8f",
+        "conversationFileId": "77470e68-1a11-441a-abaf-6815dd338d04"
+      }
+    ],
+    "restore": "cat \"L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip\".part* > \"L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip\" && shasum -a 256 \"L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip\"",
+    "restoredZip": {
+      "filename": "L005-v1_父子科技學院_搜尋高手_把大問題拆成好問題_2026-10-07.zip",
+      "bytes": 168971465,
+      "sha256": "72f62864f23028a0572236a5bf519a27228a3aac77c8859cd8f2238d873a6757"
+    },
+    "restoreTested": "parts re-joined by pipeline/split_delivery.py in the producing session: SHA-256 equals the ZIP; ZIP integrity tested",
+    "notUsed": {
+      "gitHubRelease": "repository is public; a release would make the unpublished video public",
+      "googleDrive": "connector accepts only inline content; text records only, no large binaries",
+      "git": "large MP4/MP3 stay out of Git per .gitignore"
+    },
+    "ifAttachmentsUnavailable": "rebuild from Git: audio, slides, PPTX, SRT sources and the shared opening are tracked; run assemble → delivery → verify → package. A rebuild is a new version with new hashes."
+  },
+  "continuation": {
+    "state": "L005 complete through package; nothing pending except user playback/listening and manual YouTube upload",
+    "rebuildCommands": [
+      "cd academy && ./setup-portable.sh",
+      "EP=episodes/academy/l005-search-master",
+      "./portable-runtime.sh python pipeline/academy.py run media-check --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run assemble --episode \"$EP\"   # ~20 min on 2 cores; run in background",
+      "./portable-runtime.sh python pipeline/delivery.py --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run verify --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py package --episode \"$EP\" --output delivery/L005-v2"
+    ],
+    "doNotRerunWithoutReason": "run tts (re-synthesises all audio and invalidates timing, subtitles, video and QC)",
+    "authoring": [
+      "authoring/l005/classroom.py",
+      "authoring/l005/prepare_content.py"
+    ],
+    "sharedTools": [
+      "pipeline/qa/subtitle_precheck.py",
+      "pipeline/qa/deck_check.py",
+      "pipeline/qa/media_review.py",
+      "pipeline/qa/asr_review.py",
+      "pipeline/split_delivery.py",
+      "pipeline/record_delivery.py"
+    ],
+    "nextLesson": "L006 真真假假：來源與證據偵探 (produced in the same session; see its own delivery.json)"
+  },
+  "publication": {
+    "status": "awaiting_user_upload",
+    "publisher": "user",
+    "uploaded": false,
+    "videoUrl": null,
+    "uploadFile": "l005-search-master-zh-TW.mp4",
+    "note": "No login, upload or publication was attempted."
+  }
+}

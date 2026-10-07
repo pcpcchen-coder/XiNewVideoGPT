@@ -92,7 +92,8 @@ def build(ep, render=True):
     academy.write(ep/'qc/presentation-validation.json', {
         'renderer':'ooxml-template + LibreOffice', 'referenceSha256':academy.sha(source),
         'pptxSha256':academy.sha(output), 'slideCount':12, 'matchedMappings':len(seen),
-        'xmlParsed':True, 'rendered':render, 'visualReview':'required; not established by structural checks'})
+        'xmlParsed':True, 'rendered':render, 'renderOptions':m.get('renderOptions', {}),
+        'visualReview':'required; not established by structural checks'})
     return output
 
 if __name__ == '__main__':

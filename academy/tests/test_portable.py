@@ -57,4 +57,32 @@ class PortableTests(unittest.TestCase):
         f=self.ep/'classroom/task.md';f.parent.mkdir();f.write_text('v1')
         old=a.fingerprint(self.ep);f.write_text('v2')
         self.assertNotEqual(old,a.fingerprint(self.ep))
+    def test_autospace_patch_rewrites_odp_default_and_rejects_missing_setting(self):
+        tmp=Path(self.tmp.name); src=tmp/'in.odp'; dst=tmp/'out.odp'
+        with zipfile.ZipFile(src,'w') as z:
+            z.writestr('mimetype','application/vnd.oasis.opendocument.presentation')
+            z.writestr('styles.xml','<s style:text-autospace="ideograph-alpha"/>')
+            z.writestr('content.xml','<c/>')
+        self.assertEqual(a.disable_asian_latin_autospace(src,dst),1)
+        with zipfile.ZipFile(dst) as z:
+            self.assertEqual(z.namelist()[0],'mimetype')
+            self.assertIn('text-autospace="none"',z.read('styles.xml').decode())
+        with zipfile.ZipFile(src,'w') as z:
+            z.writestr('mimetype','x'); z.writestr('styles.xml','<s/>')
+        with self.assertRaisesRegex(ValueError,'text-autospace'): a.disable_asian_latin_autospace(src,tmp/'no.odp')
+    def test_caption_wrap_keeps_short_cues_and_breaks_long_ones_after_punctuation(self):
+        sys.path.insert(0,str(ROOT/'pipeline/scripts'))
+        import caption_wrap as cw
+        short='引號很適合找一句話的出處、歌名或錯誤訊息；記得照畫面上的寫法，使用半形的雙引號。'
+        self.assertEqual(cw.wrap_caption(short),[short])
+        long='今天我們來玩搜尋尋寶：寶藏是一個大問題的答案，要找到它，得先把大問題拆成幾個好找的小問題。'
+        lines=cw.wrap_caption(long)
+        self.assertEqual(len(lines),2); self.assertEqual(''.join(lines),long)
+        self.assertEqual(lines[0][-1],'，'); self.assertNotIn(lines[1][0],cw.NO_LINE_START)
+        self.assertTrue(all(cw.width_em(x)<=cw.LINE_LIMIT_EM for x in lines))
+        listy='第二種是精準搜尋，輸入颱風、防災、準備、清單這幾個關鍵字，再數一次，比較兩次結果差在哪裡。'
+        self.assertEqual(cw.wrap_caption(listy)[0][-1],'，')  # sentence comma preferred over the list comma
+        latin=cw.wrap_caption('一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四 after:2026/01/01 一二三四五六')
+        self.assertTrue(any('after:2026/01/01' in x for x in latin))  # never split inside a Latin/number run
+        with self.assertRaisesRegex(ValueError,'two lines'): cw.wrap_caption('字'*90)
 if __name__=='__main__': unittest.main()

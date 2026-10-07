@@ -1,0 +1,39 @@
+# L005 搜尋高手：把大問題拆成好問題
+
+這是依課表製作的課前教學版，不是實際上課錄音，也沒有虛構的課堂對話。
+
+查資料老是找不到重點？陳犀牛帶你玩搜尋尋寶：先把大問題拆成小問題，再用四把鑰匙——關鍵字、引號、減號、時間條件——一步一步找到答案。
+看完影片，同一個問題用模糊、精準、分段三種方法各搜一次，用同一套標準比較答案品質，最後寫出自己的搜尋策略卡。
+
+這一集會學到
+・搜尋三步：拆問題、選關鍵字、比結果
+・引號找完全相符的句子；減號排除不要的字詞；時間條件找夠新的資料
+・減號和字詞之間不能有空格
+・排在最前面不一定最正確；廣告有標示；AI 摘要也可能出錯，重要的事多方查證
+
+教材用法（classroom.zip）
+先讀「00_爸爸先讀」，列印「02_列印包」（A4 共 5 頁），照「01_活動規則」玩三種搜法尋寶賽，用「03_比較紀錄」記分；
+下半場完成「04_搜尋策略卡」與「05_自選規則卡」，最後用「06_驗收與回顧」讓孩子教爸爸。「07_四把鑰匙小抄」可以放在鍵盤旁邊。
+
+注意事項
+・課堂是 120 分鐘，影片只是課前引導，片長另計。
+・影片以 Google 搜尋為例；其他搜尋引擎的寫法和效果可能不同，搜尋工具也會因搜尋內容和瀏覽器而異。
+・例子只示範寫法，不保證你會看到一樣的結果；教材不提供寶藏題的標準答案。
+・不要把密碼、住址這類個人資料打進搜尋框；爸爸請先確認搜尋引擎的安全設定並在旁陪同。
+
+來源（查核日 2026-10-07）
+Google 搜尋說明「修正 Google 搜尋結果範圍」：https://support.google.com/websearch/answer/2466433?hl=zh-Hant
+Google 搜尋說明「搜尋提示」：https://support.google.com/websearch/answer/134479?hl=zh-Hant
+Google 搜尋說明「利用篩選器縮小搜尋結果範圍」：https://support.google.com/websearch/answer/142143?hl=zh-Hant
+Google 搜尋說明「AI 摘要」：https://support.google.com/websearch/answer/14901683?hl=zh-Hant
+Google Ads 說明「Google 搜尋結果與廣告的差別」：https://support.google.com/google-ads/answer/1722080?hl=zh-Hant
+Google 搜尋說明「安全搜尋」：https://support.google.com/websearch/answer/510?hl=zh-Hant
+DuckDuckGo 進階語法說明：https://duckduckgo.com/duckduckgo-help-pages/results/syntax/
+Apple 支援「在 Mac 上使用 Safari 搜尋網際網路」：https://support.apple.com/zh-tw/guide/safari/sfrid73436cb/mac
+
+播放 l005-search-master-zh-TW.mp4，實測 410.37 秒。
+全片字幕 zh-TW.srt 已含實測片頭 60.277 秒；不可使用 source SRT 替代。
+
+classroom.zip 是練習教材。課堂 120 分鐘與影片片長分開。
+母帶無燒錄字幕，簡報可編輯，另附純旁白、文字稿、章節、來源與 QC。
+本包未上傳 YouTube，由使用者播放檢查及上傳。

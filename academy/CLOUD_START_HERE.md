@@ -1,6 +1,8 @@
 # 新工作階段從這裡接手
 
-**L004 最新結果（2026-10-07）：** 「網路到底是什麼：封包接力賽」已由 Claude 以可攜流程完成製作、25/25 驗收與 L004-v1 封裝，狀態 `verified`／`awaiting_user_upload`；尚未上傳，YouTube 由使用者處理。檔名、大小、SHA-256、取得方式見 [delivery.json](episodes/academy/l004-network-relay/delivery.json)，檢視方法與限制見 [manual-review.md](episodes/academy/l004-network-relay/qc/manual-review.md)。不得重製；下一堂是 L005。
+**L004 最新結果（2026-10-07）：** 「網路到底是什麼：封包接力賽」已由 Claude 以可攜流程完成製作、25/25 驗收與 L004-v1 封裝，狀態 `verified`／`awaiting_user_upload`；尚未上傳，YouTube 由使用者處理。檔名、大小、SHA-256、取得方式見 [delivery.json](episodes/academy/l004-network-relay/delivery.json)，檢視方法與限制見 [manual-review.md](episodes/academy/l004-network-relay/qc/manual-review.md)。不得重製。
+
+**L005 最新結果（2026-10-07）：** 「搜尋高手：把大問題拆成好問題」同日由 Claude 完成製作、25/25 驗收與 L005-v1 封裝，狀態 `verified`／`awaiting_user_upload`；尚未上傳。見 [delivery.json](episodes/academy/l005-search-master/delivery.json) 與 [manual-review.md](episodes/academy/l005-search-master/qc/manual-review.md)。不得重製；下一堂是 L006。
 
 **Claude 接手（2026-10-07）：** 先讀 [跨環境製作指南](docs/CLAUDE_HANDOFF.md)；已提供無 ChatGPT 專用依賴的套版與交付入口。[三集啟動指令](docs/CLAUDE_BATCH_PROMPT.md)可直接交給 Claude。
 **SP01 最新結果（2026-10-04）：** 使用者另行授權本機上傳及公開，已完成：[6Bq4jI0Xook](https://youtu.be/6Bq4jI0Xook)。原封面、章節、來源說明與繁中 CC 已驗證；YouTube 著作權檢查未發現任何問題。詳見[SP01 發布驗收](specials/sp01-ai-update-20261004/publication/local-upload-review.md)。不得重複上傳；L001–L192 課程狀態及系列預設不變。
@@ -14,7 +16,7 @@
 1. 以此 repo 的最新版本為起點，進入 `academy/`；不要在根目錄執行學院命令。
 2. 讀 [製作教學](docs/CLOUD_PRODUCTION_GUIDE.md)、[進度表](docs/PRODUCTION_STATUS.md)。
 3. 共用片頭已分段保存在 Git；啟動器首次執行時自動還原並核對 SHA-256。跑 `./cloud-runtime.sh python pipeline/academy.py doctor`，查當次 Node、artifact-tool、Presentations skill、中文字型、ffmpeg 與 Edge-TTS。
-4. 跑 `./cloud-runtime.sh python pipeline/status.py --next`。目前應是 L005，仍須依使用者指定課次工作。
+4. 跑 `./cloud-runtime.sh python pipeline/status.py --next`。目前應是 L006，仍須依使用者指定課次工作。
 5. 核對課表，初始化草稿，編寫 12 頁／36 句、教材、來源、驗收，再逐階段製作。
 6. 通過驗收後封裝、保存可下載檔案，更新製作進度與檔案清單。將影片留為 `awaiting_user_upload`。
 
