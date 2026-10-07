@@ -1,0 +1,110 @@
+[
+  {
+    "slide": 1,
+    "title": "AI 是什麼、不是什麼",
+    "purpose": "開場：課前教學版揭露、都叫 AI 但做法不同、分類任務與作品",
+    "visual": "封面版型：任務標籤、兩行主題、一句任務說明；原陳犀牛角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "準備功能卡與分類牆；預告競速與作品",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 2,
+    "title": "分類的三個問題",
+    "purpose": "概念：分類三問（固定步驟？從例子學？做新內容？）",
+    "visual": "三步流程卡＋黃字作品（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出今天要完成的作品",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 3,
+    "title": "AI 沒有魔法",
+    "purpose": "概念：AI 是人做的電腦系統，沒有魔法；定義不只一種",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "用自己的話說「AI 沒有魔法」是什麼意思",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 4,
+    "title": "分類牆的四個籃子",
+    "purpose": "概念：四個籃子（固定規則、機器學習、生成式 AI、不是 AI）；界線有爭議",
+    "visual": "面板四張卡＋黃字說明（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "各說一個例子",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 5,
+    "title": "固定規則和機器學習",
+    "purpose": "概念：固定規則是人寫步驟；機器學習是從例子找規律，例子有偏差就會錯",
+    "visual": "雙框對照（固定規則 ≠ 機器學習）＋白字＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出兩者差在哪裡",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 6,
+    "title": "機器學習：生活裡的例子",
+    "purpose": "示範：臉部解鎖、照片整理、影片推薦都用到機器學習，也都會錯",
+    "visual": "三張步驟卡＋黃字提醒（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "再想一個家裡用到機器學習的功能",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 7,
+    "title": "生成式 AI：會做出新內容",
+    "purpose": "概念：生成式 AI 預測接下來的內容；通順不代表正確",
+    "visual": "路徑一行（讀大量資料→找出規律→預測下一個字）＋三張卡（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出生成式 AI 和照片整理差在哪裡",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 8,
+    "title": "AI 不是什麼？",
+    "purpose": "安全：AI 不是魔法、不是人、不是永遠正確；重要的事要查證",
+    "visual": "左側三行；右側「所以要記得」（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "暫停影片：說出 AI 不是的三件事",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 9,
+    "title": "分類牆競速：十張功能卡",
+    "purpose": "活動規則：十張功能卡，先計時分類，再逐張說理由",
+    "visual": "左右比較卡（計時分類／說出理由）＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "兩回合分類；記錄秒數與理由",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 10,
+    "title": "換你設計：擴充分類牆",
+    "purpose": "獨立改造與安全：自選新功能、提醒卡、家庭 AI 約定（不輸入個資）",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成自選功能卡與一條家庭 AI 約定",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的 AI 分類課",
+    "purpose": "120 分鐘安排：10／15／40／10／30／10／5",
+    "visual": "六列時間表與今日生活技能（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "依時間表進行；休息十分鐘",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：教爸爸分類",
+    "purpose": "作品驗收與回顧：當場分類一個新功能，指出一個限制或安全注意；固定結尾",
+    "visual": "三點驗收條列＋陳犀牛＋結尾語（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "孩子教爸爸；錄音回答四個問題；作品命名存檔",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  }
+]

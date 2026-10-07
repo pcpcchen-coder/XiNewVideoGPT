@@ -1,0 +1,285 @@
+[
+  {
+    "slide": 1,
+    "title": "AI 是什麼、不是什麼",
+    "sentences": [
+      {
+        "text": "歡迎回到父子科技學院，我是陳犀牛，今天是第十堂，主題是 AI：它是什麼、不是什麼，這是依課表製作的課前教學版，並非實際上課錄音。",
+        "tts": "歡迎回到父子科技學院，我是陳犀牛，今天是第十堂，主題是 AI：它是什麼、不是什麼，這是依課表製作的課前教學版，並非實際上課錄音。"
+      },
+      {
+        "text": "很多東西都說自己有 AI，可是它們做事的方法，其實很不一樣。",
+        "tts": "很多東西都說自己有 AI，可是它們做事的方法，其實很不一樣。"
+      },
+      {
+        "text": "今天你要當分類員，把家裡的十個功能分一分，最後做出一面 AI 功能分類牆。",
+        "tts": "今天你要當分類員，把家裡的十個功能分一分，最後做出一面 AI 功能分類牆。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L010；來源 V2 Excel 逐堂課程第 10 堂"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 2,
+    "title": "分類的三個問題",
+    "sentences": [
+      {
+        "text": "分類的時候，只要問三個問題。第一個問題：它是不是只照著人寫好的固定步驟做事？",
+        "tts": "分類的時候，只要問三個問題。第一個問題：它是不是只照著人寫好的固定步驟做事？"
+      },
+      {
+        "text": "第二個問題：它是不是看過很多例子，自己找出規律？",
+        "tts": "第二個問題：它是不是看過很多例子，自己找出規律？"
+      },
+      {
+        "text": "第三個問題：它會不會做出新的文字、圖片或聲音？如果三個都不是，它可能根本沒有用到 AI。",
+        "tts": "第三個問題：它會不會做出新的文字、圖片或聲音？如果三個都不是，它可能根本沒有用到 AI。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L010；來源 V2 Excel 逐堂課程第 10 堂",
+      "https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 3,
+    "title": "AI 沒有魔法",
+    "sentences": [
+      {
+        "text": "很多人覺得 AI 像魔法。其實 AI 是人工智慧的簡稱，它是一種電腦系統，會根據收到的資料，推算出預測、建議或是內容。",
+        "tts": "很多人覺得 AI 像魔法。其實 AI 是人工智慧的簡稱，它是一種電腦系統，會根據收到的資料，推算出預測、建議或是內容。"
+      },
+      {
+        "text": "它是人用程式和大量的資料做出來的，背後是電腦在計算，沒有魔法。",
+        "tts": "它是人用程式和大量的資料做出來的，背後是電腦在計算，沒有魔法。"
+      },
+      {
+        "text": "連專家對 AI 的定義都不完全一樣，所以今天不背定義，我們來看每個功能是怎麼做事的。",
+        "tts": "連專家對 AI 的定義都不完全一樣，所以今天不背定義，我們來看每個功能是怎麼做事的。"
+      }
+    ],
+    "sources": [
+      "https://comite-etica.upc.edu/ca/actualitat/media/8-sti-explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_final_v3.pdf/@@download/file/8%20-%20STI%20-%20Explanatory%20memorandum%20on%20the%20updated%20OECD%20definition%20of%20an%20AI%20system_FINAL_V3.pdf",
+      "https://www.president.gov.tw/File/Doc/80165b6d-cb49-4b49-952f-56e1e6abe51b",
+      "https://oecd.ai/en/wonk/ai-system-definition-update",
+      "https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 4,
+    "title": "分類牆的四個籃子",
+    "sentences": [
+      {
+        "text": "今天的分類牆有四個籃子。第一個是固定規則，電腦照著人寫好的步驟做事，同樣的輸入，每次結果都一樣，例如計算機。",
+        "tts": "今天的分類牆有四個籃子。第一個是固定規則，電腦照著人寫好的步驟做事，同樣的輸入，每次結果都一樣，例如計算機。"
+      },
+      {
+        "text": "第二個是機器學習，電腦從很多例子裡找出規律；第三個是生成式 AI，它會做出新的內容。",
+        "tts": "第二個是機器學習，電腦從很多例子裡找出規律；第三個是生成式 AI，它會做出新的內容。"
+      },
+      {
+        "text": "第四個籃子留給不是 AI 的東西，裡面沒有程式在幫忙判斷，例如紙本字典；至於固定規則算不算 AI，專家的分法並不一樣。",
+        "tts": "第四個籃子留給不是 AI 的東西，裡面沒有程式在幫忙判斷，例如紙本字典；至於固定規則算不算 AI，專家的分法並不一樣。"
+      }
+    ],
+    "sources": [
+      "https://www.thenational.academy/pupils/lessons/what-is-artificial-intelligence/video",
+      "https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf",
+      "https://comite-etica.upc.edu/ca/actualitat/media/8-sti-explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_final_v3.pdf/@@download/file/8%20-%20STI%20-%20Explanatory%20memorandum%20on%20the%20updated%20OECD%20definition%20of%20an%20AI%20system_FINAL_V3.pdf"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 5,
+    "title": "固定規則和機器學習",
+    "sentences": [
+      {
+        "text": "固定規則和機器學習差在哪裡？固定規則是人把每一步都寫好，像是這一條：如果紅燈，就停下來。",
+        "tts": "固定規則和機器學習差在哪裡？固定規則是人把每一步都寫好，像是這一條：如果紅燈，就停下來。"
+      },
+      {
+        "text": "機器學習不一樣，沒有人把每一步都寫出來，而是給電腦看很多例子，讓它自己找出規律。",
+        "tts": "機器學習不一樣，沒有人把每一步都寫出來，而是給電腦看很多例子，讓它自己找出規律。"
+      },
+      {
+        "text": "例如過濾垃圾郵件，電腦看過大量的郵件之後，學會分辨哪些像垃圾信；例子不夠，或是有偏差，它就會判斷錯。",
+        "tts": "例如過濾垃圾郵件，電腦看過大量的郵件之後，學會分辨哪些像垃圾信；例子不夠，或是有偏差，它就會判斷錯。"
+      }
+    ],
+    "sources": [
+      "https://comite-etica.upc.edu/ca/actualitat/media/8-sti-explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_final_v3.pdf/@@download/file/8%20-%20STI%20-%20Explanatory%20memorandum%20on%20the%20updated%20OECD%20definition%20of%20an%20AI%20system_FINAL_V3.pdf",
+      "https://lesson-plans.code.org/csd7-2026/20260324130350/teacher-lesson-plans/Lesson-1-Introduction-to-Machine-Learning.pdf",
+      "https://workspace.google.com/blog/product-announcements/keeping-your-company-data-safe-new-security-updates-gmail",
+      "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 6,
+    "title": "機器學習：生活裡的例子",
+    "sentences": [
+      {
+        "text": "生活裡很多功能都用到機器學習。用臉解鎖手機的時候，手機就是用機器學習來比對你的臉。",
+        "tts": "生活裡很多功能都用到機器學習。用臉解鎖手機的時候，手機就是用機器學習來比對你的臉。"
+      },
+      {
+        "text": "手機把照片依照人物、寵物和場景整理好，也是靠機器學習。",
+        "tts": "手機把照片依照人物、寵物和場景整理好，也是靠機器學習。"
+      },
+      {
+        "text": "影片網站推薦下一部給你看，同樣是從大量的觀看紀錄裡找規律；不過這些功能都有可能認錯，或是推薦錯。",
+        "tts": "影片網站推薦下一部給你看，同樣是從大量的觀看紀錄裡找規律；不過這些功能都有可能認錯，或是推薦錯。"
+      }
+    ],
+    "sources": [
+      "https://support.apple.com/en-us/102381",
+      "https://apple.com/legal/privacy/data/en/photos/",
+      "https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf",
+      "https://www.thenational.academy/pupils/lessons/what-is-artificial-intelligence/video"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 7,
+    "title": "生成式 AI：會做出新內容",
+    "sentences": [
+      {
+        "text": "生成式 AI 也是機器學習的一種，不過它不只是分類，還會做出新的內容，像是文字、圖片和聲音。",
+        "tts": "生成式 AI 也是機器學習的一種，不過它不只是分類，還會做出新的內容，像是文字、圖片和聲音。"
+      },
+      {
+        "text": "它的做法是先讀過非常大量的資料，找出裡面的規律，再一個字接一個字，預測接下來最可能出現什麼。",
+        "tts": "它的做法是先讀過非常大量的資料，找出裡面的規律，再一個字接一個字，預測接下來最可能出現什麼。"
+      },
+      {
+        "text": "所以它寫出來的句子很通順，可是通順不代表正確。",
+        "tts": "所以它寫出來的句子很通順，可是通順不代表正確。"
+      }
+    ],
+    "sources": [
+      "https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf",
+      "https://www.microsoft.com/en-us/ai/ai-101/how-does-generative-ai-work",
+      "https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 8,
+    "title": "AI 不是什麼？",
+    "sentences": [
+      {
+        "text": "再來看 AI 不是什麼。第一，它不是魔法，它是程式、資料和電腦計算做出來的。",
+        "tts": "再來看 AI 不是什麼。第一，它不是魔法，它是程式、資料和電腦計算做出來的。"
+      },
+      {
+        "text": "第二，它不是人。Google 給家長的說明提醒，聊天機器人雖然很會對話，但它不是人，也沒有情緒。",
+        "tts": "第二，它不是人。Google 給家長的說明提醒，聊天機器人雖然很會對話，但它不是人，也沒有情緒。"
+      },
+      {
+        "text": "第三，它不是永遠正確。它可能把錯的事情說得很有把握，所以重要的事，一定要再查證。",
+        "tts": "第三，它不是永遠正確。它可能把錯的事情說得很有把握，所以重要的事，一定要再查證。"
+      }
+    ],
+    "sources": [
+      "https://support.google.com/gemini/answer/16109150?hl=en",
+      "https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf",
+      "https://www.anthropic.com/legal/consumer-terms"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 9,
+    "title": "分類牆競速：十張功能卡",
+    "sentences": [
+      {
+        "text": "現在來玩分類牆。桌上有十張功能卡，第一回合比速度：按下計時，把每一張卡貼到四個籃子的其中一個。",
+        "tts": "現在來玩分類牆。桌上有十張功能卡，第一回合比速度：按下計時，把每一張卡貼到四個籃子的其中一個。"
+      },
+      {
+        "text": "第二回合不比快，每一張都要說出理由：它是照固定步驟、從例子學，還是會做出新的內容？理由說得通才得分。",
+        "tts": "第二回合不比快，每一張都要說出理由：它是照固定步驟、從例子學，還是會做出新的內容？理由說得通才得分。"
+      },
+      {
+        "text": "有些卡不只一個答案，例如語音助理裡面，可能同時用到好幾種技術，只要說得出理由就算對。",
+        "tts": "有些卡不只一個答案，例如語音助理裡面，可能同時用到好幾種技術，只要說得出理由就算對。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L010；來源 V2 Excel 逐堂課程第 10 堂",
+      "https://machinelearning.apple.com/research/hey-siri"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 10,
+    "title": "換你設計：擴充分類牆",
+    "sentences": [
+      {
+        "text": "下半場換你擴充分類牆。先在家裡找一個新的功能，自己判斷它該放進哪個籃子，並且寫下理由。",
+        "tts": "下半場換你擴充分類牆。先在家裡找一個新的功能，自己判斷它該放進哪個籃子，並且寫下理由。"
+      },
+      {
+        "text": "再替它寫一張提醒卡，想一想它可能在哪裡出錯。",
+        "tts": "再替它寫一張提醒卡，想一想它可能在哪裡出錯。"
+      },
+      {
+        "text": "最後加一條使用 AI 的家庭約定，例如教育部提醒學生，不可以把自己或別人的姓名、照片和住址，輸入生成式 AI。",
+        "tts": "最後加一條使用 AI 的家庭約定，例如教育部提醒學生，不可以把自己或別人的姓名、照片和住址，輸入生成式 AI。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L010；來源 V2 Excel 逐堂課程第 10 堂",
+      "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的 AI 分類課",
+    "sentences": [
+      {
+        "text": "兩個小時這樣安排：開場十分鐘，認識三種做事的方法十五分鐘，接著用四十分鐘玩分類牆，再休息十分鐘。",
+        "tts": "兩個小時這樣安排：開場十分鐘，認識三種做事的方法十五分鐘，接著用四十分鐘玩分類牆，再休息十分鐘。"
+      },
+      {
+        "text": "下半場用三十分鐘擴充分類牆、寫使用 AI 的家庭約定，然後用十分鐘交換角色，由孩子教爸爸怎麼分類。",
+        "tts": "下半場用三十分鐘擴充分類牆、寫使用 AI 的家庭約定，然後用十分鐘交換角色，由孩子教爸爸怎麼分類。"
+      },
+      {
+        "text": "最後五分鐘錄音總結，替分類牆取名字、拍照存檔，再貼在家裡看得到的地方。",
+        "tts": "最後五分鐘錄音總結，替分類牆取名字、拍照存檔，再貼在家裡看得到的地方。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L010；來源 V2 Excel 逐堂課程第 10 堂"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：教爸爸分類",
+    "sentences": [
+      {
+        "text": "最後一關，請不看稿，在家裡找一個新的功能，當著爸爸的面分類一次，並且說出你的理由。",
+        "tts": "最後一關，請不看稿，在家裡找一個新的功能，當著爸爸的面分類一次，並且說出你的理由。"
+      },
+      {
+        "text": "再指出一個限制或安全注意事項，例如生成式 AI 的回答可能是錯的，重要的事要再查證。",
+        "tts": "再指出一個限制或安全注意事項，例如生成式 AI 的回答可能是錯的，重要的事要再查證。"
+      },
+      {
+        "text": "今天的作品是 AI 功能分類牆，下次我們要學怎麼寫出第一個好提示詞；我是陳犀牛，保持好奇，我們下次見！",
+        "tts": "今天的作品是 AI 功能分類牆，下次我們要學怎麼寫出第一個好提示詞；我是陳犀牛，保持好奇，我們下次見！"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L010；來源 V2 Excel 逐堂課程第 10 堂",
+      "https://www.anthropic.com/legal/consumer-terms"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  }
+]

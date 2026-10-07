@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T18:36:45+08:00",
+  "updatedAt": "2026-10-07T19:29:36+08:00",
   "lessons": [
     {
       "lessonId": "L001",
@@ -105,12 +105,12 @@
       "lessonId": "L010",
       "title": "AI 是什麼、不是什麼",
       "learningObjectives": "區分規則式程式、機器學習與生成式 AI；理解 AI 沒有魔法",
-      "productionStatus": "planned",
-      "publicationStatus": "not_uploaded",
+      "productionStatus": "verified",
+      "publicationStatus": "awaiting_user_upload",
       "publicationOwner": "user",
       "videoUrl": null,
-      "evidence": "none",
-      "episodePath": null
+      "evidence": "Produced 2026-10-07 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L010-v1 SHA-256 601c113e5be4024911f508a1e02fe26445453bf44479672cd90422e75ed21446 delivered as 6 session attachments. See episodes/academy/l010-what-is-ai/delivery.json and qc/manual-review.md.",
+      "episodePath": "episodes/academy/l010-what-is-ai"
     },
     {
       "lessonId": "L011",

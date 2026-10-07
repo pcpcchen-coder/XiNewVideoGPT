@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L010",
+  "checkedAt": "2026-10-07",
+  "method": "A research subagent downloaded each page/PDF on the check date and reported verbatim quotes (production/source-notes.md); the producing agent mapped them to claims. Not a human full read.",
+  "curriculum": "curriculum/catalog.json：L010；來源 V2 Excel 逐堂課程第 10 堂",
+  "sources": [
+    {
+      "id": "oecd_memo",
+      "title": "Explanatory memorandum on the updated OECD definition of an AI system（2024-02）",
+      "publisher": "OECD（大學網站轉載的 PDF）",
+      "url": "https://comite-etica.upc.edu/ca/actualitat/media/8-sti-explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_final_v3.pdf/@@download/file/8%20-%20STI%20-%20Explanatory%20memorandum%20on%20the%20updated%20OECD%20definition%20of%20an%20AI%20system_FINAL_V3.pdf",
+      "usedFor": "AI 系統定義（根據輸入推論出預測、內容、建議或決策）；規則的例子「If the traffic light is red, stop」；機器學習是從訓練資料找出規律，而不是靠人明確寫出指令。注意：OECD 是把規則當成 AI 系統的一種做法"
+    },
+    {
+      "id": "oecd_wonk",
+      "title": "Updates to the OECD definition of an AI system explained（2023-11-29）",
+      "publisher": "OECD.AI",
+      "url": "https://oecd.ai/en/wonk/ai-system-definition-update",
+      "usedFor": "要對 AI 系統的定義取得共識並不容易"
+    },
+    {
+      "id": "tw_ai_act",
+      "title": "人工智慧基本法 第三條（總統府公報第 7837 號，115 年 1 月 14 日）",
+      "publisher": "總統府",
+      "url": "https://www.president.gov.tw/File/Doc/80165b6d-cb49-4b49-952f-56e1e6abe51b",
+      "usedFor": "台灣法律對人工智慧的定義：透過輸入或感測，經由機器學習及演算法，實現預測、內容、建議或決策等產出"
+    },
+    {
+      "id": "unicef3",
+      "title": "Guidance on AI and Children 3.0（2025-12）",
+      "publisher": "UNICEF Innocenti",
+      "url": "https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf",
+      "usedFor": "AI 系統靠明確規則、從例子學習或試誤來運作；生成式 AI 用統計規律預測接下來的內容；推薦引擎多半靠機器學習；把 AI 看成資料驅動的應用而不是有知覺的機器"
+    },
+    {
+      "id": "oak",
+      "title": "What is artificial intelligence?（KS2 Year 4 課程影片逐字稿）",
+      "publisher": "Oak National Academy（英格蘭）",
+      "url": "https://www.thenational.academy/pupils/lessons/what-is-artificial-intelligence/video",
+      "usedFor": "計算機每次用同樣的步驟；計算機、紅綠燈、紙本字典不使用 AI；語音助理、預測輸入、臉部解鎖使用 AI；只照簡單固定步驟的不是 AI；AI 產生答案但並不理解"
+    },
+    {
+      "id": "codeorg_ml",
+      "title": "Introduction to Machine Learning（教師教案）",
+      "publisher": "Code.org",
+      "url": "https://lesson-plans.code.org/csd7-2026/20260324130350/teacher-lesson-plans/Lesson-1-Introduction-to-Machine-Learning.pdf",
+      "usedFor": "機器學習：電腦辨認規律並做決定，而不是被明確地寫好每一步"
+    },
+    {
+      "id": "microsoft_gen",
+      "title": "How Does Generative AI Work",
+      "publisher": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/ai/ai-101/how-does-generative-ai-work",
+      "usedFor": "生成式 AI 用機器學習分析大量資料，並產生新的內容"
+    },
+    {
+      "id": "mit_sloan",
+      "title": "When AI Gets It Wrong: Addressing AI Hallucinations and Bias",
+      "publisher": "MIT Sloan Teaching & Learning Technologies",
+      "url": "https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/",
+      "usedFor": "生成式 AI 像進階的自動完成：依觀察到的規律預測下一個字或序列"
+    },
+    {
+      "id": "google_parent",
+      "title": "Guide your child's Gemini Apps experience",
+      "publisher": "Google Gemini Apps Help",
+      "url": "https://support.google.com/gemini/answer/16109150?hl=en",
+      "usedFor": "Gemini 不是人，不會自己思考或有情緒；可能把不正確的資訊說得像事實；13 歲以下須由家長開啟；不要分享住址、校名等個人資訊"
+    },
+    {
+      "id": "anthropic_terms",
+      "title": "Consumer Terms of Service（2025-10-08 生效）",
+      "publisher": "Anthropic",
+      "url": "https://www.anthropic.com/legal/consumer-terms",
+      "usedFor": "輸出不一定正確，即使看起來很詳細；不應在沒有自行確認的情況下依賴輸出"
+    },
+    {
+      "id": "moe_genai",
+      "title": "中小學使用「生成式人工智慧」注意事項 2.1（學生版；115 年 2 月 11 日核定）",
+      "publisher": "教育部（師大附中國中部網站轉載的 PDF）",
+      "url": "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+      "usedFor": "資料有成見或錯誤，結果也會有偏差或錯誤；不可以輸入自己或他人的姓名、照片、聯絡方式、住址、學號；遵守各平臺註冊年齡限制，非在校使用請家長陪伴"
+    },
+    {
+      "id": "gmail_ml",
+      "title": "Keeping your company data safe with new security updates to Gmail（2017-06-01）",
+      "publisher": "Google Workspace Blog",
+      "url": "https://workspace.google.com/blog/product-announcements/keeping-your-company-data-safe-new-security-updates-gmail",
+      "usedFor": "Gmail 用機器學習擋下垃圾郵件與釣魚郵件（文中的 99.9% 是 2017 年的數字，本課不引用）"
+    },
+    {
+      "id": "apple_faceid",
+      "title": "About Face ID advanced technology（2026-09-18）",
+      "publisher": "Apple Support",
+      "url": "https://support.apple.com/en-us/102381",
+      "usedFor": "Face ID 使用原深感測相機與機器學習；13 歲以下兒童的誤認機率較高"
+    },
+    {
+      "id": "apple_photos",
+      "title": "Photos & Privacy（2025-12-12）",
+      "publisher": "Apple",
+      "url": "https://apple.com/legal/privacy/data/en/photos/",
+      "usedFor": "「照片」用裝置上的機器學習整理照片，包括場景分類、人物與寵物辨識"
+    },
+    {
+      "id": "apple_siri",
+      "title": "Hey Siri: An On-device DNN-powered Voice Trigger（2017-10-01）",
+      "publisher": "Apple Machine Learning Research",
+      "url": "https://machinelearning.apple.com/research/hey-siri",
+      "usedFor": "教材：「Hey Siri」偵測器使用深度神經網路（語音助理挑戰卡）"
+    },
+    {
+      "id": "claude_age",
+      "title": "Minimum age requirement & access restriction（2026-03-16 更新）",
+      "publisher": "Claude Help Center",
+      "url": "https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction",
+      "usedFor": "教材：建立和使用 Claude 帳號須年滿 18 歲"
+    },
+    {
+      "id": "openai_terms",
+      "title": "Terms of Use（2026-01-01 生效）",
+      "publisher": "OpenAI（只有擷取工具的摘要，沒有逐字確認）",
+      "url": "https://openai.com/en-GB/policies/row-terms-of-use/",
+      "usedFor": "教材：須年滿 13 歲，未滿 18 歲需家長或監護人同意；請以官方頁面為準"
+    },
+    {
+      "id": "catalog_reference",
+      "title": "Day of AI",
+      "publisher": "Day of AI（MIT RAISE 發起）",
+      "url": "https://dayofai.org/",
+      "usedFor": "課表 R07 主要參考網址；其教材需登入且沒有三到六年級單元，本課沒有引用其內容"
+    }
+  ],
+  "notVerified": [
+    "Day of AI 的教材需要登入，沒有取得；其課程頁沒有三到六年級單元，本課沒有引用其內容",
+    "OpenAI 的條款與說明頁只有擷取工具的摘要，沒有逐字確認",
+    "UNESCO 生成式 AI 指引全文無法讀取，未引用",
+    "台灣適用的各平臺最低年齡，以及 Gemini 在台灣對兒童的開放情形，沒有查核",
+    "鬧鐘、電燈開關的分類沒有官方來源，是本課自己的例子",
+    "行政院生成式 AI 參考指引的十點只見於新聞轉載，未引用"
+  ],
+  "youtubeSearchEntries": {
+    "status": "not selected, not watched",
+    "note": "課表的三組 YouTube 連結是動態搜尋入口，本次未挑選或觀看任何影片，也未在影片或教材中引用。"
+  }
+}

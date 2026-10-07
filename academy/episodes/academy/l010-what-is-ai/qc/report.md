@@ -1,0 +1,21 @@
+# L010 驗收
+
+2026-10-07，雲端 Linux 環境（Claude 接手）本次全新製作與驗收；沒有沿用任何前集的音訊、字幕時間或 QC。
+
+- 技術檢查：25/25 通過，見 `report.json`。
+- 成片 378.752 秒；1920×1080、30 fps、H.264、AAC 48 kHz 雙聲道；母帶與字幕版全檔解碼，錯誤輸出為零。
+- 片頭實測 60.277 秒（原檔 60.267 秒，一格以內）；旁白 12 幕合計 318.46 秒。
+- 整體響度 −17.1 LUFS，落在允許的 −18 至 −14。
+- 12 頁／36 句；全片 SRT 36 條，文字與時間逐條等於「實測片頭＋句級時間」。
+- 靜態畫面：12 幕第 3 與第 4 秒的畫面差最大 0.005145（門檻 0.1），是關鍵影格更新，不是鏡頭運動。
+- 逐幕波形：母帶與本課旁白檔偏移 0 毫秒，相關係數最低 0.993902；片頭與共用原檔相關係數 0.995908（`media-review.json`）。
+- 逐條語音辨識：36 條字面相似度最低 0.846、平均 0.962；以拼音比對（同音字視為相同）最低 0.955、平均 0.994（`asr-review.json`，機器辨識，非聽審）。
+- 字幕版面：36 句預檢 y=893–1002，兩行以內，無遮擋，行數與預定斷行一致（`subtitle-precheck.json`）；成片 36 格逐格看過。斷行方式：kinsoku。
+- PPTX：12 頁原生文字、模板圖檔位元一致、無 L001 課文殘留（`editable-deck-check.json`）。
+- 教材：9 個檔案；6 頁列印包字型全數內嵌、逐頁看過（`classroom-validation.json`）。
+- 聲線：Edge-TTS `zh-TW-YunJheNeural`，edge-tts 7.2.8，rate +0%、pitch +0Hz；教學段落沒有背景音樂。
+- Edge TTS 四次執行合計 45 次重試；交付音訊中 34 句取自本課先前執行的快取，2 句於最後一次合成。
+
+逐頁與逐段的檢視方法、發現、修正與限制見 `manual-review.md`、`slide-visual-review.md`。
+沒有真人全片聽審、沒有 PowerPoint／Keynote 開啟測試、沒有 macOS 實機測試、沒有做 YouTube 版權檢查；human full listening review; PowerPoint/Keynote open test; no AI tool operated; YouTube copyright check; sorting game not play-tested。
+尚未上傳；發布狀態以 `publication/status.json` 為準。

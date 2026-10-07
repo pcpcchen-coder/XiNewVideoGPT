@@ -1,0 +1,250 @@
+Academy editorial structure valid (not visual acceptance)
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 歡迎回到父子科技學院，我是陳犀牛...
+  retry 2 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 歡迎回到父子科技學院，我是陳犀牛...
+  retry 3 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 歡迎回到父子科技學院，我是陳犀牛...
+  retry 4 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 歡迎回到父子科技學院，我是陳犀牛...
+  s01-01 11.14s 歡迎回到父子科技學院，我是陳犀牛，今天是
+  s01-02  6.12s 很多東西都說自己有 AI，可是它們做事的
+  s01-03  7.06s 今天你要當分類員，把家裡的十個功能分一分
+scene 01: 24.36s
+  s02-01  8.72s 分類的時候，只要問三個問題。第一個問題：
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第二個問題：它是不是看過很多例子...
+  s02-02  5.52s 第二個問題：它是不是看過很多例子，自己找
+  s02-03  9.36s 第三個問題：它會不會做出新的文字、圖片或
+scene 02: 23.64s
+  s03-01 11.96s 很多人覺得 AI 像魔法。其實 AI 是
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 它是人用程式和大量的資料做出來的...
+  s03-02  6.68s 它是人用程式和大量的資料做出來的，背後是
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 連專家對 AI 的定義都不完全一...
+  s03-03  7.71s 連專家對 AI 的定義都不完全一樣，所以
+scene 03: 26.38s
+  s04-01 11.79s 今天的分類牆有四個籃子。第一個是固定規則
+  s04-02  7.95s 第二個是機器學習，電腦從很多例子裡找出規
+  s04-03 10.04s 第四個籃子叫做「不是 AI」，裡面沒有程
+scene 04: 29.81s
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 固定規則和機器學習差在哪裡？固定...
+  retry 2 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 固定規則和機器學習差在哪裡？固定...
+  retry 3 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 固定規則和機器學習差在哪裡？固定...
+  s05-01  9.63s 固定規則和機器學習差在哪裡？固定規則是人
+  s05-02  8.16s 機器學習不一樣，沒有人把每一步都寫出來，
+  s05-03 10.11s 例如過濾垃圾郵件，電腦看過大量的郵件之後
+scene 05: 27.94s
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 生活裡很多功能都用到機器學習。用...
+  s06-01  9.24s 生活裡很多功能都用到機器學習。用臉解鎖手
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 手機把照片依照人物、寵物和場景整...
+  s06-02  6.39s 手機把照片依照人物、寵物和場景整理好，也
+  s06-03  9.41s 影片網站推薦下一部給你看，同樣是從大量的
+scene 06: 25.08s
+  s07-01  8.93s 生成式 AI 也是機器學習的一種，不過它
+  s07-02  9.15s 它的做法是先讀過非常大量的資料，找出裡面
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 所以它寫出來的句子很通順，可是通...
+  retry 2 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 所以它寫出來的句子很通順，可是通...
+  retry 3 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 所以它寫出來的句子很通順，可是通...
+  s07-03  5.43s 所以它寫出來的句子很通順，可是通順不代表
+scene 07: 23.54s
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 再來看 AI 不是什麼。第一，它...
+  retry 2 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 再來看 AI 不是什麼。第一，它...
+  retry 3 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 再來看 AI 不是什麼。第一，它...
+  s08-01  8.88s 再來看 AI 不是什麼。第一，它不是魔法
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第二，它不是人。Google 給...
+  s08-02  9.94s 第二，它不是人。Google 給家長的說
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第三，它不是永遠正確。它可能把錯...
+  retry 2 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第三，它不是永遠正確。它可能把錯...
+  retry 3 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第三，它不是永遠正確。它可能把錯...
+  retry 4 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第三，它不是永遠正確。它可能把錯...
+  retry 5 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第三，它不是永遠正確。它可能把錯...
+  retry 6 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第三，它不是永遠正確。它可能把錯...
+  retry 7 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第三，它不是永遠正確。它可能把錯...
+Traceback (most recent call last):
+  File "/home/claude/xinewvideogpt/academy/pipeline/scripts/synthesize_narration.py", line 206, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/claude/xinewvideogpt/academy/pipeline/scripts/synthesize_narration.py", line 149, in main
+    synthesize(spoken, raw)
+    ~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/claude/xinewvideogpt/academy/pipeline/scripts/synthesize_narration.py", line 123, in synthesize
+    raise RuntimeError(f"TTS incomplete after {ATTEMPTS} attempts ({reason}) for: {text}")
+RuntimeError: TTS incomplete after 7 attempts (NoAudioReceived: No audio was received. Please verify that your parameters are correct.) for: 第三，它不是永遠正確。它可能把錯的事情說得很有把握，所以重要的事，一定要再查證。
+Traceback (most recent call last):
+  File "/home/claude/xinewvideogpt/academy/pipeline/academy.py", line 429, in <module>
+    main()
+    ~~~~^^
+  File "/home/claude/xinewvideogpt/academy/pipeline/academy.py", line 424, in main
+    run([sys.executable, ROOT / "pipeline/scripts" / f"{script}.py", "--episode", ep])
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/xinewvideogpt/academy/pipeline/academy.py", line 42, in run
+    subprocess.run([str(x) for x in cmd], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/home/claude/xinewvideogpt/academy/.venv/bin/python', '/home/claude/xinewvideogpt/academy/pipeline/scripts/synthesize_narration.py', '--episode', '/home/claude/xinewvideogpt/academy/episodes/academy/l010-what-is-ai']' returned non-zero exit status 1.
+Academy editorial structure valid (not visual acceptance)
+  s01-01 11.14s 歡迎回到父子科技學院，我是陳犀牛，今天是
+  s01-02  6.12s 很多東西都說自己有 AI，可是它們做事的
+  s01-03  7.06s 今天你要當分類員，把家裡的十個功能分一分
+scene 01: 24.36s
+  s02-01  8.72s 分類的時候，只要問三個問題。第一個問題：
+  s02-02  5.52s 第二個問題：它是不是看過很多例子，自己找
+  s02-03  9.36s 第三個問題：它會不會做出新的文字、圖片或
+scene 02: 23.64s
+  s03-01 11.96s 很多人覺得 AI 像魔法。其實 AI 是
+  s03-02  6.68s 它是人用程式和大量的資料做出來的，背後是
+  s03-03  7.71s 連專家對 AI 的定義都不完全一樣，所以
+scene 03: 26.38s
+  s04-01 11.79s 今天的分類牆有四個籃子。第一個是固定規則
+  s04-02  7.95s 第二個是機器學習，電腦從很多例子裡找出規
+  s04-03 10.04s 第四個籃子叫做「不是 AI」，裡面沒有程
+scene 04: 29.81s
+  s05-01  9.63s 固定規則和機器學習差在哪裡？固定規則是人
+  s05-02  8.16s 機器學習不一樣，沒有人把每一步都寫出來，
+  s05-03 10.11s 例如過濾垃圾郵件，電腦看過大量的郵件之後
+scene 05: 27.94s
+  s06-01  9.24s 生活裡很多功能都用到機器學習。用臉解鎖手
+  s06-02  6.39s 手機把照片依照人物、寵物和場景整理好，也
+  s06-03  9.41s 影片網站推薦下一部給你看，同樣是從大量的
+scene 06: 25.08s
+  s07-01  8.93s 生成式 AI 也是機器學習的一種，不過它
+  s07-02  9.15s 它的做法是先讀過非常大量的資料，找出裡面
+  s07-03  5.43s 所以它寫出來的句子很通順，可是通順不代表
+scene 07: 23.54s
+  s08-01  8.88s 再來看 AI 不是什麼。第一，它不是魔法
+  s08-02  9.94s 第二，它不是人。Google 給家長的說
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第三，它不是永遠正確。它可能把錯...
+  retry 2 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第三，它不是永遠正確。它可能把錯...
+  retry 3 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第三，它不是永遠正確。它可能把錯...
+  retry 4 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第三，它不是永遠正確。它可能把錯...
+  s08-03  9.29s 第三，它不是永遠正確。它可能把錯的事情說
+scene 08: 28.15s
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 現在來玩分類牆。桌上有十張功能卡...
+  retry 2 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 現在來玩分類牆。桌上有十張功能卡...
+  s09-01 10.59s 現在來玩分類牆。桌上有十張功能卡，第一回
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 第二回合不比快，每一張都要說出理...
+  s09-02 10.92s 第二回合不比快，每一張都要說出理由：它是
+  s09-03  8.43s 有些卡不只一個答案，例如語音助理裡面，可
+scene 09: 29.98s
+  s10-01  9.92s 下半場換你擴充分類牆。先在家裡找一個新的
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 再替它寫一張提醒卡，想一想它可能...
+  retry 2 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 再替它寫一張提醒卡，想一想它可能...
+  s10-02  5.09s 再替它寫一張提醒卡，想一想它可能在哪裡出
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 最後加一條家庭 AI 約定，例如...
+  s10-03 10.13s 最後加一條家庭 AI 約定，例如教育部提
+scene 10: 25.18s
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 兩個小時這樣安排：開場十分鐘，認...
+  retry 2 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 兩個小時這樣安排：開場十分鐘，認...
+  s11-01  9.46s 兩個小時這樣安排：開場十分鐘，認識三種做
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 下半場用三十分鐘擴充分類牆、寫家...
+  s11-02  9.20s 下半場用三十分鐘擴充分類牆、寫家庭 AI
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 最後五分鐘錄音總結，替分類牆取名...
+  retry 2 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 最後五分鐘錄音總結，替分類牆取名...
+  retry 3 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 最後五分鐘錄音總結，替分類牆取名...
+  retry 4 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 最後五分鐘錄音總結，替分類牆取名...
+  retry 5 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 最後五分鐘錄音總結，替分類牆取名...
+  s11-03  7.52s 最後五分鐘錄音總結，替分類牆取名字、拍照
+scene 11: 26.21s
+  retry 1 (NoAudioReceived: No audio was received. Please verify that your parameters are correct.): 最後一關，請不看稿，在家裡找一個...
+  s12-01  8.36s 最後一關，請不看稿，在家裡找一個新的功能
+  s12-02  8.02s 再指出一個限制或安全注意事項，例如生成式
+  s12-03  9.77s 今天的作品是 AI 功能分類牆，下次我們
+scene 12: 26.18s
+Synthesized 12 scenes (316.44s).
+Academy editorial structure valid (not visual acceptance)
+  s01-01 12.08s 歡迎回到父子科技學院，我是陳犀牛，今天是
+  s01-02  6.12s 很多東西都說自己有 AI，可是它們做事的
+  s01-03  7.06s 今天你要當分類員，把家裡的十個功能分一分
+scene 01: 25.30s
+  s02-01  8.72s 分類的時候，只要問三個問題。第一個問題：
+  s02-02  5.52s 第二個問題：它是不是看過很多例子，自己找
+  s02-03  9.36s 第三個問題：它會不會做出新的文字、圖片或
+scene 02: 23.64s
+  s03-01 11.96s 很多人覺得 AI 像魔法。其實 AI 是
+  s03-02  6.68s 它是人用程式和大量的資料做出來的，背後是
+  s03-03  7.71s 連專家對 AI 的定義都不完全一樣，所以
+scene 03: 26.38s
+  s04-01 11.79s 今天的分類牆有四個籃子。第一個是固定規則
+  s04-02  7.95s 第二個是機器學習，電腦從很多例子裡找出規
+  s04-03 10.04s 第四個籃子叫做「不是 AI」，裡面沒有程
+scene 04: 29.81s
+  s05-01  9.63s 固定規則和機器學習差在哪裡？固定規則是人
+  s05-02  8.16s 機器學習不一樣，沒有人把每一步都寫出來，
+  s05-03 10.11s 例如過濾垃圾郵件，電腦看過大量的郵件之後
+scene 05: 27.94s
+  s06-01  9.24s 生活裡很多功能都用到機器學習。用臉解鎖手
+  s06-02  6.39s 手機把照片依照人物、寵物和場景整理好，也
+  s06-03  9.41s 影片網站推薦下一部給你看，同樣是從大量的
+scene 06: 25.08s
+  s07-01  8.93s 生成式 AI 也是機器學習的一種，不過它
+  s07-02  9.15s 它的做法是先讀過非常大量的資料，找出裡面
+  s07-03  5.43s 所以它寫出來的句子很通順，可是通順不代表
+scene 07: 23.54s
+  s08-01  8.88s 再來看 AI 不是什麼。第一，它不是魔法
+  s08-02  9.94s 第二，它不是人。Google 給家長的說
+  s08-03  9.29s 第三，它不是永遠正確。它可能把錯的事情說
+scene 08: 28.15s
+  s09-01 10.59s 現在來玩分類牆。桌上有十張功能卡，第一回
+  s09-02 10.92s 第二回合不比快，每一張都要說出理由：它是
+  s09-03  8.43s 有些卡不只一個答案，例如語音助理裡面，可
+scene 09: 29.98s
+  s10-01  9.92s 下半場換你擴充分類牆。先在家裡找一個新的
+  s10-02  5.09s 再替它寫一張提醒卡，想一想它可能在哪裡出
+  s10-03  9.84s 最後加一條使用 AI 的家庭約定，例如教
+scene 10: 24.89s
+  s11-01  9.46s 兩個小時這樣安排：開場十分鐘，認識三種做
+  s11-02  9.56s 下半場用三十分鐘擴充分類牆、寫使用 AI
+  s11-03  7.52s 最後五分鐘錄音總結，替分類牆取名字、拍照
+scene 11: 26.57s
+  s12-01  8.36s 最後一關，請不看稿，在家裡找一個新的功能
+  s12-02  8.02s 再指出一個限制或安全注意事項，例如生成式
+  s12-03  9.77s 今天的作品是 AI 功能分類牆，下次我們
+scene 12: 26.18s
+Synthesized 12 scenes (317.45s).
+Academy editorial structure valid (not visual acceptance)
+  s01-01 12.08s 歡迎回到父子科技學院，我是陳犀牛，今天是
+  s01-02  6.12s 很多東西都說自己有 AI，可是它們做事的
+  s01-03  7.06s 今天你要當分類員，把家裡的十個功能分一分
+scene 01: 25.30s
+  s02-01  8.72s 分類的時候，只要問三個問題。第一個問題：
+  s02-02  5.52s 第二個問題：它是不是看過很多例子，自己找
+  s02-03  9.36s 第三個問題：它會不會做出新的文字、圖片或
+scene 02: 23.64s
+  s03-01 11.96s 很多人覺得 AI 像魔法。其實 AI 是
+  s03-02  6.68s 它是人用程式和大量的資料做出來的，背後是
+  s03-03  7.71s 連專家對 AI 的定義都不完全一樣，所以
+scene 03: 26.38s
+  s04-01 11.79s 今天的分類牆有四個籃子。第一個是固定規則
+  s04-02  7.95s 第二個是機器學習，電腦從很多例子裡找出規
+  s04-03 10.42s 第四個籃子留給不是 AI 的東西，裡面沒
+scene 04: 30.19s
+  s05-01 10.25s 固定規則和機器學習差在哪裡？固定規則是人
+  s05-02  8.16s 機器學習不一樣，沒有人把每一步都寫出來，
+  s05-03 10.11s 例如過濾垃圾郵件，電腦看過大量的郵件之後
+scene 05: 28.56s
+  s06-01  9.24s 生活裡很多功能都用到機器學習。用臉解鎖手
+  s06-02  6.39s 手機把照片依照人物、寵物和場景整理好，也
+  s06-03  9.41s 影片網站推薦下一部給你看，同樣是從大量的
+scene 06: 25.08s
+  s07-01  8.93s 生成式 AI 也是機器學習的一種，不過它
+  s07-02  9.15s 它的做法是先讀過非常大量的資料，找出裡面
+  s07-03  5.43s 所以它寫出來的句子很通順，可是通順不代表
+scene 07: 23.54s
+  s08-01  8.88s 再來看 AI 不是什麼。第一，它不是魔法
+  s08-02  9.94s 第二，它不是人。Google 給家長的說
+  s08-03  9.29s 第三，它不是永遠正確。它可能把錯的事情說
+scene 08: 28.15s
+  s09-01 10.59s 現在來玩分類牆。桌上有十張功能卡，第一回
+  s09-02 10.92s 第二回合不比快，每一張都要說出理由：它是
+  s09-03  8.43s 有些卡不只一個答案，例如語音助理裡面，可
+scene 09: 29.98s
+  s10-01  9.92s 下半場換你擴充分類牆。先在家裡找一個新的
+  s10-02  5.09s 再替它寫一張提醒卡，想一想它可能在哪裡出
+  s10-03  9.84s 最後加一條使用 AI 的家庭約定，例如教
+scene 10: 24.89s
+  s11-01  9.46s 兩個小時這樣安排：開場十分鐘，認識三種做
+  s11-02  9.56s 下半場用三十分鐘擴充分類牆、寫使用 AI
+  s11-03  7.52s 最後五分鐘錄音總結，替分類牆取名字、拍照
+scene 11: 26.57s
+  s12-01  8.36s 最後一關，請不看稿，在家裡找一個新的功能
+  s12-02  8.02s 再指出一個限制或安全注意事項，例如生成式
+  s12-03  9.77s 今天的作品是 AI 功能分類牆，下次我們
+scene 12: 26.18s
+Synthesized 12 scenes (318.46s).

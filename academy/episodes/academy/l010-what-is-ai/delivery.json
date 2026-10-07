@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L010",
+  "episodePath": "episodes/academy/l010-what-is-ai",
+  "version": "L010-v1",
+  "createdAt": "2026-10-07",
+  "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
+  "status": "verified",
+  "publicationStatus": "awaiting_user_upload",
+  "contentMode": "curriculum-based-preclass (no recording)",
+  "durationSeconds": 378.752,
+  "openingSeconds": 60.277,
+  "voice": "zh-TW-YunJheNeural",
+  "ttsEngine": "edge-tts 7.2.8",
+  "backgroundMusic": "none under teaching slides",
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "validation": {
+    "passed": 25,
+    "total": 25,
+    "integratedLufs": -17.1,
+    "sceneAudioMaxLagMs": 0.0,
+    "sceneAudioMinCorrelation": 0.993902,
+    "asrMinSimilarity": 0.846,
+    "asrMeanSimilarity": 0.962,
+    "asrMinSoundSimilarity": 0.955,
+    "asrMeanSoundSimilarity": 0.994,
+    "captionLineBreak": "kinsoku",
+    "reviewRecords": [
+      "qc/report.md",
+      "qc/manual-review.md",
+      "qc/slide-visual-review.md"
+    ],
+    "notDone": [
+      "human full listening review",
+      "PowerPoint/Keynote open test",
+      "macOS hands-on test",
+      "YouTube copyright check",
+      "human full listening review; PowerPoint/Keynote open test; no AI tool operated; YouTube copyright check; sorting game not play-tested"
+    ]
+  },
+  "package": {
+    "filename": "L010-v1_父子科技學院_AI是什麼不是什麼_2026-10-07.zip",
+    "bytes": 164246356,
+    "sha256": "601c113e5be4024911f508a1e02fe26445453bf44479672cd90422e75ed21446",
+    "contents": "whitelisted package folder L010-v1 with checksums.json (20 files)",
+    "internalChecksums": {
+      "UPLOAD_README.md": "35f9104bc905844f468d63beee04b0f758cf8662b707cb7c2e1a337d554d4f7f",
+      "l010-what-is-ai.pptx": "02882b9a04b582af9949e7c92f12744c0791d85d1dac4004495090b67fe521af",
+      "youtube-draft.json": "3219e2ec9dbef028a5bc4f052a774ad374184d4e86d2616b9f362a6aaaf015f2",
+      "youtube-metadata.json": "063d9e2be8c574a22b6e59e56e9e34035b5ac2d0924f362bc0f9a0e3464eda02",
+      "manual-review.md": "27dba44f27a5ece8bad2ae2e848b0178dc311c348c6d02ff588d320fee27810c",
+      "repo-guide.md": "1248ba1000976e6a5337f5b6ecbcc38d528203aa678dea1133b98bd8b0dbb12f",
+      "sources.json": "11a49fc94bdd6074e0479003b4dade261ed4496964220a4bb9babd5b0e796180",
+      "narration-only.mp3": "4f12dcb8b337c6f1908e6ac669b0d4d6b00aae952646f8ade06f4f2ff7b7c1ca",
+      "report.json": "79d2117db96dfe1cb4a7419e5b0ba4adcfca0cb5fbd631f5325329f2751ae52b",
+      "fact-check.md": "e6f1abec07f6b613b9852d25af8c17e411cf9e12c1ce628ab06009d8cfaea160",
+      "l010-what-is-ai-zh-TW.mp4": "b30f9751c251b2422a5e51ae0ff11ed69f1336387d5478e471f60ff10e966f16",
+      "classroom.zip": "ce77d93b814d638384f5d50fbb634983ed763146f15c961dc68f08d2b84be97f",
+      "zh-TW.srt": "3550d9208936de4934cc8d966cd85c904a17b93514bfc39d1c2674c14ba910f6",
+      "report.md": "488dde5502e07b48ae2b394f21bc8ebbb722c56d8075042cf0005c016f4170c2",
+      "youtube-description.txt": "3f0cd7f23be0963100ba2947fe746970aa63e7d2205352229ac6ce56d4743b17",
+      "l010-what-is-ai-master.mp4": "54586550834a7e07094b316706397efe66306d4189a2190ab28adc0e1fd4cf18",
+      "chapters.txt": "3f781e44a381c9b5efb4dd3b14fcc6cbf25a1702d5ddfe375d4071f3af431373",
+      "thumbnail.png": "8871c932c90b9dbf9eef3ae39bff11b06176191985b5d298261a3966a323fb36",
+      "narration-script.md": "182fbed002b30ac9eb19873d02a020a7cf5bdeccb42d6f571e98e9546c0c8f36",
+      "START_HERE.md": "3bdba7f469d064bb4846e12d8ebb6ce0311cbdd2bbd63a74eb731e5c25a08082"
+    }
+  },
+  "largeFiles": [
+    {
+      "filename": "l010-what-is-ai-zh-TW.mp4",
+      "bytes": 75221921,
+      "sha256": "b30f9751c251b2422a5e51ae0ff11ed69f1336387d5478e471f60ff10e966f16",
+      "role": "captioned video for upload (burned zh-TW subtitles)",
+      "inGit": false
+    },
+    {
+      "filename": "l010-what-is-ai-master.mp4",
+      "bytes": 78153182,
+      "sha256": "54586550834a7e07094b316706397efe66306d4189a2190ab28adc0e1fd4cf18",
+      "role": "master without burned subtitles",
+      "inGit": false
+    },
+    {
+      "filename": "narration-only.mp3",
+      "bytes": 7644141,
+      "sha256": "4f12dcb8b337c6f1908e6ac669b0d4d6b00aae952646f8ade06f4f2ff7b7c1ca",
+      "role": "narration only, no opening",
+      "inGit": false
+    }
+  ],
+  "inGit": [
+    {
+      "filename": "l010-what-is-ai.pptx",
+      "bytes": 2510506,
+      "sha256": "02882b9a04b582af9949e7c92f12744c0791d85d1dac4004495090b67fe521af",
+      "path": "production/presentation/l010-what-is-ai.pptx"
+    },
+    {
+      "filename": "zh-TW.srt",
+      "bytes": 5733,
+      "sha256": "3550d9208936de4934cc8d966cd85c904a17b93514bfc39d1c2674c14ba910f6",
+      "path": "subtitles/zh-TW.srt"
+    },
+    {
+      "filename": "thumbnail.png",
+      "bytes": 215641,
+      "sha256": "8871c932c90b9dbf9eef3ae39bff11b06176191985b5d298261a3966a323fb36",
+      "path": "output/thumbnail.png"
+    },
+    {
+      "filename": "classroom.zip",
+      "bytes": 439397,
+      "sha256": "ce77d93b814d638384f5d50fbb634983ed763146f15c961dc68f08d2b84be97f",
+      "path": "output/classroom.zip"
+    },
+    {
+      "filename": "contact-sheet.png",
+      "bytes": 988375,
+      "sha256": "16327fc4ac88a926166e8af6f2378bdefd4fd59d1f36a67d515bc3af8065ddb7",
+      "path": "output/contact-sheet.png"
+    }
+  ],
+  "persistence": {
+    "location": "Attachments delivered in the Claude session that produced this lesson (private to the account owner)",
+    "session": "https://claude.ai/code/session_01GE2NEiPKZa5XzbFCCWKxiy",
+    "reason": "30 MiB per-file attachment limit; the package ZIP was split into 6 byte-exact parts",
+    "parts": [
+      {
+        "filename": "L010-v1_父子科技學院_AI是什麼不是什麼_2026-10-07.zip.part01",
+        "bytes": 29360128,
+        "sha256": "5596909dfa789729eb7a83387706562124fa9dceb3691b0999fc010c64236e17",
+        "conversationFileId": "8c210eab-d233-4bbb-beb7-6143e709b780"
+      },
+      {
+        "filename": "L010-v1_父子科技學院_AI是什麼不是什麼_2026-10-07.zip.part02",
+        "bytes": 29360128,
+        "sha256": "c82e2c89724b4b075f2fae3acb10b86dbb15a1ae8d98efe9c3c304558a482b64",
+        "conversationFileId": "41fab636-943a-4467-8b74-3622c84a8fab"
+      },
+      {
+        "filename": "L010-v1_父子科技學院_AI是什麼不是什麼_2026-10-07.zip.part03",
+        "bytes": 29360128,
+        "sha256": "daea0a8f6764cccb0e1af4a68e2014bf1017874914b5a614455040f569865cbd",
+        "conversationFileId": "102cdad7-4d65-4902-8c08-4af0609cc7ea"
+      },
+      {
+        "filename": "L010-v1_父子科技學院_AI是什麼不是什麼_2026-10-07.zip.part04",
+        "bytes": 29360128,
+        "sha256": "45829cac314e4b91686ff67d0f31b7f5d4768e28086867b5ad412d20e85e579f",
+        "conversationFileId": "8f44ea2e-8036-4a3c-a186-aaa75a9d4c28"
+      },
+      {
+        "filename": "L010-v1_父子科技學院_AI是什麼不是什麼_2026-10-07.zip.part05",
+        "bytes": 29360128,
+        "sha256": "9a28b29b2eefdd1de0ddc255f8672fe4968f049be0ec54c16640f2863385c101",
+        "conversationFileId": "0edbec5e-234a-4911-af6b-2d30ed119bb0"
+      },
+      {
+        "filename": "L010-v1_父子科技學院_AI是什麼不是什麼_2026-10-07.zip.part06",
+        "bytes": 17445716,
+        "sha256": "419d137ead850cd75010ec657df70d2f2433e93cf1e5372addcf11b92e60639f",
+        "conversationFileId": "988394ea-3a71-4ffa-a6f8-996cc6dd067e"
+      }
+    ],
+    "restore": "cat \"L010-v1_父子科技學院_AI是什麼不是什麼_2026-10-07.zip\".part* > \"L010-v1_父子科技學院_AI是什麼不是什麼_2026-10-07.zip\" && shasum -a 256 \"L010-v1_父子科技學院_AI是什麼不是什麼_2026-10-07.zip\"",
+    "restoredZip": {
+      "filename": "L010-v1_父子科技學院_AI是什麼不是什麼_2026-10-07.zip",
+      "bytes": 164246356,
+      "sha256": "601c113e5be4024911f508a1e02fe26445453bf44479672cd90422e75ed21446"
+    },
+    "restoreTested": "parts re-joined by pipeline/split_delivery.py in the producing session: SHA-256 equals the ZIP; ZIP integrity tested",
+    "notUsed": {
+      "gitHubRelease": "repository is public; a release would make the unpublished video public",
+      "googleDrive": "connector accepts only inline content; text records only, no large binaries",
+      "git": "large MP4/MP3 stay out of Git per .gitignore"
+    },
+    "ifAttachmentsUnavailable": "rebuild from Git: audio, slides, PPTX, SRT sources and the shared opening are tracked; run assemble → delivery → verify → package. A rebuild is a new version with new hashes."
+  },
+  "continuation": {
+    "state": "L010 complete through package; nothing pending except user playback/listening and manual YouTube upload",
+    "rebuildCommands": [
+      "cd academy && ./setup-portable.sh",
+      "EP=episodes/academy/l010-what-is-ai",
+      "./portable-runtime.sh python pipeline/academy.py run media-check --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run assemble --episode \"$EP\"   # ~20 min on 2 cores; run in background",
+      "./portable-runtime.sh python pipeline/delivery.py --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run verify --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py package --episode \"$EP\" --output delivery/L010-v2"
+    ],
+    "doNotRerunWithoutReason": "run tts (re-synthesises all audio and invalidates timing, subtitles, video and QC)",
+    "authoring": [
+      "authoring/l010/classroom.py",
+      "authoring/l010/prepare_content.py"
+    ],
+    "sharedTools": [
+      "pipeline/qa/subtitle_precheck.py",
+      "pipeline/qa/deck_check.py",
+      "pipeline/qa/media_review.py",
+      "pipeline/qa/asr_review.py",
+      "pipeline/split_delivery.py",
+      "pipeline/record_delivery.py"
+    ],
+    "nextLesson": "L011 第一個好提示詞：任務、背景、限制、格式 (not started; produce only when the user asks)"
+  },
+  "publication": {
+    "status": "awaiting_user_upload",
+    "publisher": "user",
+    "uploaded": false,
+    "videoUrl": null,
+    "uploadFile": "l010-what-is-ai-zh-TW.mp4",
+    "note": "No login, upload or publication was attempted."
+  }
+}

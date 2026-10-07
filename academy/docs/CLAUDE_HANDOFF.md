@@ -6,7 +6,7 @@
 ## 1. 先核對目前狀態
 
 從最新 `main` 接手。先讀根目錄 CLAUDE.md、AGENTS.md、academy/AGENTS.md、series-policy.json、CLOUD_START_HERE.md。
-<!-- academy-status:sentence -->L004–L009 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；下一堂是 L010「AI 是什麼、不是什麼」，接手仍讀狀態表。<!-- /academy-status:sentence -->實作後的備註見第 7、8 節與各集 delivery.json。下方以 L004 為例的命令，換成實際課號與 slug 使用。
+<!-- academy-status:sentence -->L004–L010 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；下一堂是 L011「第一個好提示詞：任務、背景、限制、格式」，接手仍讀狀態表。<!-- /academy-status:sentence -->實作後的備註見第 7、8 節與各集 delivery.json。下方以 L004 為例的命令，換成實際課號與 slug 使用。
 SP01 是番外篇，不佔課號。L003 已公開的最新紀錄以 publication 為準。
 不需要 ChatGPT Library 登入、不需要舊集大型母帶，也不需要 Google OAuth 就能製作新課。
 
@@ -168,3 +168,17 @@ HANDOFF.md 必須含：lessonId、episodePath、最後成功階段、當前 comm
 - **語音辨識加上拼音比對**：`asr_review.py` 另外算一個以無聲調拼音比對的相似度（數字讀成國字、同音字視為相同），
   需要在辨識用的環境裝 `pypinyin`；`--rescore` 可以不重跑模型、只重算分數。它看不到聲調，破音字仍要人聽。
 
+
+## 10. L008–L010 實作後的備註（2026-10-07）
+
+- **合成失敗後重跑**：L008 與 L010 各有一次整輪合成在同一句連續失敗後停止（七次重試都沒有音訊）。直接重跑同一條命令即可，
+  已通過的句子會從 `.build-tts-cache/` 取回；`tts-manifest.json` 的 `sentencesResumedFromInterruptedRun` 記錄取回幾句，
+  `qc/tts-run.log` 保留每一次執行。重跑兩次仍失敗才寫 HANDOFF.md，不要無限重試。
+- **夾在中文裡的英文縮寫**：`AI` 緊接著「是」「約定」「工具」這類詞時，聲線只給它約 0.15–0.18 秒，辨識聽成「應該」「要」「一樣」；
+  後面接逗號、冒號、句號時約 0.3 秒，就聽得清楚。L010 因此把三句改寫（例如「主題是 AI：它是什麼、不是什麼」「使用 AI 的家庭約定」）。
+  做法：合成後、組裝前，先把 `audio/slide_NN.mp3` 丟給本機語音辨識看一遍，有疑慮的詞改寫句子再合成，比組裝完才發現省二十分鐘。
+- **畫出來的教材圖**：L009 的三張「模擬照片」是 `authoring/l009/classroom.py` 用內嵌 SVG 畫的，沒有任何真人照片；
+  需要「看起來像照片但全部虛構」的教材時可以照這個做法，並在每張圖上標示虛構。
+- **列印包頁數不必是五頁**：L010 的分類牆要放得下功能卡，改成兩頁上下黏貼，列印包共六頁；`classroom_pack.build(pack_pages=…)` 照實填。
+- **一邊組裝一邊做下一集**：組裝約 15–20 分鐘、吃滿 CPU；合成只吃網路。可以讓前一集在背景組裝，同時寫下一集的內容與教材，
+  但同一時間只跑一個組裝。每一集仍然要各自 verify、打包、交付、記錄、commit 之後才算完成。

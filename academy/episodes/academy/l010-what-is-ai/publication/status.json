@@ -1,0 +1,16 @@
+{
+  "lessonId": "L010",
+  "status": "awaiting_user_upload",
+  "publicationMode": "manual-user-upload",
+  "publisher": "user",
+  "videoUrl": null,
+  "targetTitle": "父子科技學院 L010｜AI 是什麼、不是什麼",
+  "videoFile": "l010-what-is-ai-zh-TW.mp4",
+  "videoSha256": "b30f9751c251b2422a5e51ae0ff11ed69f1336387d5478e471f60ff10e966f16",
+  "videoBytes": 75221921,
+  "deliveryVersion": "L010-v1",
+  "deliveryRecord": "delivery.json",
+  "authorizedToUpload": false,
+  "authorizedToPublish": false,
+  "note": "Produced and packaged 2026-10-07. Awaiting user playback and manual upload; no YouTube login, upload or publication attempted."
+}

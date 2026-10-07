@@ -103,6 +103,17 @@
 
 以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l009-digital-footprint/delivery.json`。
 
+## L010 大型輸出（L010-v1，2026-10-07）
+
+| 檔案 | Bytes | SHA-256 |
+|---|---:|---|
+| `l010-what-is-ai-zh-TW.mp4` | 75,221,921 | `b30f9751c251b2422a5e51ae0ff11ed69f1336387d5478e471f60ff10e966f16` |
+| `l010-what-is-ai-master.mp4` | 78,153,182 | `54586550834a7e07094b316706397efe66306d4189a2190ab28adc0e1fd4cf18` |
+| `narration-only.mp3` | 7,644,141 | `4f12dcb8b337c6f1908e6ac669b0d4d6b00aae952646f8ade06f4f2ff7b7c1ca` |
+| `L010-v1_父子科技學院_AI是什麼不是什麼_2026-10-07.zip`（完整交付包） | 164,246,356 | `601c113e5be4024911f508a1e02fe26445453bf44479672cd90422e75ed21446` |
+
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l010-what-is-ai/delivery.json`。
+
 本 repo 為公開，未建立 Release，勿編造下載連結。附件無法取得時可依各課 delivery.json 的命令重新組裝，重建結果須作新版本並重新驗收。
 <!-- /academy-status:large-files -->
 

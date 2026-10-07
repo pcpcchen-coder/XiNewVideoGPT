@@ -1,0 +1,61 @@
+{
+  "folder": "classroom/L010_AI是什麼不是什麼",
+  "files": [
+    "00_爸爸先讀.md",
+    "01_活動規則_功能分類牆競速.md",
+    "02_列印包_AI功能分類牆.pdf",
+    "03_分類紀錄.csv",
+    "03_分類紀錄_填寫說明.md",
+    "04_功能卡解說.md",
+    "05_自選功能與家庭AI約定.md",
+    "06_驗收與回顧.md",
+    "07_AI分類小抄.md"
+  ],
+  "fileCount": 9,
+  "utf8TextReadable": true,
+  "sheet": {
+    "file": "03_分類紀錄.csv",
+    "rows": 19,
+    "columns": 7
+  },
+  "printPack": {
+    "file": "02_列印包_AI功能分類牆.pdf",
+    "pages": 6,
+    "allFontsEmbedded": true,
+    "renderedThisRun": true,
+    "source": "authoring/l010/print/print-pack.html"
+  },
+  "functionCards": {
+    "count": 10,
+    "challenge": 2,
+    "blank": 4,
+    "suggestedBaskets": {
+      "固定規則": [
+        "1",
+        "2"
+      ],
+      "機器學習": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "生成式 AI": [
+        "7",
+        "8"
+      ],
+      "不是 AI": [
+        "9",
+        "10"
+      ]
+    },
+    "ownExamplesWithoutOfficialSource": [
+      "2",
+      "10"
+    ]
+  },
+  "needsChildAiAccount": false,
+  "answersProvided": "suggested basket, reason, failure mode and basis for 10 cards and 2 challenge cards; other reasoned answers accepted",
+  "privateData": "none",
+  "status": "PASS (structure); page-by-page visual review recorded separately"
+}

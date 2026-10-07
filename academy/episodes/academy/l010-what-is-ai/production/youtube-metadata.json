@@ -1,0 +1,62 @@
+{
+  "title": "父子科技學院 L010｜AI 是什麼、不是什麼",
+  "description": "父子科技學院 L010｜AI 是什麼、不是什麼\n\n這是依課表製作的課前教學版，不是實際上課錄音，也沒有虛構的課堂對話。\n\n很多東西都說自己有 AI，可是它們做事的方法很不一樣。陳犀牛帶你當分類員：只要問三個問題，就能把家裡的功能分進四個籃子。\n看完影片，用十張功能卡玩分類牆競速，最後做出一面自己的 AI 功能分類牆。\n\n這一集會學到\n・AI 是人用程式和資料做出來的電腦系統，沒有魔法\n・四個籃子：固定規則、機器學習、生成式 AI、不是 AI\n・機器學習是從很多例子找規律；生成式 AI 會預測接下來的內容，做出新的文字、圖片和聲音\n・AI 不是魔法、不是人、不是永遠正確；重要的事要再查證，不輸入個資\n\n教材用法（classroom.zip）\n先讀「00_爸爸先讀」，列印「02_列印包」（A4 共 6 頁），照「01_活動規則」玩功能分類牆競速，用「03_分類紀錄」記錄；\n解說在「04_功能卡解說」，下半場完成「05_自選功能與家庭AI約定」，最後用「06_驗收與回顧」讓孩子教爸爸。「07_AI分類小抄」可以貼在電腦旁邊。\n\n注意事項\n・課堂是 120 分鐘，影片只是課前引導，片長另計。\n・固定規則的程式算不算 AI，各方說法不同；本課把它放在自己的籃子，重點是看它怎麼做事。\n・這堂課不需要孩子操作任何生成式 AI 工具。各平臺有年齡限制，要示範時請由爸爸用自己的帳號操作，並且不輸入姓名、照片、住址等個資。\n・功能卡的分類沒有唯一答案，說得出理由比較重要。\n\n來源（查核日 2026-10-07）\n教育部「中小學使用『生成式人工智慧』注意事項 2.1」（115 年 2 月核定）\n人工智慧基本法第三條（總統府公報）：https://www.president.gov.tw/File/Doc/80165b6d-cb49-4b49-952f-56e1e6abe51b\nOECD.AI「Updates to the OECD definition of an AI system explained」：https://oecd.ai/en/wonk/ai-system-definition-update\nUNICEF「Guidance on AI and Children 3.0」：https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf\nOak National Academy「What is artificial intelligence?」：https://www.thenational.academy/pupils/lessons/what-is-artificial-intelligence/video\nGoogle「Guide your child's Gemini Apps experience」：https://support.google.com/gemini/answer/16109150?hl=en\nApple「About Face ID advanced technology」：https://support.apple.com/en-us/102381\n\n章節\n00:00 陳犀牛系列片頭\n01:00 AI 是什麼、不是什麼\n01:25 分類的三個問題\n01:49 AI 沒有魔法\n02:15 分類牆的四個籃子\n02:45 固定規則和機器學習\n03:14 機器學習：生活裡的例子\n03:39 生成式 AI：會做出新內容\n04:02 AI 不是什麼？\n04:31 分類牆競速：十張功能卡\n05:01 換你設計：擴充分類牆\n05:25 兩小時的 AI 分類課\n05:52 最後一關：教爸爸分類\n\n旁白：Edge-TTS zh-TW-YunJheNeural 合成語音。字幕已燒入影片，開啟 CC 可能重疊。\n",
+  "chapters": [
+    {
+      "seconds": 0,
+      "title": "陳犀牛系列片頭"
+    },
+    {
+      "seconds": 60.277,
+      "title": "AI 是什麼、不是什麼"
+    },
+    {
+      "seconds": 85.573,
+      "title": "分類的三個問題"
+    },
+    {
+      "seconds": 109.213,
+      "title": "AI 沒有魔法"
+    },
+    {
+      "seconds": 135.589,
+      "title": "分類牆的四個籃子"
+    },
+    {
+      "seconds": 165.781,
+      "title": "固定規則和機器學習"
+    },
+    {
+      "seconds": 194.341,
+      "title": "機器學習：生活裡的例子"
+    },
+    {
+      "seconds": 219.421,
+      "title": "生成式 AI：會做出新內容"
+    },
+    {
+      "seconds": 242.965,
+      "title": "AI 不是什麼？"
+    },
+    {
+      "seconds": 271.117,
+      "title": "分類牆競速：十張功能卡"
+    },
+    {
+      "seconds": 301.093,
+      "title": "換你設計：擴充分類牆"
+    },
+    {
+      "seconds": 325.981,
+      "title": "兩小時的 AI 分類課"
+    },
+    {
+      "seconds": 352.549,
+      "title": "最後一關：教爸爸分類"
+    }
+  ],
+  "privacyStatus": "private",
+  "madeForKids": null,
+  "reviewStatus": "needs-parent-review",
+  "publicationMode": "manual-user-upload"
+}
