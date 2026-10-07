@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "editorialStatus": "authored",
+  "recordingSource": null,
+  "slideCount": 12,
+  "transitionSeconds": 0.55,
+  "deckRenderer": "ooxml-template",
+  "templateEpisode": "episodes/academy/l001-mac-workstation",
+  "templateProvenance": "Original PPTX absent from v2 ZIP; restored from supplied build_l001.mjs and original assets.",
+  "layoutProfile": "academy-native-v1",
+  "seriesHeader": "父子科技學院  ·  PHOTO TREASURE HUNT",
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "zh-TW-YunJheNeural",
+    "persona": "陳犀牛 Chen XiNew",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "music": {
+    "backgroundMusic": "none — narration only under teaching slides",
+    "opening": "assets/opening/開場影片-v2.mp4"
+  },
+  "signoff": {
+    "text": "我是陳犀牛，保持好奇，我們下次見！"
+  },
+  "contentMode": "curriculum-based-preclass",
+  "publicationMode": "manual-user-upload",
+  "autoPublish": false,
+  "episode": "L009",
+  "slug": "l009-digital-footprint",
+  "title": "個資、照片與數位足跡",
+  "subtitle": "父子科技學院 第九堂｜依課表製作的課前教學版",
+  "lessonIds": [
+    "L009"
+  ],
+  "sources": {
+    "curriculum": "curriculum/catalog.json：L009；來源 V2 Excel 逐堂課程第 9 堂",
+    "pdpa": "https://laws.gov.taipei/law/LawSearch/LawArticleContent/FL010627",
+    "eliteracy_pd": "https://eliteracy.edu.tw/Download.ashx?id=1489",
+    "ftc_coppa": "https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions",
+    "apple_location_meta": "https://support.apple.com/zh-tw/guide/personal-safety/ips0d7a5df82/web",
+    "apple_share_iphone": "https://support.apple.com/zh-tw/guide/iphone/iphf28f17237/27/ios/27",
+    "apple_photos_mac": "https://support.apple.com/zh-tw/guide/photos/pht5156cc968/mac",
+    "thinkuknow_home": "https://www.thinkuknow.org.au/sites/default/files/2020-10/Home%20learning%20activity%20Learning%20about%20personal%20information%20and%20image%20sharing.pdf",
+    "thinkuknow_parent": "https://www.thinkuknow.org.au/sites/default/files/2023-01/ThinkUKnow%20parental%20advice%20for%20posting%20images.pdf",
+    "eliteracy_selfie": "https://eliteracy.edu.tw/Download.ashx?id=1506",
+    "eliteracy_corner": "https://eliteracy.edu.tw/Download.ashx?id=1782",
+    "google_photos_location": "https://support.google.com/photos/answer/6153599?hl=zh-Hant",
+    "google_photos_share": "https://support.google.com/photos/answer/11190100?hl=zh-Hant",
+    "ftc_headsup": "https://consumer.ftc.gov/articles/heads-up",
+    "commonsense_trails": "https://www.commonsense.org/education/digital-citizenship/lesson/digital-trails",
+    "eliteracy_footprint": "https://eliteracy.edu.tw/Download.ashx?id=1865",
+    "eliteracy_consent": "https://eliteracy.edu.tw/Download.ashx?id=1509",
+    "iwin": "https://i.win.org.tw/about.php",
+    "catalog_reference": "https://consumer.ftc.gov/identity-theft-and-online-security/online-privacy-and-security"
+  },
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "factCheck": {
+    "checkedAt": "2026-10-07",
+    "record": "production/fact-check.md",
+    "sources": "production/sources.json"
+  },
+  "authorization": {
+    "produceL009": true,
+    "ttsConsent": {
+      "grantedBy": "user",
+      "grantedAt": "2026-10-07",
+      "service": "Microsoft Edge TTS",
+      "voice": "zh-TW-YunJheNeural",
+      "scope": "L009 public narration script only",
+      "basis": "On 2026-10-07 the user asked to produce L007–L010 'following this process' (the L004–L006 process, which sends the public narration script to Edge TTS); stated back to the user before synthesis.",
+      "excluded": "private recordings or any other private data"
+    },
+    "paidLlmApi": false,
+    "uploadToYouTube": false,
+    "publish": false
+  }
+}

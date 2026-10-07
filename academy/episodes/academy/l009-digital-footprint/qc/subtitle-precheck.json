@@ -1,0 +1,534 @@
+{
+  "method": "each of 36 sentences burned on its own slide PNG with the assembler libass style; bbox from pixel diff",
+  "burnStyle": "FontName=Noto Sans CJK TC,FontSize=16,Bold=1,PrimaryColour=&H00FFFFFF,OutlineColour=&H7A000000,BackColour=&H7A000000,BorderStyle=1,Outline=1.2,Shadow=0,Alignment=2,MarginV=20,MarginL=24,MarginR=24",
+  "captionLineBreak": "kinsoku",
+  "cues": 36,
+  "lineCountDiffersFromPlan": [],
+  "topMin": 893,
+  "bottomMax": 1002,
+  "leftMin": 126,
+  "rightMax": 1780,
+  "maxLines": 2,
+  "cuesTouchingSlideContent": [],
+  "limits": "static pre-check only; real cue timing, fades and the final captioned MP4 are unchecked until TTS/assembly",
+  "results": [
+    {
+      "slide": 1,
+      "sentence": 1,
+      "chars": 58,
+      "top": 893,
+      "bottom": 1001,
+      "left": 250,
+      "right": 1655,
+      "lines": 2,
+      "plannedLines": [
+        "歡迎回到父子科技學院，我是陳犀牛，今天是第九堂，",
+        "個資、照片與數位足跡，這是依課表製作的課前教學版，並非實際上課錄音。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 1,
+      "sentence": 2,
+      "chars": 39,
+      "top": 953,
+      "bottom": 1000,
+      "left": 148,
+      "right": 1759,
+      "lines": 1,
+      "plannedLines": [
+        "一張照片裡，除了你想給大家看的東西，還可能藏著你的名字、學校，甚至你家在哪裡。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 1,
+      "sentence": 3,
+      "chars": 37,
+      "top": 953,
+      "bottom": 1001,
+      "left": 189,
+      "right": 1718,
+      "lines": 1,
+      "plannedLines": [
+        "今天我們要玩照片尋寶，把藏起來的資訊找出來，最後完成一張家庭發布前檢查表。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 2,
+      "sentence": 1,
+      "chars": 43,
+      "top": 893,
+      "bottom": 1000,
+      "left": 437,
+      "right": 1469,
+      "lines": 2,
+      "plannedLines": [
+        "發布照片之前有三個步驟。第一步是找，",
+        "把照片裡藏著的個人資料找出來，包括人、地點和文字。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 2,
+      "sentence": 2,
+      "chars": 35,
+      "top": 953,
+      "bottom": 1000,
+      "left": 231,
+      "right": 1676,
+      "lines": 1,
+      "plannedLines": [
+        "第二步是想，想一想誰會看到這張照片，還有，它以後會不會一直留在網路上。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 2,
+      "sentence": 3,
+      "chars": 29,
+      "top": 953,
+      "bottom": 1000,
+      "left": 355,
+      "right": 1552,
+      "lines": 1,
+      "plannedLines": [
+        "第三步是決定：這張照片可以公開、需要先處理，還是不要公開。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 3,
+      "sentence": 1,
+      "chars": 40,
+      "top": 953,
+      "bottom": 1000,
+      "left": 126,
+      "right": 1780,
+      "lines": 1,
+      "plannedLines": [
+        "什麼是個資？個資就是個人資料，只要能讓別人認出你是誰、找得到你，都算是個人資料。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 3,
+      "sentence": 2,
+      "chars": 38,
+      "top": 953,
+      "bottom": 1002,
+      "left": 167,
+      "right": 1738,
+      "lines": 1,
+      "plannedLines": [
+        "例如姓名、生日、身分證號碼、電話和住址；你的臉、學校和班級，也能讓人認出你。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 3,
+      "sentence": 3,
+      "chars": 48,
+      "top": 893,
+      "bottom": 1000,
+      "left": 396,
+      "right": 1508,
+      "lines": 2,
+      "plannedLines": [
+        "有些資料單獨看沒什麼，但是合在一起，例如制服加上校名，",
+        "再加上放學的時間，別人就知道哪裡找得到你。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 4,
+      "sentence": 1,
+      "chars": 49,
+      "top": 893,
+      "bottom": 1000,
+      "left": 375,
+      "right": 1529,
+      "lines": 2,
+      "plannedLines": [
+        "照片裡常常藏著四種資訊。第一種是人，包括臉、名牌和制服；",
+        "第二種是地點，例如門牌、路牌和有名的建築。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 4,
+      "sentence": 2,
+      "chars": 28,
+      "top": 953,
+      "bottom": 1001,
+      "left": 376,
+      "right": 1531,
+      "lines": 1,
+      "plannedLines": [
+        "第三種是文字，像是電腦螢幕、桌上的文件，還有車票和證件。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 4,
+      "sentence": 3,
+      "chars": 32,
+      "top": 953,
+      "bottom": 1000,
+      "left": 293,
+      "right": 1614,
+      "lines": 1,
+      "plannedLines": [
+        "第四種用眼睛看不到，它存在照片的檔案裡，記錄了拍照的時間和地點。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 5,
+      "sentence": 1,
+      "chars": 38,
+      "top": 953,
+      "bottom": 1000,
+      "left": 168,
+      "right": 1738,
+      "lines": 1,
+      "plannedLines": [
+        "用手機拍照的時候，如果相機開著定位功能，拍攝的位置就可能被存進照片的檔案裡。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 5,
+      "sentence": 2,
+      "chars": 33,
+      "top": 953,
+      "bottom": 1001,
+      "left": 271,
+      "right": 1635,
+      "lines": 1,
+      "plannedLines": [
+        "把照片分享出去的時候，這些看不見的資訊，可能會跟著照片一起送出去。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 5,
+      "sentence": 3,
+      "chars": 39,
+      "top": 953,
+      "bottom": 1002,
+      "left": 147,
+      "right": 1759,
+      "lines": 1,
+      "plannedLines": [
+        "分享之前可以先把位置資訊關掉；不同的手機和版本做法不太一樣，請和爸爸一起確認。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 6,
+      "sentence": 1,
+      "chars": 43,
+      "top": 893,
+      "bottom": 1000,
+      "left": 499,
+      "right": 1407,
+      "lines": 2,
+      "plannedLines": [
+        "接著想一想公開範圍，也就是誰看得到。公開，",
+        "代表任何人都可以看到，包括你完全不認識的人。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 6,
+      "sentence": 2,
+      "chars": 41,
+      "top": 893,
+      "bottom": 1000,
+      "left": 459,
+      "right": 1446,
+      "lines": 2,
+      "plannedLines": [
+        "只給朋友看，或是只留給自己，看得到的人就少很多，",
+        "所以發布之前，要先確認分享的對象。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 6,
+      "sentence": 3,
+      "chars": 31,
+      "top": 953,
+      "bottom": 1001,
+      "left": 313,
+      "right": 1593,
+      "lines": 1,
+      "plannedLines": [
+        "不過，設成不公開也不是保證，因為看到的人可以截圖，再傳給別人。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 7,
+      "sentence": 1,
+      "chars": 28,
+      "top": 953,
+      "bottom": 1000,
+      "left": 374,
+      "right": 1531,
+      "lines": 1,
+      "plannedLines": [
+        "你在網路上發布的東西，會留下紀錄，這些紀錄叫做數位足跡。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 7,
+      "sentence": 2,
+      "chars": 35,
+      "top": 953,
+      "bottom": 1000,
+      "left": 231,
+      "right": 1676,
+      "lines": 1,
+      "plannedLines": [
+        "照片一旦貼出去，就很難收回來，因為別人可能已經存下來，或是轉傳出去了。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 7,
+      "sentence": 3,
+      "chars": 33,
+      "top": 953,
+      "bottom": 1000,
+      "left": 272,
+      "right": 1635,
+      "lines": 1,
+      "plannedLines": [
+        "就算你之後把它刪掉，它也可能還留在別的地方，所以發布之前要想清楚。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 8,
+      "sentence": 1,
+      "chars": 53,
+      "top": 893,
+      "bottom": 1001,
+      "left": 313,
+      "right": 1593,
+      "lines": 2,
+      "plannedLines": [
+        "有些照片只要整理一下就可以分享。方法有三種：",
+        "把門牌或名牌裁掉、用貼圖遮住校徽和文字，或是換個背景再拍一張。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 8,
+      "sentence": 2,
+      "chars": 28,
+      "top": 953,
+      "bottom": 1001,
+      "left": 375,
+      "right": 1531,
+      "lines": 1,
+      "plannedLines": [
+        "還有一件事一定要做：照片裡如果有別人，要先問他同不同意。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 8,
+      "sentence": 3,
+      "chars": 24,
+      "top": 953,
+      "bottom": 1000,
+      "left": 459,
+      "right": 1448,
+      "lines": 1,
+      "plannedLines": [
+        "只要他說不要，就不發布，這是對朋友和家人的尊重。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 9,
+      "sentence": 1,
+      "chars": 49,
+      "top": 893,
+      "bottom": 1001,
+      "left": 437,
+      "right": 1469,
+      "lines": 2,
+      "plannedLines": [
+        "現在來玩照片尋寶。教材裡有三張畫出來的模擬照片，",
+        "每一張都藏著好幾個線索，請把找到的個人資料圈出來。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 9,
+      "sentence": 2,
+      "chars": 36,
+      "top": 953,
+      "bottom": 1000,
+      "left": 209,
+      "right": 1697,
+      "lines": 1,
+      "plannedLines": [
+        "找完之後替照片分類：可以公開、需要處理，還是不要公開，並且說出你的理由。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 9,
+      "sentence": 3,
+      "chars": 36,
+      "top": 953,
+      "bottom": 1000,
+      "left": 209,
+      "right": 1697,
+      "lines": 1,
+      "plannedLines": [
+        "如果是需要處理的照片，還要說出你會怎麼處理，是裁掉、遮住，還是再拍一張。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 10,
+      "sentence": 1,
+      "chars": 49,
+      "top": 893,
+      "bottom": 1001,
+      "left": 355,
+      "right": 1549,
+      "lines": 2,
+      "plannedLines": [
+        "下半場換你設計一張家庭發布前檢查表，把要檢查的問題寫下來：",
+        "人、地點、文字、位置資訊，還有誰看得到。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 10,
+      "sentence": 2,
+      "chars": 32,
+      "top": 953,
+      "bottom": 1000,
+      "left": 292,
+      "right": 1614,
+      "lines": 1,
+      "plannedLines": [
+        "表上一定要有一格，問過了嗎？照片裡的每一個人都同意，才可以發布。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 10,
+      "sentence": 3,
+      "chars": 40,
+      "top": 953,
+      "bottom": 1001,
+      "left": 127,
+      "right": 1780,
+      "lines": 1,
+      "plannedLines": [
+        "再加一條你們家自己的規則，例如穿制服的照片不公開，或是出門玩的照片，回到家再發。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 11,
+      "sentence": 1,
+      "chars": 52,
+      "top": 893,
+      "bottom": 1000,
+      "left": 271,
+      "right": 1633,
+      "lines": 2,
+      "plannedLines": [
+        "這堂課的時間這樣分配：開場十分鐘，認識個資和照片裡的資訊十五分鐘，",
+        "接著四十分鐘玩照片尋寶，再休息十分鐘。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 11,
+      "sentence": 2,
+      "chars": 46,
+      "top": 893,
+      "bottom": 1000,
+      "left": 396,
+      "right": 1510,
+      "lines": 2,
+      "plannedLines": [
+        "下半場用三十分鐘完成檢查表和家庭規則，",
+        "然後用十分鐘交換角色，由孩子教爸爸怎麼在發布之前檢查。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 11,
+      "sentence": 3,
+      "chars": 36,
+      "top": 953,
+      "bottom": 1000,
+      "left": 210,
+      "right": 1697,
+      "lines": 1,
+      "plannedLines": [
+        "最後五分鐘錄音總結，替檢查表取名字並存檔，再貼在家裡大家都看得到的地方。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 12,
+      "sentence": 1,
+      "chars": 43,
+      "top": 893,
+      "bottom": 1000,
+      "left": 438,
+      "right": 1469,
+      "lines": 2,
+      "plannedLines": [
+        "最後一關，請不看稿，拿一張新的照片，",
+        "帶著爸爸檢查一次：找出藏著的資訊，再決定怎麼分類。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 12,
+      "sentence": 2,
+      "chars": 39,
+      "top": 953,
+      "bottom": 1001,
+      "left": 147,
+      "right": 1759,
+      "lines": 1,
+      "plannedLines": [
+        "再指出一個限制或安全注意事項，例如就算設成只給朋友看，照片還是可能被截圖轉傳。"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    },
+    {
+      "slide": 12,
+      "sentence": 3,
+      "chars": 53,
+      "top": 893,
+      "bottom": 1000,
+      "left": 263,
+      "right": 1641,
+      "lines": 2,
+      "plannedLines": [
+        "今天的作品是家庭發布前檢查表，下次我們要來認識 AI 是什麼、不是什麼；",
+        "我是陳犀牛，保持好奇，我們下次見！"
+      ],
+      "slideContentPixelsUnderCaption": 0
+    }
+  ],
+  "passed": true
+}

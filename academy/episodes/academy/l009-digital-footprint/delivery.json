@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L009",
+  "episodePath": "episodes/academy/l009-digital-footprint",
+  "version": "L009-v1",
+  "createdAt": "2026-10-07",
+  "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
+  "status": "verified",
+  "publicationStatus": "awaiting_user_upload",
+  "contentMode": "curriculum-based-preclass (no recording)",
+  "durationSeconds": 365.888,
+  "openingSeconds": 60.277,
+  "voice": "zh-TW-YunJheNeural",
+  "ttsEngine": "edge-tts 7.2.8",
+  "backgroundMusic": "none under teaching slides",
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "validation": {
+    "passed": 25,
+    "total": 25,
+    "integratedLufs": -17.1,
+    "sceneAudioMaxLagMs": 0.0,
+    "sceneAudioMinCorrelation": 0.994816,
+    "asrMinSimilarity": 0.897,
+    "asrMeanSimilarity": 0.973,
+    "asrMinSoundSimilarity": 0.933,
+    "asrMeanSoundSimilarity": 0.994,
+    "captionLineBreak": "kinsoku",
+    "reviewRecords": [
+      "qc/report.md",
+      "qc/manual-review.md",
+      "qc/slide-visual-review.md"
+    ],
+    "notDone": [
+      "human full listening review",
+      "PowerPoint/Keynote open test",
+      "macOS hands-on test",
+      "YouTube copyright check",
+      "human full listening review; PowerPoint/Keynote open test; iPhone/macOS hands-on test; YouTube copyright check; photo hunt not play-tested; no device screens shown"
+    ]
+  },
+  "package": {
+    "filename": "L009-v1_父子科技學院_個資照片與數位足跡_2026-10-07.zip",
+    "bytes": 163337651,
+    "sha256": "8129b1e5551b4448e3d0b7b1e6ea6c37969e3776653cb082c8e9f4426fc54959",
+    "contents": "whitelisted package folder L009-v1 with checksums.json (20 files)",
+    "internalChecksums": {
+      "UPLOAD_README.md": "67d1a48a6e4bbf93161fcb2be700b195ffe57db42de425abb9c8e5343eb9d1cd",
+      "youtube-draft.json": "d7223cc63043680ddd5593e12cd40a9c1dbd33186f5754aab6262a58ef2a4111",
+      "youtube-metadata.json": "a496f080be850f42e18c0e1caf4862526cc18a7defff872b77172209cf4a5111",
+      "manual-review.md": "249b01bbd851d7b9debd9512af62eb269a52bfa5a765bc2bab480ffb98768e5f",
+      "l009-digital-footprint.pptx": "9ba5200e98d1d38dc1d15bb50541c657fde378a1dd7f0fe22dd49b89efee5ce7",
+      "repo-guide.md": "e7e94347ff3250f3e1a079470180bfd9acb3658b61b38023e62f569f7b4a7e55",
+      "sources.json": "b1a1bcf1a4f88245b48eb8c59b846fc83fb7b22f2fcfa96964abab4d9773de86",
+      "narration-only.mp3": "7bf39a0fd9588ea98a3447c987d1838f37241a5cb87f0c28f17a9ce48d0a6c58",
+      "report.json": "61f57d5b017e807045943e0ab2f8b71d509e23cad89052a8f6e18ea3e0daf3a9",
+      "fact-check.md": "3307f125e8ccaccb78d6de8fa0c718790c3276f4bef66607d4ed5d04910d6339",
+      "classroom.zip": "c61c4ae9ac21ad76afccd19677b2302452d638056de78855670187f8a26b17a7",
+      "l009-digital-footprint-master.mp4": "2f08491d40a30bdce4a44062ae5461a48986dc8a2c86041b5b16409337610059",
+      "zh-TW.srt": "9082418c9a1337e9df2b5791f597f8bc6ab0adbca460e212179cf7fcf3b87a04",
+      "report.md": "6db5ef945437d458785ed12c4caf0933d4703b3f4ecf05c09149b4fadc00a43d",
+      "youtube-description.txt": "68fd2cb94974b094704ff3650b9627d7e8432cbb66a247433610de9cb1fc10ee",
+      "l009-digital-footprint-zh-TW.mp4": "360b8ac849ffbf4aff972f0355872cf40f1fdac3a97d7582b15001242f3cc564",
+      "chapters.txt": "3ccb9d2d237525fb70a4d84947fb9555aac3f5339399c7891526e6133d1f67b6",
+      "thumbnail.png": "aedce7e3aadd9d0ec01f9e3a396fbdc2791fef277227d2ea0a786e253e4db3f2",
+      "narration-script.md": "142d5e441137257fe108a71c327713748cdb04a93860fb69ddb1dfedfcc47993",
+      "START_HERE.md": "0b7ad1f50a2966501031cf572d36dd64e2b992f8c6c712086b67b9cbcbbca22c"
+    }
+  },
+  "largeFiles": [
+    {
+      "filename": "l009-digital-footprint-zh-TW.mp4",
+      "bytes": 74792733,
+      "sha256": "360b8ac849ffbf4aff972f0355872cf40f1fdac3a97d7582b15001242f3cc564",
+      "role": "captioned video for upload (burned zh-TW subtitles)",
+      "inGit": false
+    },
+    {
+      "filename": "l009-digital-footprint-master.mp4",
+      "bytes": 78002505,
+      "sha256": "2f08491d40a30bdce4a44062ae5461a48986dc8a2c86041b5b16409337610059",
+      "role": "master without burned subtitles",
+      "inGit": false
+    },
+    {
+      "filename": "narration-only.mp3",
+      "bytes": 7335405,
+      "sha256": "7bf39a0fd9588ea98a3447c987d1838f37241a5cb87f0c28f17a9ce48d0a6c58",
+      "role": "narration only, no opening",
+      "inGit": false
+    }
+  ],
+  "inGit": [
+    {
+      "filename": "l009-digital-footprint.pptx",
+      "bytes": 2509649,
+      "sha256": "9ba5200e98d1d38dc1d15bb50541c657fde378a1dd7f0fe22dd49b89efee5ce7",
+      "path": "production/presentation/l009-digital-footprint.pptx"
+    },
+    {
+      "filename": "zh-TW.srt",
+      "bytes": 5482,
+      "sha256": "9082418c9a1337e9df2b5791f597f8bc6ab0adbca460e212179cf7fcf3b87a04",
+      "path": "subtitles/zh-TW.srt"
+    },
+    {
+      "filename": "thumbnail.png",
+      "bytes": 225518,
+      "sha256": "aedce7e3aadd9d0ec01f9e3a396fbdc2791fef277227d2ea0a786e253e4db3f2",
+      "path": "output/thumbnail.png"
+    },
+    {
+      "filename": "classroom.zip",
+      "bytes": 413148,
+      "sha256": "c61c4ae9ac21ad76afccd19677b2302452d638056de78855670187f8a26b17a7",
+      "path": "output/classroom.zip"
+    },
+    {
+      "filename": "contact-sheet.png",
+      "bytes": 990760,
+      "sha256": "a22ce5ad3547513688b23e3274644ea3f0a23c8cc18fbbf1107fd8a1051f8923",
+      "path": "output/contact-sheet.png"
+    }
+  ],
+  "persistence": {
+    "location": "Attachments delivered in the Claude session that produced this lesson (private to the account owner)",
+    "session": "https://claude.ai/code/session_01GE2NEiPKZa5XzbFCCWKxiy",
+    "reason": "30 MiB per-file attachment limit; the package ZIP was split into 6 byte-exact parts",
+    "parts": [
+      {
+        "filename": "L009-v1_父子科技學院_個資照片與數位足跡_2026-10-07.zip.part01",
+        "bytes": 29360128,
+        "sha256": "fb7d31ed4241ef61e93e47dae6c0d7fb8c69c15a0e806c6b71b983ecf55e77db",
+        "conversationFileId": "bd061c19-c29a-409d-82bf-9f814987bcdc"
+      },
+      {
+        "filename": "L009-v1_父子科技學院_個資照片與數位足跡_2026-10-07.zip.part02",
+        "bytes": 29360128,
+        "sha256": "95e0f676eb5ca1620b40bb378a225e9ba6fde9365f3c851725272f7cb4191406",
+        "conversationFileId": "9d858137-78bc-466d-9298-6eeb0ffe4a2e"
+      },
+      {
+        "filename": "L009-v1_父子科技學院_個資照片與數位足跡_2026-10-07.zip.part03",
+        "bytes": 29360128,
+        "sha256": "3f435653318bc61f0611a86802967de521eb97af7d466218793cbfc2b41d3342",
+        "conversationFileId": "5625ea1a-cdda-45b1-acdd-7e329b8353ab"
+      },
+      {
+        "filename": "L009-v1_父子科技學院_個資照片與數位足跡_2026-10-07.zip.part04",
+        "bytes": 29360128,
+        "sha256": "273e6eb4f964977354e894e308b8bf44cb541b2ac2fe02d487286f560668b551",
+        "conversationFileId": "594da390-bc3d-4727-9652-63c87edb6504"
+      },
+      {
+        "filename": "L009-v1_父子科技學院_個資照片與數位足跡_2026-10-07.zip.part05",
+        "bytes": 29360128,
+        "sha256": "750e969e02311a9074248aeb03e17d44ba024602f81fd4eff89d983e08fc9dd4",
+        "conversationFileId": "55da01e2-1bc3-4932-83b9-88de41a53c23"
+      },
+      {
+        "filename": "L009-v1_父子科技學院_個資照片與數位足跡_2026-10-07.zip.part06",
+        "bytes": 16537011,
+        "sha256": "afb3cccb2ece713c6cfa5af6fa756dcbdec1e38a4c0aca26cb5a95a76fe43b29",
+        "conversationFileId": "a66baeb6-b0cb-414b-987c-b6c8d6fda188"
+      }
+    ],
+    "restore": "cat \"L009-v1_父子科技學院_個資照片與數位足跡_2026-10-07.zip\".part* > \"L009-v1_父子科技學院_個資照片與數位足跡_2026-10-07.zip\" && shasum -a 256 \"L009-v1_父子科技學院_個資照片與數位足跡_2026-10-07.zip\"",
+    "restoredZip": {
+      "filename": "L009-v1_父子科技學院_個資照片與數位足跡_2026-10-07.zip",
+      "bytes": 163337651,
+      "sha256": "8129b1e5551b4448e3d0b7b1e6ea6c37969e3776653cb082c8e9f4426fc54959"
+    },
+    "restoreTested": "parts re-joined by pipeline/split_delivery.py in the producing session: SHA-256 equals the ZIP; ZIP integrity tested",
+    "notUsed": {
+      "gitHubRelease": "repository is public; a release would make the unpublished video public",
+      "googleDrive": "connector accepts only inline content; text records only, no large binaries",
+      "git": "large MP4/MP3 stay out of Git per .gitignore"
+    },
+    "ifAttachmentsUnavailable": "rebuild from Git: audio, slides, PPTX, SRT sources and the shared opening are tracked; run assemble → delivery → verify → package. A rebuild is a new version with new hashes."
+  },
+  "continuation": {
+    "state": "L009 complete through package; nothing pending except user playback/listening and manual YouTube upload",
+    "rebuildCommands": [
+      "cd academy && ./setup-portable.sh",
+      "EP=episodes/academy/l009-digital-footprint",
+      "./portable-runtime.sh python pipeline/academy.py run media-check --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run assemble --episode \"$EP\"   # ~20 min on 2 cores; run in background",
+      "./portable-runtime.sh python pipeline/delivery.py --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run verify --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py package --episode \"$EP\" --output delivery/L009-v2"
+    ],
+    "doNotRerunWithoutReason": "run tts (re-synthesises all audio and invalidates timing, subtitles, video and QC)",
+    "authoring": [
+      "authoring/l009/classroom.py",
+      "authoring/l009/prepare_content.py"
+    ],
+    "sharedTools": [
+      "pipeline/qa/subtitle_precheck.py",
+      "pipeline/qa/deck_check.py",
+      "pipeline/qa/media_review.py",
+      "pipeline/qa/asr_review.py",
+      "pipeline/split_delivery.py",
+      "pipeline/record_delivery.py"
+    ],
+    "nextLesson": "L010 AI 是什麼、不是什麼 (in production in the same session; see its own delivery.json)"
+  },
+  "publication": {
+    "status": "awaiting_user_upload",
+    "publisher": "user",
+    "uploaded": false,
+    "videoUrl": null,
+    "uploadFile": "l009-digital-footprint-zh-TW.mp4",
+    "note": "No login, upload or publication was attempted."
+  }
+}

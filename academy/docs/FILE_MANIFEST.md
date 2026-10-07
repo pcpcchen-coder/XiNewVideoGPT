@@ -92,6 +92,17 @@
 
 以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l008-phishing-detectives/delivery.json`。
 
+## L009 大型輸出（L009-v1，2026-10-07）
+
+| 檔案 | Bytes | SHA-256 |
+|---|---:|---|
+| `l009-digital-footprint-zh-TW.mp4` | 74,792,733 | `360b8ac849ffbf4aff972f0355872cf40f1fdac3a97d7582b15001242f3cc564` |
+| `l009-digital-footprint-master.mp4` | 78,002,505 | `2f08491d40a30bdce4a44062ae5461a48986dc8a2c86041b5b16409337610059` |
+| `narration-only.mp3` | 7,335,405 | `7bf39a0fd9588ea98a3447c987d1838f37241a5cb87f0c28f17a9ce48d0a6c58` |
+| `L009-v1_父子科技學院_個資照片與數位足跡_2026-10-07.zip`（完整交付包） | 163,337,651 | `8129b1e5551b4448e3d0b7b1e6ea6c37969e3776653cb082c8e9f4426fc54959` |
+
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l009-digital-footprint/delivery.json`。
+
 本 repo 為公開，未建立 Release，勿編造下載連結。附件無法取得時可依各課 delivery.json 的命令重新組裝，重建結果須作新版本並重新驗收。
 <!-- /academy-status:large-files -->
 

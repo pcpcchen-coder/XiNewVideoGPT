@@ -18,7 +18,7 @@
 | L006 | 真真假假：來源與證據偵探 | verified | awaiting_user_upload | — |
 | L007 | 密碼城堡與雙重驗證 | verified | awaiting_user_upload | — |
 | L008 | 釣魚郵件偵探社 | verified | awaiting_user_upload | — |
-| L009 | 個資、照片與數位足跡 | planned | not_uploaded | — |
+| L009 | 個資、照片與數位足跡 | verified | awaiting_user_upload | — |
 | L010 | AI 是什麼、不是什麼 | planned | not_uploaded | — |
 | L011 | 第一個好提示詞：任務、背景、限制、格式 | planned | not_uploaded | — |
 | L012 | AI 會亂講：幻覺抓錯賽 | planned | not_uploaded | — |

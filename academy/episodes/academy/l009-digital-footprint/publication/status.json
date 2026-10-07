@@ -1,0 +1,16 @@
+{
+  "lessonId": "L009",
+  "status": "awaiting_user_upload",
+  "publicationMode": "manual-user-upload",
+  "publisher": "user",
+  "videoUrl": null,
+  "targetTitle": "父子科技學院 L009｜個資、照片與數位足跡",
+  "videoFile": "l009-digital-footprint-zh-TW.mp4",
+  "videoSha256": "360b8ac849ffbf4aff972f0355872cf40f1fdac3a97d7582b15001242f3cc564",
+  "videoBytes": 74792733,
+  "deliveryVersion": "L009-v1",
+  "deliveryRecord": "delivery.json",
+  "authorizedToUpload": false,
+  "authorizedToPublish": false,
+  "note": "Produced and packaged 2026-10-07. Awaiting user playback and manual upload; no YouTube login, upload or publication attempted."
+}

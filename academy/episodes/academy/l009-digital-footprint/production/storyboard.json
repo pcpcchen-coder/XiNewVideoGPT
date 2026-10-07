@@ -1,0 +1,110 @@
+[
+  {
+    "slide": 1,
+    "title": "個資、照片與數位足跡",
+    "purpose": "開場：課前教學版揭露、照片裡藏的資訊、尋寶任務與作品",
+    "visual": "封面版型：任務標籤、兩行主題、一句任務說明；原陳犀牛角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "準備模擬照片與紙筆；預告尋寶與檢查表",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 2,
+    "title": "發布之前的三個步驟",
+    "purpose": "概念：發布前三步（找、想、決定）",
+    "visual": "三步流程卡：找 → 想 → 決定（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出今天要完成的作品",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 3,
+    "title": "個資：能認出你是誰的資料",
+    "purpose": "概念：個人資料是能直接或間接認出你的資料；合起來更容易認出",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出三項自己的個資種類（不說出內容）",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 4,
+    "title": "照片尋寶：四種藏起來的資訊",
+    "purpose": "概念：照片裡的四種資訊（人、地點、文字、看不見的）",
+    "visual": "資訊卡面板四張＋黃字說明（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "先猜哪一種最容易被忽略",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 5,
+    "title": "看不見的資訊：位置和時間",
+    "purpose": "概念：相機開定位時，位置可能存進照片檔並隨分享送出；分享前可關閉",
+    "visual": "雙框對照：你看到的 ＋ 檔案裡還有（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "和爸爸一起看一張照片的拍攝資訊",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 6,
+    "title": "公開範圍：誰看得到？",
+    "purpose": "概念：公開範圍三種；不公開也可能被截圖轉傳",
+    "visual": "三張步驟卡：公開／朋友／只有自己（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出一張照片適合哪一種範圍",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 7,
+    "title": "數位足跡：貼出去就收不回來",
+    "purpose": "概念：數位足跡與永久性",
+    "visual": "路徑一行（發布→被存下、被轉傳→刪了也可能還在）＋三張卡（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "回答：以後的我還願意讓大家看到嗎",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 8,
+    "title": "需要處理：三種整理方法",
+    "purpose": "示範：裁掉、遮住、重拍三種處理；先徵求照片中的人同意",
+    "visual": "左側三種方法；右側「還要問一個人」（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "暫停影片：說出三種整理照片的方法",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 9,
+    "title": "照片尋寶：三張模擬照片",
+    "purpose": "活動規則：三張模擬照片尋寶並分類",
+    "visual": "左右比較卡（尋寶／分類）＋黃字說明是模擬照片（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "逐張圈出線索、分類並說理由",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 10,
+    "title": "換你設計：家庭發布前檢查表",
+    "purpose": "獨立改造與安全：家庭發布前檢查表、同意、家庭規則",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成檢查表；自訂一條家庭規則",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的照片尋寶課",
+    "purpose": "120 分鐘安排：10／15／40／10／30／10／5",
+    "visual": "六列時間表與今日生活技能（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "依時間表進行；休息十分鐘",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：教爸爸發布前檢查",
+    "purpose": "作品驗收與回顧：當場檢查一張照片，指出一個限制或安全注意；固定結尾",
+    "visual": "三點驗收條列＋陳犀牛＋結尾語（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "孩子教爸爸；錄音回答四個問題；作品命名存檔",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  }
+]

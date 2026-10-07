@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L009",
+  "checkedAt": "2026-10-07",
+  "method": "A research subagent downloaded each page/PDF on the check date and reported verbatim quotes (production/source-notes.md); the producing agent mapped them to claims. Not a human full read.",
+  "curriculum": "curriculum/catalog.json：L009；來源 V2 Excel 逐堂課程第 9 堂",
+  "sources": [
+    {
+      "id": "pdpa",
+      "title": "個人資料保護法 第 2 條",
+      "publisher": "臺北市法規查詢系統（官方鏡像；全國法規資料庫禁止自動擷取，未繞過）",
+      "url": "https://laws.gov.taipei/law/LawSearch/LawArticleContent/FL010627",
+      "usedFor": "個人資料的法律定義：姓名、出生年月日、國民身分證統一編號、聯絡方式…及其他得以直接或間接方式識別該個人之資料"
+    },
+    {
+      "id": "eliteracy_pd",
+      "title": "【個人資料正確用】教案",
+      "publisher": "教育部 中小學數位素養教育資源網",
+      "url": "https://eliteracy.edu.tw/Download.ashx?id=1489",
+      "usedFor": "給孩子的說法：只要是可以讓別人知道我們身分的資料，都算是個人資料"
+    },
+    {
+      "id": "ftc_coppa",
+      "title": "Complying with COPPA: Frequently Asked Questions",
+      "publisher": "U.S. Federal Trade Commission（頁面註明規則已於 2025-04-22 修正）",
+      "url": "https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions",
+      "usedFor": "教材：美國兒童線上隱私規則把含兒童影像的照片、住址、地理位置列為個人資訊（只作對照，不適用台灣）"
+    },
+    {
+      "id": "apple_location_meta",
+      "title": "個人安全使用手冊「管理『照片』中的位置後設資料」",
+      "publisher": "Apple 支援（台灣，2026 年 9 月）",
+      "url": "https://support.apple.com/zh-tw/guide/personal-safety/ips0d7a5df82/web",
+      "usedFor": "相機開啟定位服務時，拍攝位置座標會嵌入照片檔；分享時對方可取得位置；分享時在「選項」關閉「位置」；定位服務設定"
+    },
+    {
+      "id": "apple_share_iphone",
+      "title": "iPhone 使用手冊「在 iPhone 上分享照片和影片」",
+      "publisher": "Apple 支援（台灣，iOS 27 版）",
+      "url": "https://support.apple.com/zh-tw/guide/iphone/iphf28f17237/27/ios/27",
+      "usedFor": "分享照片會同時分享日期與時間、位置等後設資料；iOS 27 版這一頁沒有列出「位置」開關（iOS 18、26 版有）"
+    },
+    {
+      "id": "apple_photos_mac",
+      "title": "Mac 上的「照片」設定",
+      "publisher": "Apple 支援（台灣）",
+      "url": "https://support.apple.com/zh-tw/guide/photos/pht5156cc968/mac",
+      "usedFor": "教材：「照片」>「設定」>「一般」的「包含位置資訊」"
+    },
+    {
+      "id": "thinkuknow_home",
+      "title": "Home learning activity: Learning about personal information and image sharing（8–12 歲）",
+      "publisher": "ThinkUKnow（澳洲聯邦警察主導）",
+      "url": "https://www.thinkuknow.org.au/sites/default/files/2020-10/Home%20learning%20activity%20Learning%20about%20personal%20information%20and%20image%20sharing.pdf",
+      "usedFor": "制服、學校、家門口的照片都可能含有孩子的個人資訊與位置；範例：制服上的校徽、球上的名字、背景的招牌"
+    },
+    {
+      "id": "thinkuknow_parent",
+      "title": "Parental advice for posting images",
+      "publisher": "ThinkUKnow",
+      "url": "https://www.thinkuknow.org.au/sites/default/files/2023-01/ThinkUKnow%20parental%20advice%20for%20posting%20images.pdf",
+      "usedFor": "檢查背景的招牌、路牌、門牌；考慮把校徽模糊或用貼圖蓋住"
+    },
+    {
+      "id": "eliteracy_selfie",
+      "title": "【安全自拍與分享】學習單",
+      "publisher": "教育部 中小學數位素養教育資源網",
+      "url": "https://eliteracy.edu.tw/Download.ashx?id=1506",
+      "usedFor": "上傳前確認照片背景沒有個人資訊（如地址、學校名稱）；分享對象分公開、朋友、僅限自己"
+    },
+    {
+      "id": "eliteracy_corner",
+      "title": "【躲在角落的眼睛】教案（國小三至四年級）",
+      "publisher": "教育部 中小學數位素養教育資源網",
+      "url": "https://eliteracy.edu.tw/Download.ashx?id=1782",
+      "usedFor": "教材：合照、名牌、運動服與行程一起貼出造成個資外洩的例子"
+    },
+    {
+      "id": "google_photos_location",
+      "title": "Google 相簿說明（相片位置資訊）",
+      "publisher": "Google 相簿說明",
+      "url": "https://support.google.com/photos/answer/6153599?hl=zh-Hant",
+      "usedFor": "即使隱藏位置資訊，其他人仍可能根據相片中的地標猜出拍攝地點"
+    },
+    {
+      "id": "google_photos_share",
+      "title": "Google 相簿如何保護你的位置資料",
+      "publisher": "Google 相簿說明",
+      "url": "https://support.google.com/photos/answer/11190100?hl=zh-Hant",
+      "usedFor": "教材：Google 相簿分享時預設不加入位置詳細資料（透過親友共享功能除外）"
+    },
+    {
+      "id": "ftc_headsup",
+      "title": "Heads Up: Stop. Think. Connect.",
+      "publisher": "U.S. Federal Trade Commission（2023-08）",
+      "url": "https://consumer.ftc.gov/articles/heads-up",
+      "usedFor": "貼出去就收不回來；刪除後仍可能被存下、分享並留在網路上；看到的人可以截圖；隱私設定不是保證；先得到照片中的人同意"
+    },
+    {
+      "id": "commonsense_trails",
+      "title": "Digital Trails",
+      "publisher": "Common Sense Education",
+      "url": "https://www.commonsense.org/education/digital-citizenship/lesson/digital-trails",
+      "usedFor": "數位足跡：你在網路上做的事的紀錄，包括造訪的網站與分享的東西"
+    },
+    {
+      "id": "eliteracy_footprint",
+      "title": "【無法鎖碼的網路內容】教案",
+      "publisher": "教育部 中小學數位素養教育資源網",
+      "url": "https://eliteracy.edu.tw/Download.ashx?id=1865",
+      "usedFor": "數位足跡是指個人在網路上活動時，留下的各類數據與紀錄"
+    },
+    {
+      "id": "eliteracy_consent",
+      "title": "【安全自拍，安心上傳】教案",
+      "publisher": "教育部 中小學數位素養教育資源網",
+      "url": "https://eliteracy.edu.tw/Download.ashx?id=1509",
+      "usedFor": "將他人的照片或影片上傳到網路之前，必須先徵求對方的同意"
+    },
+    {
+      "id": "iwin",
+      "title": "關於 iWIN",
+      "publisher": "iWIN 網路內容防護機構",
+      "url": "https://i.win.org.tw/about.php",
+      "usedFor": "教材：台灣的兒少網路內容申訴與諮詢單位"
+    },
+    {
+      "id": "catalog_reference",
+      "title": "Online Privacy and Security",
+      "publisher": "U.S. Federal Trade Commission 消費者網站",
+      "url": "https://consumer.ftc.gov/identity-theft-and-online-security/online-privacy-and-security",
+      "usedFor": "課表 R23 主要參考網址；本課引用的是同一網站的「Heads Up」"
+    }
+  ],
+  "notVerified": [
+    "全國法規資料庫（law.moj.gov.tw）禁止自動擷取；個資法條文取自臺北市法規查詢系統的官方鏡像",
+    "通訊軟體與社群網站是否移除照片的位置資訊：沒有找到任何官方說法",
+    "Apple 的 iOS 27 使用手冊「分享照片」頁面沒有列出「位置」開關；實機畫面沒有查核",
+    "eSafety Commissioner 的引文未逐字確認，未使用",
+    "教育部 eteacher.edu.tw 無法讀取；改用中小學數位素養教育資源網"
+  ],
+  "youtubeSearchEntries": {
+    "status": "not selected, not watched",
+    "note": "課表的三組 YouTube 連結是動態搜尋入口，本次未挑選或觀看任何影片，也未在影片或教材中引用。"
+  }
+}

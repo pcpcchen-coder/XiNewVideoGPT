@@ -1,0 +1,280 @@
+[
+  {
+    "slide": 1,
+    "title": "個資、照片與數位足跡",
+    "sentences": [
+      {
+        "text": "歡迎回到父子科技學院，我是陳犀牛，今天是第九堂，個資、照片與數位足跡，這是依課表製作的課前教學版，並非實際上課錄音。",
+        "tts": "歡迎回到父子科技學院，我是陳犀牛，今天是第九堂，個資、照片與數位足跡，這是依課表製作的課前教學版，並非實際上課錄音。"
+      },
+      {
+        "text": "一張照片裡，除了你想給大家看的東西，還可能藏著你的名字、學校，甚至你家在哪裡。",
+        "tts": "一張照片裡，除了你想給大家看的東西，還可能藏著你的名字、學校，甚至你家在哪裡。"
+      },
+      {
+        "text": "今天我們要玩照片尋寶，把藏起來的資訊找出來，最後完成一張家庭發布前檢查表。",
+        "tts": "今天我們要玩照片尋寶，把藏起來的資訊找出來，最後完成一張家庭發布前檢查表。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L009；來源 V2 Excel 逐堂課程第 9 堂"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 2,
+    "title": "發布之前的三個步驟",
+    "sentences": [
+      {
+        "text": "發布照片之前有三個步驟。第一步是找，把照片裡藏著的個人資料找出來，包括人、地點和文字。",
+        "tts": "發布照片之前有三個步驟。第一步是找，把照片裡藏著的個人資料找出來，包括人、地點和文字。"
+      },
+      {
+        "text": "第二步是想，想一想誰會看到這張照片，還有，它以後會不會一直留在網路上。",
+        "tts": "第二步是想，想一想誰會看到這張照片，還有，它以後會不會一直留在網路上。"
+      },
+      {
+        "text": "第三步是決定：這張照片可以公開、需要先處理，還是不要公開。",
+        "tts": "第三步是決定：這張照片可以公開、需要先處理，還是不要公開。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L009；來源 V2 Excel 逐堂課程第 9 堂",
+      "https://eliteracy.edu.tw/Download.ashx?id=1506"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 3,
+    "title": "個資：能認出你是誰的資料",
+    "sentences": [
+      {
+        "text": "什麼是個資？個資就是個人資料，只要能讓別人認出你是誰、找得到你，都算是個人資料。",
+        "tts": "什麼是個資？個資就是個人資料，只要能讓別人認出你是誰、找得到你，都算是個人資料。"
+      },
+      {
+        "text": "例如姓名、生日、身分證號碼、電話和住址；你的臉、學校和班級，也能讓人認出你。",
+        "tts": "例如姓名、生日、身分證號碼、電話和住址；你的臉、學校和班級，也能讓人認出你。"
+      },
+      {
+        "text": "有些資料單獨看沒什麼，但是合在一起，例如制服加上校名，再加上放學的時間，別人就知道哪裡找得到你。",
+        "tts": "有些資料單獨看沒什麼，但是合在一起，例如制服加上校名，再加上放學的時間，別人就知道哪裡找得到你。"
+      }
+    ],
+    "sources": [
+      "https://laws.gov.taipei/law/LawSearch/LawArticleContent/FL010627",
+      "https://eliteracy.edu.tw/Download.ashx?id=1489",
+      "https://www.thinkuknow.org.au/sites/default/files/2020-10/Home%20learning%20activity%20Learning%20about%20personal%20information%20and%20image%20sharing.pdf"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 4,
+    "title": "照片尋寶：四種藏起來的資訊",
+    "sentences": [
+      {
+        "text": "照片裡常常藏著四種資訊。第一種是人，包括臉、名牌和制服；第二種是地點，例如門牌、路牌和有名的建築。",
+        "tts": "照片裡常常藏著四種資訊。第一種是人，包括臉、名牌和制服；第二種是地點，例如門牌、路牌和有名的建築。"
+      },
+      {
+        "text": "第三種是文字，像是電腦螢幕、桌上的文件，還有車票和證件。",
+        "tts": "第三種是文字，像是電腦螢幕、桌上的文件，還有車票和證件。"
+      },
+      {
+        "text": "第四種用眼睛看不到，它存在照片的檔案裡，記錄了拍照的時間和地點。",
+        "tts": "第四種用眼睛看不到，它存在照片的檔案裡，記錄了拍照的時間和地點。"
+      }
+    ],
+    "sources": [
+      "https://www.thinkuknow.org.au/sites/default/files/2020-10/Home%20learning%20activity%20Learning%20about%20personal%20information%20and%20image%20sharing.pdf",
+      "https://www.thinkuknow.org.au/sites/default/files/2023-01/ThinkUKnow%20parental%20advice%20for%20posting%20images.pdf",
+      "https://eliteracy.edu.tw/Download.ashx?id=1506",
+      "https://support.google.com/photos/answer/6153599?hl=zh-Hant",
+      "https://support.apple.com/zh-tw/guide/personal-safety/ips0d7a5df82/web"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 5,
+    "title": "看不見的資訊：位置和時間",
+    "sentences": [
+      {
+        "text": "用手機拍照的時候，如果相機開著定位功能，拍攝的位置就可能被存進照片的檔案裡。",
+        "tts": "用手機拍照的時候，如果相機開著定位功能，拍攝的位置就可能被存進照片的檔案裡。"
+      },
+      {
+        "text": "把照片分享出去的時候，這些看不見的資訊，可能會跟著照片一起送出去。",
+        "tts": "把照片分享出去的時候，這些看不見的資訊，可能會跟著照片一起送出去。"
+      },
+      {
+        "text": "分享之前可以先把位置資訊關掉；不同的手機和版本做法不太一樣，請和爸爸一起確認。",
+        "tts": "分享之前可以先把位置資訊關掉；不同的手機和版本做法不太一樣，請和爸爸一起確認。"
+      }
+    ],
+    "sources": [
+      "https://support.apple.com/zh-tw/guide/personal-safety/ips0d7a5df82/web",
+      "https://support.apple.com/zh-tw/guide/iphone/iphf28f17237/27/ios/27"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 6,
+    "title": "公開範圍：誰看得到？",
+    "sentences": [
+      {
+        "text": "接著想一想公開範圍，也就是誰看得到。公開，代表任何人都可以看到，包括你完全不認識的人。",
+        "tts": "接著想一想公開範圍，也就是誰看得到。公開，代表任何人都可以看到，包括你完全不認識的人。"
+      },
+      {
+        "text": "只給朋友看，或是只留給自己，看得到的人就少很多，所以發布之前，要先確認分享的對象。",
+        "tts": "只給朋友看，或是只留給自己，看得到的人就少很多，所以發布之前，要先確認分享的對象。"
+      },
+      {
+        "text": "不過，設成不公開也不是保證，因為看到的人可以截圖，再傳給別人。",
+        "tts": "不過，設成不公開也不是保證，因為看到的人可以截圖，再傳給別人。"
+      }
+    ],
+    "sources": [
+      "https://eliteracy.edu.tw/Download.ashx?id=1506",
+      "https://consumer.ftc.gov/articles/heads-up"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 7,
+    "title": "數位足跡：貼出去就收不回來",
+    "sentences": [
+      {
+        "text": "你在網路上發布的東西，會留下紀錄，這些紀錄叫做數位足跡。",
+        "tts": "你在網路上發布的東西，會留下紀錄，這些紀錄叫做數位足跡。"
+      },
+      {
+        "text": "照片一旦貼出去，就很難收回來，因為別人可能已經存下來，或是轉傳出去了。",
+        "tts": "照片一旦貼出去，就很難收回來，因為別人可能已經存下來，或是轉傳出去了。"
+      },
+      {
+        "text": "就算你之後把它刪掉，它也可能還留在別的地方，所以發布之前要想清楚。",
+        "tts": "就算你之後把它刪掉，它也可能還留在別的地方，所以發布之前要想清楚。"
+      }
+    ],
+    "sources": [
+      "https://www.commonsense.org/education/digital-citizenship/lesson/digital-trails",
+      "https://eliteracy.edu.tw/Download.ashx?id=1865",
+      "https://consumer.ftc.gov/articles/heads-up"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 8,
+    "title": "需要處理：三種整理方法",
+    "sentences": [
+      {
+        "text": "有些照片只要整理一下就可以分享。方法有三種：把門牌或名牌裁掉、用貼圖遮住校徽和文字，或是換個背景再拍一張。",
+        "tts": "有些照片只要整理一下就可以分享。方法有三種：把門牌或名牌裁掉、用貼圖遮住校徽和文字，或是換個背景再拍一張。"
+      },
+      {
+        "text": "還有一件事一定要做：照片裡如果有別人，要先問他同不同意。",
+        "tts": "還有一件事一定要做：照片裡如果有別人，要先問他同不同意。"
+      },
+      {
+        "text": "只要他說不要，就不發布，這是對朋友和家人的尊重。",
+        "tts": "只要他說不要，就不發布，這是對朋友和家人的尊重。"
+      }
+    ],
+    "sources": [
+      "https://www.thinkuknow.org.au/sites/default/files/2023-01/ThinkUKnow%20parental%20advice%20for%20posting%20images.pdf",
+      "https://consumer.ftc.gov/articles/heads-up",
+      "https://eliteracy.edu.tw/Download.ashx?id=1509"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 9,
+    "title": "照片尋寶：三張模擬照片",
+    "sentences": [
+      {
+        "text": "現在來玩照片尋寶。教材裡有三張畫出來的模擬照片，每一張都藏著好幾個線索，請把找到的個人資料圈出來。",
+        "tts": "現在來玩照片尋寶。教材裡有三張畫出來的模擬照片，每一張都藏著好幾個線索，請把找到的個人資料圈出來。"
+      },
+      {
+        "text": "找完之後替照片分類：可以公開、需要處理，還是不要公開，並且說出你的理由。",
+        "tts": "找完之後替照片分類：可以公開、需要處理，還是不要公開，並且說出你的理由。"
+      },
+      {
+        "text": "如果是需要處理的照片，還要說出你會怎麼處理，是裁掉、遮住，還是再拍一張。",
+        "tts": "如果是需要處理的照片，還要說出你會怎麼處理，是裁掉、遮住，還是再拍一張。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L009；來源 V2 Excel 逐堂課程第 9 堂"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 10,
+    "title": "換你設計：家庭發布前檢查表",
+    "sentences": [
+      {
+        "text": "下半場換你設計一張家庭發布前檢查表，把要檢查的問題寫下來：人、地點、文字、位置資訊，還有誰看得到。",
+        "tts": "下半場換你設計一張家庭發布前檢查表，把要檢查的問題寫下來：人、地點、文字、位置資訊，還有誰看得到。"
+      },
+      {
+        "text": "表上一定要有一格，問過了嗎？照片裡的每一個人都同意，才可以發布。",
+        "tts": "表上一定要有一格，問過了嗎？照片裡的每一個人都同意，才可以發布。"
+      },
+      {
+        "text": "再加一條你們家自己的規則，例如穿制服的照片不公開，或是出門玩的照片，回到家再發。",
+        "tts": "再加一條你們家自己的規則，例如穿制服的照片不公開，或是出門玩的照片，回到家再發。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L009；來源 V2 Excel 逐堂課程第 9 堂"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的照片尋寶課",
+    "sentences": [
+      {
+        "text": "這堂課的時間這樣分配：開場十分鐘，認識個資和照片裡的資訊十五分鐘，接著四十分鐘玩照片尋寶，再休息十分鐘。",
+        "tts": "這堂課的時間這樣分配：開場十分鐘，認識個資和照片裡的資訊十五分鐘，接著四十分鐘玩照片尋寶，再休息十分鐘。"
+      },
+      {
+        "text": "下半場用三十分鐘完成檢查表和家庭規則，然後用十分鐘交換角色，由孩子教爸爸怎麼在發布之前檢查。",
+        "tts": "下半場用三十分鐘完成檢查表和家庭規則，然後用十分鐘交換角色，由孩子教爸爸怎麼在發布之前檢查。"
+      },
+      {
+        "text": "最後五分鐘錄音總結，替檢查表取名字並存檔，再貼在家裡大家都看得到的地方。",
+        "tts": "最後五分鐘錄音總結，替檢查表取名字並存檔，再貼在家裡大家都看得到的地方。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L009；來源 V2 Excel 逐堂課程第 9 堂"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：教爸爸發布前檢查",
+    "sentences": [
+      {
+        "text": "最後一關，請不看稿，拿一張新的照片，帶著爸爸檢查一次：找出藏著的資訊，再決定怎麼分類。",
+        "tts": "最後一關，請不看稿，拿一張新的照片，帶著爸爸檢查一次：找出藏著的資訊，再決定怎麼分類。"
+      },
+      {
+        "text": "再指出一個限制或安全注意事項，例如就算設成只給朋友看，照片還是可能被截圖轉傳。",
+        "tts": "再指出一個限制或安全注意事項，例如就算設成只給朋友看，照片還是可能被截圖轉傳。"
+      },
+      {
+        "text": "今天的作品是家庭發布前檢查表，下次我們要來認識 AI 是什麼、不是什麼；我是陳犀牛，保持好奇，我們下次見！",
+        "tts": "今天的作品是家庭發布前檢查表，下次我們要來認識 AI 是什麼、不是什麼；我是陳犀牛，保持好奇，我們下次見！"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L009；來源 V2 Excel 逐堂課程第 9 堂",
+      "https://consumer.ftc.gov/articles/heads-up"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  }
+]
