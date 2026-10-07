@@ -81,6 +81,17 @@
 
 以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l007-password-castle/delivery.json`。
 
+## L008 大型輸出（L008-v1，2026-10-07）
+
+| 檔案 | Bytes | SHA-256 |
+|---|---:|---|
+| `l008-phishing-detectives-zh-TW.mp4` | 75,102,796 | `d12ecf4d8bc80274c6e08f4c17f324ecd7abd0b54ce0d17b788c22ba448e8f46` |
+| `l008-phishing-detectives-master.mp4` | 78,279,601 | `b276af033ad51bc78cba8043a38d9724531c627fa99e90c6a2fd89509bf5a4d5` |
+| `narration-only.mp3` | 7,404,525 | `e364942d805b6984766704c881b03cd012ec3eb386f54b054825a1bb4e4c8c9e` |
+| `L008-v1_父子科技學院_釣魚郵件偵探社_2026-10-07.zip`（完整交付包） | 164,020,545 | `464d9880479843e7bf3ec1bfbc7c3eaa69a964fa47feb75dac74bec28584f064` |
+
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l008-phishing-detectives/delivery.json`。
+
 本 repo 為公開，未建立 Release，勿編造下載連結。附件無法取得時可依各課 delivery.json 的命令重新組裝，重建結果須作新版本並重新驗收。
 <!-- /academy-status:large-files -->
 

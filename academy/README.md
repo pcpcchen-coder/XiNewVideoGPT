@@ -25,8 +25,9 @@
 - L005「搜尋高手：把大問題拆成好問題」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L005-v1 已交付；尚未上傳。紀錄見 [delivery.json](episodes/academy/l005-search-master/delivery.json)、[manual-review.md](episodes/academy/l005-search-master/qc/manual-review.md)。
 - L006「真真假假：來源與證據偵探」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L006-v1 已交付；尚未上傳。紀錄見 [delivery.json](episodes/academy/l006-source-evidence/delivery.json)、[manual-review.md](episodes/academy/l006-source-evidence/qc/manual-review.md)。
 - L007「密碼城堡與雙重驗證」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L007-v1 已交付；尚未上傳。紀錄見 [delivery.json](episodes/academy/l007-password-castle/delivery.json)、[manual-review.md](episodes/academy/l007-password-castle/qc/manual-review.md)。
-- L008–L192：課表與製作骨架可接續，並非影片已完成，也沒有啟動批次製作。
-- 下一堂 L008「釣魚郵件偵探社」。
+- L008「釣魚郵件偵探社」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L008-v1 已交付；尚未上傳。紀錄見 [delivery.json](episodes/academy/l008-phishing-detectives/delivery.json)、[manual-review.md](episodes/academy/l008-phishing-detectives/qc/manual-review.md)。
+- L009–L192：課表與製作骨架可接續，並非影片已完成，也沒有啟動批次製作。
+- 下一堂 L009「個資、照片與數位足跡」。
 <!-- /academy-status:list -->
 - 192 堂共 576 組 YouTube 搜尋入口；沒有把它們標成已精選的 576 支影片。
 

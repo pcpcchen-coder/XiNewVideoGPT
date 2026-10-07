@@ -1,0 +1,126 @@
+{
+  "method": "ffmpeg-decoded 48 kHz mono; normalised cross-correlation of 12 s per scene (±200 ms search); 50 ms RMS windows over each full scene; frames decoded from the captioned MP4",
+  "openingSeconds": 60.277,
+  "openingVsSource": {
+    "lagMs": 0.0,
+    "correlation": 0.995908,
+    "window": "5–35 s"
+  },
+  "scenes": [
+    {
+      "slide": 1,
+      "start": 60.277,
+      "lagMs": 0.0,
+      "correlation": 0.999085,
+      "quietest50msDbfs": -180.0,
+      "loudest50msDbfs": -9.6
+    },
+    {
+      "slide": 2,
+      "start": 87.853,
+      "lagMs": 0.0,
+      "correlation": 0.997548,
+      "quietest50msDbfs": -180.0,
+      "loudest50msDbfs": -10.5
+    },
+    {
+      "slide": 3,
+      "start": 113.053,
+      "lagMs": 0.0,
+      "correlation": 0.999509,
+      "quietest50msDbfs": -180.0,
+      "loudest50msDbfs": -10.3
+    },
+    {
+      "slide": 4,
+      "start": 137.941,
+      "lagMs": 0.0,
+      "correlation": 0.997446,
+      "quietest50msDbfs": -180.0,
+      "loudest50msDbfs": -9.4
+    },
+    {
+      "slide": 5,
+      "start": 163.693,
+      "lagMs": 0.0,
+      "correlation": 0.999072,
+      "quietest50msDbfs": -180.0,
+      "loudest50msDbfs": -10.9
+    },
+    {
+      "slide": 6,
+      "start": 188.869,
+      "lagMs": 0.0,
+      "correlation": 0.994123,
+      "quietest50msDbfs": -180.0,
+      "loudest50msDbfs": -10.5
+    },
+    {
+      "slide": 7,
+      "start": 213.805,
+      "lagMs": 0.0,
+      "correlation": 0.999108,
+      "quietest50msDbfs": -180.0,
+      "loudest50msDbfs": -10.5
+    },
+    {
+      "slide": 8,
+      "start": 238.549,
+      "lagMs": 0.0,
+      "correlation": 0.997564,
+      "quietest50msDbfs": -180.0,
+      "loudest50msDbfs": -10.5
+    },
+    {
+      "slide": 9,
+      "start": 263.317,
+      "lagMs": 0.0,
+      "correlation": 0.98984,
+      "quietest50msDbfs": -180.0,
+      "loudest50msDbfs": -10.5
+    },
+    {
+      "slide": 10,
+      "start": 288.637,
+      "lagMs": 0.0,
+      "correlation": 0.994839,
+      "quietest50msDbfs": -180.0,
+      "loudest50msDbfs": -9.6
+    },
+    {
+      "slide": 11,
+      "start": 314.965,
+      "lagMs": 0.0,
+      "correlation": 0.99839,
+      "quietest50msDbfs": -180.0,
+      "loudest50msDbfs": -10.1
+    },
+    {
+      "slide": 12,
+      "start": 341.149,
+      "lagMs": 0.0,
+      "correlation": 0.999414,
+      "quietest50msDbfs": -180.0,
+      "loudest50msDbfs": -10.7
+    }
+  ],
+  "maxAbsLagMs": 0.0,
+  "minCorrelation": 0.98984,
+  "highestQuietFloorDbfs": -180.0,
+  "audioAfterLastSceneDbfs": -180.0,
+  "cueFrames": {
+    "count": 36,
+    "sheets": [
+      "cues_01-04.jpg",
+      "cues_05-08.jpg",
+      "cues_09-12.jpg",
+      "cues_13-16.jpg",
+      "cues_17-20.jpg",
+      "cues_21-24.jpg",
+      "cues_25-28.jpg",
+      "cues_29-32.jpg",
+      "cues_33-36.jpg"
+    ]
+  },
+  "limits": "correlation and noise floor indicate that scene audio is this lesson's narration with no added bed; they do not judge pronunciation or tone"
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L008",
+  "checkedAt": "2026-10-07",
+  "method": "A research subagent downloaded each page/PDF on the check date and reported verbatim quotes (production/source-notes.md); the producing agent mapped them to claims. Not a human full read.",
+  "curriculum": "curriculum/catalog.json：L008；來源 V2 Excel 逐堂課程第 8 堂",
+  "sources": [
+    {
+      "id": "ftc_phishing",
+      "title": "How To Recognize and Avoid Phishing Scams",
+      "publisher": "U.S. Federal Trade Commission（2022-09；課表 R22 主要參考網址）",
+      "url": "https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams",
+      "usedFor": "釣魚用電子郵件或簡訊騙取密碼、帳號資料；附件與連結可能裝進惡意軟體；通用稱呼；檢舉後刪除；正當公司不會用連結要你更新付款資料"
+    },
+    {
+      "id": "ftc_alert",
+      "title": "Protect yourself from phishing scams",
+      "publisher": "U.S. Federal Trade Commission 消費者提醒（2025-06-04）",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2025/04/protect-yourself-phishing-scams",
+      "usedFor": "不點可疑訊息裡的連結、不下載附件；用自己確定是真的電話、信箱或網站聯絡"
+    },
+    {
+      "id": "ftc_spam_text",
+      "title": "How to Recognize and Report Spam Text Messages",
+      "publisher": "U.S. Federal Trade Commission（2022-07）",
+      "url": "https://consumer.ftc.gov/articles/how-recognize-and-report-spam-text-messages",
+      "usedFor": "連結可能通往看起來很像真的假網站；正當公司不會用簡訊要帳號資料"
+    },
+    {
+      "id": "ftc_kids",
+      "title": "Filling Your Digital Toolbox（Youville 兒童講義）",
+      "publisher": "U.S. Federal Trade Commission",
+      "url": "https://consumer.ftc.gov/system/files/consumer_ftc_gov/pdf/FillingYourDigitalToolbox-508.pdf",
+      "usedFor": "不回應比較安全；請爸媽或信任的大人幫忙看訊息"
+    },
+    {
+      "id": "apple_phishing",
+      "title": "辨識及防範社交工程詐騙，包括網路釣魚訊息、假的支援電話和其他詐騙",
+      "publisher": "Apple 支援（台灣，2026-06-22）",
+      "url": "https://support.apple.com/zh-tw/102568",
+      "usedFor": "寄件人與公司名稱不符、連結 URL 與公司網站不符、要求個人資訊、無故寄來的附件；在 Mac 上把指標停在連結上查看 URL；輸入過密碼就立即更改並確認雙重認證；不分享密碼或驗證碼；不用禮物卡付款給他人"
+    },
+    {
+      "id": "gmail_phishing",
+      "title": "防範及檢舉網路釣魚電子郵件",
+      "publisher": "Gmail 說明（頁面註明可能含 AI 翻譯內容）",
+      "url": "https://support.google.com/mail/answer/8253?hl=zh-Hant",
+      "usedFor": "語氣急迫或許諾好處要留意；檢查地址與寄件者名稱是否相符；滑鼠懸停看網址；切勿回應索取私人資訊的要求；在電腦上回報為網路釣魚郵件"
+    },
+    {
+      "id": "ncsc_spot",
+      "title": "How to spot a scam email, text message or call",
+      "publisher": "UK National Cyber Security Centre（2021-11-26，2022-09-05 檢閱）",
+      "url": "https://www.ncsc.gov.uk/collection/phishing-scams/spot-scams",
+      "usedFor": "限時回應是警訊；詐騙越來越難分辨，錯字不再可靠；銀行不會用電子郵件要個人資料"
+    },
+    {
+      "id": "ncsc_shared",
+      "title": "Phishing scams: If you've shared sensitive information",
+      "publisher": "UK National Cyber Security Centre",
+      "url": "https://www.ncsc.gov.uk/collection/phishing-scams/what-to-do",
+      "usedFor": "教材：用同一組密碼的其他帳號也要改"
+    },
+    {
+      "id": "ms_outlook",
+      "title": "Outlook 中的網路釣魚和可疑行為",
+      "publisher": "Microsoft 支援（中文為機器翻譯，本課只取大意）",
+      "url": "https://support.microsoft.com/zh-TW/Outlook/mail/phishing-and-suspicious-behavior-in-outlook",
+      "usedFor": "寄件者地址可以被偽造；看到的地址可能和真正的寄件地址不同"
+    },
+    {
+      "id": "ey_165",
+      "title": "催繳水電費用是詐騙老梗 慎防「+號境外開頭簡訊」陷阱",
+      "publisher": "行政院新聞（民國 112 年 11 月 20 日）",
+      "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/752cb47e-7aab-478f-87da-2946b0ce3c5b",
+      "usedFor": "教材：可撥打 165 反詐騙專線或到 165 全民防騙網檢舉詐騙簡訊；切勿點擊連結，務必查證"
+    },
+    {
+      "id": "cisa_phishing",
+      "title": "Recognize and Report Phishing",
+      "publisher": "CISA（網頁無法直接下載，引文為擷取工具所得、未逐字確認）",
+      "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+      "usedFor": "僅作旁證：AI 讓釣魚信的文法與拼字變得完美；不要回覆"
+    }
+  ],
+  "notVerified": [
+    "cisa.gov 網頁無法直接下載；CISA 的引文未逐字確認，只作旁證",
+    "165 全民防騙網（165.npa.gov.tw）是 JavaScript 網站，讀不到內文；165 的說法取自行政院 2023 年新聞稿",
+    "TWCERT/CC、數位發展部、教育部：沒有找到適合一般民眾或兒童的釣魚辨識頁面",
+    "Gmail 的檢舉步驟只查到電腦版；手機版沒有查核"
+  ],
+  "youtubeSearchEntries": {
+    "status": "not selected, not watched",
+    "note": "課表的三組 YouTube 連結是動態搜尋入口，本次未挑選或觀看任何影片，也未在影片或教材中引用。"
+  }
+}

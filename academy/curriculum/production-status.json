@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T17:53:04+08:00",
+  "updatedAt": "2026-10-07T18:13:57+08:00",
   "lessons": [
     {
       "lessonId": "L001",
@@ -83,12 +83,12 @@
       "lessonId": "L008",
       "title": "釣魚郵件偵探社",
       "learningObjectives": "辨識急迫語氣、偽造寄件者、奇怪網址、附件與付款要求",
-      "productionStatus": "planned",
-      "publicationStatus": "not_uploaded",
+      "productionStatus": "verified",
+      "publicationStatus": "awaiting_user_upload",
       "publicationOwner": "user",
       "videoUrl": null,
-      "evidence": "none",
-      "episodePath": null
+      "evidence": "Produced 2026-10-07 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L008-v1 SHA-256 464d9880479843e7bf3ec1bfbc7c3eaa69a964fa47feb75dac74bec28584f064 delivered as 6 session attachments. See episodes/academy/l008-phishing-detectives/delivery.json and qc/manual-review.md.",
+      "episodePath": "episodes/academy/l008-phishing-detectives"
     },
     {
       "lessonId": "L009",

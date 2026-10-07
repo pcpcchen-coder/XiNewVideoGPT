@@ -6,7 +6,7 @@
 ## 1. 先核對目前狀態
 
 從最新 `main` 接手。先讀根目錄 CLAUDE.md、AGENTS.md、academy/AGENTS.md、series-policy.json、CLOUD_START_HERE.md。
-<!-- academy-status:sentence -->L004–L007 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；下一堂是 L008「釣魚郵件偵探社」，接手仍讀狀態表。<!-- /academy-status:sentence -->實作後的備註見第 7、8 節與各集 delivery.json。下方以 L004 為例的命令，換成實際課號與 slug 使用。
+<!-- academy-status:sentence -->L004–L008 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；下一堂是 L009「個資、照片與數位足跡」，接手仍讀狀態表。<!-- /academy-status:sentence -->實作後的備註見第 7、8 節與各集 delivery.json。下方以 L004 為例的命令，換成實際課號與 slug 使用。
 SP01 是番外篇，不佔課號。L003 已公開的最新紀錄以 publication 為準。
 不需要 ChatGPT Library 登入、不需要舊集大型母帶，也不需要 Google OAuth 就能製作新課。
 

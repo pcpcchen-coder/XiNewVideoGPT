@@ -1,0 +1,39 @@
+{
+  "folder": "classroom/L008_釣魚郵件偵探社",
+  "files": [
+    "00_爸爸先讀.md",
+    "01_活動規則_真假訊息卡偵探賽.md",
+    "02_列印包_釣魚偵探社.pdf",
+    "03_辦案紀錄.csv",
+    "03_辦案紀錄_填寫說明.md",
+    "04_訊息卡解說.md",
+    "05_自選規則卡.md",
+    "06_驗收與回顧.md",
+    "07_五面紅旗小抄.md"
+  ],
+  "fileCount": 9,
+  "utf8TextReadable": true,
+  "sheet": {
+    "file": "03_辦案紀錄.csv",
+    "rows": 10,
+    "columns": 10
+  },
+  "printPack": {
+    "file": "02_列印包_釣魚偵探社.pdf",
+    "pages": 5,
+    "allFontsEmbedded": true,
+    "renderedThisRun": true,
+    "source": "authoring/l008/print/print-pack.html"
+  },
+  "messageCards": {
+    "count": 8,
+    "phishing": 6,
+    "looksNormal": 2,
+    "fictional": true,
+    "domains": "reserved .example only",
+    "labelledOnEveryCard": true
+  },
+  "answersProvided": "suggested verdict, flags and safe action for the eight invented cards",
+  "privateData": "none",
+  "status": "PASS (structure); page-by-page visual review recorded separately"
+}

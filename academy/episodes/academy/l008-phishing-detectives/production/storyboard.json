@@ -1,0 +1,110 @@
+[
+  {
+    "slide": 1,
+    "title": "釣魚郵件偵探社",
+    "purpose": "開場：課前教學版揭露、什麼是網路釣魚、偵探任務與作品",
+    "visual": "封面版型：任務標籤、兩行主題、一句任務說明；原陳犀牛角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "準備訊息卡與紙筆；預告五面紅旗與海報",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 2,
+    "title": "偵探三步：停、看、查",
+    "purpose": "概念：偵探三步（停、看、查）",
+    "visual": "三步流程卡：停 → 看 → 查（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出今天要完成的作品",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 3,
+    "title": "釣魚訊息：假裝成你認識的人",
+    "purpose": "概念：釣魚訊息的來源、目的與為什麼有效",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說說看自己或家人收過哪些奇怪的訊息（不念出個資）",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 4,
+    "title": "五面紅旗：看到就要小心",
+    "purpose": "概念：五面紅旗總覽；找不到紅旗也要查證",
+    "visual": "紅旗卡面板四張＋黃字第五面紅旗（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "先猜哪一面紅旗最常見",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 5,
+    "title": "假寄件者：名字可以造假",
+    "purpose": "示範：顯示名稱可以造假，要看完整地址；地址也可能被偽造",
+    "visual": "雙框對照：顯示的名字 ≠ 完整的地址（保留網域範例）（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "在一張訊息卡上找出寄件者名字和地址",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 6,
+    "title": "怪網址：連結要去哪裡？",
+    "purpose": "示範：連結文字與真正網址可能不同；在 Mac 上停留指標查看",
+    "visual": "三張步驟卡：先不要按／看真正的網址／不一樣就停（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "在爸爸準備的安全範例上練習把指標停在連結上",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 7,
+    "title": "語氣、附件和要求",
+    "purpose": "概念：急迫語氣、可疑附件、索取金錢或密碼",
+    "visual": "路徑一行（很急→嚇你→要你馬上做）＋三張紅旗卡（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "找出一張訊息卡裡催人的字眼",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 8,
+    "title": "安全動作：不點、不開、不回",
+    "purpose": "示範：三個安全動作；已經點了要立刻告訴爸爸並改密碼",
+    "visual": "左側三步驟；右側「已經點了怎麼辦」（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "暫停影片：說出三個安全動作",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 9,
+    "title": "偵探辦案：真假訊息卡",
+    "purpose": "活動規則：八張真假訊息卡，圈紅旗並說出安全動作",
+    "visual": "左右比較卡（圈紅旗／說安全動作）＋黃字提醒（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "逐張辦案並記錄",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 10,
+    "title": "換你設計：釣魚訊息紅旗海報",
+    "purpose": "獨立改造與安全：紅旗海報、三個安全動作、自選偵探規則",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成海報；自訂一條規則並測試",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的釣魚偵探課",
+    "purpose": "120 分鐘安排：10／15／40／10／30／10／5",
+    "visual": "六列時間表與今日生活技能（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "依時間表進行；休息十分鐘",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：教爸爸抓釣魚",
+    "purpose": "作品驗收與回顧：當場辦一個案子，指出一個限制或安全注意；固定結尾",
+    "visual": "三點驗收條列＋陳犀牛＋結尾語（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "孩子教爸爸；錄音回答四個問題；作品命名存檔",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  }
+]

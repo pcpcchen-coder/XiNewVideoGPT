@@ -17,7 +17,7 @@
 | L005 | 搜尋高手：把大問題拆成好問題 | verified | awaiting_user_upload | — |
 | L006 | 真真假假：來源與證據偵探 | verified | awaiting_user_upload | — |
 | L007 | 密碼城堡與雙重驗證 | verified | awaiting_user_upload | — |
-| L008 | 釣魚郵件偵探社 | planned | not_uploaded | — |
+| L008 | 釣魚郵件偵探社 | verified | awaiting_user_upload | — |
 | L009 | 個資、照片與數位足跡 | planned | not_uploaded | — |
 | L010 | AI 是什麼、不是什麼 | planned | not_uploaded | — |
 | L011 | 第一個好提示詞：任務、背景、限制、格式 | planned | not_uploaded | — |

@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L008",
+  "episodePath": "episodes/academy/l008-phishing-detectives",
+  "version": "L008-v1",
+  "createdAt": "2026-10-07",
+  "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
+  "status": "verified",
+  "publicationStatus": "awaiting_user_upload",
+  "contentMode": "curriculum-based-preclass (no recording)",
+  "durationSeconds": 368.768,
+  "openingSeconds": 60.277,
+  "voice": "zh-TW-YunJheNeural",
+  "ttsEngine": "edge-tts 7.2.8",
+  "backgroundMusic": "none under teaching slides",
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "validation": {
+    "passed": 25,
+    "total": 25,
+    "integratedLufs": -17.1,
+    "sceneAudioMaxLagMs": 0.0,
+    "sceneAudioMinCorrelation": 0.98984,
+    "asrMinSimilarity": 0.73,
+    "asrMeanSimilarity": 0.961,
+    "asrMinSoundSimilarity": 0.882,
+    "asrMeanSoundSimilarity": 0.991,
+    "captionLineBreak": "kinsoku",
+    "reviewRecords": [
+      "qc/report.md",
+      "qc/manual-review.md",
+      "qc/slide-visual-review.md"
+    ],
+    "notDone": [
+      "human full listening review",
+      "PowerPoint/Keynote open test",
+      "macOS hands-on test",
+      "YouTube copyright check",
+      "human full listening review; PowerPoint/Keynote open test; macOS hands-on test; YouTube copyright check; card game not play-tested; no real phishing mail or report screens shown"
+    ]
+  },
+  "package": {
+    "filename": "L008-v1_父子科技學院_釣魚郵件偵探社_2026-10-07.zip",
+    "bytes": 164020545,
+    "sha256": "464d9880479843e7bf3ec1bfbc7c3eaa69a964fa47feb75dac74bec28584f064",
+    "contents": "whitelisted package folder L008-v1 with checksums.json (20 files)",
+    "internalChecksums": {
+      "UPLOAD_README.md": "a147697242efaf9b5a8f6daa3daa90c58cb631184846414e317bd38d485ba226",
+      "youtube-draft.json": "69ac7d8e331930a582b2ebfa0f4ebcd772639fd634d4d682f642141d1d7a0ba8",
+      "youtube-metadata.json": "980c29abd7c15d94bbc37288f8874c9b77ae4089c00e961896355019974471ad",
+      "manual-review.md": "35708127c269ba8b64c6972c5ac23cfe9b1f3ba72d8736fd1ca629ec02a2f44d",
+      "repo-guide.md": "1c762fc8ce55af30976dcc4876e52cf8249836ee661ec7bd957c1fecacb6f00c",
+      "sources.json": "b86a71f3029ee749e668cbb5bc94700e3e563e28545cbe682e56ed10eb039559",
+      "narration-only.mp3": "e364942d805b6984766704c881b03cd012ec3eb386f54b054825a1bb4e4c8c9e",
+      "report.json": "903664f42f69c6cef716766e06eceee65d5493581572681978e65252a08d2c8f",
+      "fact-check.md": "d0c7576dc47d797478ec7593e69c5289100e71cdcbf1b88b77e0e5fb0e3dd146",
+      "classroom.zip": "2b9bac847af0a82a5433c2d2c3293c56dab8658ce25ebc1f159283a150bd1a22",
+      "zh-TW.srt": "9e87c715e058678060f80195bd34ec29530b2210d701fb8ba5f36ef07465b908",
+      "l008-phishing-detectives.pptx": "5ca67370164ec67f4652b099c8e91d7434ba29a4fa79a6eff53f8b6a2d37362e",
+      "l008-phishing-detectives-zh-TW.mp4": "d12ecf4d8bc80274c6e08f4c17f324ecd7abd0b54ce0d17b788c22ba448e8f46",
+      "report.md": "d6c82294eba98fc17042695a92d87c7438320a791fa2825c95d4b64597948f88",
+      "youtube-description.txt": "b0d07f9918405a0d69594441dc9b7759fa98a2ba7735b2cdc9c95a03a4d8409d",
+      "l008-phishing-detectives-master.mp4": "b276af033ad51bc78cba8043a38d9724531c627fa99e90c6a2fd89509bf5a4d5",
+      "chapters.txt": "e481aa3c95d964935721255e48ddb4681e1c74e414e5fee70e1af5dad6cddb50",
+      "thumbnail.png": "0bfda450f7448aa7d3e4573d408e4c3ee4607a6a917521777ca3961dba90a332",
+      "narration-script.md": "51ab17675fcf220b39f22120884d9153cb6eb99a125aa2aba803d21b2630366f",
+      "START_HERE.md": "e05919f18bf35fff058b2b4ac98972cd2a31b1699ec7ff8b0a58f833af51e26c"
+    }
+  },
+  "largeFiles": [
+    {
+      "filename": "l008-phishing-detectives-zh-TW.mp4",
+      "bytes": 75102796,
+      "sha256": "d12ecf4d8bc80274c6e08f4c17f324ecd7abd0b54ce0d17b788c22ba448e8f46",
+      "role": "captioned video for upload (burned zh-TW subtitles)",
+      "inGit": false
+    },
+    {
+      "filename": "l008-phishing-detectives-master.mp4",
+      "bytes": 78279601,
+      "sha256": "b276af033ad51bc78cba8043a38d9724531c627fa99e90c6a2fd89509bf5a4d5",
+      "role": "master without burned subtitles",
+      "inGit": false
+    },
+    {
+      "filename": "narration-only.mp3",
+      "bytes": 7404525,
+      "sha256": "e364942d805b6984766704c881b03cd012ec3eb386f54b054825a1bb4e4c8c9e",
+      "role": "narration only, no opening",
+      "inGit": false
+    }
+  ],
+  "inGit": [
+    {
+      "filename": "l008-phishing-detectives.pptx",
+      "bytes": 2509481,
+      "sha256": "5ca67370164ec67f4652b099c8e91d7434ba29a4fa79a6eff53f8b6a2d37362e",
+      "path": "production/presentation/l008-phishing-detectives.pptx"
+    },
+    {
+      "filename": "zh-TW.srt",
+      "bytes": 5532,
+      "sha256": "9e87c715e058678060f80195bd34ec29530b2210d701fb8ba5f36ef07465b908",
+      "path": "subtitles/zh-TW.srt"
+    },
+    {
+      "filename": "thumbnail.png",
+      "bytes": 220101,
+      "sha256": "0bfda450f7448aa7d3e4573d408e4c3ee4607a6a917521777ca3961dba90a332",
+      "path": "output/thumbnail.png"
+    },
+    {
+      "filename": "classroom.zip",
+      "bytes": 447924,
+      "sha256": "2b9bac847af0a82a5433c2d2c3293c56dab8658ce25ebc1f159283a150bd1a22",
+      "path": "output/classroom.zip"
+    },
+    {
+      "filename": "contact-sheet.png",
+      "bytes": 999605,
+      "sha256": "7c476ba816a9b0c3f8aea7342a677bb9dfc7d0f8fc6bfb4f6e8f0cfb3ab9f279",
+      "path": "output/contact-sheet.png"
+    }
+  ],
+  "persistence": {
+    "location": "Attachments delivered in the Claude session that produced this lesson (private to the account owner)",
+    "session": "https://claude.ai/code/session_01GE2NEiPKZa5XzbFCCWKxiy",
+    "reason": "30 MiB per-file attachment limit; the package ZIP was split into 6 byte-exact parts",
+    "parts": [
+      {
+        "filename": "L008-v1_父子科技學院_釣魚郵件偵探社_2026-10-07.zip.part01",
+        "bytes": 29360128,
+        "sha256": "3fbb0a3e4cb38ec9bb1b40f88c13dd30c1a73c60d485f745e51ec465c440b131",
+        "conversationFileId": "f6897aa8-db31-40be-8d7e-c259122f9731"
+      },
+      {
+        "filename": "L008-v1_父子科技學院_釣魚郵件偵探社_2026-10-07.zip.part02",
+        "bytes": 29360128,
+        "sha256": "25ca1e77a6d423bbff9cbf8187c0228761333c71bb75b6b97f496373e14789fe",
+        "conversationFileId": "593ab79c-bd84-4c33-9804-04f70a92376f"
+      },
+      {
+        "filename": "L008-v1_父子科技學院_釣魚郵件偵探社_2026-10-07.zip.part03",
+        "bytes": 29360128,
+        "sha256": "676dd081230050cb3ca828a37396fd27c64c255a580a7ea503aa1b37bd4561fc",
+        "conversationFileId": "07b71a6d-ac53-4866-a5c4-0b546662fa53"
+      },
+      {
+        "filename": "L008-v1_父子科技學院_釣魚郵件偵探社_2026-10-07.zip.part04",
+        "bytes": 29360128,
+        "sha256": "f1f3a384c20c8a7b41d7ea6296df33b35c61a6118c381edb3363f0fb81e3b567",
+        "conversationFileId": "f3ffc6af-ea10-4a8a-a8ae-cd9e493476e7"
+      },
+      {
+        "filename": "L008-v1_父子科技學院_釣魚郵件偵探社_2026-10-07.zip.part05",
+        "bytes": 29360128,
+        "sha256": "4b2ce5d69a14ada8d3533df44e5651bede8648b6eaf00fc4a06bbbd20de77539",
+        "conversationFileId": "3eaea9fc-9eff-4d5d-b7fd-d15f1bcb84d2"
+      },
+      {
+        "filename": "L008-v1_父子科技學院_釣魚郵件偵探社_2026-10-07.zip.part06",
+        "bytes": 17219905,
+        "sha256": "9e2dde2914afdffc01a070fd208a8a4398a77ef234a06f5547ef159d2f5515f5",
+        "conversationFileId": "ab30fd83-f1c6-4e15-8adf-92c3111b202f"
+      }
+    ],
+    "restore": "cat \"L008-v1_父子科技學院_釣魚郵件偵探社_2026-10-07.zip\".part* > \"L008-v1_父子科技學院_釣魚郵件偵探社_2026-10-07.zip\" && shasum -a 256 \"L008-v1_父子科技學院_釣魚郵件偵探社_2026-10-07.zip\"",
+    "restoredZip": {
+      "filename": "L008-v1_父子科技學院_釣魚郵件偵探社_2026-10-07.zip",
+      "bytes": 164020545,
+      "sha256": "464d9880479843e7bf3ec1bfbc7c3eaa69a964fa47feb75dac74bec28584f064"
+    },
+    "restoreTested": "parts re-joined by pipeline/split_delivery.py in the producing session: SHA-256 equals the ZIP; ZIP integrity tested",
+    "notUsed": {
+      "gitHubRelease": "repository is public; a release would make the unpublished video public",
+      "googleDrive": "connector accepts only inline content; text records only, no large binaries",
+      "git": "large MP4/MP3 stay out of Git per .gitignore"
+    },
+    "ifAttachmentsUnavailable": "rebuild from Git: audio, slides, PPTX, SRT sources and the shared opening are tracked; run assemble → delivery → verify → package. A rebuild is a new version with new hashes."
+  },
+  "continuation": {
+    "state": "L008 complete through package; nothing pending except user playback/listening and manual YouTube upload",
+    "rebuildCommands": [
+      "cd academy && ./setup-portable.sh",
+      "EP=episodes/academy/l008-phishing-detectives",
+      "./portable-runtime.sh python pipeline/academy.py run media-check --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run assemble --episode \"$EP\"   # ~20 min on 2 cores; run in background",
+      "./portable-runtime.sh python pipeline/delivery.py --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run verify --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py package --episode \"$EP\" --output delivery/L008-v2"
+    ],
+    "doNotRerunWithoutReason": "run tts (re-synthesises all audio and invalidates timing, subtitles, video and QC)",
+    "authoring": [
+      "authoring/l008/classroom.py",
+      "authoring/l008/prepare_content.py"
+    ],
+    "sharedTools": [
+      "pipeline/qa/subtitle_precheck.py",
+      "pipeline/qa/deck_check.py",
+      "pipeline/qa/media_review.py",
+      "pipeline/qa/asr_review.py",
+      "pipeline/split_delivery.py",
+      "pipeline/record_delivery.py"
+    ],
+    "nextLesson": "L009 個資、照片與數位足跡 (in production in the same session; see its own delivery.json)"
+  },
+  "publication": {
+    "status": "awaiting_user_upload",
+    "publisher": "user",
+    "uploaded": false,
+    "videoUrl": null,
+    "uploadFile": "l008-phishing-detectives-zh-TW.mp4",
+    "note": "No login, upload or publication was attempted."
+  }
+}
