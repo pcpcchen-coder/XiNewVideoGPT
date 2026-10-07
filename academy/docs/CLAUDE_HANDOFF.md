@@ -6,7 +6,7 @@
 ## 1. 先核對目前狀態
 
 從最新 `main` 接手。先讀根目錄 CLAUDE.md、AGENTS.md、academy/AGENTS.md、series-policy.json、CLOUD_START_HERE.md。
-L004「網路到底是什麼：封包接力賽」是本次下一課。L005 是搜尋技巧、L006 是來源與證據。
+L004「網路到底是什麼：封包接力賽」已於 2026-10-07 依本指南完成並交付（見第 7 節與該集 delivery.json），不重製。下一課是 L005 搜尋技巧，其後 L006 是來源與證據。下方以 L004 為例的命令，換成實際課號與 slug 使用。
 SP01 是番外篇，不佔課號。L003 已公開的最新紀錄以 publication 為準。
 不需要 ChatGPT Library 登入、不需要舊集大型母帶，也不需要 Google OAuth 就能製作新課。
 
@@ -111,3 +111,16 @@ portable deck 保留原 PPTX 媒體與文字樣式、寫入本課 notes，LibreO
 
 HANDOFF.md 必須含：lessonId、episodePath、最後成功階段、當前 commit、已保存成品及 SHA-256、待辦／阻擋、下條可執行命令、是否需要重驗。不要記 token／cookie。
 參考 [可直接貼入的批次指令](CLAUDE_BATCH_PROMPT.md)。
+
+## 7. L004 實作後的環境備註（2026-10-07）
+
+以下是第一次用本指南完整做完一集時實際遇到的事，下一集可直接避開。
+
+- **Edge TTS 與代理：** 有些雲端環境的對外連線必須走 HTTPS 代理，而 aiohttp 預設不讀 `HTTPS_PROXY`。`synthesize_narration.py` 現在會把 `XINEW_TTS_PROXY`／`HTTPS_PROXY` 明確交給 edge-tts；沒有代理的環境行為不變。
+  代理對 `speech.platform.bing.com` 偶爾回 403，腳本每句最多試 4 次；整段失敗時先看代理狀態，確認是政策封鎖才停下來交接，不要繞過，也不要換聲線。
+- **組裝很久：** 2 核心機器上 assemble 約 25 分鐘，會超過一般命令的時間上限。請用 `nohup … &` 在背景跑並輪詢 log；被中斷就清掉暫存後重跑，不會留下半成品。
+- **課別專用程式放 `authoring/lxxx/`：** L004 的內容、教材、字幕預檢、影音量測與語音辨識腳本都在 `authoring/l004/`，可當寫法參考；**內容不可沿用**。
+  `subtitle_precheck.py` 可在 TTS 之前就用實際燒字樣式檢查 36 句字幕會不會遮到投影片。
+- **機器聽檢不是聽審：** `asr_review.py` 需要另外準備本機 faster-whisper 模型，照字幕時間切音逐條辨識，可證明每句都在、音畫對位正確；聲調與咬字仍要人聽。
+- **套版文字：** LibreOffice 在英數與中文之間會多加間距，英文字後面接全形標點特別鬆；時間表與標題盡量用國字數字、避免「英文＋全形冒號」。
+- **大型檔保存：** 本 repo 是公開的，影片不要放 GitHub Release。Claude 對話附件單檔上限 30 MiB，L004 把交付 ZIP 切成 6 段位元一致的分段檔，並在 delivery.json 記錄每段雜湊與還原命令。

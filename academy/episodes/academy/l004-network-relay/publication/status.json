@@ -1,0 +1,16 @@
+{
+  "lessonId": "L004",
+  "status": "awaiting_user_upload",
+  "publicationMode": "manual-user-upload",
+  "publisher": "user",
+  "videoUrl": null,
+  "targetTitle": "父子科技學院 L004｜網路到底是什麼：封包接力賽",
+  "videoFile": "l004-network-relay-zh-TW.mp4",
+  "videoSha256": "4c7e79396a6fe635e05d4058f0638157e5251b2f1e412d58f8ea55d34aacfddb",
+  "videoBytes": 78240692,
+  "deliveryVersion": "L004-v1",
+  "deliveryRecord": "delivery.json",
+  "authorizedToUpload": false,
+  "authorizedToPublish": false,
+  "note": "Produced and packaged 2026-10-07. Awaiting user playback and manual upload; no YouTube login, upload or publication attempted."
+}

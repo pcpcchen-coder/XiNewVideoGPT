@@ -36,6 +36,19 @@
 
 以上三檔沒有新增至 Git。精確原件保存在 `Academy_Cloud_Handoff_2026-09-27_L003.zip`；字幕 MP4 也單獨保存為 `l003-keyboard-ninja-zh-TW.mp4`。未建立公開 Release 下載網址，勿編造連結。
 
+## L004 大型輸出（L004-v1，2026-10-07）
+
+| 檔案 | Bytes | SHA-256 |
+|---|---:|---|
+| `l004-network-relay-zh-TW.mp4` | 78,240,692 | `4c7e79396a6fe635e05d4058f0638157e5251b2f1e412d58f8ea55d34aacfddb` |
+| `l004-network-relay-master.mp4` | 80,742,543 | `f8079597920871e54c02505e9c4a593e5beaf65d56b848271afd4bbe3620aba0` |
+| `narration-only.mp3` | 8,641,773 | `6e635b402a3e8ebba29188c31876250b1be34b0dc0e1129c405f54f99ec8fc67` |
+| `L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip`（完整交付包） | 166,314,066 | `c45306c0584192380e0cc148e557009653ecf166a7dfa1f254eb50f0ee480f8e` |
+
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中（單檔上限 30 MiB），各段雜湊、還原命令與包內 20 個檔案的雜湊見
+`episodes/academy/l004-network-relay/delivery.json`。本 repo 為公開，未建立 Release，勿編造下載連結。
+L004 的來源、PPTX、12 張 PNG、12 段 TTS 音檔、SRT、教材與 QC 都在 Git；附件無法取得時可依 delivery.json 的命令重新組裝，重建結果須作新版本並重新驗收。
+
 ## 新工作區取回 L003
 
 1. 在 ChatGPT Library 按完整檔名找 `Academy_Cloud_Handoff_2026-09-27_L003.zip`；由 Library 能力下載到工作區。一般本機使用者則下載本對話已交付的同名 ZIP。

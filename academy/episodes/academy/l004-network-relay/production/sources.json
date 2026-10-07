@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L004",
+  "checkedAt": "2026-10-07",
+  "method": "Agent (Claude) fetched each URL on the check date and extracted the cited passages; not a human full read. See fact-check.md for claim mapping and limits.",
+  "curriculum": "curriculum/catalog.json：L004；來源 V2 Excel 逐堂課程第 4 堂",
+  "sources": [
+    {"id": "rfc791", "title": "RFC 791 — Internet Protocol", "publisher": "IETF / RFC Editor", "url": "https://www.rfc-editor.org/rfc/rfc791", "usedFor": "資料以 datagram 傳送；來源與目的地位址；每個 datagram 獨立；無確認、無重送；位址表示「在哪裡」"},
+    {"id": "rfc1122", "title": "RFC 1122 — Requirements for Internet Hosts: Communication Layers", "publisher": "IETF / RFC Editor", "url": "https://www.rfc-editor.org/rfc/rfc1122", "usedFor": "網際網路是網路的網路；路由器互連網路；IP 不保證送達，可能損壞、重複、亂序或未到達；TCP 與 UDP 的差別"},
+    {"id": "rfc1812", "title": "RFC 1812 — Requirements for IP Version 4 Routers", "publisher": "IETF / RFC Editor", "url": "https://www.rfc-editor.org/rfc/rfc1812", "usedFor": "路由器查看 IP 標頭並選擇下一站"},
+    {"id": "rfc9293", "title": "RFC 9293 — Transmission Control Protocol (TCP)", "publisher": "IETF / RFC Editor", "url": "https://www.rfc-editor.org/rfc/rfc9293", "usedFor": "資料分段；序號；重送；可靠且有順序"},
+    {"id": "rfc768", "title": "RFC 768 — User Datagram Protocol", "publisher": "IETF / RFC Editor", "url": "https://www.rfc-editor.org/rfc/rfc768", "usedFor": "有些傳送規則不保證送達、不負責重送"},
+    {"id": "rfc1034", "title": "RFC 1034 — Domain Names: Concepts and Facilities", "publisher": "IETF / RFC Editor", "url": "https://www.rfc-editor.org/rfc/rfc1034", "usedFor": "DNS 的名稱伺服器、解析器、位址紀錄與快取"},
+    {"id": "rfc9110", "title": "RFC 9110 — HTTP Semantics", "publisher": "IETF / RFC Editor", "url": "https://www.rfc-editor.org/rfc/rfc9110", "usedFor": "用戶端送出要求、伺服器回應"},
+    {"id": "rfc6761", "title": "RFC 6761 — Special-Use Domain Names", "publisher": "IETF / RFC Editor", "url": "https://www.rfc-editor.org/rfc/rfc6761", "usedFor": "example.com、example.net 等名稱保留給文件使用"},
+    {"id": "rfc5737", "title": "RFC 5737 — IPv4 Address Blocks Reserved for Documentation", "publisher": "IETF / RFC Editor", "url": "https://www.rfc-editor.org/rfc/rfc5737", "usedFor": "192.0.2.0/24、198.51.100.0/24、203.0.113.0/24 保留給文件使用"},
+    {"id": "rfc1918", "title": "RFC 1918 — Address Allocation for Private Internets", "publisher": "IETF / RFC Editor", "url": "https://www.rfc-editor.org/rfc/rfc1918", "usedFor": "教材（爸爸先讀）提到的家用私人位址；影片旁白未使用"},
+    {"id": "icann_dns", "title": "The Domain Name System", "publisher": "ICANN", "url": "https://www.icann.org/resources/pages/dns-2022-09-13-en", "usedFor": "DNS 像網際網路的通訊錄；裝置用 DNS 由名稱查出 IP 位址"},
+    {"id": "apple_wifi", "title": "Mac 上的 Wi-Fi 設定", "publisher": "Apple 支援（台灣）", "url": "https://support.apple.com/zh-tw/guide/mac-help/mh11935/mac", "usedFor": "系統設定 → Wi-Fi →「詳細資訊」可檢視 IP 位址與路由器位址"},
+    {"id": "apple_dns", "title": "在 Mac 上輸入 DNS 和搜尋網域設定", "publisher": "Apple 支援（台灣）", "url": "https://support.apple.com/zh-tw/guide/mac-help/mh141272/mac", "usedFor": "DNS 伺服器把網域名稱對應到 IP 位址"},
+    {"id": "apple_dhcp", "title": "在 Mac 上使用 DHCP 或手動 IP 位址", "publisher": "Apple 支援（台灣）", "url": "https://support.apple.com/zh-tw/guide/mac-help/mchlp2718/mac", "usedFor": "IP 位址用來識別網路上的電腦，通常由 DHCP 指定"},
+    {"id": "ftc_wifi", "title": "How To Secure Your Home Wi-Fi Network", "publisher": "U.S. Federal Trade Commission — Consumer Advice", "url": "https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network", "usedFor": "家用 Wi-Fi 與路由器的安全建議；本課的 Wi-Fi 密碼不公開提醒"},
+    {"id": "ftc_portal", "title": "Online Privacy and Security", "publisher": "U.S. Federal Trade Commission — Consumer Advice", "url": "https://consumer.ftc.gov/identity-theft-and-online-security/online-privacy-and-security", "usedFor": "課表 R23 主要參考網址；入口頁，連到上列 Wi-Fi 文章"}
+  ],
+  "youtubeSearchEntries": {
+    "status": "not selected, not watched",
+    "note": "課表的三組 YouTube 連結是動態搜尋入口，本次未挑選或觀看任何影片，也未在影片或教材中引用。"
+  }
+}

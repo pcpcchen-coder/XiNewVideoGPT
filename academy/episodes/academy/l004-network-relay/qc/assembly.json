@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-10-07T02:35:02.384983+00:00",
+  "version": "opening v2 (native 1080p30) + static scenes, narration only",
+  "scenes": 12,
+  "opening": {
+    "file": "/home/claude/xinewvideogpt/academy/assets/opening/開場影片-v2.mp4",
+    "seconds": 60.277,
+    "note": "User-supplied opening v2; duration measured during this build"
+  },
+  "backgroundMusic": "none — narration only under slides",
+  "animated": "/tmp/xinew-assemble-bhfpj2_e/animated.mp4",
+  "master": "/home/claude/xinewvideogpt/academy/episodes/academy/l004-network-relay/output/l004-network-relay-master.mp4",
+  "zh": "/home/claude/xinewvideogpt/academy/episodes/academy/l004-network-relay/output/l004-network-relay-zh-TW.mp4",
+  "masterDuration": 420.309,
+  "loudnessNormalization": "measured constant gain; source waveform and peak headroom preserved"
+}

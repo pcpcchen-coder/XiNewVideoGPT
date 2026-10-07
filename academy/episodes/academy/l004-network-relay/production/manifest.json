@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "editorialStatus": "authored",
+  "recordingSource": null,
+  "slideCount": 12,
+  "transitionSeconds": 0.55,
+  "deckRenderer": "ooxml-template",
+  "templateEpisode": "episodes/academy/l001-mac-workstation",
+  "templateProvenance": "Original PPTX absent from v2 ZIP; restored from supplied build_l001.mjs and original assets.",
+  "layoutProfile": "academy-native-v1",
+  "seriesHeader": "父子科技學院  ·  PACKET RELAY",
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "zh-TW-YunJheNeural",
+    "persona": "陳犀牛 Chen XiNew",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "music": {
+    "backgroundMusic": "none — narration only under teaching slides",
+    "opening": "assets/opening/開場影片-v2.mp4"
+  },
+  "signoff": {
+    "text": "我是陳犀牛，保持好奇，我們下次見！"
+  },
+  "contentMode": "curriculum-based-preclass",
+  "publicationMode": "manual-user-upload",
+  "autoPublish": false,
+  "episode": "L004",
+  "slug": "l004-network-relay",
+  "title": "網路到底是什麼：封包接力賽",
+  "subtitle": "父子科技學院 第四堂｜依課表製作的課前教學版",
+  "lessonIds": [
+    "L004"
+  ],
+  "sources": {
+    "curriculum": "curriculum/catalog.json：L004；來源 V2 Excel 逐堂課程第 4 堂",
+    "rfc1122": "https://www.rfc-editor.org/rfc/rfc1122",
+    "rfc791": "https://www.rfc-editor.org/rfc/rfc791",
+    "rfc1812": "https://www.rfc-editor.org/rfc/rfc1812",
+    "rfc9293": "https://www.rfc-editor.org/rfc/rfc9293",
+    "rfc768": "https://www.rfc-editor.org/rfc/rfc768",
+    "rfc1034": "https://www.rfc-editor.org/rfc/rfc1034",
+    "rfc9110": "https://www.rfc-editor.org/rfc/rfc9110",
+    "rfc6761": "https://www.rfc-editor.org/rfc/rfc6761",
+    "rfc5737": "https://www.rfc-editor.org/rfc/rfc5737",
+    "icann_dns": "https://www.icann.org/resources/pages/dns-2022-09-13-en",
+    "apple_wifi": "https://support.apple.com/zh-tw/guide/mac-help/mh11935/mac",
+    "apple_dns": "https://support.apple.com/zh-tw/guide/mac-help/mh141272/mac",
+    "apple_dhcp": "https://support.apple.com/zh-tw/guide/mac-help/mchlp2718/mac",
+    "ftc_wifi": "https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network"
+  },
+  "factCheck": {
+    "checkedAt": "2026-10-07",
+    "record": "production/fact-check.md",
+    "sources": "production/sources.json"
+  },
+  "authorization": {
+    "produceL004": true,
+    "ttsConsent": {
+      "grantedBy": "user",
+      "grantedAt": "2026-10-07",
+      "service": "Microsoft Edge TTS",
+      "voice": "zh-TW-YunJheNeural",
+      "scope": "L004 public narration script only",
+      "excluded": "private recordings or any other private data"
+    },
+    "paidLlmApi": false,
+    "uploadToYouTube": false,
+    "publish": false
+  }
+}

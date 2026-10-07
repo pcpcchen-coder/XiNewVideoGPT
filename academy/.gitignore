@@ -21,3 +21,5 @@ client_secret*.json
 /assets/opening/.restore-*/
 # Portable readiness logs are reproducible intermediates.
 .build-*.log
+# Pre-TTS caption sample frames are reproducible; the JSON result is tracked.
+**/qc/subtitle-precheck/

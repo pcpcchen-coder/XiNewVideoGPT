@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T21:20:17+08:00",
+  "updatedAt": "2026-10-07T10:50:00+08:00",
   "lessons": [
     {
       "lessonId": "L001",
@@ -39,12 +39,12 @@
       "lessonId": "L004",
       "title": "網路到底是什麼：封包接力賽",
       "learningObjectives": "用生活比喻理解裝置、路由器、IP、DNS、伺服器與封包",
-      "productionStatus": "planned",
-      "publicationStatus": "not_uploaded",
+      "productionStatus": "verified",
+      "publicationStatus": "awaiting_user_upload",
       "publicationOwner": "user",
       "videoUrl": null,
-      "evidence": "none",
-      "episodePath": null
+      "evidence": "Produced 2026-10-07 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L004-v1 SHA-256 c45306c0584192380e0cc148e557009653ecf166a7dfa1f254eb50f0ee480f8e delivered as 6 session attachments. See episodes/academy/l004-network-relay/delivery.json and qc/manual-review.md.",
+      "episodePath": "episodes/academy/l004-network-relay"
     },
     {
       "lessonId": "L005",

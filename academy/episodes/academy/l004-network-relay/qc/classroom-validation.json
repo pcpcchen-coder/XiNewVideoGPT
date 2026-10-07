@@ -1,0 +1,34 @@
+{
+  "folder": "classroom/L004_封包接力賽",
+  "files": [
+    "00_爸爸先讀.md",
+    "01_活動規則_三個案件.md",
+    "02_列印包_封包接力賽.pdf",
+    "03_偵探筆記.csv",
+    "03_偵探筆記_填寫說明.md",
+    "04_家庭網路手繪圖_畫法與檢查表.md",
+    "05_自選規則卡.md",
+    "06_驗收與回顧.md",
+    "07_六個名詞小抄.md"
+  ],
+  "fileCount": 9,
+  "utf8TextReadable": true,
+  "detectiveNotesRows": 5,
+  "detectiveNotesColumns": 9,
+  "printPack": {
+    "file": "02_列印包_封包接力賽.pdf",
+    "pages": 6,
+    "allFontsEmbedded": true,
+    "renderedThisRun": true,
+    "source": "authoring/l004/print/print-pack.html"
+  },
+  "exampleValuesAreDocumentationReserved": [
+    "198.51.100.7",
+    "192.0.2.1",
+    "203.0.113.9",
+    "pictures.example.com",
+    "games.example.net"
+  ],
+  "privateData": "none",
+  "status": "PASS (structure); page-by-page visual review recorded separately"
+}

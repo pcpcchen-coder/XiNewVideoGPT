@@ -1,0 +1,110 @@
+[
+  {
+    "slide": 1,
+    "title": "網路到底是什麼：封包接力賽",
+    "purpose": "開場：課前教學版揭露、今日案件與作品",
+    "visual": "封面版型：任務標籤、兩行主題、一句任務說明；原陳犀牛角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "準備紙筆，預告信封、地址卡、路由站與家庭網路圖",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 2,
+    "title": "案件：一張圖片怎麼送到？",
+    "purpose": "概念：網際網路是互連的網路；資料以封包一站一站轉送",
+    "visual": "三步流程卡：我的裝置 → 路由器 → 伺服器（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "邊看邊記下三個角色各做了什麼",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 3,
+    "title": "IP 位址：封包要送到哪裡",
+    "purpose": "概念：IP 位址標示來源與目的地；路由器只看目的地決定下一站",
+    "visual": "三點條列＋陳犀牛：位址、兩個位址、路由器看目的地（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出「地址」比喻哪裡不像真實門牌",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 4,
+    "title": "接力賽的四個角色",
+    "purpose": "例子：四個角色的職責（裝置、路由器、DNS、伺服器）",
+    "visual": "角色卡面板：四張卡，各一句職責（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "先口頭說出每個角色的工作，再分配扮演",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 5,
+    "title": "DNS 通訊錄：用名稱查出位址",
+    "purpose": "示範：DNS 用名稱查位址；範例名稱與位址是文件保留值",
+    "visual": "雙框流程：網域名稱（範例）→ IP 位址（範例）（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "指出 DNS 做什麼、不做什麼",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 6,
+    "title": "封包：切開、標記、重組",
+    "purpose": "示範：封包的切開、標記、重組",
+    "visual": "三張步驟卡：切開／標記／重組（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "回答：沒有編號會發生什麼事",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 7,
+    "title": "封包接力賽：道具與賽道",
+    "purpose": "活動規則：道具與賽道，比喻對照（信封＝封包等）",
+    "visual": "賽道路徑一行＋三張道具對照卡（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "暫停影片：排好四個點、放好轉送表",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 8,
+    "title": "第一案：把圖片完整送到",
+    "purpose": "共同實作：第一案正常送達（查位址、送要求、分片送回、重組、確認）",
+    "visual": "左側三步驟口訣；右側信封標示範例（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "暫停影片：六片拼好並回傳確認卡",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 9,
+    "title": "第二、三案：亂序與遺失",
+    "purpose": "錯誤修正與比較：亂序靠編號排回；遺失靠確認與重送；不是所有規則都重送",
+    "visual": "左右比較卡：第二案亂序／第三案遺失（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "找證據：到達順序、缺少的編號；決定修正方法",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 10,
+    "title": "換你設計：新規則＋家庭網路圖",
+    "purpose": "獨立改造：自選一條新規則並測試；完成家庭網路手繪圖",
+    "visual": "三點條列＋陳犀牛：新規則、預測測試、手繪圖線索（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "寫偵探筆記；畫手繪圖，不寫密碼與住址",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的網路偵探課",
+    "purpose": "120 分鐘安排：10／15／40／10／30／10／5",
+    "visual": "六列時間表與今日生活技能（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "依時間表進行；休息十分鐘",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：換你當老師",
+    "purpose": "作品驗收與回顧：不看稿說出旅程，指出一個限制或安全注意；固定結尾",
+    "visual": "三點驗收條列＋陳犀牛＋結尾語（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "孩子教爸爸；錄音回答四個問題；作品命名存檔",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  }
+]

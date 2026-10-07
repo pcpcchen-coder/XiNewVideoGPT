@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L004",
+  "episodePath": "episodes/academy/l004-network-relay",
+  "version": "L004-v1",
+  "createdAt": "2026-10-07",
+  "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
+  "status": "verified",
+  "publicationStatus": "awaiting_user_upload",
+  "contentMode": "curriculum-based-preclass (no recording)",
+  "durationSeconds": 420.309,
+  "openingSeconds": 60.277,
+  "voice": "zh-TW-YunJheNeural",
+  "ttsEngine": "edge-tts 7.2.8",
+  "backgroundMusic": "none under teaching slides",
+  "validation": {
+    "passed": 25,
+    "total": 25,
+    "integratedLufs": -17.3,
+    "sceneAudioMaxLagMs": 0.0,
+    "sceneAudioMinCorrelation": 0.994136,
+    "asrMinSimilarity": 0.817,
+    "asrMeanSimilarity": 0.956,
+    "reviewRecords": [
+      "qc/report.md",
+      "qc/manual-review.md",
+      "qc/slide-visual-review.md"
+    ],
+    "notDone": [
+      "human full listening review",
+      "PowerPoint/Keynote open test",
+      "macOS hands-on test",
+      "YouTube copyright check"
+    ]
+  },
+  "package": {
+    "filename": "L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip",
+    "bytes": 166314066,
+    "sha256": "c45306c0584192380e0cc148e557009653ecf166a7dfa1f254eb50f0ee480f8e",
+    "contents": "whitelisted package folder L004-v1 with checksums.json (20 files)",
+    "internalChecksums": {
+      "UPLOAD_README.md": "ff583e7e2eb504831fcd11c29269e626beb505d151de89193675c023f1195a57",
+      "youtube-draft.json": "0d62be75ff306371ee70af38c350a3e645193b28da49290c222dea4e736eb1b3",
+      "youtube-metadata.json": "62d207863c76ffbe6deee6ed54db0f49bf025f940f3e9743ea6a878598df80eb",
+      "manual-review.md": "90d09863d4fb3b9fd7250d045d0e9f33ad5c8cc19de8d3400e3931564163caad",
+      "l004-network-relay-master.mp4": "f8079597920871e54c02505e9c4a593e5beaf65d56b848271afd4bbe3620aba0",
+      "repo-guide.md": "b5f7888c0fa27aedc8ff5500c7cc01f25e13c43653201e577ca8106f38bcf19c",
+      "l004-network-relay-zh-TW.mp4": "4c7e79396a6fe635e05d4058f0638157e5251b2f1e412d58f8ea55d34aacfddb",
+      "sources.json": "cdff9828252b939746a25241b284811ff738c06c9506aa869df187c408e70bc8",
+      "narration-only.mp3": "6e635b402a3e8ebba29188c31876250b1be34b0dc0e1129c405f54f99ec8fc67",
+      "report.json": "7562bbb90441a81f74d19ae54b073cc5e2312c1ed29d2f00f8475b7df5d7b034",
+      "fact-check.md": "08a0399355f3c51443de5e292f5cf6d75313dd10c37723623d3792d9034f4a0d",
+      "classroom.zip": "0212a90bc95bd80aeccf7df890595996aacc6efdf8dae10b5c2ced4cdde1290d",
+      "zh-TW.srt": "600f7855d3b4a2947915194a0f9dc1e9fc9787f7ddb9c8aa918d5082755c41b8",
+      "report.md": "e008ec238d282e4b6ec9a3a9c084b97b2f43c208fed0461a86ff0dac1f763412",
+      "youtube-description.txt": "82837f5ae00504a42e033d768eb40812e7dcc3876121a076ba01eb648c642629",
+      "l004-network-relay.pptx": "95653c890bccee9093dda33b38317750e70fdf4feecbad7fb6d3c1b8a829807a",
+      "chapters.txt": "4858ba82dba5dcd59e5d55a1e4898bb3f6f0f04cac873b4e002aac4293d0877a",
+      "thumbnail.png": "17610c15e7eb4a2d89c03eef9565edb41a9544991942f2776e564248e2007016",
+      "narration-script.md": "a8d1b2bf3673aedb6fe15ba52108d6a08e29117ad61a227d4f98c895fdbfc896",
+      "START_HERE.md": "b6172389c0719eea9952e5d9cec00706928215a658569ee236f45469fa842cf2"
+    }
+  },
+  "largeFiles": [
+    {
+      "filename": "l004-network-relay-zh-TW.mp4",
+      "bytes": 78240692,
+      "sha256": "4c7e79396a6fe635e05d4058f0638157e5251b2f1e412d58f8ea55d34aacfddb",
+      "role": "captioned video for upload (burned zh-TW subtitles)",
+      "inGit": false
+    },
+    {
+      "filename": "l004-network-relay-master.mp4",
+      "bytes": 80742543,
+      "sha256": "f8079597920871e54c02505e9c4a593e5beaf65d56b848271afd4bbe3620aba0",
+      "role": "master without burned subtitles",
+      "inGit": false
+    },
+    {
+      "filename": "narration-only.mp3",
+      "bytes": 8641773,
+      "sha256": "6e635b402a3e8ebba29188c31876250b1be34b0dc0e1129c405f54f99ec8fc67",
+      "role": "narration only, no opening",
+      "inGit": false
+    }
+  ],
+  "inGit": [
+    {
+      "filename": "l004-network-relay.pptx",
+      "bytes": 2510415,
+      "sha256": "95653c890bccee9093dda33b38317750e70fdf4feecbad7fb6d3c1b8a829807a",
+      "path": "production/presentation/l004-network-relay.pptx"
+    },
+    {
+      "filename": "zh-TW.srt",
+      "bytes": 6630,
+      "sha256": "600f7855d3b4a2947915194a0f9dc1e9fc9787f7ddb9c8aa918d5082755c41b8",
+      "path": "subtitles/zh-TW.srt"
+    },
+    {
+      "filename": "thumbnail.png",
+      "bytes": 224361,
+      "sha256": "17610c15e7eb4a2d89c03eef9565edb41a9544991942f2776e564248e2007016",
+      "path": "output/thumbnail.png"
+    },
+    {
+      "filename": "classroom.zip",
+      "bytes": 427368,
+      "sha256": "0212a90bc95bd80aeccf7df890595996aacc6efdf8dae10b5c2ced4cdde1290d",
+      "path": "output/classroom.zip"
+    },
+    {
+      "filename": "contact-sheet.png",
+      "bytes": 1007522,
+      "sha256": "e50688dc3705fd76eed3e19a40e134415865dee457bd6e9c7b4156b85ceeeb26",
+      "path": "output/contact-sheet.png"
+    }
+  ],
+  "persistence": {
+    "location": "Attachments delivered in the Claude session that produced this lesson (private to the account owner)",
+    "session": "https://claude.ai/code/session_01GE2NEiPKZa5XzbFCCWKxiy",
+    "reason": "30 MiB per-file attachment limit; the package ZIP was split into 6 byte-exact parts",
+    "parts": [
+      {
+        "filename": "L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip.part01",
+        "bytes": 29360128,
+        "sha256": "218bc76506f9db1aae4fb53ede6656878d98d25724555872e8862e3eef2d4459",
+        "conversationFileId": "3ed336d4-74a0-4f5e-8423-6f319038414f"
+      },
+      {
+        "filename": "L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip.part02",
+        "bytes": 29360128,
+        "sha256": "7851441d1a54ce07c8520bd89cd6b9bfaaf6bdde74900679b8a7e5a98e6b7500",
+        "conversationFileId": "f9283e55-2d6f-473c-a4fe-ecfa65375fad"
+      },
+      {
+        "filename": "L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip.part03",
+        "bytes": 29360128,
+        "sha256": "5efaa9620f582d9dbaee7513cb4d455e78c25d4e0a80e450ff3bc66415790abc",
+        "conversationFileId": "1448ce35-6039-44bd-a045-a851c835f0ca"
+      },
+      {
+        "filename": "L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip.part04",
+        "bytes": 29360128,
+        "sha256": "df6a753773a948be4f59db2d2aaf888e9f7b3ec0553e35d7d7b1f78925c7a682",
+        "conversationFileId": "bddeab49-ed0a-41b1-87a6-9c64d355232b"
+      },
+      {
+        "filename": "L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip.part05",
+        "bytes": 29360128,
+        "sha256": "9c899b78087e1105cd8eccfaf53d34300650f353a16f032dc7539f93b075862f",
+        "conversationFileId": "fd485dfe-f78a-456a-94df-f716abccf6a2"
+      },
+      {
+        "filename": "L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip.part06",
+        "bytes": 19513426,
+        "sha256": "63ccddfc328ea958bd20b1ade82357350e136f2145795078ba0873096839104f",
+        "conversationFileId": "efea3832-4072-49a5-a07b-a2a8184ec903"
+      }
+    ],
+    "restore": "cat \"L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip\".part0* > \"L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip\" && shasum -a 256 \"L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip\"",
+    "restoredZip": {
+      "filename": "L004-v1_父子科技學院_網路到底是什麼_封包接力賽_2026-10-07.zip",
+      "bytes": 166314066,
+      "sha256": "c45306c0584192380e0cc148e557009653ecf166a7dfa1f254eb50f0ee480f8e"
+    },
+    "restoreTested": "parts re-joined in a clean folder in the producing session: size, SHA-256 and unzip -t all matched",
+    "notUsed": {
+      "gitHubRelease": "repository is public; a release would make the unpublished video public",
+      "googleDrive": "connector accepts only inline content; not usable for 75–160 MB binaries",
+      "git": "large MP4/MP3 stay out of Git per .gitignore"
+    },
+    "ifAttachmentsUnavailable": "rebuild from Git: audio, slides, PPTX, SRT sources and the shared opening are tracked; run assemble → delivery → verify → package. A rebuild is a new version with new hashes."
+  },
+  "continuation": {
+    "state": "L004 complete through package; nothing pending except user playback/listening and manual YouTube upload",
+    "rebuildCommands": [
+      "cd academy && ./setup-portable.sh",
+      "EP=episodes/academy/l004-network-relay",
+      "./portable-runtime.sh python pipeline/academy.py run media-check --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run assemble --episode \"$EP\"   # ~25 min on 2 cores; run in background",
+      "./portable-runtime.sh python pipeline/delivery.py --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run verify --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py package --episode \"$EP\" --output delivery/L004-v2"
+    ],
+    "doNotRerunWithoutReason": "run tts (re-synthesises all audio and invalidates timing, subtitles, video and QC)",
+    "authoring": [
+      "authoring/l004/prepare_content.py",
+      "authoring/l004/classroom.py",
+      "authoring/l004/subtitle_precheck.py",
+      "authoring/l004/media_review.py",
+      "authoring/l004/asr_review.py"
+    ],
+    "nextLesson": "L005 搜尋高手：把大問題拆成好問題 (not started; only on user request)"
+  },
+  "publication": {
+    "status": "awaiting_user_upload",
+    "publisher": "user",
+    "uploaded": false,
+    "videoUrl": null,
+    "uploadFile": "l004-network-relay-zh-TW.mp4",
+    "note": "No login, upload or publication was attempted."
+  }
+}

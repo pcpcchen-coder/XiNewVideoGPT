@@ -16,6 +16,9 @@ import ssl
 _ca_bundle = os.environ.get("XINEW_CA_BUNDLE") or ssl.get_default_verify_paths().cafile
 if _ca_bundle:
     edge_tts.communicate._SSL_CTX.load_verify_locations(_ca_bundle)
+# aiohttp ignores HTTPS_PROXY unless told; pass the environment's proxy explicitly.
+# A proxy that denies speech.platform.bing.com (403) is a policy block: report it, do not route around it.
+_PROXY = os.environ.get("XINEW_TTS_PROXY") or os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy") or None
 import hashlib
 import argparse
 import tempfile
@@ -59,7 +62,7 @@ def srt_time(seconds: float) -> str:
 def synthesize(text: str, out: Path) -> None:
     for attempt in range(1, 5):
         try:
-            asyncio.run(edge_tts.Communicate(text, VOICE).save(str(out)))
+            asyncio.run(edge_tts.Communicate(text, VOICE, proxy=_PROXY).save(str(out)))
             if out.exists() and out.stat().st_size > 2000:
                 return
         except Exception:
