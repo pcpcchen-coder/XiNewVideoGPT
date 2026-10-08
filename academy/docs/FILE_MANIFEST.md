@@ -125,6 +125,17 @@
 
 以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l011-first-good-prompt/delivery.json`。
 
+## L012 大型輸出（L012-v1，2026-10-08）
+
+| 檔案 | Bytes | SHA-256 |
+|---|---:|---|
+| `l012-ai-hallucination-zh-TW.mp4` | 74,646,430 | `dfb1d8ca40b96038cebf2ed974eb9fdba410db2d3880f59f32db27424354a3fe` |
+| `l012-ai-hallucination-master.mp4` | 78,071,449 | `d918bbbaad0ce57cfd341c684af7a894c7e504c59b053015f13e98a67deb3f5c` |
+| `narration-only.mp3` | 7,450,605 | `d73ccb9f93144e4352a0de252147cc6d8dc98d3679a3c110a8fb3932b3f3b8cc` |
+| `L012-v1_父子科技學院_AI會亂講_幻覺抓錯賽_2026-10-08.zip`（完整交付包） | 163,355,048 | `58d6f53f4b13a913faad431cee805051ede0e4a81aab78e3e95f964e1b35009e` |
+
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l012-ai-hallucination/delivery.json`。
+
 本 repo 為公開，未建立 Release，勿編造下載連結。附件無法取得時可依各課 delivery.json 的命令重新組裝，重建結果須作新版本並重新驗收。
 <!-- /academy-status:large-files -->
 

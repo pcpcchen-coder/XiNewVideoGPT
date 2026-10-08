@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L012",
+  "episodePath": "episodes/academy/l012-ai-hallucination",
+  "version": "L012-v1",
+  "createdAt": "2026-10-08",
+  "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
+  "status": "verified",
+  "publicationStatus": "awaiting_user_upload",
+  "contentMode": "curriculum-based-preclass (no recording)",
+  "durationSeconds": 370.688,
+  "openingSeconds": 60.277,
+  "voice": "zh-TW-YunJheNeural",
+  "ttsEngine": "edge-tts 7.2.8",
+  "backgroundMusic": "none under teaching slides",
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "validation": {
+    "passed": 25,
+    "total": 25,
+    "integratedLufs": -17.1,
+    "sceneAudioMaxLagMs": 0.0,
+    "sceneAudioMinCorrelation": 0.988114,
+    "asrMinSimilarity": 0.874,
+    "asrMeanSimilarity": 0.962,
+    "asrMinSoundSimilarity": 0.92,
+    "asrMeanSoundSimilarity": 0.991,
+    "captionLineBreak": "kinsoku",
+    "reviewRecords": [
+      "qc/report.md",
+      "qc/manual-review.md",
+      "qc/slide-visual-review.md"
+    ],
+    "notDone": [
+      "human full listening review",
+      "PowerPoint/Keynote open test",
+      "macOS hands-on test",
+      "YouTube copyright check",
+      "真人整段聽審；以 PowerPoint 或 Keynote 開啟 PPTX；實機操作任何 AI 工具；實際帶孩子試玩；YouTube 版權檢查與上傳"
+    ]
+  },
+  "package": {
+    "filename": "L012-v1_父子科技學院_AI會亂講_幻覺抓錯賽_2026-10-08.zip",
+    "bytes": 163355048,
+    "sha256": "58d6f53f4b13a913faad431cee805051ede0e4a81aab78e3e95f964e1b35009e",
+    "contents": "whitelisted package folder L012-v1 with checksums.json (20 files)",
+    "internalChecksums": {
+      "UPLOAD_README.md": "22a9a4d209ad0ea0461ff30e95718987078a5370623d751407793bcb6a539ca1",
+      "youtube-draft.json": "a754942a14e4a35af4730cd50467781bf73c393b500e2a9081e0e56fa23c7a6d",
+      "youtube-metadata.json": "01e48fbf5dc393f23c13aa17c82a25ed4130b2703f6e8059ef2752ca3ecc45bf",
+      "manual-review.md": "15669885959b0a5516cbcabc91eb3518fc511fe9c32ea90b1ee2dd63eb9408f4",
+      "repo-guide.md": "bea38b50cceb14d7141b3239637df05869a5e73160e432d9193ad459b6ea6a04",
+      "sources.json": "3ce85046f1479aba2718d4c7e1b1fab200a9fcf6e52384e1bf9e8b25fce31f15",
+      "narration-only.mp3": "d73ccb9f93144e4352a0de252147cc6d8dc98d3679a3c110a8fb3932b3f3b8cc",
+      "report.json": "d422dbc86ca8b8061325ed08c03454670a579b4ad1dba1d49e895f0e65260360",
+      "fact-check.md": "ca3d927eb97ac9e95e3f9e40c7606a13768a808448abfa9ae8654ce07b59ff7d",
+      "classroom.zip": "3d45e714a9724e4593a13ac3d879675207925d33a7a4738e04eb163a4e762369",
+      "l012-ai-hallucination-master.mp4": "d918bbbaad0ce57cfd341c684af7a894c7e504c59b053015f13e98a67deb3f5c",
+      "l012-ai-hallucination-zh-TW.mp4": "dfb1d8ca40b96038cebf2ed974eb9fdba410db2d3880f59f32db27424354a3fe",
+      "zh-TW.srt": "bef08476be1df24acd905b661d94897ca12640054c97ebf5ab02151a771249ae",
+      "report.md": "eb08c61397bdc94cd72313396eb8de23027af001049bf8c779176e574afa1779",
+      "youtube-description.txt": "0899df2f3dbcdad69c58629a9fb61f5c6e2fef9ecba039ee67e1f0c977a7f5b2",
+      "l012-ai-hallucination.pptx": "9fb5bd3ca7152e1b342d29484a40c14abf1b532e5ee993986393a8883e177814",
+      "chapters.txt": "e89615d13c783cc23b850b54a9e82f5290d8ca6b7154acf96d2f7e117d426c57",
+      "thumbnail.png": "f791ada5b47f8677513a79fad1167db101940cacc5673ef68588f42a58ed6567",
+      "narration-script.md": "068bd8af278880b67c2afb7e0c10b26a32429a3686f3e355110d34a7539833dc",
+      "START_HERE.md": "0c4c2de1f08aab8b86162f5a2b9136e43d09dc1fa9bbbb997a90f0eab60dc327"
+    }
+  },
+  "largeFiles": [
+    {
+      "filename": "l012-ai-hallucination-zh-TW.mp4",
+      "bytes": 74646430,
+      "sha256": "dfb1d8ca40b96038cebf2ed974eb9fdba410db2d3880f59f32db27424354a3fe",
+      "role": "captioned video for upload (burned zh-TW subtitles)",
+      "inGit": false
+    },
+    {
+      "filename": "l012-ai-hallucination-master.mp4",
+      "bytes": 78071449,
+      "sha256": "d918bbbaad0ce57cfd341c684af7a894c7e504c59b053015f13e98a67deb3f5c",
+      "role": "master without burned subtitles",
+      "inGit": false
+    },
+    {
+      "filename": "narration-only.mp3",
+      "bytes": 7450605,
+      "sha256": "d73ccb9f93144e4352a0de252147cc6d8dc98d3679a3c110a8fb3932b3f3b8cc",
+      "role": "narration only, no opening",
+      "inGit": false
+    }
+  ],
+  "inGit": [
+    {
+      "filename": "l012-ai-hallucination.pptx",
+      "bytes": 2510258,
+      "sha256": "9fb5bd3ca7152e1b342d29484a40c14abf1b532e5ee993986393a8883e177814",
+      "path": "production/presentation/l012-ai-hallucination.pptx"
+    },
+    {
+      "filename": "zh-TW.srt",
+      "bytes": 5502,
+      "sha256": "bef08476be1df24acd905b661d94897ca12640054c97ebf5ab02151a771249ae",
+      "path": "subtitles/zh-TW.srt"
+    },
+    {
+      "filename": "thumbnail.png",
+      "bytes": 225155,
+      "sha256": "f791ada5b47f8677513a79fad1167db101940cacc5673ef68588f42a58ed6567",
+      "path": "output/thumbnail.png"
+    },
+    {
+      "filename": "classroom.zip",
+      "bytes": 387216,
+      "sha256": "3d45e714a9724e4593a13ac3d879675207925d33a7a4738e04eb163a4e762369",
+      "path": "output/classroom.zip"
+    },
+    {
+      "filename": "contact-sheet.png",
+      "bytes": 1007374,
+      "sha256": "5af2d8a5e2d2049be37ee6c4e1d3bf8006ff792d43034e2d63f226a08ca3cbcf",
+      "path": "output/contact-sheet.png"
+    }
+  ],
+  "persistence": {
+    "location": "Attachments delivered in the Claude session that produced this lesson (private to the account owner)",
+    "session": "https://claude.ai/code/session_01GE2NEiPKZa5XzbFCCWKxiy",
+    "reason": "30 MiB per-file attachment limit; the package ZIP was split into 6 byte-exact parts",
+    "parts": [
+      {
+        "filename": "L012-v1_父子科技學院_AI會亂講_幻覺抓錯賽_2026-10-08.zip.part01",
+        "bytes": 29360128,
+        "sha256": "777beb61b22952b70cafd9537c5f44fde0809565f5e326d349dd7f8e021a6306",
+        "conversationFileId": "916eaa1c-7da9-42ef-8266-81880beddafa"
+      },
+      {
+        "filename": "L012-v1_父子科技學院_AI會亂講_幻覺抓錯賽_2026-10-08.zip.part02",
+        "bytes": 29360128,
+        "sha256": "475403b346d768a9bde828f120bf6f8001f83f58ef5b2dbdf23d9370c6cc78cd",
+        "conversationFileId": "554d663b-1925-47a4-83c6-f40fc0eaaa31"
+      },
+      {
+        "filename": "L012-v1_父子科技學院_AI會亂講_幻覺抓錯賽_2026-10-08.zip.part03",
+        "bytes": 29360128,
+        "sha256": "5a66676c6047e61ee3d8c6f07dafad9cd4f2ce45761f75fad1d63ce7dd695d90",
+        "conversationFileId": "f90a621a-002d-4422-bda7-abdfd0fb244b"
+      },
+      {
+        "filename": "L012-v1_父子科技學院_AI會亂講_幻覺抓錯賽_2026-10-08.zip.part04",
+        "bytes": 29360128,
+        "sha256": "3070a1e063fe9b04ec6c7aa20608c975fa41149f5ad56f2d763c90bbd2a602a6",
+        "conversationFileId": "a28e5193-cbe3-4c57-9fc8-63a576c077de"
+      },
+      {
+        "filename": "L012-v1_父子科技學院_AI會亂講_幻覺抓錯賽_2026-10-08.zip.part05",
+        "bytes": 29360128,
+        "sha256": "11744a26d33a92e3bafb0143bdd026551413fe836c02a569a9b29a0955b2d1bc",
+        "conversationFileId": "1ee2aa6d-21e3-4dbd-bd12-b18a2c0684a5"
+      },
+      {
+        "filename": "L012-v1_父子科技學院_AI會亂講_幻覺抓錯賽_2026-10-08.zip.part06",
+        "bytes": 16554408,
+        "sha256": "31c015e4f459ba6deadc13dc662d1848a96ede7027b59c668e20b9eeb9f168da",
+        "conversationFileId": "96c0c943-acdc-4612-a64a-f8ad975838b6"
+      }
+    ],
+    "restore": "cat \"L012-v1_父子科技學院_AI會亂講_幻覺抓錯賽_2026-10-08.zip\".part* > \"L012-v1_父子科技學院_AI會亂講_幻覺抓錯賽_2026-10-08.zip\" && shasum -a 256 \"L012-v1_父子科技學院_AI會亂講_幻覺抓錯賽_2026-10-08.zip\"",
+    "restoredZip": {
+      "filename": "L012-v1_父子科技學院_AI會亂講_幻覺抓錯賽_2026-10-08.zip",
+      "bytes": 163355048,
+      "sha256": "58d6f53f4b13a913faad431cee805051ede0e4a81aab78e3e95f964e1b35009e"
+    },
+    "restoreTested": "parts re-joined by pipeline/split_delivery.py in the producing session: SHA-256 equals the ZIP; ZIP integrity tested",
+    "notUsed": {
+      "gitHubRelease": "repository is public; a release would make the unpublished video public",
+      "googleDrive": "connector accepts only inline content; text records only, no large binaries",
+      "git": "large MP4/MP3 stay out of Git per .gitignore"
+    },
+    "ifAttachmentsUnavailable": "rebuild from Git: audio, slides, PPTX, SRT sources and the shared opening are tracked; run assemble → delivery → verify → package. A rebuild is a new version with new hashes."
+  },
+  "continuation": {
+    "state": "L012 complete through package; nothing pending except user playback/listening and manual YouTube upload",
+    "rebuildCommands": [
+      "cd academy && ./setup-portable.sh",
+      "EP=episodes/academy/l012-ai-hallucination",
+      "./portable-runtime.sh python pipeline/academy.py run media-check --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run assemble --episode \"$EP\"   # ~20 min on 2 cores; run in background",
+      "./portable-runtime.sh python pipeline/delivery.py --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run verify --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py package --episode \"$EP\" --output delivery/L012-v2"
+    ],
+    "doNotRerunWithoutReason": "run tts (re-synthesises all audio and invalidates timing, subtitles, video and QC)",
+    "authoring": [
+      "authoring/l012/classroom.py",
+      "authoring/l012/prepare_content.py"
+    ],
+    "sharedTools": [
+      "pipeline/qa/subtitle_precheck.py",
+      "pipeline/qa/deck_check.py",
+      "pipeline/qa/media_review.py",
+      "pipeline/qa/asr_review.py",
+      "pipeline/split_delivery.py",
+      "pipeline/record_delivery.py"
+    ],
+    "nextLesson": "L013「文字、圖片、聲音 AI 體驗站」（同一批次製作中）"
+  },
+  "publication": {
+    "status": "awaiting_user_upload",
+    "publisher": "user",
+    "uploaded": false,
+    "videoUrl": null,
+    "uploadFile": "l012-ai-hallucination-zh-TW.mp4",
+    "note": "No login, upload or publication was attempted."
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L012",
+  "checkedAt": "2026-10-08",
+  "method": "A research subagent downloaded each page/PDF on the check date and reported verbatim quotes (production/source-notes.md); the producing agent mapped them to claims. Not a human full read.",
+  "curriculum": "curriculum/catalog.json：L012；來源 V2 Excel 逐堂課程第 12 堂",
+  "sources": [
+    {
+      "id": "nist_genai",
+      "title": "NIST AI 600-1：Generative Artificial Intelligence Profile（2024-07）",
+      "publisher": "U.S. National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "usedFor": "生成式 AI 會產生並有自信地呈現錯誤或虛假的內容（confabulation，俗稱 hallucination）；這是預測下一個字的設計造成的；連用來支持答案的引用也可能是編的"
+    },
+    {
+      "id": "ibm_hallucination",
+      "title": "What Are AI Hallucinations?（2023-09-01；2026-07-31 更新）",
+      "publisher": "IBM",
+      "url": "https://www.ibm.com/think/topics/ai-hallucinations",
+      "usedFor": "聽起來合理、實際上錯誤或完全捏造的輸出；假事實、編造的研究、不存在的網址、關於真實對象的錯誤細節"
+    },
+    {
+      "id": "mit_sloan",
+      "title": "When AI Gets It Wrong: Addressing AI Hallucinations and Bias",
+      "publisher": "MIT Sloan Teaching & Learning Technologies",
+      "url": "https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/",
+      "usedFor": "生成式 AI 像進階的自動完成，依規律預測下一個字；目標是產生看似合理的內容，不是驗證真假"
+    },
+    {
+      "id": "gemini_responses",
+      "title": "瞭解 Gemini 應用程式的回覆",
+      "publisher": "Google Gemini 應用程式說明",
+      "url": "https://support.google.com/gemini/answer/16279220?hl=zh-Hant",
+      "usedFor": "中文用詞：「Gemini 可能會產生幻覺，將不準確的資訊當做事實」"
+    },
+    {
+      "id": "eliteracy_ai",
+      "title": "教案【AI的練習曲】（高中；設計者 國立陽明交通大學）",
+      "publisher": "教育部 中小學數位素養教育資源網",
+      "url": "https://eliteracy.edu.tw/Download.ashx?id=1817",
+      "usedFor": "「AI可能會有幻覺」；統計數據、名言、法條、專有名詞應至原始文件或官方網站核實；交叉比對搜尋、追溯原始資料"
+    },
+    {
+      "id": "openai_truth",
+      "title": "Does ChatGPT tell the truth?",
+      "publisher": "OpenAI Help Center（只有擷取工具的摘要，沒有逐字確認）",
+      "url": "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth",
+      "usedFor": "錯誤的日期或事實；編造的引言、研究、引用或不存在的來源；過度自信的回答；請自行查證引言、數據與引用"
+    },
+    {
+      "id": "openai_search",
+      "title": "Searching the web with ChatGPT",
+      "publisher": "OpenAI Help Center（只有擷取工具的摘要，沒有逐字確認）",
+      "url": "https://help.openai.com/en/articles/9237897-chatgpt-search",
+      "usedFor": "搜尋結果與引用可能不完整、過時或不正確；打開引用的來源確認它支持答案"
+    },
+    {
+      "id": "google_ai_overviews",
+      "title": "Google 搜尋的 AI 摘要說明",
+      "publisher": "Google 搜尋說明",
+      "url": "https://support.google.com/websearch/answer/14901683?hl=zh-Hant",
+      "usedFor": "「務必多方查證重要資訊。點按連結，參閱網路上的佐證資訊和其他 Google 搜尋結果。」；無法確保 AI 摘要內容皆正確無誤"
+    },
+    {
+      "id": "mata_order",
+      "title": "Mata v. Avianca, Inc.，Opinion and Order on Sanctions（No. 22-cv-1461，2023-06-22）",
+      "publisher": "美國紐約南區聯邦地方法院（CourtListener 的 RECAP 存檔）",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_3.pdf",
+      "usedFor": "兩位律師與事務所提交了由 ChatGPT 產生、並不存在的六個判決與假引文，共同被處以 5,000 美元罰款；律師回頭問它案例是不是真的，它回答是真的"
+    },
+    {
+      "id": "moe_genai",
+      "title": "中小學使用「生成式人工智慧」注意事項 2.1（學生版；115 年 2 月 11 日核定）",
+      "publisher": "教育部（師大附中國中部網站轉載的 PDF）",
+      "url": "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+      "usedFor": "不能全盤接受生成的內容，需結合其他可靠來源查證；有疑慮向老師或家長請教；不可以直接將生成內容作為作業或報告的原始答案"
+    },
+    {
+      "id": "anthropic_terms",
+      "title": "Consumer Terms of Service（2025-10-08 生效）",
+      "publisher": "Anthropic",
+      "url": "https://www.anthropic.com/legal/consumer-terms",
+      "usedFor": "輸出即使看起來很詳細也可能不正確；不應在沒有自行確認的情況下依賴輸出"
+    },
+    {
+      "id": "irf_rhino",
+      "title": "2026 State of the Rhino（2026-09）",
+      "publisher": "International Rhino Foundation",
+      "url": "https://rhinos.org/about-rhinos/state-of-the-rhino/",
+      "usedFor": "教材資料卡：現存五種犀牛；全球約 26,700 隻；爪哇犀牛約 50 隻"
+    },
+    {
+      "id": "irf_species",
+      "title": "Rhino Species（各物種頁面）",
+      "publisher": "International Rhino Foundation",
+      "url": "https://rhinos.org/about-rhinos/rhino-species/",
+      "usedFor": "教材資料卡：白犀牛、黑犀牛、蘇門答臘犀牛有兩支角，大獨角犀與爪哇犀牛一支；角是角蛋白，和指甲、頭髮同樣的材料；嗅覺與聽覺靈敏、視力不好"
+    },
+    {
+      "id": "save_the_rhino",
+      "title": "Rhino population figures",
+      "publisher": "Save the Rhino International",
+      "url": "https://www.savetherhino.org/rhino-info/population-figures/",
+      "usedFor": "教材資料卡：與 IRF 相同的族群數字（2025 年由 IUCN 專家小組回報）"
+    },
+    {
+      "id": "ysnp_terrain",
+      "title": "地形地質（更新日期 115-10-08）",
+      "publisher": "玉山國家公園管理處",
+      "url": "https://www.ysnp.gov.tw/StaticPage/Terrain",
+      "usedFor": "教材資料卡：玉山主峰海拔 3,952 公尺"
+    },
+    {
+      "id": "ysnp_vision",
+      "title": "願景與沿革",
+      "publisher": "玉山國家公園管理處",
+      "url": "https://www.ysnp.gov.tw/StaticPage/Vision",
+      "usedFor": "教材資料卡：臺灣第一高峰；玉山國家公園為我國第 2 座國家公園"
+    },
+    {
+      "id": "ey_parks",
+      "title": "國情簡介：國家公園簡介（114-04-21，資料來源：內政部）",
+      "publisher": "行政院",
+      "url": "https://www.ey.gov.tw/state/4447F4A951A1EC45/dc08391a-c57c-4cf7-af9a-cc0d9e4ebb1c",
+      "usedFor": "教材資料卡：玉山國家公園成立時間 74 年 4 月"
+    },
+    {
+      "id": "ysnp_bear",
+      "title": "臺灣黑熊科普（更新日期 115-10-08）",
+      "publisher": "玉山國家公園管理處",
+      "url": "https://www.ysnp.gov.tw/StaticPage/Science",
+      "usedFor": "教材資料卡：瀕臨絕種野生動物；胸前黃白色 V 字形或新月形斑紋；族群約 200~600 隻"
+    },
+    {
+      "id": "forest_bear",
+      "title": "臺灣黑熊救援案件紀實（林業期刊）",
+      "publisher": "農業部林業及自然保育署",
+      "url": "https://www.forest.gov.tw/MagazineFile/6855",
+      "usedFor": "教材資料卡：全島族群數量推估約有數百隻（與上一個來源的數字不同，用來說明估計值）"
+    },
+    {
+      "id": "nasa_moon",
+      "title": "Moon Facts",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/moon/facts/",
+      "usedFor": "教材資料卡：月球與地球平均距離 384,400 公里"
+    },
+    {
+      "id": "nasa_apollo11",
+      "title": "50 Years Ago: Apollo Astronauts Land, Take First Steps on Moon（2019-07-20）",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/50-years-ago-apollo-astronauts-land-take-first-steps-on-moon/",
+      "usedFor": "教材資料卡：阿姆斯壯、艾德林登月，柯林斯留在指揮艙繞月"
+    },
+    {
+      "id": "nasa_apollo11_history",
+      "title": "The First Lunar Landing",
+      "publisher": "NASA History",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/ap11ann/FirstLunarLanding/ch-1.html",
+      "usedFor": "教材資料卡：1969 年 7 月 20 日（美國東部時間）登月艙降落月球"
+    },
+    {
+      "id": "nasa_moonwalkers",
+      "title": "Moon Walkers",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/moon/moon-walkers/",
+      "usedFor": "教材資料卡：一共 12 個人在月球上走過"
+    },
+    {
+      "id": "nasa_sunlight",
+      "title": "More Quick Facts",
+      "publisher": "NASA Astrobiology",
+      "url": "https://astrobiology.nasa.gov/quick-facts/more-quick-facts/",
+      "usedFor": "教材資料卡：陽光從太陽到地球需要 8 分 20 秒"
+    },
+    {
+      "id": "catalog_reference",
+      "title": "OpenAI Academy",
+      "publisher": "OpenAI（課表 R20 的主要參考網址）",
+      "url": "https://academy.openai.com/",
+      "usedFor": "課表列出的參考入口；本課沒有引用其中任何一頁"
+    }
+  ],
+  "notVerified": [
+    "OpenAI 說明中心兩頁只有擷取工具的摘要，沒有逐字確認",
+    "法院制裁命令讀的是 CourtListener 的 RECAP 存檔，沒有找到法院網站上的網址",
+    "Google Bard 與加拿大航空兩個案例沒有取得足夠的第一手來源，沒有使用",
+    "林業及自然保育署《臺灣黑熊保育行動計畫》只有擷取工具的摘要，沒有使用其中的數字",
+    "世界自然基金會（WWF）的犀牛頁面只有擷取工具的摘要，且數字與 IRF 不同，沒有使用",
+    "沒有用任何真實 AI 工具產生回答；三則模擬回答是本課編寫的"
+  ],
+  "youtubeSearchEntries": {
+    "status": "not selected, not watched",
+    "note": "課表的三組 YouTube 連結是動態搜尋入口，本次未挑選或觀看任何影片，也未在影片或教材中引用。"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "editorialStatus": "authored",
+  "recordingSource": null,
+  "slideCount": 12,
+  "transitionSeconds": 0.55,
+  "deckRenderer": "ooxml-template",
+  "templateEpisode": "episodes/academy/l001-mac-workstation",
+  "templateProvenance": "Original PPTX absent from v2 ZIP; restored from supplied build_l001.mjs and original assets.",
+  "layoutProfile": "academy-native-v1",
+  "seriesHeader": "父子科技學院  ·  HALLUCINATION HUNT",
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "zh-TW-YunJheNeural",
+    "persona": "陳犀牛 Chen XiNew",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "music": {
+    "backgroundMusic": "none — narration only under teaching slides",
+    "opening": "assets/opening/開場影片-v2.mp4"
+  },
+  "signoff": {
+    "text": "我是陳犀牛，保持好奇，我們下次見！"
+  },
+  "contentMode": "curriculum-based-preclass",
+  "publicationMode": "manual-user-upload",
+  "autoPublish": false,
+  "episode": "L012",
+  "slug": "l012-ai-hallucination",
+  "title": "AI 會亂講：幻覺抓錯賽",
+  "subtitle": "父子科技學院 第十二堂｜依課表製作的課前教學版",
+  "lessonIds": [
+    "L012"
+  ],
+  "sources": {
+    "curriculum": "curriculum/catalog.json：L012；來源 V2 Excel 逐堂課程第 12 堂",
+    "nist_genai": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "ibm_hallucination": "https://www.ibm.com/think/topics/ai-hallucinations",
+    "mit_sloan": "https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/",
+    "gemini_responses": "https://support.google.com/gemini/answer/16279220?hl=zh-Hant",
+    "eliteracy_ai": "https://eliteracy.edu.tw/Download.ashx?id=1817",
+    "openai_truth": "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth",
+    "openai_search": "https://help.openai.com/en/articles/9237897-chatgpt-search",
+    "google_ai_overviews": "https://support.google.com/websearch/answer/14901683?hl=zh-Hant",
+    "mata_order": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_3.pdf",
+    "moe_genai": "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+    "anthropic_terms": "https://www.anthropic.com/legal/consumer-terms",
+    "irf_rhino": "https://rhinos.org/about-rhinos/state-of-the-rhino/",
+    "irf_species": "https://rhinos.org/about-rhinos/rhino-species/",
+    "save_the_rhino": "https://www.savetherhino.org/rhino-info/population-figures/",
+    "ysnp_terrain": "https://www.ysnp.gov.tw/StaticPage/Terrain",
+    "ysnp_vision": "https://www.ysnp.gov.tw/StaticPage/Vision",
+    "ey_parks": "https://www.ey.gov.tw/state/4447F4A951A1EC45/dc08391a-c57c-4cf7-af9a-cc0d9e4ebb1c",
+    "ysnp_bear": "https://www.ysnp.gov.tw/StaticPage/Science",
+    "forest_bear": "https://www.forest.gov.tw/MagazineFile/6855",
+    "nasa_moon": "https://science.nasa.gov/moon/facts/",
+    "nasa_apollo11": "https://www.nasa.gov/centers-and-facilities/kennedy/50-years-ago-apollo-astronauts-land-take-first-steps-on-moon/",
+    "nasa_apollo11_history": "https://www.nasa.gov/wp-content/uploads/static/history/ap11ann/FirstLunarLanding/ch-1.html",
+    "nasa_moonwalkers": "https://science.nasa.gov/moon/moon-walkers/",
+    "nasa_sunlight": "https://astrobiology.nasa.gov/quick-facts/more-quick-facts/",
+    "catalog_reference": "https://academy.openai.com/"
+  },
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "factCheck": {
+    "checkedAt": "2026-10-08",
+    "record": "production/fact-check.md",
+    "sources": "production/sources.json"
+  },
+  "authorization": {
+    "produceL012": true,
+    "ttsConsent": {
+      "grantedBy": "user",
+      "grantedAt": "2026-10-08",
+      "service": "Microsoft Edge TTS",
+      "voice": "zh-TW-YunJheNeural",
+      "scope": "L012 public narration script only",
+      "basis": "On 2026-10-08 the user asked to start producing L011–L013 after receiving L007–L010, whose hand-over stated that the public narration is sent to Edge TTS on the same basis; restated to the user before synthesis.",
+      "excluded": "private recordings or any other private data"
+    },
+    "paidLlmApi": false,
+    "uploadToYouTube": false,
+    "publish": false
+  }
+}

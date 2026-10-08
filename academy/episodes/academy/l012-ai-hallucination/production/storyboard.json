@@ -1,0 +1,110 @@
+[
+  {
+    "slide": 1,
+    "title": "AI 會亂講：幻覺抓錯賽",
+    "purpose": "開場：課前教學版揭露、生成式 AI 會把錯的說得像真的、偵探任務與作品",
+    "visual": "封面版型：任務標籤、兩行主題、一句任務說明；原陳犀牛角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "準備模擬回答與查核表；預告抓錯賽",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 2,
+    "title": "抓錯的三個步驟",
+    "purpose": "概念：標記、查證、判定三個步驟",
+    "visual": "三步流程卡：標記 → 查證 → 判定（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出今天要完成的作品",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 3,
+    "title": "AI 幻覺：說得很順，卻是錯的",
+    "purpose": "概念：幻覺是什麼、為什麼會發生、有附來源也要查",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "用自己的話說什麼是幻覺",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 4,
+    "title": "最需要查的四種東西",
+    "purpose": "概念：最需要查的四種（名稱、數字、日期、引用）與第五種（說得太肯定）",
+    "visual": "面板四張卡＋黃字說明（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "各舉一個例子",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 5,
+    "title": "引用也可能是編的",
+    "purpose": "示範：引用也可能是編的；律師交出不存在的判決被罰款",
+    "visual": "雙框（回答裡寫著 ？ 你要確認兩件事）＋白字＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出看到引用要確認哪兩件事",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 6,
+    "title": "怎麼查證？",
+    "purpose": "示範：找原始來源、找第二個來源、問大人；再問一次不算查證",
+    "visual": "三張步驟卡＋黃字提醒（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出三個查證的方法",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 7,
+    "title": "判定：正確、錯誤、查不到",
+    "purpose": "概念：判定成正確、錯誤、查不到；對錯可能混在一起",
+    "visual": "路徑一行＋三張卡＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出查不到的時候怎麼辦",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 8,
+    "title": "三種特別要小心的時候",
+    "purpose": "安全：作業報告先查證；健康金錢安全問大人；發現錯誤不轉傳",
+    "visual": "左側三行；右側「還要記得」（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "暫停影片：說出最需要查的四種東西",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 9,
+    "title": "幻覺抓錯賽：三則模擬回答",
+    "purpose": "活動規則：三則模擬回答，先標記，再查證和判定",
+    "visual": "左右比較卡（標記／查證和判定）＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "每則至少圈三處並判定",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 10,
+    "title": "換你設計：AI 回答查核表",
+    "purpose": "獨立改造：自己的查核表、偵探規則、請爸爸問冷門題",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成查核表；加一條偵探規則",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的抓錯偵探課",
+    "purpose": "120 分鐘安排：10／15／40／10／30／10／5",
+    "visual": "六列時間表與今日生活技能（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "依時間表進行；休息十分鐘",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：教爸爸查證",
+    "purpose": "作品驗收與回顧：當場查一個地方，指出一個限制或安全注意；固定結尾",
+    "visual": "三點驗收條列＋陳犀牛＋結尾語（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "孩子教爸爸；錄音回答四個問題；作品命名存檔",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  }
+]

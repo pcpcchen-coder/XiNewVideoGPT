@@ -1,0 +1,132 @@
+{
+  "episode": "L012",
+  "checks": [
+    {
+      "check": "opening_conform_duration",
+      "status": "PASS",
+      "detail": "conformed 60.277s; original 60.266667s; tolerance one frame"
+    },
+    {
+      "check": "production_files",
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "check": "pptx_exists",
+      "status": "PASS",
+      "detail": "2510258 bytes"
+    },
+    {
+      "check": "editable_deck_structure",
+      "status": "PASS",
+      "detail": "12 slides with native editable text"
+    },
+    {
+      "check": "deck_notes_match_narration",
+      "status": "PASS",
+      "detail": "all 36 narration sentences present in final PPTX notes"
+    },
+    {
+      "check": "slide_count",
+      "status": "PASS",
+      "detail": "slides=12 narration=12 storyboard=12"
+    },
+    {
+      "check": "sentences_per_scene",
+      "status": "PASS",
+      "detail": "36 sentences across 12 scenes"
+    },
+    {
+      "check": "slide_images",
+      "status": "PASS",
+      "detail": "12 pngs, dims={(1920, 1080)}"
+    },
+    {
+      "check": "audio_files",
+      "status": "PASS",
+      "detail": "12 scene mp3s"
+    },
+    {
+      "check": "audio_duration_matches_timing",
+      "status": "PASS",
+      "detail": "sum=310.39s timing=310.39s"
+    },
+    {
+      "check": "audio_non_silent",
+      "status": "PASS",
+      "detail": "silent=[]"
+    },
+    {
+      "check": "music_profile",
+      "status": "PASS",
+      "detail": "manifest declares narration only; listening review still required"
+    },
+    {
+      "check": "subtitle_cues",
+      "status": "PASS",
+      "detail": "36 cues"
+    },
+    {
+      "check": "subtitle_offset_intro",
+      "status": "PASS",
+      "detail": "first cue at 60.28s (intro 60.277s)"
+    },
+    {
+      "check": "output_files",
+      "status": "PASS",
+      "detail": "master, zh-TW, thumbnail, contact-sheet"
+    },
+    {
+      "check": "duration",
+      "status": "PASS",
+      "detail": "370.69s vs expected 370.67s"
+    },
+    {
+      "check": "zh_burned_copy",
+      "status": "PASS",
+      "detail": "zh 370.69s, subtitles burned"
+    },
+    {
+      "check": "video_format",
+      "status": "PASS",
+      "detail": "h264 1920x1080 @30/1"
+    },
+    {
+      "check": "audio_format",
+      "status": "PASS",
+      "detail": "aac 48000Hz x2"
+    },
+    {
+      "check": "full_decode",
+      "status": "PASS",
+      "detail": "0 decode error bytes"
+    },
+    {
+      "check": "loudness",
+      "status": "PASS",
+      "detail": "integrated -17.1 LUFS"
+    },
+    {
+      "check": "captioned_full_decode",
+      "status": "PASS",
+      "detail": "0 decode error bytes"
+    },
+    {
+      "check": "frame_rate",
+      "status": "PASS",
+      "detail": "30/1"
+    },
+    {
+      "check": "all_subtitle_timings",
+      "status": "PASS",
+      "detail": "all cues match sentence timing plus measured opening"
+    },
+    {
+      "check": "stable_scene_frames",
+      "status": "PASS",
+      "detail": "12 scenes; max mean RGB delta=0.003056 (<0.1)"
+    }
+  ],
+  "passed": 25,
+  "total": 25
+}

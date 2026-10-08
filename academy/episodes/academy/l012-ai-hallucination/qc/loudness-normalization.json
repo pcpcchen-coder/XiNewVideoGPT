@@ -1,0 +1,21 @@
+{
+  "method": "measured constant gain; source waveform and peak headroom preserved",
+  "analysis": {
+    "input_i": "-17.17",
+    "input_tp": "-1.66",
+    "input_lra": "8.90",
+    "input_thresh": "-27.61",
+    "output_i": "-17.58",
+    "output_tp": "-2.48",
+    "output_lra": "6.90",
+    "output_thresh": "-28.00",
+    "normalization_type": "dynamic",
+    "target_offset": "1.58"
+  },
+  "secondPassFilter": "volume=0.060000dB",
+  "predictedIntegratedLUFS": -17.110000000000003,
+  "requestedRangeLUFS": [
+    -18,
+    -14
+  ]
+}

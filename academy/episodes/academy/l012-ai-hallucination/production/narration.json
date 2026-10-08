@@ -1,0 +1,289 @@
+[
+  {
+    "slide": 1,
+    "title": "AI 會亂講：幻覺抓錯賽",
+    "sentences": [
+      {
+        "text": "歡迎回到父子科技學院，我是陳犀牛，今天是第十二堂，幻覺抓錯賽，這是依課表製作的課前教學版，並非實際上課錄音。",
+        "tts": "歡迎回到父子科技學院，我是陳犀牛，今天是第十二堂，幻覺抓錯賽，這是依課表製作的課前教學版，並非實際上課錄音。"
+      },
+      {
+        "text": "生成式 AI，有時候會把錯的事情說得跟真的一樣，這種情形常被叫做幻覺。",
+        "tts": "生成式 AI，有時候會把錯的事情說得跟真的一樣，這種情形常被叫做幻覺。"
+      },
+      {
+        "text": "今天你要當偵探，從回答裡找出需要查證的地方，最後完成一張回答查核表。",
+        "tts": "今天你要當偵探，從回答裡找出需要查證的地方，最後完成一張回答查核表。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L012；來源 V2 Excel 逐堂課程第 12 堂",
+      "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "https://support.google.com/gemini/answer/16279220?hl=zh-Hant"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 2,
+    "title": "抓錯的三個步驟",
+    "sentences": [
+      {
+        "text": "抓錯有三個步驟。第一步是標記，把回答裡的名稱、數字、日期和引用圈起來。",
+        "tts": "抓錯有三個步驟。第一步是標記，把回答裡的名稱、數字、日期和引用圈起來。"
+      },
+      {
+        "text": "第二步是查證，到可靠的來源去找，看看它說得對不對。",
+        "tts": "第二步是查證，到可靠的來源去找，看看它說得對不對。"
+      },
+      {
+        "text": "第三步是判定，寫下結果：正確、錯誤，或是查不到；查不到的，就不能當成真的。",
+        "tts": "第三步是判定，寫下結果：正確、錯誤，或是查不到；查不到的，就不能當成真的。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L012；來源 V2 Excel 逐堂課程第 12 堂",
+      "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 3,
+    "title": "AI 幻覺：說得很順，卻是錯的",
+    "sentences": [
+      {
+        "text": "有時候，回答讀起來很通順、很有把握，內容卻是錯的，甚至是編出來的；這種情形，大家叫它幻覺。",
+        "tts": "有時候，回答讀起來很通順、很有把握，內容卻是錯的，甚至是編出來的；這種情形，大家叫它幻覺。"
+      },
+      {
+        "text": "會這樣，是因為它的做法是預測接下來最可能出現的字，目標是寫得通順，而不是確認真假。",
+        "tts": "會這樣，是因為它的做法是預測接下來最可能出現的字，目標是寫得通順，而不是確認真假。"
+      },
+      {
+        "text": "就算回答後面附了來源連結，也還是可能出錯，所以一樣要查。",
+        "tts": "就算回答後面附了來源連結，也還是可能出錯，所以一樣要查。"
+      }
+    ],
+    "sources": [
+      "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "https://www.ibm.com/think/topics/ai-hallucinations",
+      "https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/",
+      "https://help.openai.com/en/articles/9237897-chatgpt-search",
+      "https://support.google.com/websearch/answer/14901683?hl=zh-Hant"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 4,
+    "title": "最需要查的四種東西",
+    "sentences": [
+      {
+        "text": "回答裡有四種東西最需要查。第一種是名稱，像是人名、地名和書名；第二種是數字，例如多高、多少隻。",
+        "tts": "回答裡有四種東西最需要查。第一種是名稱，像是人名、地名和書名；第二種是數字，例如多高、多少隻。"
+      },
+      {
+        "text": "第三種是日期，哪一年、哪一天；第四種是引用，也就是它說資料來自哪一本書、哪一個網站。",
+        "tts": "第三種是日期，哪一年、哪一天；第四種是引用，也就是它說資料來自哪一本書、哪一個網站。"
+      },
+      {
+        "text": "還有第五種要留意：說得太肯定的話，例如一定、剛好、所有；真實世界的數字，常常只是估計。",
+        "tts": "還有第五種要留意：說得太肯定的話，例如一定、剛好、所有；真實世界的數字，常常只是估計。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L012；來源 V2 Excel 逐堂課程第 12 堂",
+      "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth",
+      "https://www.ibm.com/think/topics/ai-hallucinations",
+      "https://eliteracy.edu.tw/Download.ashx?id=1817",
+      "https://www.ysnp.gov.tw/StaticPage/Science",
+      "https://www.forest.gov.tw/MagazineFile/6855"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 5,
+    "title": "引用也可能是編的",
+    "sentences": [
+      {
+        "text": "引用特別要小心，因為連書名、網址和案例，都可能是編出來的。",
+        "tts": "引用特別要小心，因為連書名、網址和案例，都可能是編出來的。"
+      },
+      {
+        "text": "二零二三年，美國有兩位律師請聊天機器人找判決，它編出了六個根本不存在的案例；律師交給法院之後，和事務所一起被罰了五千美元。",
+        "tts": "二零二三年，美國有兩位律師請聊天機器人找判決，它編出了六個根本不存在的案例；律師交給法院之後，和事務所一起被罰了五千美元。"
+      },
+      {
+        "text": "所以看到引用，要自己去確認兩件事：它真的存在嗎？裡面真的這樣寫嗎？",
+        "tts": "所以看到引用，要自己去確認兩件事：它真的存在嗎？裡面真的這樣寫嗎？"
+      }
+    ],
+    "sources": [
+      "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "https://www.ibm.com/think/topics/ai-hallucinations",
+      "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_3.pdf",
+      "https://help.openai.com/en/articles/9237897-chatgpt-search"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 6,
+    "title": "怎麼查證？",
+    "sentences": [
+      {
+        "text": "怎麼查呢？第一，找原始的來源，例如官方網站，或是它說的那本書。",
+        "tts": "怎麼查呢？第一，找原始的來源，例如官方網站，或是它說的那本書。"
+      },
+      {
+        "text": "第二，再找第二個可靠的來源，看看兩邊說的一不一樣；重要的事，多查一個地方比較保險。",
+        "tts": "第二，再找第二個可靠的來源，看看兩邊說的一不一樣；重要的事，多查一個地方比較保險。"
+      },
+      {
+        "text": "第三，查不到，或是看不懂，就問爸爸或老師；只是回頭再問它一次你確定嗎，不算查證。",
+        "tts": "第三，查不到，或是看不懂，就問爸爸或老師；只是回頭再問它一次你確定嗎，不算查證。"
+      }
+    ],
+    "sources": [
+      "https://eliteracy.edu.tw/Download.ashx?id=1817",
+      "https://support.google.com/websearch/answer/14901683?hl=zh-Hant",
+      "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+      "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_3.pdf"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 7,
+    "title": "判定：正確、錯誤、查不到",
+    "sentences": [
+      {
+        "text": "查完之後要判定。可靠的來源也這樣說，就是正確；和可靠的來源不一樣，就是錯誤。",
+        "tts": "查完之後要判定。可靠的來源也這樣說，就是正確；和可靠的來源不一樣，就是錯誤。"
+      },
+      {
+        "text": "如果怎麼查都查不到，就寫查不到，而且先不要把它當成真的。",
+        "tts": "如果怎麼查都查不到，就寫查不到，而且先不要把它當成真的。"
+      },
+      {
+        "text": "還要記得，一個回答裡，對的和錯的可能混在一起，所以要一句一句看。",
+        "tts": "還要記得，一個回答裡，對的和錯的可能混在一起，所以要一句一句看。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L012；來源 V2 Excel 逐堂課程第 12 堂",
+      "https://www.ibm.com/think/topics/ai-hallucinations"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 8,
+    "title": "三種特別要小心的時候",
+    "sentences": [
+      {
+        "text": "有三種時候特別要小心。第一，要用在作業和報告的內容，一定先查證，再使用。",
+        "tts": "有三種時候特別要小心。第一，要用在作業和報告的內容，一定先查證，再使用。"
+      },
+      {
+        "text": "第二，和健康、金錢、安全有關的事，不要只聽它的，一定要問大人。",
+        "tts": "第二，和健康、金錢、安全有關的事，不要只聽它的，一定要問大人。"
+      },
+      {
+        "text": "第三，查證的人也會出錯，所以重要的事要找第二個來源；發現錯誤就告訴爸爸，不要直接轉傳出去。",
+        "tts": "第三，查證的人也會出錯，所以重要的事要找第二個來源；發現錯誤就告訴爸爸，不要直接轉傳出去。"
+      }
+    ],
+    "sources": [
+      "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+      "https://www.anthropic.com/legal/consumer-terms",
+      "https://support.google.com/websearch/answer/14901683?hl=zh-Hant"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 9,
+    "title": "幻覺抓錯賽：三則模擬回答",
+    "sentences": [
+      {
+        "text": "現在開始抓錯賽。教材裡有三則模擬回答，是這堂課特地編寫的，裡面故意藏了錯誤；請在每一則至少圈出三個需要查證的地方。",
+        "tts": "現在開始抓錯賽。教材裡有三則模擬回答，是這堂課特地編寫的，裡面故意藏了錯誤；請在每一則至少圈出三個需要查證的地方。"
+      },
+      {
+        "text": "接著拿出資料卡，或是和爸爸一起上官方網站查，把每個地方判定成正確、錯誤，或是查不到。",
+        "tts": "接著拿出資料卡，或是和爸爸一起上官方網站查，把每個地方判定成正確、錯誤，或是查不到。"
+      },
+      {
+        "text": "找到錯誤之後，還要說出它是哪一種：名稱、數字、日期、引用，還是說得太肯定。",
+        "tts": "找到錯誤之後，還要說出它是哪一種：名稱、數字、日期、引用，還是說得太肯定。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L012；來源 V2 Excel 逐堂課程第 12 堂"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 10,
+    "title": "換你設計：AI 回答查核表",
+    "sentences": [
+      {
+        "text": "下半場換你設計自己的回答查核表，欄位由你決定，至少要有：哪一句話、是哪一種、去哪裡查，還有查到的結果。",
+        "tts": "下半場換你設計自己的回答查核表，欄位由你決定，至少要有：哪一句話、是哪一種、去哪裡查，還有查到的結果。"
+      },
+      {
+        "text": "再加一條你自己的偵探規則，例如只要是數字，就一定查兩個地方。",
+        "tts": "再加一條你自己的偵探規則，例如只要是數字，就一定查兩個地方。"
+      },
+      {
+        "text": "如果爸爸願意，可以請他用自己的帳號問一題冷門的問題，你來找出至少三個需要查證的地方。",
+        "tts": "如果爸爸願意，可以請他用自己的帳號問一題冷門的問題，你來找出至少三個需要查證的地方。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L012；來源 V2 Excel 逐堂課程第 12 堂"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的抓錯偵探課",
+    "sentences": [
+      {
+        "text": "兩小時的安排如下：開場十分鐘，認識幻覺和查核重點十五分鐘，接著四十分鐘舉行抓錯賽，再休息十分鐘。",
+        "tts": "兩小時的安排如下：開場十分鐘，認識幻覺和查核重點十五分鐘，接著四十分鐘舉行抓錯賽，再休息十分鐘。"
+      },
+      {
+        "text": "然後用三十分鐘完成自己的查核表和偵探規則，再用十分鐘交換角色，由你帶著爸爸查證一則新的回答。",
+        "tts": "然後用三十分鐘完成自己的查核表和偵探規則，再用十分鐘交換角色，由你帶著爸爸查證一則新的回答。"
+      },
+      {
+        "text": "最後五分鐘錄音總結，替查核表取名字、存檔，以後看到任何回答，都可以拿出來用。",
+        "tts": "最後五分鐘錄音總結，替查核表取名字、存檔，以後看到任何回答，都可以拿出來用。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L012；來源 V2 Excel 逐堂課程第 12 堂"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：教爸爸查證",
+    "sentences": [
+      {
+        "text": "最後一關，請不看稿，拿一則新的回答，當場示範一次：標記、查證、判定。",
+        "tts": "最後一關，請不看稿，拿一則新的回答，當場示範一次：標記、查證、判定。"
+      },
+      {
+        "text": "再指出一個限制或安全注意事項，例如有附來源連結的回答，也可能是錯的。",
+        "tts": "再指出一個限制或安全注意事項，例如有附來源連結的回答，也可能是錯的。"
+      },
+      {
+        "text": "今天的作品是回答查核表，下次我們要去逛文字、圖片和聲音的體驗站；我是陳犀牛，保持好奇，我們下次見！",
+        "tts": "今天的作品是回答查核表，下次我們要去逛文字、圖片和聲音的體驗站；我是陳犀牛，保持好奇，我們下次見！"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L012；來源 V2 Excel 逐堂課程第 12 堂",
+      "https://help.openai.com/en/articles/9237897-chatgpt-search",
+      "https://support.google.com/websearch/answer/14901683?hl=zh-Hant"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  }
+]

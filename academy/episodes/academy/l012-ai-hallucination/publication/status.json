@@ -1,0 +1,16 @@
+{
+  "lessonId": "L012",
+  "status": "awaiting_user_upload",
+  "publicationMode": "manual-user-upload",
+  "publisher": "user",
+  "videoUrl": null,
+  "targetTitle": "父子科技學院 L012｜AI 會亂講：幻覺抓錯賽",
+  "videoFile": "l012-ai-hallucination-zh-TW.mp4",
+  "videoSha256": "dfb1d8ca40b96038cebf2ed974eb9fdba410db2d3880f59f32db27424354a3fe",
+  "videoBytes": 74646430,
+  "deliveryVersion": "L012-v1",
+  "deliveryRecord": "delivery.json",
+  "authorizedToUpload": false,
+  "authorizedToPublish": false,
+  "note": "Produced and packaged 2026-10-08. Awaiting user playback and manual upload; no YouTube login, upload or publication attempted."
+}

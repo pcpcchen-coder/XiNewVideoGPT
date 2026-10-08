@@ -1,0 +1,55 @@
+{
+  "folder": "classroom/L012_AI會亂講_幻覺抓錯賽",
+  "files": [
+    "00_爸爸先讀.md",
+    "01_活動規則_幻覺抓錯賽.md",
+    "02_列印包_幻覺抓錯賽.pdf",
+    "03_抓錯紀錄.csv",
+    "03_抓錯紀錄_填寫說明.md",
+    "04_模擬回答解說.md",
+    "05_自選偵探規則.md",
+    "06_驗收與回顧.md",
+    "07_查核小抄.md"
+  ],
+  "fileCount": 9,
+  "utf8TextReadable": true,
+  "sheet": {
+    "file": "03_抓錯紀錄.csv",
+    "rows": 13,
+    "columns": 7
+  },
+  "printPack": {
+    "file": "02_列印包_幻覺抓錯賽.pdf",
+    "pages": 5,
+    "allFontsEmbedded": true,
+    "renderedThisRun": true,
+    "source": "authoring/l012/print/print-pack.html"
+  },
+  "mockAnswers": {
+    "count": 3,
+    "writtenForLesson": true,
+    "notOutputOfAnyAiTool": true,
+    "labelledOnEveryAnswer": true,
+    "checkablePoints": {
+      "A": 8,
+      "B": 7,
+      "C": 7
+    },
+    "plantedErrors": {
+      "A": 5,
+      "B": 4,
+      "C": 4
+    },
+    "inventedCitations": {
+      "A": 1,
+      "B": 0,
+      "C": 1
+    },
+    "inventedCitationMarkers": "future publication year 2031; reserved .example domain"
+  },
+  "referenceFactsFrom": "IRF, Save the Rhino, 玉山國家公園管理處, 行政院, NASA (see production/fact-check.md)",
+  "needsChildAiAccount": false,
+  "answersProvided": "verdict, reference fact and source for each checkable point; other reasoned points accepted",
+  "privateData": "none",
+  "status": "PASS (structure); page-by-page visual review recorded separately"
+}
