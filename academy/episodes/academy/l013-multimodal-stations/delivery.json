@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L013",
+  "episodePath": "episodes/academy/l013-multimodal-stations",
+  "version": "L013-v1",
+  "createdAt": "2026-10-08",
+  "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
+  "status": "verified",
+  "publicationStatus": "awaiting_user_upload",
+  "contentMode": "curriculum-based-preclass (no recording)",
+  "durationSeconds": 371.4,
+  "openingSeconds": 60.277,
+  "voice": "zh-TW-YunJheNeural",
+  "ttsEngine": "edge-tts 7.2.8",
+  "backgroundMusic": "none under teaching slides",
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "validation": {
+    "passed": 25,
+    "total": 25,
+    "integratedLufs": -17.1,
+    "sceneAudioMaxLagMs": 0.0,
+    "sceneAudioMinCorrelation": 0.99521,
+    "asrMinSimilarity": 0.83,
+    "asrMeanSimilarity": 0.957,
+    "asrMinSoundSimilarity": 0.906,
+    "asrMeanSoundSimilarity": 0.991,
+    "captionLineBreak": "kinsoku",
+    "reviewRecords": [
+      "qc/report.md",
+      "qc/manual-review.md",
+      "qc/slide-visual-review.md"
+    ],
+    "notDone": [
+      "human full listening review",
+      "PowerPoint/Keynote open test",
+      "macOS hands-on test",
+      "YouTube copyright check",
+      "真人整段聽審；以 PowerPoint 或 Keynote 開啟 PPTX；實機操作任何 AI 工具或 Mac 朗讀；實際帶孩子試玩；YouTube 版權檢查、AI 揭露判斷與上傳"
+    ]
+  },
+  "package": {
+    "filename": "L013-v1_父子科技學院_文字圖片聲音AI體驗站_2026-10-08.zip",
+    "bytes": 163248685,
+    "sha256": "dd7efe964a7b24e3bc558f71cbb2e29ef8d9297362856f478ab1334e6fd7831e",
+    "contents": "whitelisted package folder L013-v1 with checksums.json (20 files)",
+    "internalChecksums": {
+      "UPLOAD_README.md": "89ea5ed3682a3592c282935f55c02f80324baf30b73490b07c80bca7da4860af",
+      "youtube-draft.json": "57cca19ba5fba866613598f85e2dba2ce174adf90ada71b53da96a32aaf576b2",
+      "youtube-metadata.json": "2f625018f0ee79721453f5974696b02bc84860fd6a19b53f5d1d5bc477bd1793",
+      "manual-review.md": "945f7dc76b3460550e7f88b141016438e504c9d2b7e08b3e24f659bbc689ade1",
+      "repo-guide.md": "86ae07a687686a9164ac9680c7eca082cc9e3622a51bbb9403e6a1612f3dffbb",
+      "sources.json": "7c4083d290c4aeb368cee326d4b36409351dbc4363998c0f1e910fdafed0169a",
+      "narration-only.mp3": "76efd12afcdb15e414402c481b127e2acaf405e84f7cd6ffdb534ddfb5928669",
+      "report.json": "538e457aa385a06f2192587538645e917f5618de039b4f639df6bec5e77d2509",
+      "l013-multimodal-stations-master.mp4": "04242b4c9df0affcda8b92da37db1ce63ac2a181c7fe559315bda02eb731bdfd",
+      "fact-check.md": "04bb5a613713a398abb035032dab0c5551a0954121683b12efc0bccc9533b1cf",
+      "classroom.zip": "b8ddbefffae29da2d56501e22f19aad1a9368387163228d9dd6a4b212566f8fd",
+      "zh-TW.srt": "c6bd91e4256ebabbeb736abdd05d02713bb199ac108be4f52bdae827fc90c203",
+      "l013-multimodal-stations-zh-TW.mp4": "ad2a0da24fcd56c8dcd54dcb812106ad473289867280fb5280d87e212cb576cd",
+      "report.md": "3ec4f73464d4ac7a4cbc01edc9434e93a51449a7136c266b9f0bf4424f5a9ec0",
+      "youtube-description.txt": "9d508757fa60b6eed73d0dbfa93efee5457968292700e1495d67846ee5d1e6bb",
+      "chapters.txt": "f94f39c287a1d44a1071b9dbd5023b48bf88c0dd3fa845655988ab30824b50fc",
+      "l013-multimodal-stations.pptx": "8fcc4e11ed7884f6b1ed69afeb44cdf1dfa11887468925c25e49daf70a7b1195",
+      "thumbnail.png": "5f6829ad11d5485fb92bb5a45952cc43bba35943fb5266e5685f212fb6b250c6",
+      "narration-script.md": "b6e169b09ca4a3bebc5a3090160088c4f558e68e6724da1a3fbbfbe84a67ef57",
+      "START_HERE.md": "23d874c0dcdffcfb6444ac64df80f2e1b996242f2069cb53ac9c9208892103ef"
+    }
+  },
+  "largeFiles": [
+    {
+      "filename": "l013-multimodal-stations-zh-TW.mp4",
+      "bytes": 74604144,
+      "sha256": "ad2a0da24fcd56c8dcd54dcb812106ad473289867280fb5280d87e212cb576cd",
+      "role": "captioned video for upload (burned zh-TW subtitles)",
+      "inGit": false
+    },
+    {
+      "filename": "l013-multimodal-stations-master.mp4",
+      "bytes": 77895088,
+      "sha256": "04242b4c9df0affcda8b92da37db1ce63ac2a181c7fe559315bda02eb731bdfd",
+      "role": "master without burned subtitles",
+      "inGit": false
+    },
+    {
+      "filename": "narration-only.mp3",
+      "bytes": 7467885,
+      "sha256": "76efd12afcdb15e414402c481b127e2acaf405e84f7cd6ffdb534ddfb5928669",
+      "role": "narration only, no opening",
+      "inGit": false
+    }
+  ],
+  "inGit": [
+    {
+      "filename": "l013-multimodal-stations.pptx",
+      "bytes": 2510169,
+      "sha256": "8fcc4e11ed7884f6b1ed69afeb44cdf1dfa11887468925c25e49daf70a7b1195",
+      "path": "production/presentation/l013-multimodal-stations.pptx"
+    },
+    {
+      "filename": "zh-TW.srt",
+      "bytes": 5571,
+      "sha256": "c6bd91e4256ebabbeb736abdd05d02713bb199ac108be4f52bdae827fc90c203",
+      "path": "subtitles/zh-TW.srt"
+    },
+    {
+      "filename": "thumbnail.png",
+      "bytes": 219833,
+      "sha256": "5f6829ad11d5485fb92bb5a45952cc43bba35943fb5266e5685f212fb6b250c6",
+      "path": "output/thumbnail.png"
+    },
+    {
+      "filename": "classroom.zip",
+      "bytes": 484999,
+      "sha256": "b8ddbefffae29da2d56501e22f19aad1a9368387163228d9dd6a4b212566f8fd",
+      "path": "output/classroom.zip"
+    },
+    {
+      "filename": "contact-sheet.png",
+      "bytes": 991430,
+      "sha256": "257adc6de68b419cb53870b179a5316cecaee9a649b9449f20049e22d015ec58",
+      "path": "output/contact-sheet.png"
+    }
+  ],
+  "persistence": {
+    "location": "Attachments delivered in the Claude session that produced this lesson (private to the account owner)",
+    "session": "https://claude.ai/code/session_01GE2NEiPKZa5XzbFCCWKxiy",
+    "reason": "30 MiB per-file attachment limit; the package ZIP was split into 6 byte-exact parts",
+    "parts": [
+      {
+        "filename": "L013-v1_父子科技學院_文字圖片聲音AI體驗站_2026-10-08.zip.part01",
+        "bytes": 29360128,
+        "sha256": "47890af30f1edf95e2fc5081b333e473d5ca67567121a4afc9343dc0203de8c3",
+        "conversationFileId": "4c726b0b-43af-4411-a10b-6fe21b5fb16e"
+      },
+      {
+        "filename": "L013-v1_父子科技學院_文字圖片聲音AI體驗站_2026-10-08.zip.part02",
+        "bytes": 29360128,
+        "sha256": "1e6a3d32e6e574c705927e588c2621026fda3c1cae1fff2550b9de6f27310c7b",
+        "conversationFileId": "6fb690e5-6782-4034-a999-6f07086ddb35"
+      },
+      {
+        "filename": "L013-v1_父子科技學院_文字圖片聲音AI體驗站_2026-10-08.zip.part03",
+        "bytes": 29360128,
+        "sha256": "6f20d941caff5cf1129f452a1eaa277b95097b5395184f9b3f478a110aaf8854",
+        "conversationFileId": "69265d7d-8741-4f7f-bf9e-bdbf447c4a40"
+      },
+      {
+        "filename": "L013-v1_父子科技學院_文字圖片聲音AI體驗站_2026-10-08.zip.part04",
+        "bytes": 29360128,
+        "sha256": "20f730582cd259f87c813c1fae6bdcbd98d528f051b13f87bffd74dd303f92e1",
+        "conversationFileId": "56a8629d-977c-4a98-b9a4-12ed80182df2"
+      },
+      {
+        "filename": "L013-v1_父子科技學院_文字圖片聲音AI體驗站_2026-10-08.zip.part05",
+        "bytes": 29360128,
+        "sha256": "371309aebb91b6655a98ba0675267b950e681b800e74333e6292c451567f14ee",
+        "conversationFileId": "fd89101a-ba38-4332-b324-6433d2477876"
+      },
+      {
+        "filename": "L013-v1_父子科技學院_文字圖片聲音AI體驗站_2026-10-08.zip.part06",
+        "bytes": 16448045,
+        "sha256": "b1541a2b761c771c1b0f682faa44b67c55f641a2e32b3805e02310c9f1207824",
+        "conversationFileId": "8dcbe31f-8b38-4957-a146-54f147670320"
+      }
+    ],
+    "restore": "cat \"L013-v1_父子科技學院_文字圖片聲音AI體驗站_2026-10-08.zip\".part* > \"L013-v1_父子科技學院_文字圖片聲音AI體驗站_2026-10-08.zip\" && shasum -a 256 \"L013-v1_父子科技學院_文字圖片聲音AI體驗站_2026-10-08.zip\"",
+    "restoredZip": {
+      "filename": "L013-v1_父子科技學院_文字圖片聲音AI體驗站_2026-10-08.zip",
+      "bytes": 163248685,
+      "sha256": "dd7efe964a7b24e3bc558f71cbb2e29ef8d9297362856f478ab1334e6fd7831e"
+    },
+    "restoreTested": "parts re-joined by pipeline/split_delivery.py in the producing session: SHA-256 equals the ZIP; ZIP integrity tested",
+    "notUsed": {
+      "gitHubRelease": "repository is public; a release would make the unpublished video public",
+      "googleDrive": "connector accepts only inline content; text records only, no large binaries",
+      "git": "large MP4/MP3 stay out of Git per .gitignore"
+    },
+    "ifAttachmentsUnavailable": "rebuild from Git: audio, slides, PPTX, SRT sources and the shared opening are tracked; run assemble → delivery → verify → package. A rebuild is a new version with new hashes."
+  },
+  "continuation": {
+    "state": "L013 complete through package; nothing pending except user playback/listening and manual YouTube upload",
+    "rebuildCommands": [
+      "cd academy && ./setup-portable.sh",
+      "EP=episodes/academy/l013-multimodal-stations",
+      "./portable-runtime.sh python pipeline/academy.py run media-check --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run assemble --episode \"$EP\"   # ~20 min on 2 cores; run in background",
+      "./portable-runtime.sh python pipeline/delivery.py --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run verify --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py package --episode \"$EP\" --output delivery/L013-v2"
+    ],
+    "doNotRerunWithoutReason": "run tts (re-synthesises all audio and invalidates timing, subtitles, video and QC)",
+    "authoring": [
+      "authoring/l013/classroom.py",
+      "authoring/l013/prepare_content.py"
+    ],
+    "sharedTools": [
+      "pipeline/qa/subtitle_precheck.py",
+      "pipeline/qa/deck_check.py",
+      "pipeline/qa/media_review.py",
+      "pipeline/qa/asr_review.py",
+      "pipeline/split_delivery.py",
+      "pipeline/record_delivery.py"
+    ],
+    "nextLesson": "L014「我們家的科技公約」，尚未開始，只在 George 指定時製作"
+  },
+  "publication": {
+    "status": "awaiting_user_upload",
+    "publisher": "user",
+    "uploaded": false,
+    "videoUrl": null,
+    "uploadFile": "l013-multimodal-stations-zh-TW.mp4",
+    "note": "No login, upload or publication was attempted."
+  }
+}

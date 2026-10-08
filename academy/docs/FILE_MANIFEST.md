@@ -136,6 +136,17 @@
 
 以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l012-ai-hallucination/delivery.json`。
 
+## L013 大型輸出（L013-v1，2026-10-08）
+
+| 檔案 | Bytes | SHA-256 |
+|---|---:|---|
+| `l013-multimodal-stations-zh-TW.mp4` | 74,604,144 | `ad2a0da24fcd56c8dcd54dcb812106ad473289867280fb5280d87e212cb576cd` |
+| `l013-multimodal-stations-master.mp4` | 77,895,088 | `04242b4c9df0affcda8b92da37db1ce63ac2a181c7fe559315bda02eb731bdfd` |
+| `narration-only.mp3` | 7,467,885 | `76efd12afcdb15e414402c481b127e2acaf405e84f7cd6ffdb534ddfb5928669` |
+| `L013-v1_父子科技學院_文字圖片聲音AI體驗站_2026-10-08.zip`（完整交付包） | 163,248,685 | `dd7efe964a7b24e3bc558f71cbb2e29ef8d9297362856f478ab1334e6fd7831e` |
+
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l013-multimodal-stations/delivery.json`。
+
 本 repo 為公開，未建立 Release，勿編造下載連結。附件無法取得時可依各課 delivery.json 的命令重新組裝，重建結果須作新版本並重新驗收。
 <!-- /academy-status:large-files -->
 

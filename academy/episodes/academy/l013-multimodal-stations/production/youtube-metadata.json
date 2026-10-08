@@ -1,0 +1,62 @@
+{
+  "title": "父子科技學院 L013｜文字、圖片、聲音 AI 體驗站",
+  "description": "父子科技學院 L013｜文字、圖片、聲音 AI 體驗站\n\n這是依課表製作的課前教學版，不是實際上課錄音，也沒有虛構的課堂對話。\n\n生成式 AI 不只會寫字，還能照著描述做出圖片和聲音。陳犀牛帶你逛三個體驗站：文字、圖片、聲音，每一站都看輸入、看輸出、做檢查。\n看完影片，和爸爸逛三站尋寶，替一個自己發明的角色做出文字介紹、概念圖和二十秒旁白，最後組成一張多模態角色卡。\n\n這一集會學到\n・多模態：文字、圖片、聲音三種形式，各自的輸入和輸出\n・用四個格子比較：輸入、輸出、限制、風險\n・聲音和影像都能合成：遇到很急、要錢的電話，先掛斷，再打原本知道的號碼；全家可以約定家庭密語\n・三個約定：不上傳自己和別人的照片、聲音；不模仿別人；用了要標示\n\n教材用法（classroom.zip）\n先讀「00_爸爸先讀」，列印「02_列印包」（A4 共 6 頁），照「01_活動規則」逛三站尋寶，用「03_三站比較」記錄；\n各站的重點和暖身題的答案在「04_三站解說」，下半場照「05_自選規則與標示」組成多模態角色卡，最後用「06_驗收與回顧」讓孩子帶爸爸逛三站。「07_三站小抄」可以貼在電腦旁邊。\n\n注意事項\n・課堂是 120 分鐘，影片只是課前引導，片長另計。\n・這一集的旁白是文字轉語音合成的，不是真人錄音。\n・三站都有不需要孩子帳號的做法：爸爸當機器人、自己畫、用電腦內建的朗讀功能。各家 AI 工具都有年齡限制，要用請由爸爸用自己的帳號操作。\n・不上傳自己或別人的照片和聲音；不模仿別人的臉和聲音；角色請畫自己發明的。\n\n來源（查核日 2026-10-08）\n教育部「中小學使用『生成式人工智慧』注意事項 2.1」（115 年 2 月核定）\nMicrosoft Learn「What is text to speech?」：https://learn.microsoft.com/en-us/azure/ai-services/speech-service/text-to-speech\nOpenAI「Image generation guide」：https://developers.openai.com/api/docs/guides/image-generation\n美國聯邦貿易委員會（FTC）消費者警示：https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes\nFBI IC3 公告：https://www.ic3.gov/PSA/2024/PSA241203\n內政部「先掛斷電話，後查證」：https://www.moi.gov.tw/News_Content.aspx?n=2&s=323333\n經濟部智慧財產局函釋（114-05-22）：https://www.tipo.gov.tw/tw/copyright/692-34252.html\nApple 支援「讓 Mac 朗讀螢幕上的文字」：https://support.apple.com/zh-tw/guide/mac-help/mh27448/mac\n\n章節\n00:00 陳犀牛系列片頭\n01:00 文字、圖片、聲音 AI 體驗站\n01:25 每一站做三件事\n01:43 多模態：不只一種形式\n02:08 用四個格子比較三站\n02:31 圖片站：描述變成一張圖\n02:59 聲音站：文字變成語音\n03:25 聽到、看到，不一定是真的\n03:48 三個約定\n04:14 三站尋寶\n04:48 換你設計：多模態角色卡\n05:16 兩小時的體驗站\n05:45 最後一關：帶爸爸逛體驗站\n\n旁白：Edge-TTS zh-TW-YunJheNeural 合成語音。字幕已燒入影片，開啟 CC 可能重疊。\n",
+  "chapters": [
+    {
+      "seconds": 0,
+      "title": "陳犀牛系列片頭"
+    },
+    {
+      "seconds": 60.277,
+      "title": "文字、圖片、聲音 AI 體驗站"
+    },
+    {
+      "seconds": 85.453,
+      "title": "每一站做三件事"
+    },
+    {
+      "seconds": 103.045,
+      "title": "多模態：不只一種形式"
+    },
+    {
+      "seconds": 128.941,
+      "title": "用四個格子比較三站"
+    },
+    {
+      "seconds": 151.933,
+      "title": "圖片站：描述變成一張圖"
+    },
+    {
+      "seconds": 179.317,
+      "title": "聲音站：文字變成語音"
+    },
+    {
+      "seconds": 205.645,
+      "title": "聽到、看到，不一定是真的"
+    },
+    {
+      "seconds": 228.493,
+      "title": "三個約定"
+    },
+    {
+      "seconds": 254.989,
+      "title": "三站尋寶"
+    },
+    {
+      "seconds": 288.805,
+      "title": "換你設計：多模態角色卡"
+    },
+    {
+      "seconds": 316.525,
+      "title": "兩小時的體驗站"
+    },
+    {
+      "seconds": 345.781,
+      "title": "最後一關：帶爸爸逛體驗站"
+    }
+  ],
+  "privacyStatus": "private",
+  "madeForKids": null,
+  "reviewStatus": "needs-parent-review",
+  "publicationMode": "manual-user-upload"
+}

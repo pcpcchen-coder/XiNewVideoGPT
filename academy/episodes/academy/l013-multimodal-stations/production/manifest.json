@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "editorialStatus": "authored",
+  "recordingSource": null,
+  "slideCount": 12,
+  "transitionSeconds": 0.55,
+  "deckRenderer": "ooxml-template",
+  "templateEpisode": "episodes/academy/l001-mac-workstation",
+  "templateProvenance": "Original PPTX absent from v2 ZIP; restored from supplied build_l001.mjs and original assets.",
+  "layoutProfile": "academy-native-v1",
+  "seriesHeader": "父子科技學院  ·  AI MEDIA STATIONS",
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "zh-TW-YunJheNeural",
+    "persona": "陳犀牛 Chen XiNew",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "music": {
+    "backgroundMusic": "none — narration only under teaching slides",
+    "opening": "assets/opening/開場影片-v2.mp4"
+  },
+  "signoff": {
+    "text": "我是陳犀牛，保持好奇，我們下次見！"
+  },
+  "contentMode": "curriculum-based-preclass",
+  "publicationMode": "manual-user-upload",
+  "autoPublish": false,
+  "episode": "L013",
+  "slug": "l013-multimodal-stations",
+  "title": "文字、圖片、聲音 AI 體驗站",
+  "subtitle": "父子科技學院 第十三堂｜依課表製作的課前教學版",
+  "lessonIds": [
+    "L013"
+  ],
+  "sources": {
+    "curriculum": "curriculum/catalog.json：L013；來源 V2 Excel 逐堂課程第 13 堂",
+    "unicef3": "https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf",
+    "ms_learn_genai": "https://learn.microsoft.com/en-us/training/modules/intro-generative-ai-explore-basics/2-what-is-generative-ai",
+    "ms_ai101": "https://www.microsoft.com/en-us/ai/ai-101/how-does-generative-ai-work",
+    "openai_image_limits": "https://developers.openai.com/api/docs/guides/image-generation",
+    "google_image_blog": "https://blog.google/products-and-platforms/products/gemini/gemini-image-generation-issue/",
+    "openai_dalle_card": "https://cdn.openai.com/papers/DALL_E_3_System_Card.pdf",
+    "ms_tts": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/text-to-speech",
+    "ms_voices": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts",
+    "ms_personal_voice": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/personal-voice-overview",
+    "elevenlabs_policy": "https://elevenlabs.io/use-policy",
+    "google_policy": "https://policies.google.com/terms/generative-ai/use-policy",
+    "ftc_voice": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+    "fbi_psa": "https://www.ic3.gov/PSA/2024/PSA241203",
+    "npa_hualien": "https://www.hlhpd.npa.gov.tw/ch/app/openData/data/list?module=publicizearea&mserno=105480c9-65f8-41bd-ae8d-17f9507da67f&type=xml",
+    "moi_165": "https://www.moi.gov.tw/News_Content.aspx?n=2&s=323333",
+    "moe_genai": "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+    "tw_ai_act": "https://www.president.gov.tw/File/Doc/80165b6d-cb49-4b49-952f-56e1e6abe51b",
+    "tipo_ai": "https://www.tipo.gov.tw/tw/copyright/692-34252.html",
+    "tipo_reuse": "https://www.tipo.gov.tw/tw/copyright/692-87797.html",
+    "youtube_disclosure": "https://support.google.com/youtube/answer/14328491?hl=en",
+    "synthid": "https://deepmind.google/models/synthid/",
+    "apple_speak": "https://support.apple.com/zh-tw/guide/mac-help/mh27448/mac",
+    "apple_personal_voice": "https://support.apple.com/zh-tw/guide/mac-help/mchldfd72333/mac",
+    "apple_image_playground": "https://support.apple.com/zh-tw/guide/mac-help/mchld5412d00/mac",
+    "apple_availability": "https://www.apple.com/tw/macos/feature-availability/",
+    "gemini_images": "https://support.google.com/gemini/answer/14286560?hl=en",
+    "catalog_reference": "https://academy.openai.com/"
+  },
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "factCheck": {
+    "checkedAt": "2026-10-08",
+    "record": "production/fact-check.md",
+    "sources": "production/sources.json"
+  },
+  "authorization": {
+    "produceL013": true,
+    "ttsConsent": {
+      "grantedBy": "user",
+      "grantedAt": "2026-10-08",
+      "service": "Microsoft Edge TTS",
+      "voice": "zh-TW-YunJheNeural",
+      "scope": "L013 public narration script only",
+      "basis": "On 2026-10-08 the user asked to start producing L011–L013 after receiving L007–L010, whose hand-over stated that the public narration is sent to Edge TTS on the same basis; restated to the user before synthesis.",
+      "excluded": "private recordings or any other private data"
+    },
+    "paidLlmApi": false,
+    "uploadToYouTube": false,
+    "publish": false
+  }
+}

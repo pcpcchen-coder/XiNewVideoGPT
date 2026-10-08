@@ -1,0 +1,110 @@
+[
+  {
+    "slide": 1,
+    "title": "文字、圖片、聲音 AI 體驗站",
+    "purpose": "開場：課前教學版揭露、生成式 AI 能做文字圖片聲音、今天的三站與作品",
+    "visual": "封面版型：任務標籤、兩行主題、一句任務說明；原陳犀牛角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "準備尋寶地圖與角色卡；預告三個體驗站",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 2,
+    "title": "每一站做三件事",
+    "purpose": "概念：每站看輸入、看輸出、做檢查",
+    "visual": "三步流程卡：輸入 → 輸出 → 檢查（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出今天要完成的作品",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 3,
+    "title": "多模態：不只一種形式",
+    "purpose": "概念：多模態；三站的輸入與輸出",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "各說一個例子",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 4,
+    "title": "用四個格子比較三站",
+    "purpose": "概念：用輸入、輸出、限制、風險四格比較",
+    "visual": "面板四張卡＋黃字說明（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出限制和風險差在哪裡",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 5,
+    "title": "圖片站：描述變成一張圖",
+    "purpose": "示範：圖片站，描述與要檢查的地方；不上傳照片、不畫別人的角色",
+    "visual": "雙框（你的描述 → 要檢查的地方）＋白字＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出圖片站要檢查哪三樣",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 6,
+    "title": "聲音站：文字變成語音",
+    "purpose": "示範：聲音站，文字轉語音與模仿聲音；陳犀牛的聲音是合成的",
+    "visual": "三張步驟卡＋黃字說明（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出聲音站的規定",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 7,
+    "title": "聽到、看到，不一定是真的",
+    "purpose": "安全：聲音和影像能合成；詐騙模仿親友聲音；先掛斷再確認、家庭密語",
+    "visual": "路徑一行＋三張卡＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "和爸爸約定遇到這種電話怎麼做",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 8,
+    "title": "三個約定",
+    "purpose": "數位公民：不上傳、要同意、要標示",
+    "visual": "左側三行；右側「為什麼要標示？」（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "暫停影片：說出這三個約定",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 9,
+    "title": "三站尋寶",
+    "purpose": "共同實作：逛三站，替角色做文字介紹、概念圖、二十秒旁白；每站找三個寶藏，再找三個不一樣的地方",
+    "visual": "左右比較卡（逛三站／找不一樣）＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成尋寶地圖和三樣東西",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 10,
+    "title": "換你設計：多模態角色卡",
+    "purpose": "獨立改造：組成多模態角色卡、標示誰做的、加一個自選規則或功能",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成角色卡",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的體驗站",
+    "purpose": "120 分鐘安排：10／15／40／10／30／10／5",
+    "visual": "六列時間表與今日生活技能（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "依時間表進行；休息十分鐘",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：帶爸爸逛體驗站",
+    "purpose": "作品驗收與回顧：當場比較兩站，指出一個限制或安全注意；固定結尾",
+    "visual": "三點驗收條列＋陳犀牛＋結尾語（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "孩子帶爸爸逛三站；錄音回答四個問題；作品命名存檔",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  }
+]

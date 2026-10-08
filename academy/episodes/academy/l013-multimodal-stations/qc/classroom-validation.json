@@ -1,0 +1,52 @@
+{
+  "folder": "classroom/L013_文字圖片聲音AI體驗站",
+  "files": [
+    "00_爸爸先讀.md",
+    "01_活動規則_三站尋寶.md",
+    "02_列印包_AI體驗站.pdf",
+    "03_三站比較.csv",
+    "03_三站比較_填寫說明.md",
+    "04_三站解說.md",
+    "05_自選規則與標示.md",
+    "06_驗收與回顧.md",
+    "07_三站小抄.md"
+  ],
+  "fileCount": 9,
+  "utf8TextReadable": true,
+  "sheet": {
+    "file": "03_三站比較.csv",
+    "rows": 4,
+    "columns": 8
+  },
+  "printPack": {
+    "file": "02_列印包_AI體驗站.pdf",
+    "pages": 6,
+    "allFontsEmbedded": true,
+    "renderedThisRun": true,
+    "source": "authoring/l013/print/print-pack.html"
+  },
+  "mockOutputs": {
+    "text": 1,
+    "picture": 1,
+    "writtenOrDrawnForLesson": true,
+    "notOutputOfAnyAiTool": true,
+    "labelledOnPage": true,
+    "plantedDifferences": {
+      "text": 4,
+      "picture": 4
+    },
+    "pictureIs": "hand-written SVG of simple shapes; hat colour difference needs a colour print"
+  },
+  "stationsWithoutTools": {
+    "text": "father role-plays a literal robot",
+    "image": "father or child draws from the description",
+    "voice": "macOS built-in Speak Selection plus the child reading aloud"
+  },
+  "needsChildAiAccount": false,
+  "noAiGeneratedSamplesIncluded": true,
+  "voiceCloningTaught": false,
+  "familyCodeWord": "usage card only; the pack has no field to write the code word",
+  "scriptLength": "60–90 characters for about 20 seconds; the 60th box of a 90-box grid is marked",
+  "privateData": "none",
+  "status": "PASS (structure); page-by-page visual review recorded separately"
+}

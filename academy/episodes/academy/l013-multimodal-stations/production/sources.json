@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L013",
+  "checkedAt": "2026-10-08",
+  "method": "A research subagent downloaded each page/PDF on the check date and reported verbatim quotes (production/source-notes.md); the producing agent mapped them to claims. Not a human full read.",
+  "curriculum": "curriculum/catalog.json：L013；來源 V2 Excel 逐堂課程第 13 堂",
+  "sources": [
+    {
+      "id": "unicef3",
+      "title": "Guidance on AI and Children 3.0（2025-12）",
+      "publisher": "UNICEF Innocenti",
+      "url": "https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf",
+      "usedFor": "生成式 AI 用統計規律預測語言、圖像與其他媒體的下一步來產生新內容；AI 生成內容可能與人做的難以分辨；模仿親人聲音要錢的合成語音詐騙"
+    },
+    {
+      "id": "ms_learn_genai",
+      "title": "What is generative AI?（2025-03-24）",
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/modules/intro-generative-ai-explore-basics/2-what-is-generative-ai",
+      "usedFor": "生成式 AI 從資料中的規律產生文字、語音與圖像"
+    },
+    {
+      "id": "ms_ai101",
+      "title": "How Does Generative AI Work",
+      "publisher": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/ai/ai-101/how-does-generative-ai-work",
+      "usedFor": "從文字提示產生圖像；產生擬真的旁白與語音合成"
+    },
+    {
+      "id": "openai_image_limits",
+      "title": "Image generation guide：Limitations",
+      "publisher": "OpenAI API docs",
+      "url": "https://developers.openai.com/api/docs/guides/image-generation",
+      "usedFor": "圖片裡的文字位置與清晰度仍可能出問題；同一角色跨多次生成不一定一致；構圖不一定照指定"
+    },
+    {
+      "id": "google_image_blog",
+      "title": "Gemini image generation got it wrong. We'll do better.（2024-02-23）",
+      "publisher": "Google",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-image-generation-issue/",
+      "usedFor": "生成的圖像有些不正確，甚至冒犯人；它會出錯"
+    },
+    {
+      "id": "openai_dalle_card",
+      "title": "DALL·E 3 System Card（2023-10-03）",
+      "publisher": "OpenAI",
+      "url": "https://cdn.openai.com/papers/DALL_E_3_System_Card.pdf",
+      "usedFor": "教材：圖像生成可能強化刻板印象，人物呈現有偏向"
+    },
+    {
+      "id": "ms_tts",
+      "title": "What is text to speech?（2026-01-30）",
+      "publisher": "Microsoft Learn（Azure AI Speech）",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/text-to-speech",
+      "usedFor": "文字轉語音把文字變成像人聲的合成語音，又叫語音合成；用深度神經網路讓電腦聲音接近真人錄音"
+    },
+    {
+      "id": "ms_voices",
+      "title": "Language and voice support for the Speech service（2026-09-09）",
+      "publisher": "Microsoft Learn（Azure AI Speech）",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts",
+      "usedFor": "zh-TW-YunJheNeural 列在臺灣華語的標準（Standard）神經語音；標準語音是現成可用的聲音，不是某位使用者的複製聲音"
+    },
+    {
+      "id": "ms_personal_voice",
+      "title": "What is personal voice for text to speech?（2026-09-09）",
+      "publisher": "Microsoft Learn（Azure AI Speech）",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/personal-voice-overview",
+      "usedFor": "有技術能在幾秒內做出使用者自己聲音的 AI 複製；每個聲音都必須有本人明確同意並錄下聲明"
+    },
+    {
+      "id": "elevenlabs_policy",
+      "title": "Prohibited Use Policy（2026-08-17 更新）",
+      "publisher": "ElevenLabs",
+      "url": "https://elevenlabs.io/use-policy",
+      "usedFor": "未經同意不得刻意複製他人的聲音；不得讓人誤以為聲音不是 AI 產生的；13 歲以下不得使用"
+    },
+    {
+      "id": "google_policy",
+      "title": "Generative AI Prohibited Use Policy（2024-12-17）",
+      "publisher": "Google",
+      "url": "https://policies.google.com/terms/generative-ai/use-policy",
+      "usedFor": "禁止在沒有明確揭露的情況下冒充他人以欺騙"
+    },
+    {
+      "id": "ftc_voice",
+      "title": "Scammers use AI to enhance their family emergency schemes（2023-03-20）",
+      "publisher": "U.S. Federal Trade Commission",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+      "usedFor": "詐騙者可以用一小段聲音複製親人的聲音；不要相信那個聲音，用你知道的號碼打給本人確認"
+    },
+    {
+      "id": "fbi_psa",
+      "title": "Public Service Announcement I-120324-PSA（2024-12-03）",
+      "publisher": "FBI Internet Crime Complaint Center",
+      "url": "https://www.ic3.gov/PSA/2024/PSA241203",
+      "usedFor": "和家人約定一個祕密的字或句子來確認身分；掛斷電話後自己查號碼再回撥"
+    },
+    {
+      "id": "npa_hualien",
+      "title": "反詐騙宣導（轉載刑事警察局宣導；114-07-02、114-12-10）",
+      "publisher": "內政部警政署花蓮港務警察總隊 開放資料",
+      "url": "https://www.hlhpd.npa.gov.tw/ch/app/openData/data/list?module=publicizearea&mserno=105480c9-65f8-41bd-ae8d-17f9507da67f&type=xml",
+      "usedFor": "「詐騙集團利用人工智慧AI技術，模擬親友的聲音，製造緊急情境，誘使受害者匯款」；設定家庭密語；聲音、影像都能被偽造，先用另一個確定的聯絡方式確認，可撥打 165"
+    },
+    {
+      "id": "moi_165",
+      "title": "通話中直接撥打165？小心詐騙集團假冒警察",
+      "publisher": "內政部",
+      "url": "https://www.moi.gov.tw/News_Content.aspx?n=2&s=323333",
+      "usedFor": "「一聽、二掛、三查證」；先掛斷電話，後查證（一般防詐原則，不是專講 AI）"
+    },
+    {
+      "id": "moe_genai",
+      "title": "中小學使用「生成式人工智慧」注意事項 2.1（學生版；115 年 2 月 11 日核定）",
+      "publisher": "教育部（師大附中國中部網站轉載的 PDF）",
+      "url": "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+      "usedFor": "深偽技術能用既有的圖片、影像或聲音製造看似真實的影片和圖像；不可輸入自己或他人的姓名、照片等個資；依規定註明所使用的工具及用途；遵守各平臺年齡限制，非在校使用請家長陪伴"
+    },
+    {
+      "id": "tw_ai_act",
+      "title": "人工智慧基本法 第四條（總統府公報第 7837 號，115 年 1 月 14 日）",
+      "publisher": "總統府",
+      "url": "https://www.president.gov.tw/File/Doc/80165b6d-cb49-4b49-952f-56e1e6abe51b",
+      "usedFor": "教材：透明與可解釋原則，人工智慧之產出應做適當資訊揭露或標記（政府推動 AI 的原則，不是對個人的標示義務）"
+    },
+    {
+      "id": "tipo_ai",
+      "title": "電子郵件 1140522c 函釋（114-05-22）",
+      "publisher": "經濟部智慧財產局",
+      "url": "https://www.tipo.gov.tw/tw/copyright/692-34252.html",
+      "usedFor": "AI 生成的圖畫是否享有著作權，視有無人類實際的創意投入；與原始著作實質近似可能有侵權問題；個案由法院認定"
+    },
+    {
+      "id": "tipo_reuse",
+      "title": "電子郵件 1150624 函釋（115-06-24）",
+      "publisher": "經濟部智慧財產局",
+      "url": "https://www.tipo.gov.tw/tw/copyright/692-87797.html",
+      "usedFor": "教材：復刻、微調或致敬他人著作可能構成重製、改作，原則上應取得授權（該函釋談的不是 AI）"
+    },
+    {
+      "id": "youtube_disclosure",
+      "title": "Disclosing use of GenAI content",
+      "publisher": "YouTube Help",
+      "url": "https://support.google.com/youtube/answer/14328491?hl=en",
+      "usedFor": "教材（給爸爸）：創作者須揭露以 AI 大幅變造或生成的擬真內容；非寫實內容、腳本與字幕等製作協助不需揭露"
+    },
+    {
+      "id": "synthid",
+      "title": "Google SynthID",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/models/synthid/",
+      "usedFor": "教材：在 AI 生成的圖像、聲音、文字或影片裡嵌入人察覺不到、但可被偵測的數位浮水印"
+    },
+    {
+      "id": "apple_speak",
+      "title": "讓 Mac 朗讀螢幕上的文字",
+      "publisher": "Apple 支援（台灣）",
+      "url": "https://support.apple.com/zh-tw/guide/mac-help/mh27448/mac",
+      "usedFor": "教材：「系統設定」>「輔助使用」>「閱讀與朗讀」（macOS 15 是「語音內容」）>「朗讀所選範圍」，預設按鍵 Option + Esc；「編輯」>「語音」>「開始朗讀」"
+    },
+    {
+      "id": "apple_personal_voice",
+      "title": "在 Mac 上製作「個人聲音」",
+      "publisher": "Apple 支援（台灣）",
+      "url": "https://support.apple.com/zh-tw/guide/mac-help/mchldfd72333/mac",
+      "usedFor": "教材：「個人聲音」只能用本人的聲音、只適用英文（美國）、國語（中國大陸）、西班牙文（墨西哥），本課不使用"
+    },
+    {
+      "id": "apple_image_playground",
+      "title": "在 Mac 上使用「影像樂園」製作獨創影像",
+      "publisher": "Apple 支援（台灣）",
+      "url": "https://support.apple.com/zh-tw/guide/mac-help/mchld5412d00/mac",
+      "usedFor": "教材：可在「螢幕使用時間」阻擋影像製作功能；「寫實影像」建議使用年齡 18 歲以上"
+    },
+    {
+      "id": "apple_availability",
+      "title": "macOS 功能特色適用範圍",
+      "publisher": "Apple（台灣）",
+      "url": "https://www.apple.com/tw/macos/feature-availability/",
+      "usedFor": "教材：影像樂園支援繁體中文，需要 M1 或更新晶片的 Mac，部分功能未在所有地區提供"
+    },
+    {
+      "id": "gemini_images",
+      "title": "Generate & edit images with Gemini Apps",
+      "publisher": "Google Gemini Apps Help",
+      "url": "https://support.google.com/gemini/answer/14286560?hl=en",
+      "usedFor": "教材：產生圖片須年滿 13 歲（或所在國家適用年齡），編輯圖片須年滿 18 歲"
+    },
+    {
+      "id": "catalog_reference",
+      "title": "OpenAI Academy",
+      "publisher": "OpenAI（課表 R20 的主要參考網址）",
+      "url": "https://academy.openai.com/",
+      "usedFor": "課表列出的參考入口；本課沒有引用其中任何一頁"
+    }
+  ],
+  "notVerified": [
+    "OpenAI 的條款與使用政策、Adobe 與 Canva 的條款只有擷取工具的摘要，沒有逐字確認，未依賴",
+    "刑事警察局（cib.npa.gov.tw）與 165 全民防騙網讀不到；台灣警方的說法取自花蓮港務警察總隊轉載的宣導資料",
+    "Microsoft 的文件記載 Azure 語音服務有 zh-TW-YunJheNeural；Edge TTS 提供同名聲音這一點沒有官方文件",
+    "影像樂園在台灣的實際可用情形沒有實機查核；Apple 的頁面只列出支援繁體中文",
+    "陳犀牛角色圖像的來源本次沒有查核，影片沒有對它做任何說明",
+    "沒有用任何真實 AI 工具產生圖片或聲音；教材沒有附 AI 生成的範例，暖身題的文字與圖是本課自己寫、自己用簡單圖形畫的",
+    "Mac 更換朗讀聲音的選單名稱沒有查核；教材請爸爸以自己的畫面為準"
+  ],
+  "youtubeSearchEntries": {
+    "status": "not selected, not watched",
+    "note": "課表的三組 YouTube 連結是動態搜尋入口，本次未挑選或觀看任何影片，也未在影片或教材中引用。"
+  }
+}

@@ -1,0 +1,288 @@
+[
+  {
+    "slide": 1,
+    "title": "文字、圖片、聲音 AI 體驗站",
+    "sentences": [
+      {
+        "text": "歡迎回到父子科技學院，我是陳犀牛，今天是第十三堂，我們要逛三個體驗站：文字、圖片和聲音，這是依課表製作的課前教學版，並非實際上課錄音。",
+        "tts": "歡迎回到父子科技學院，我是陳犀牛，今天是第十三堂，我們要逛三個體驗站：文字、圖片和聲音，這是依課表製作的課前教學版，並非實際上課錄音。"
+      },
+      {
+        "text": "生成式 AI，不只會寫字，還能照著你的描述，做出圖片和聲音。",
+        "tts": "生成式 AI，不只會寫字，還能照著你的描述，做出圖片和聲音。"
+      },
+      {
+        "text": "今天你要替一個自己發明的角色，完成一張多模態角色卡。",
+        "tts": "今天你要替一個自己發明的角色，完成一張多模態角色卡。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L013；來源 V2 Excel 逐堂課程第 13 堂",
+      "https://learn.microsoft.com/en-us/training/modules/intro-generative-ai-explore-basics/2-what-is-generative-ai"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 2,
+    "title": "每一站做三件事",
+    "sentences": [
+      {
+        "text": "每一站都做三件事。第一，看輸入：你給它的是什麼。",
+        "tts": "每一站都做三件事。第一，看輸入：你給它的是什麼。"
+      },
+      {
+        "text": "第二，看輸出：它交出來的是什麼。",
+        "tts": "第二，看輸出：它交出來的是什麼。"
+      },
+      {
+        "text": "第三，做檢查：哪裡和你說的不一樣，還有什麼事不可以做。",
+        "tts": "第三，做檢查：哪裡和你說的不一樣，還有什麼事不可以做。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L013；來源 V2 Excel 逐堂課程第 13 堂"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 3,
+    "title": "多模態：不只一種形式",
+    "sentences": [
+      {
+        "text": "多模態的意思，是不只一種形式。文字站，輸入一段話，輸出也是一段話。",
+        "tts": "多模態的意思，是不只一種形式。文字站，輸入一段話，輸出也是一段話。"
+      },
+      {
+        "text": "圖片站，輸入一段描述，輸出是一張圖；聲音站，輸入一段文字稿，輸出是一段念出來的語音。",
+        "tts": "圖片站，輸入一段描述，輸出是一張圖；聲音站，輸入一段文字稿，輸出是一段念出來的語音。"
+      },
+      {
+        "text": "三站的做法很像，都是從大量的資料裡學到規律，再做出新的內容，所以也都可能出錯。",
+        "tts": "三站的做法很像，都是從大量的資料裡學到規律，再做出新的內容，所以也都可能出錯。"
+      }
+    ],
+    "sources": [
+      "https://learn.microsoft.com/en-us/training/modules/intro-generative-ai-explore-basics/2-what-is-generative-ai",
+      "https://www.microsoft.com/en-us/ai/ai-101/how-does-generative-ai-work",
+      "https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 4,
+    "title": "用四個格子比較三站",
+    "sentences": [
+      {
+        "text": "每一站都用四個格子來比較。輸入，是你給它的東西；輸出，是它交出來的東西。",
+        "tts": "每一站都用四個格子來比較。輸入，是你給它的東西；輸出，是它交出來的東西。"
+      },
+      {
+        "text": "限制，是它做不好的地方，例如圖片裡的字可能寫錯，細節可能和你說的不一樣。",
+        "tts": "限制，是它做不好的地方，例如圖片裡的字可能寫錯，細節可能和你說的不一樣。"
+      },
+      {
+        "text": "風險，是可能傷害到人的地方，例如有人拿它來模仿別人的臉和聲音。",
+        "tts": "風險，是可能傷害到人的地方，例如有人拿它來模仿別人的臉和聲音。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L013；來源 V2 Excel 逐堂課程第 13 堂",
+      "https://developers.openai.com/api/docs/guides/image-generation",
+      "https://blog.google/products-and-platforms/products/gemini/gemini-image-generation-issue/",
+      "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 5,
+    "title": "圖片站：描述變成一張圖",
+    "sentences": [
+      {
+        "text": "來看圖片站。你描述一隻戴紅帽子的小犀牛，手上拿著三顆氣球，它就照著畫出一張圖。",
+        "tts": "來看圖片站。你描述一隻戴紅帽子的小犀牛，手上拿著三顆氣球，它就照著畫出一張圖。"
+      },
+      {
+        "text": "可是圖片可能和你說的不一樣：帽子的顏色、氣球的數目，還有畫面裡的字，都要一樣一樣檢查。",
+        "tts": "可是圖片可能和你說的不一樣：帽子的顏色、氣球的數目，還有畫面裡的字，都要一樣一樣檢查。"
+      },
+      {
+        "text": "還有兩件事不能做：不要上傳自己或別人的照片，也不要叫它畫別人創作的角色，請畫你自己發明的。",
+        "tts": "還有兩件事不能做：不要上傳自己或別人的照片，也不要叫它畫別人創作的角色，請畫你自己發明的。"
+      }
+    ],
+    "sources": [
+      "https://www.microsoft.com/en-us/ai/ai-101/how-does-generative-ai-work",
+      "https://developers.openai.com/api/docs/guides/image-generation",
+      "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+      "https://www.tipo.gov.tw/tw/copyright/692-34252.html"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 6,
+    "title": "聲音站：文字變成語音",
+    "sentences": [
+      {
+        "text": "再來看聲音站。文字轉語音，是電腦照著文字稿念出聲音；像我陳犀牛的聲音，就是這樣合成出來的，不是真人錄的。",
+        "tts": "再來看聲音站。文字轉語音，是電腦照著文字稿念出聲音；像我陳犀牛的聲音，就是這樣合成出來的，不是真人錄的。"
+      },
+      {
+        "text": "還有一種技術，可以模仿某一個人的聲音，聽起來很像本人。",
+        "tts": "還有一種技術，可以模仿某一個人的聲音，聽起來很像本人。"
+      },
+      {
+        "text": "所以聲音站的規定是：只能用電腦內建的聲音，或是你自己的聲音；沒有經過同意，不可以模仿別人。",
+        "tts": "所以聲音站的規定是：只能用電腦內建的聲音，或是你自己的聲音；沒有經過同意，不可以模仿別人。"
+      }
+    ],
+    "sources": [
+      "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/text-to-speech",
+      "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts",
+      "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/personal-voice-overview",
+      "https://elevenlabs.io/use-policy"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 7,
+    "title": "聽到、看到，不一定是真的",
+    "sentences": [
+      {
+        "text": "因為聲音和影像都能合成，所以聽到的、看到的，不一定是真的。",
+        "tts": "因為聲音和影像都能合成，所以聽到的、看到的，不一定是真的。"
+      },
+      {
+        "text": "警察提醒過，有詐騙集團利用 AI，模仿親友的聲音，假裝有急事，要你匯錢。",
+        "tts": "警察提醒過，有詐騙集團利用 AI，模仿親友的聲音，假裝有急事，要你匯錢。"
+      },
+      {
+        "text": "遇到這種電話，先掛斷，再打你原本就知道的號碼確認；全家人也可以先約定一個家庭密語。",
+        "tts": "遇到這種電話，先掛斷，再打你原本就知道的號碼確認；全家人也可以先約定一個家庭密語。"
+      }
+    ],
+    "sources": [
+      "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+      "https://www.hlhpd.npa.gov.tw/ch/app/openData/data/list?module=publicizearea&mserno=105480c9-65f8-41bd-ae8d-17f9507da67f&type=xml",
+      "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+      "https://www.ic3.gov/PSA/2024/PSA241203",
+      "https://www.moi.gov.tw/News_Content.aspx?n=2&s=323333"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 8,
+    "title": "三個約定",
+    "sentences": [
+      {
+        "text": "用這些工具，有三個約定。第一，不上傳：自己和別人的照片、聲音，都不放進去。",
+        "tts": "用這些工具，有三個約定。第一，不上傳：自己和別人的照片、聲音，都不放進去。"
+      },
+      {
+        "text": "第二，要同意：不可以拿別人的臉和聲音來做東西，就算只是好玩也不行。",
+        "tts": "第二，要同意：不可以拿別人的臉和聲音來做東西，就算只是好玩也不行。"
+      },
+      {
+        "text": "第三，要標示：哪些是你自己做的，哪些是 AI，都要說清楚；作業也要照老師的規定，註明使用的工具。",
+        "tts": "第三，要標示：哪些是你自己做的，哪些是 AI，都要說清楚；作業也要照老師的規定，註明使用的工具。"
+      }
+    ],
+    "sources": [
+      "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+      "https://policies.google.com/terms/generative-ai/use-policy",
+      "https://elevenlabs.io/use-policy",
+      "https://www.president.gov.tw/File/Doc/80165b6d-cb49-4b49-952f-56e1e6abe51b"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 9,
+    "title": "三站尋寶",
+    "sentences": [
+      {
+        "text": "現在開始尋寶。先發明一個角色，再和爸爸一起逛三站：文字站寫三句介紹，圖片站做一張概念圖，聲音站做一段大約二十秒的旁白。",
+        "tts": "現在開始尋寶。先發明一個角色，再和爸爸一起逛三站：文字站寫三句介紹，圖片站做一張概念圖，聲音站做一段大約二十秒的旁白。"
+      },
+      {
+        "text": "每一站都藏著三個寶藏：輸入、輸出，還有一個限制，找到就在尋寶地圖上蓋章；再把描述和結果放在一起，找出三個不同的地方。",
+        "tts": "每一站都藏著三個寶藏：輸入、輸出，還有一個限制，找到就在尋寶地圖上蓋章；再把描述和結果放在一起，找出三個不同的地方。"
+      },
+      {
+        "text": "這三站都不需要你自己的帳號：文字可以請爸爸當機器人，圖片可以自己畫，聲音可以用電腦內建的朗讀功能。",
+        "tts": "這三站都不需要你自己的帳號：文字可以請爸爸當機器人，圖片可以自己畫，聲音可以用電腦內建的朗讀功能。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L013；來源 V2 Excel 逐堂課程第 13 堂",
+      "https://support.apple.com/zh-tw/guide/mac-help/mh27448/mac"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 10,
+    "title": "換你設計：多模態角色卡",
+    "sentences": [
+      {
+        "text": "下半場換你自己來，把三站做出來的東西，組成一張多模態角色卡：文字介紹、概念圖，還有二十秒旁白。",
+        "tts": "下半場換你自己來，把三站做出來的東西，組成一張多模態角色卡：文字介紹、概念圖，還有二十秒旁白。"
+      },
+      {
+        "text": "在卡片上標示，每一樣東西是誰做的：是你、是爸爸，還是電腦；和描述不一樣的地方，也要圈出來。",
+        "tts": "在卡片上標示，每一樣東西是誰做的：是你、是爸爸，還是電腦；和描述不一樣的地方，也要圈出來。"
+      },
+      {
+        "text": "再加一個你自選的規則或功能，例如旁白自己錄一次，再讓電腦念一次，比一比哪裡不同。",
+        "tts": "再加一個你自選的規則或功能，例如旁白自己錄一次，再讓電腦念一次，比一比哪裡不同。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L013；來源 V2 Excel 逐堂課程第 13 堂",
+      "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的體驗站",
+    "sentences": [
+      {
+        "text": "這兩個小時的安排是：開場十分鐘，認識三個體驗站十五分鐘，接著四十分鐘，和爸爸逛三站尋寶，然後休息十分鐘。",
+        "tts": "這兩個小時的安排是：開場十分鐘，認識三個體驗站十五分鐘，接著四十分鐘，和爸爸逛三站尋寶，然後休息十分鐘。"
+      },
+      {
+        "text": "下半場三十分鐘，自己完成角色卡，再加一個自選的規則或功能；接著十分鐘交換角色，由你帶爸爸逛一次三個體驗站。",
+        "tts": "下半場三十分鐘，自己完成角色卡，再加一個自選的規則或功能；接著十分鐘交換角色，由你帶爸爸逛一次三個體驗站。"
+      },
+      {
+        "text": "最後五分鐘錄音總結，替角色卡取名字、存檔，並且檢查卡片上沒有真人的照片和個資。",
+        "tts": "最後五分鐘錄音總結，替角色卡取名字、存檔，並且檢查卡片上沒有真人的照片和個資。"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L013；來源 V2 Excel 逐堂課程第 13 堂"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：帶爸爸逛體驗站",
+    "sentences": [
+      {
+        "text": "最後一關，請不看稿，挑兩個體驗站，說出它們的輸入、輸出，還有各一個限制。",
+        "tts": "最後一關，請不看稿，挑兩個體驗站，說出它們的輸入、輸出，還有各一個限制。"
+      },
+      {
+        "text": "再指出一個限制或安全注意事項，例如聲音可以被模仿，聽起來像家人，也要先查證。",
+        "tts": "再指出一個限制或安全注意事項，例如聲音可以被模仿，聽起來像家人，也要先查證。"
+      },
+      {
+        "text": "今天的作品是多模態角色卡，下次我們要一起訂出我們家的科技公約；我是陳犀牛，保持好奇，我們下次見！",
+        "tts": "今天的作品是多模態角色卡，下次我們要一起訂出我們家的科技公約；我是陳犀牛，保持好奇，我們下次見！"
+      }
+    ],
+    "sources": [
+      "curriculum/catalog.json：L013；來源 V2 Excel 逐堂課程第 13 堂",
+      "https://www.hlhpd.npa.gov.tw/ch/app/openData/data/list?module=publicizearea&mserno=105480c9-65f8-41bd-ae8d-17f9507da67f&type=xml"
+    ],
+    "sourceType": "curriculum-based-preclass"
+  }
+]
