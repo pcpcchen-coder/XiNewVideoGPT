@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L011",
+  "checkedAt": "2026-10-08",
+  "method": "A research subagent downloaded each page/PDF on the check date and reported verbatim quotes (production/source-notes.md); the producing agent mapped them to claims and downloaded the NASA page itself. Not a human full read.",
+  "curriculum": "curriculum/catalog.json：L011；來源 V2 Excel 逐堂課程第 11 堂",
+  "sources": [
+    {
+      "id": "openai_academy",
+      "title": "Prompting（2025-08-06；2026-09-04 更新）",
+      "publisher": "OpenAI Academy（課表 R21 的主要參考網址）",
+      "url": "https://academy.openai.com/public/clubs/work-users-ynjqu/resources/prompting",
+      "usedFor": "三個步驟：說清楚任務、提供背景、描述理想的輸出；第一次的答案不理想時在對話中補充或調整；沒有唯一完美的寫法"
+    },
+    {
+      "id": "openai_home",
+      "title": "ChatGPT at home（家長指南，PDF 中繼資料 2026-05）",
+      "publisher": "OpenAI（圖片式 PDF，由研究代理逐頁判讀）",
+      "url": "https://cdn.openai.com/pdf/chatgpt-at-home.pdf",
+      "usedFor": "好的提示通常有三部分：Task、Context、Output；Context 一列提到 audience 與 constraints；請它用十歲孩子看得懂的方式寫"
+    },
+    {
+      "id": "anthropic_prompting",
+      "title": "Prompting best practices",
+      "publisher": "Anthropic Claude Platform Docs（開發者文件）",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "usedFor": "說得越精確結果越好；明確指定輸出格式與限制；範例是引導格式、語氣與結構很可靠的方法"
+    },
+    {
+      "id": "google_workspace",
+      "title": "How to write effective prompts",
+      "publisher": "Google Workspace",
+      "url": "https://workspace.google.com/resources/ai/writing-effective-prompts/",
+      "usedFor": "四個面向：Persona、Task、Context、Format，不必每次都用齊；用後續提示反覆檢視與修正；回應有時無法預測"
+    },
+    {
+      "id": "microsoft_prompts",
+      "title": "Get started writing prompts in Microsoft Copilot（2026-09 更新）",
+      "publisher": "Microsoft Support",
+      "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot",
+      "usedFor": "四個部分：Goal、Context、Source、Expectations；要有來回對話的心理準備；同一個提示多次使用可能得到不同回應"
+    },
+    {
+      "id": "moe_genai",
+      "title": "中小學使用「生成式人工智慧」注意事項 2.1（學生版；115 年 2 月 11 日核定）",
+      "publisher": "教育部（師大附中國中部網站轉載的 PDF；教師版與教育部網站版本文字相同）",
+      "url": "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+      "usedFor": "不可輸入姓名、照片、聯絡方式、住址、學號等個資；不能全盤接受生成內容，需查證；依規定註明使用的工具及用途，不得將生成內容直接當作自己原創作品繳交；遵守各平臺註冊年齡限制，非在校使用請家長陪伴"
+    },
+    {
+      "id": "moe_guide3",
+      "title": "中小學數位教學指引 3.0 版（封面 2025 年 1 月）",
+      "publisher": "教育部（學校網站轉載的 PDF；官方下載頁憑證錯誤無法讀取）",
+      "url": "https://www2.chjhs.tyc.edu.tw/gov/教育部中小學數位教學指引3.0版1140113.pdf",
+      "usedFor": "教育部的用詞是「提示（Prompt）」與「提問」；同樣的提示可能會有不同的結果；把問題切成小問題一步步提問；答案不如預期要能調整"
+    },
+    {
+      "id": "eliteracy_handbook",
+      "title": "《你不可不知的生成式AI 國小高年級學生版》《AI與我們的生活 國小中年級學生版》",
+      "publisher": "教育部 中小學數位素養教育資源網（手冊列表頁）",
+      "url": "https://eliteracy.edu.tw/Handbooks.aspx",
+      "usedFor": "生成式 AI 的產出品質有賴於正確的提問；人類給予錯誤的要求，就無法生成想要的內容，內容也無法確保正確性"
+    },
+    {
+      "id": "google_bia",
+      "title": "Understanding AI: Foundational AI literacy for Grades 2nd-8th（2025-06）",
+      "publisher": "Google Be Internet Awesome",
+      "url": "https://services.google.com/fh/files/misc/bia_ai-literacy-guide_en.pdf",
+      "usedFor": "提示是你打字或說出來、告訴 AI 要做什麼的話；訂蛋糕要告訴師傅你要哪一種；使用 AI 要有信任的大人陪同"
+    },
+    {
+      "id": "gemini_privacy",
+      "title": "Gemini Apps Privacy Hub（2026-09-24 更新；L010 查核時讀取）",
+      "publisher": "Google",
+      "url": "https://support.google.com/gemini/answer/13594961?hl=en",
+      "usedFor": "不要輸入你不希望審查人員看到的機密資訊"
+    },
+    {
+      "id": "anthropic_terms",
+      "title": "Consumer Terms of Service（2025-10-08 生效）",
+      "publisher": "Anthropic",
+      "url": "https://www.anthropic.com/legal/consumer-terms",
+      "usedFor": "輸出不一定正確，即使看起來很詳細；須年滿 18 歲"
+    },
+    {
+      "id": "google_mistakes",
+      "title": "Gemini Apps Help（生成式 AI 會出錯）",
+      "publisher": "Google",
+      "url": "https://support.google.com/gemini/answer/13954172",
+      "usedFor": "生成式 AI 還在發展，會出錯"
+    },
+    {
+      "id": "claude_age",
+      "title": "Age assurance on Claude（2026-05-18）",
+      "publisher": "Claude Help Center",
+      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "usedFor": "教材：Claude 消費者產品僅供 18 歲以上使用"
+    },
+    {
+      "id": "gemini_signin",
+      "title": "What you need to sign in to Gemini Apps",
+      "publisher": "Google Gemini Apps Help",
+      "url": "https://support.google.com/gemini/answer/13278668?hl=en",
+      "usedFor": "教材：個人或學校帳號須年滿 13 歲（或所在國家適用的年齡）"
+    },
+    {
+      "id": "copilot_terms",
+      "title": "Microsoft Copilot Terms of Use（2026-08-18 生效）",
+      "publisher": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse",
+      "usedFor": "教材：至少 13 歲，依各國法律可能更高；Copilot 可能出錯"
+    },
+    {
+      "id": "openai_terms",
+      "title": "Terms of Use（2026-01-01 生效）",
+      "publisher": "OpenAI（只有擷取工具的摘要，沒有逐字確認）",
+      "url": "https://openai.com/policies/row-terms-of-use/",
+      "usedFor": "教材：須年滿 13 歲，未滿 18 歲需家長或監護人同意"
+    },
+    {
+      "id": "nasa_robotics",
+      "title": "What Is Robotics? (Grades K-4)（2009-11-09）",
+      "publisher": "NASA STEM Team（製作代理直接下載原始頁面讀取）",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-robotics-grades-k-4/",
+      "usedFor": "教材的示範科普卡：機器人是可以用來做事的機器；有些能自己工作，有些要有人告訴它怎麼做；探索火星的探測車是機器人"
+    }
+  ],
+  "notVerified": [
+    "OpenAI 說明中心與條款只有擷取工具的摘要，沒有逐字確認",
+    "OpenAI 家長指南是圖片式 PDF，由研究子代理逐頁判讀，沒有可抽取的文字",
+    "教育部數位教學指引 3.0 的官方下載頁憑證錯誤無法讀取，讀的是學校網站轉載的 PDF",
+    "教育部注意事項 2.1 學生版沒有找到教育部網站上的版本，讀的是學校網站轉載的 PDF（教師版與教育部網站版本文字相同）",
+    "台灣適用的各平臺最低年齡沒有官方說明；Family Link 是否讓台灣兒童使用 Gemini 沒有查核",
+    "沒有用任何真實 AI 工具測試本課的示範提示詞"
+  ],
+  "youtubeSearchEntries": {
+    "status": "not selected, not watched",
+    "note": "課表的三組 YouTube 連結是動態搜尋入口，本次未挑選或觀看任何影片，也未在影片或教材中引用。"
+  }
+}

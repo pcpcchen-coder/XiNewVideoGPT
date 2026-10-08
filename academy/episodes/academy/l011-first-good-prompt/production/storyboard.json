@@ -1,0 +1,110 @@
+[
+  {
+    "slide": 1,
+    "title": "第一個好提示詞",
+    "purpose": "開場：課前教學版揭露、提示詞是什麼、今天的四個格子與作品",
+    "visual": "封面版型：任務標籤、兩行主題、一句任務說明；原陳犀牛角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "準備四格卡與紙筆；預告角色扮演與作品",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 2,
+    "title": "寫提示詞的三個步驟",
+    "purpose": "概念：寫、試、改三個步驟；提示詞要來回修改",
+    "visual": "三步流程卡：寫 → 試 → 改（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出今天要完成的作品",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 3,
+    "title": "提示詞：你交代給 AI 的話",
+    "purpose": "概念：提示詞是交代給生成式 AI 的話；它不會讀心；寫清楚有用但有極限",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "用自己的話說「它不會讀心」是什麼意思",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 4,
+    "title": "好提示詞的四個格子",
+    "purpose": "概念：四個格子（任務、背景、限制、格式）；這是本課的整理",
+    "visual": "面板四張卡＋黃字說明（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "各舉一個可以寫進格子的例子",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 5,
+    "title": "模糊和清楚差在哪裡？",
+    "purpose": "示範：只寫「介紹機器人」五個字，缺了什麼",
+    "visual": "雙框（只寫五個字 → 補上四個格子）＋白字＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "先猜它會怎麼回答",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 6,
+    "title": "一輪加一格",
+    "purpose": "示範：一輪加一格（任務、背景、限制和格式）",
+    "visual": "三張步驟卡＋黃字提醒（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出每一輪加了什麼",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 7,
+    "title": "角色扮演：爸爸當機器人",
+    "purpose": "活動機制：角色扮演，爸爸當只照字面做事的機器人；三條守則",
+    "visual": "路徑一行＋三張守則卡＋黃字提問（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "確認三條守則；決定誰先寫",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 8,
+    "title": "三件要注意的事",
+    "purpose": "安全：不寫個資、答案要查證、年齡限制由爸爸操作",
+    "visual": "左側三行；右側「為什麼不寫個資？」（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "暫停影片：說出這三件要注意的事",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 9,
+    "title": "四輪提示詞改造賽",
+    "purpose": "活動規則：四輪改造，每輪只加一格；再比較四輪答案",
+    "visual": "左右比較卡（機器人上場／比一比）＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成四輪並比較；記錄哪一格差最多",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 10,
+    "title": "換你設計：我的 Prompt 四格卡",
+    "purpose": "獨立改造與數位公民：自己的四格卡、自選規則、使用約定",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成四格卡；寫下一條使用約定",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的提示詞課",
+    "purpose": "120 分鐘安排：10／15／40／10／30／10／5",
+    "visual": "六列時間表與今日生活技能（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "依時間表進行；休息十分鐘",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：教爸爸寫提示詞",
+    "purpose": "作品驗收與回顧：當場改一句模糊的話，指出一個限制或安全注意；固定結尾",
+    "visual": "三點驗收條列＋陳犀牛＋結尾語（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "孩子教爸爸；錄音回答四個問題；作品命名存檔",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  }
+]

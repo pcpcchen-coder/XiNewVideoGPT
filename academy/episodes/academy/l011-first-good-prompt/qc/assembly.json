@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-10-08T02:21:59.554343+00:00",
+  "version": "opening v2 (native 1080p30) + static scenes, narration only",
+  "scenes": 12,
+  "opening": {
+    "file": "/home/claude/xinewvideogpt/academy/assets/opening/開場影片-v2.mp4",
+    "seconds": 60.277,
+    "note": "User-supplied opening v2; duration measured during this build"
+  },
+  "backgroundMusic": "none — narration only under slides",
+  "animated": "/tmp/xinew-assemble-x04_gdpc/animated.mp4",
+  "master": "/home/claude/xinewvideogpt/academy/episodes/academy/l011-first-good-prompt/output/l011-first-good-prompt-master.mp4",
+  "zh": "/home/claude/xinewvideogpt/academy/episodes/academy/l011-first-good-prompt/output/l011-first-good-prompt-zh-TW.mp4",
+  "masterDuration": 381.133333,
+  "loudnessNormalization": "measured constant gain; source waveform and peak headroom preserved",
+  "captionLineBreak": {
+    "mode": "kinsoku",
+    "twoLineCues": [
+      1,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18,
+      19,
+      20,
+      22,
+      24,
+      25,
+      27,
+      28,
+      30,
+      31,
+      32,
+      36
+    ],
+    "note": "breaks chosen by pipeline/scripts/caption_wrap.py for the burn only; delivered SRT is one line per cue"
+  }
+}

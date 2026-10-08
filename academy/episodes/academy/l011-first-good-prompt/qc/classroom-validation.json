@@ -1,0 +1,39 @@
+{
+  "folder": "classroom/L011_第一個好提示詞",
+  "files": [
+    "00_爸爸先讀.md",
+    "01_活動規則_四輪提示詞改造賽.md",
+    "02_列印包_Prompt四格卡.pdf",
+    "03_四輪紀錄.csv",
+    "03_四輪紀錄_填寫說明.md",
+    "04_機器人示範與解說.md",
+    "05_自選規則與使用約定.md",
+    "06_驗收與回顧.md",
+    "07_四格小抄.md"
+  ],
+  "fileCount": 9,
+  "utf8TextReadable": true,
+  "sheet": {
+    "file": "03_四輪紀錄.csv",
+    "rows": 7,
+    "columns": 6
+  },
+  "printPack": {
+    "file": "02_列印包_Prompt四格卡.pdf",
+    "pages": 5,
+    "allFontsEmbedded": true,
+    "renderedThisRun": true,
+    "source": "authoring/l011/print/print-pack.html"
+  },
+  "rolePlay": {
+    "robotPlayedBy": "father, following three literal-robot rules",
+    "rounds": 5,
+    "startingPrompt": "介紹機器人",
+    "vagueTopicCards": 8
+  },
+  "needsChildAiAccount": false,
+  "demoCardFactsFrom": "NASA \"What Is Robotics? (Grades K-4)\" (2009), read directly by the producing agent",
+  "answersProvided": "a worked five-round example with what the child should notice; other wordings accepted",
+  "privateData": "none",
+  "status": "PASS (structure); page-by-page visual review recorded separately"
+}

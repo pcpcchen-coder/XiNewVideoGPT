@@ -1,6 +1,6 @@
 # 交給下一個工作階段的指令
 
-先確認 `curriculum/production-status.json`，填入實際指定的課號。以下課號只是範例（<!-- academy-status:sentence -->L004–L010 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；下一堂是 L011「第一個好提示詞：任務、背景、限制、格式」，接手仍讀狀態表。<!-- /academy-status:sentence -->）；課程內容來自 catalog，不從上一集猜測。
+先確認 `curriculum/production-status.json`，填入實際指定的課號。以下課號只是範例（<!-- academy-status:sentence -->L004–L011 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；下一堂是 L012「AI 會亂講：幻覺抓錯賽」，接手仍讀狀態表。<!-- /academy-status:sentence -->）；課程內容來自 catalog，不從上一集猜測。
 
 ```text
 請接手 https://github.com/pcpcchen-coder/XiNewVideoGPT 的父子科技學院。

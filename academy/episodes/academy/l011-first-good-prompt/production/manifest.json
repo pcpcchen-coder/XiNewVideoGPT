@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "editorialStatus": "authored",
+  "recordingSource": null,
+  "slideCount": 12,
+  "transitionSeconds": 0.55,
+  "deckRenderer": "ooxml-template",
+  "templateEpisode": "episodes/academy/l001-mac-workstation",
+  "templateProvenance": "Original PPTX absent from v2 ZIP; restored from supplied build_l001.mjs and original assets.",
+  "layoutProfile": "academy-native-v1",
+  "seriesHeader": "父子科技學院  ·  FIRST GOOD PROMPT",
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "zh-TW-YunJheNeural",
+    "persona": "陳犀牛 Chen XiNew",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "music": {
+    "backgroundMusic": "none — narration only under teaching slides",
+    "opening": "assets/opening/開場影片-v2.mp4"
+  },
+  "signoff": {
+    "text": "我是陳犀牛，保持好奇，我們下次見！"
+  },
+  "contentMode": "curriculum-based-preclass",
+  "publicationMode": "manual-user-upload",
+  "autoPublish": false,
+  "episode": "L011",
+  "slug": "l011-first-good-prompt",
+  "title": "第一個好提示詞：任務、背景、限制、格式",
+  "subtitle": "父子科技學院 第十一堂｜依課表製作的課前教學版",
+  "lessonIds": [
+    "L011"
+  ],
+  "sources": {
+    "curriculum": "curriculum/catalog.json：L011；來源 V2 Excel 逐堂課程第 11 堂",
+    "openai_academy": "https://academy.openai.com/public/clubs/work-users-ynjqu/resources/prompting",
+    "openai_home": "https://cdn.openai.com/pdf/chatgpt-at-home.pdf",
+    "anthropic_prompting": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+    "google_workspace": "https://workspace.google.com/resources/ai/writing-effective-prompts/",
+    "microsoft_prompts": "https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot",
+    "moe_genai": "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+    "moe_guide3": "https://www2.chjhs.tyc.edu.tw/gov/教育部中小學數位教學指引3.0版1140113.pdf",
+    "eliteracy_handbook": "https://eliteracy.edu.tw/Handbooks.aspx",
+    "google_bia": "https://services.google.com/fh/files/misc/bia_ai-literacy-guide_en.pdf",
+    "gemini_privacy": "https://support.google.com/gemini/answer/13594961?hl=en",
+    "anthropic_terms": "https://www.anthropic.com/legal/consumer-terms",
+    "google_mistakes": "https://support.google.com/gemini/answer/13954172",
+    "claude_age": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+    "gemini_signin": "https://support.google.com/gemini/answer/13278668?hl=en",
+    "copilot_terms": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse",
+    "openai_terms": "https://openai.com/policies/row-terms-of-use/",
+    "nasa_robotics": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-robotics-grades-k-4/"
+  },
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "factCheck": {
+    "checkedAt": "2026-10-08",
+    "record": "production/fact-check.md",
+    "sources": "production/sources.json"
+  },
+  "authorization": {
+    "produceL011": true,
+    "ttsConsent": {
+      "grantedBy": "user",
+      "grantedAt": "2026-10-08",
+      "service": "Microsoft Edge TTS",
+      "voice": "zh-TW-YunJheNeural",
+      "scope": "L011 public narration script only",
+      "basis": "On 2026-10-08 the user asked to start producing L011–L013 after receiving L007–L010, whose hand-over stated that the public narration is sent to Edge TTS on the same basis; restated to the user before synthesis.",
+      "excluded": "private recordings or any other private data"
+    },
+    "paidLlmApi": false,
+    "uploadToYouTube": false,
+    "publish": false
+  }
+}

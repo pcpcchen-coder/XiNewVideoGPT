@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L011",
+  "episodePath": "episodes/academy/l011-first-good-prompt",
+  "version": "L011-v1",
+  "createdAt": "2026-10-08",
+  "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
+  "status": "verified",
+  "publicationStatus": "awaiting_user_upload",
+  "contentMode": "curriculum-based-preclass (no recording)",
+  "durationSeconds": 381.133,
+  "openingSeconds": 60.277,
+  "voice": "zh-TW-YunJheNeural",
+  "ttsEngine": "edge-tts 7.2.8",
+  "backgroundMusic": "none under teaching slides",
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "validation": {
+    "passed": 25,
+    "total": 25,
+    "integratedLufs": -17.2,
+    "sceneAudioMaxLagMs": 0.0,
+    "sceneAudioMinCorrelation": 0.994264,
+    "asrMinSimilarity": 0.868,
+    "asrMeanSimilarity": 0.965,
+    "asrMinSoundSimilarity": 0.963,
+    "asrMeanSoundSimilarity": 0.997,
+    "captionLineBreak": "kinsoku",
+    "reviewRecords": [
+      "qc/report.md",
+      "qc/manual-review.md",
+      "qc/slide-visual-review.md"
+    ],
+    "notDone": [
+      "human full listening review",
+      "PowerPoint/Keynote open test",
+      "macOS hands-on test",
+      "YouTube copyright check",
+      "真人整段聽審；以 PowerPoint 或 Keynote 開啟 PPTX；實機操作任何 AI 工具；實際帶孩子試玩；YouTube 版權檢查與上傳"
+    ]
+  },
+  "package": {
+    "filename": "L011-v1_父子科技學院_第一個好提示詞_2026-10-08.zip",
+    "bytes": 163779922,
+    "sha256": "4f8c0fc229b2e92727d00c1fb09de0dfb6396bf506c9e377c32cd8ac7ce80762",
+    "contents": "whitelisted package folder L011-v1 with checksums.json (20 files)",
+    "internalChecksums": {
+      "UPLOAD_README.md": "590aafea5b0e7800adeedce21fc8dde60531ce41b04431e087775112a5b73128",
+      "youtube-draft.json": "801bb79466565ce2df543b124fae00ec80f01256697563275867a8eb7f359a37",
+      "youtube-metadata.json": "723710f0a161d67798b090dcae57404b941aed91d0606f0e35058ebb67d70a4b",
+      "manual-review.md": "2f089dc88522d36a70175275f484b30a23e8b6c0277e6c2ab7958277902bce2d",
+      "repo-guide.md": "13006b687eb404c305cb9ece55bbe27bde6d930fdf7ec3a4b91aacdb6f2f12b1",
+      "sources.json": "91ab8403297b5a649b4620e15ac0b6f32683cdf282489a08aa31e3c5b1755c53",
+      "narration-only.mp3": "9920f81e30abdb11bd521bd4db81eedafdd7f6a8592a8a005ccacb026d9d6bc5",
+      "report.json": "f3fe2b1b0fef39dec9ae06ed98fa8755cb1fc1aca168070c0f17374ea6bad531",
+      "fact-check.md": "2d8cdaa011b10746dd78af1fa6ce0fd47872d673b30abd50a3615fe728a2d33b",
+      "classroom.zip": "6f29313ecfdc4d87bac089fb0fe6af06cc575457f8384e3753d893a21055f49d",
+      "zh-TW.srt": "8e90946c4bd3b23eb02f0eb93ea69712358161566ba8e045ff8f7531a1226f07",
+      "l011-first-good-prompt.pptx": "bed407f2108147769c612033e0b990cd989ed2e59e9d118c31e17d8e02e63582",
+      "l011-first-good-prompt-zh-TW.mp4": "36d147528dda983e7fccb038c3cfeaf28c2b3339c73fb22c2ff41ba981a1e679",
+      "report.md": "ff98f6a7f40d72e1b3a67d41e7ba01011d174b7477f2eabe01d9eb35b3afc7d1",
+      "youtube-description.txt": "0c5da995a7951310527c872b0ab3b52f2463defcb3b5bce2bd405b9d550b5ec0",
+      "l011-first-good-prompt-master.mp4": "0b6c6555d002396bc117d08d3fde6563578b72124082f7ebbce3ab10baa3e370",
+      "chapters.txt": "d4f37aa4398fadaad3fa03db8d0790d92b9a62af6adb47b74e37eb1552b0f217",
+      "thumbnail.png": "c20a83485f3ccafeee3afaa6971a7ff7273510951e8a562060e08fbbcf02c4e4",
+      "narration-script.md": "f6e8816f8059e43738ff4fcf762c3c1f005bf585782941374cefd2ea70377fa3",
+      "START_HERE.md": "8410d49c05f3b6ad32af4df014b9c0b265c5556ccd556d13a2dc78deb5278f98"
+    }
+  },
+  "largeFiles": [
+    {
+      "filename": "l011-first-good-prompt-zh-TW.mp4",
+      "bytes": 74939740,
+      "sha256": "36d147528dda983e7fccb038c3cfeaf28c2b3339c73fb22c2ff41ba981a1e679",
+      "role": "captioned video for upload (burned zh-TW subtitles)",
+      "inGit": false
+    },
+    {
+      "filename": "l011-first-good-prompt-master.mp4",
+      "bytes": 78028484,
+      "sha256": "0b6c6555d002396bc117d08d3fde6563578b72124082f7ebbce3ab10baa3e370",
+      "role": "master without burned subtitles",
+      "inGit": false
+    },
+    {
+      "filename": "narration-only.mp3",
+      "bytes": 7701165,
+      "sha256": "9920f81e30abdb11bd521bd4db81eedafdd7f6a8592a8a005ccacb026d9d6bc5",
+      "role": "narration only, no opening",
+      "inGit": false
+    }
+  ],
+  "inGit": [
+    {
+      "filename": "l011-first-good-prompt.pptx",
+      "bytes": 2510539,
+      "sha256": "bed407f2108147769c612033e0b990cd989ed2e59e9d118c31e17d8e02e63582",
+      "path": "production/presentation/l011-first-good-prompt.pptx"
+    },
+    {
+      "filename": "zh-TW.srt",
+      "bytes": 5751,
+      "sha256": "8e90946c4bd3b23eb02f0eb93ea69712358161566ba8e045ff8f7531a1226f07",
+      "path": "subtitles/zh-TW.srt"
+    },
+    {
+      "filename": "thumbnail.png",
+      "bytes": 213459,
+      "sha256": "c20a83485f3ccafeee3afaa6971a7ff7273510951e8a562060e08fbbcf02c4e4",
+      "path": "output/thumbnail.png"
+    },
+    {
+      "filename": "classroom.zip",
+      "bytes": 324511,
+      "sha256": "6f29313ecfdc4d87bac089fb0fe6af06cc575457f8384e3753d893a21055f49d",
+      "path": "output/classroom.zip"
+    },
+    {
+      "filename": "contact-sheet.png",
+      "bytes": 984589,
+      "sha256": "2d5f19f76e883c4475beca59449d06b178fea0b85345785fd315769c35dacf24",
+      "path": "output/contact-sheet.png"
+    }
+  ],
+  "persistence": {
+    "location": "Attachments delivered in the Claude session that produced this lesson (private to the account owner)",
+    "session": "https://claude.ai/code/session_01GE2NEiPKZa5XzbFCCWKxiy",
+    "reason": "30 MiB per-file attachment limit; the package ZIP was split into 6 byte-exact parts",
+    "parts": [
+      {
+        "filename": "L011-v1_父子科技學院_第一個好提示詞_2026-10-08.zip.part01",
+        "bytes": 29360128,
+        "sha256": "17ea4693d701a0fe00de821671e7bbd4d82ba2509ac0edbd45b63f0a69b6a111",
+        "conversationFileId": "3abdc608-fea1-4ee2-8c1f-fbc95f64631b"
+      },
+      {
+        "filename": "L011-v1_父子科技學院_第一個好提示詞_2026-10-08.zip.part02",
+        "bytes": 29360128,
+        "sha256": "e3c982925fa347604c8e4a7a79b17f1c2db647efc98d3b07e8b0bb10f0b52529",
+        "conversationFileId": "1ccdbb83-8b07-41de-a2ee-cdfc070496d0"
+      },
+      {
+        "filename": "L011-v1_父子科技學院_第一個好提示詞_2026-10-08.zip.part03",
+        "bytes": 29360128,
+        "sha256": "ffd0adf7277729c76bc7336db911197c024e427467fd92ddb08768bf36631fbd",
+        "conversationFileId": "65b811b5-d367-4c5a-b8a2-2cefcf4088b9"
+      },
+      {
+        "filename": "L011-v1_父子科技學院_第一個好提示詞_2026-10-08.zip.part04",
+        "bytes": 29360128,
+        "sha256": "54a01373d78a4225c118ec8a616283ed19d0a4944b253d3ed3b2f530fd21f804",
+        "conversationFileId": "cf9d4911-c9b7-4db7-928e-a643b4e46707"
+      },
+      {
+        "filename": "L011-v1_父子科技學院_第一個好提示詞_2026-10-08.zip.part05",
+        "bytes": 29360128,
+        "sha256": "813f7af17f7e0b7f8fcef8c3427528eb9072a0db53227023df219d17572c7e4f",
+        "conversationFileId": "2cd1e628-23ba-4d43-baf2-f6baa813376d"
+      },
+      {
+        "filename": "L011-v1_父子科技學院_第一個好提示詞_2026-10-08.zip.part06",
+        "bytes": 16979282,
+        "sha256": "2ab50f2883659495b7e9281650b05a27db707fd3d1feb2a45ef378b7c7ce9d59",
+        "conversationFileId": "e902edf9-5d3b-4ec5-afb5-724ef6107810"
+      }
+    ],
+    "restore": "cat \"L011-v1_父子科技學院_第一個好提示詞_2026-10-08.zip\".part* > \"L011-v1_父子科技學院_第一個好提示詞_2026-10-08.zip\" && shasum -a 256 \"L011-v1_父子科技學院_第一個好提示詞_2026-10-08.zip\"",
+    "restoredZip": {
+      "filename": "L011-v1_父子科技學院_第一個好提示詞_2026-10-08.zip",
+      "bytes": 163779922,
+      "sha256": "4f8c0fc229b2e92727d00c1fb09de0dfb6396bf506c9e377c32cd8ac7ce80762"
+    },
+    "restoreTested": "parts re-joined by pipeline/split_delivery.py in the producing session: SHA-256 equals the ZIP; ZIP integrity tested",
+    "notUsed": {
+      "gitHubRelease": "repository is public; a release would make the unpublished video public",
+      "googleDrive": "connector accepts only inline content; text records only, no large binaries",
+      "git": "large MP4/MP3 stay out of Git per .gitignore"
+    },
+    "ifAttachmentsUnavailable": "rebuild from Git: audio, slides, PPTX, SRT sources and the shared opening are tracked; run assemble → delivery → verify → package. A rebuild is a new version with new hashes."
+  },
+  "continuation": {
+    "state": "L011 complete through package; nothing pending except user playback/listening and manual YouTube upload",
+    "rebuildCommands": [
+      "cd academy && ./setup-portable.sh",
+      "EP=episodes/academy/l011-first-good-prompt",
+      "./portable-runtime.sh python pipeline/academy.py run media-check --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run assemble --episode \"$EP\"   # ~20 min on 2 cores; run in background",
+      "./portable-runtime.sh python pipeline/delivery.py --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run verify --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py package --episode \"$EP\" --output delivery/L011-v2"
+    ],
+    "doNotRerunWithoutReason": "run tts (re-synthesises all audio and invalidates timing, subtitles, video and QC)",
+    "authoring": [
+      "authoring/l011/classroom.py",
+      "authoring/l011/prepare_content.py"
+    ],
+    "sharedTools": [
+      "pipeline/qa/subtitle_precheck.py",
+      "pipeline/qa/deck_check.py",
+      "pipeline/qa/media_review.py",
+      "pipeline/qa/asr_review.py",
+      "pipeline/split_delivery.py",
+      "pipeline/record_delivery.py"
+    ],
+    "nextLesson": "L012「AI 會亂講：幻覺抓錯賽」（同一批次製作中，之後是 L013）"
+  },
+  "publication": {
+    "status": "awaiting_user_upload",
+    "publisher": "user",
+    "uploaded": false,
+    "videoUrl": null,
+    "uploadFile": "l011-first-good-prompt-zh-TW.mp4",
+    "note": "No login, upload or publication was attempted."
+  }
+}

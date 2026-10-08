@@ -1,0 +1,16 @@
+{
+  "lessonId": "L011",
+  "status": "awaiting_user_upload",
+  "publicationMode": "manual-user-upload",
+  "publisher": "user",
+  "videoUrl": null,
+  "targetTitle": "父子科技學院 L011｜第一個好提示詞：任務、背景、限制、格式",
+  "videoFile": "l011-first-good-prompt-zh-TW.mp4",
+  "videoSha256": "36d147528dda983e7fccb038c3cfeaf28c2b3339c73fb22c2ff41ba981a1e679",
+  "videoBytes": 74939740,
+  "deliveryVersion": "L011-v1",
+  "deliveryRecord": "delivery.json",
+  "authorizedToUpload": false,
+  "authorizedToPublish": false,
+  "note": "Produced and packaged 2026-10-08. Awaiting user playback and manual upload; no YouTube login, upload or publication attempted."
+}

@@ -114,6 +114,17 @@
 
 以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l010-what-is-ai/delivery.json`。
 
+## L011 大型輸出（L011-v1，2026-10-08）
+
+| 檔案 | Bytes | SHA-256 |
+|---|---:|---|
+| `l011-first-good-prompt-zh-TW.mp4` | 74,939,740 | `36d147528dda983e7fccb038c3cfeaf28c2b3339c73fb22c2ff41ba981a1e679` |
+| `l011-first-good-prompt-master.mp4` | 78,028,484 | `0b6c6555d002396bc117d08d3fde6563578b72124082f7ebbce3ab10baa3e370` |
+| `narration-only.mp3` | 7,701,165 | `9920f81e30abdb11bd521bd4db81eedafdd7f6a8592a8a005ccacb026d9d6bc5` |
+| `L011-v1_父子科技學院_第一個好提示詞_2026-10-08.zip`（完整交付包） | 163,779,922 | `4f8c0fc229b2e92727d00c1fb09de0dfb6396bf506c9e377c32cd8ac7ce80762` |
+
+以上未進 Git。交付包以 6 個分段檔交付在製作當次的 Claude 對話附件中，各段雜湊、還原命令與包內檔案雜湊見 `episodes/academy/l011-first-good-prompt/delivery.json`。
+
 本 repo 為公開，未建立 Release，勿編造下載連結。附件無法取得時可依各課 delivery.json 的命令重新組裝，重建結果須作新版本並重新驗收。
 <!-- /academy-status:large-files -->
 
