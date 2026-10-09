@@ -22,10 +22,10 @@
   "blockingReason": null,
   "verificationRecord": "local-upload-review.md",
   "fields": {
-    "title": "original delivery metadata",
-    "description": "original youtube-description.txt including chapters",
+    "title": "verified_matches_original_delivery",
+    "description": "verified_matches_original_delivery_ignoring_trailing_newline",
     "thumbnail": "original thumbnail uploaded",
-    "captions": "original timed zh-TW.srt imported and saved with Done",
+    "captions": "zh-TW timed SRT imported and published",
     "madeForKids": false,
     "videoLanguage": "zh-TW",
     "category": "Education",
@@ -43,5 +43,7 @@
     "No full human listening review in this local upload task; retain cloud QC limitations.",
     "Source has burned-in subtitles; enabling CC may show two subtitle layers.",
     "Studio requires additional verification for clickable external links; description URLs were preserved."
-  ]
+  ],
+  "finalVerifiedAt": "2026-10-09T01:08:22.076Z",
+  "processingStatus": "complete_sd_and_hd"
 }
