@@ -6,7 +6,7 @@
   "createdAt": "2026-10-08",
   "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
   "status": "verified",
-  "publicationStatus": "awaiting_user_upload",
+  "publicationStatus": "published_verified",
   "contentMode": "curriculum-based-preclass (no recording)",
   "durationSeconds": 371.4,
   "openingSeconds": 60.277,
@@ -207,11 +207,11 @@
     "nextLesson": "L014「我們家的科技公約」，尚未開始，只在 George 指定時製作"
   },
   "publication": {
-    "status": "awaiting_user_upload",
-    "publisher": "user",
-    "uploaded": false,
-    "videoUrl": null,
+    "status": "published_verified",
+    "publisher": "local-agent",
+    "uploaded": true,
+    "videoUrl": "https://youtu.be/Z3SdIdQqODs",
     "uploadFile": "l013-multimodal-stations-zh-TW.mp4",
-    "note": "No login, upload or publication was attempted."
+    "note": "Public upload explicitly authorized 2026-10-09; see publication/status.json and local-upload-review.md."
   }
 }

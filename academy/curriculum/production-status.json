@@ -139,10 +139,10 @@
       "title": "文字、圖片、聲音 AI 體驗站",
       "learningObjectives": "比較不同生成媒介的輸入、輸出、限制與風險",
       "productionStatus": "verified",
-      "publicationStatus": "awaiting_user_upload",
-      "publicationOwner": "user",
-      "videoUrl": null,
-      "evidence": "Produced 2026-10-08 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L013-v1 SHA-256 dd7efe964a7b24e3bc558f71cbb2e29ef8d9297362856f478ab1334e6fd7831e delivered as 6 session attachments. See episodes/academy/l013-multimodal-stations/delivery.json and qc/manual-review.md.",
+      "publicationStatus": "published_verified",
+      "publicationOwner": "local-agent",
+      "videoUrl": "https://youtu.be/Z3SdIdQqODs",
+      "evidence": "Produced 2026-10-08 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L013-v1 SHA-256 dd7efe964a7b24e3bc558f71cbb2e29ef8d9297362856f478ab1334e6fd7831e delivered as 6 session attachments. See episodes/academy/l013-multimodal-stations/delivery.json and qc/manual-review.md. Public upload verified 2026-10-09; see publication/local-upload-review.md.",
       "episodePath": "episodes/academy/l013-multimodal-stations"
     },
     {

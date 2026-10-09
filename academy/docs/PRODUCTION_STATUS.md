@@ -22,7 +22,7 @@
 | L010 | AI 是什麼、不是什麼 | verified | published_verified | [YouTube](https://youtu.be/Y5lDAh-5eFE) |
 | L011 | 第一個好提示詞：任務、背景、限制、格式 | verified | published_verified | [YouTube](https://youtu.be/IpHwXp56BnY) |
 | L012 | AI 會亂講：幻覺抓錯賽 | verified | published_verified | [YouTube](https://youtu.be/5dLnuaUvWuc) |
-| L013 | 文字、圖片、聲音 AI 體驗站 | verified | awaiting_user_upload | — |
+| L013 | 文字、圖片、聲音 AI 體驗站 | verified | published_verified | [YouTube](https://youtu.be/Z3SdIdQqODs) |
 | L014 | 我們家的科技公約 | planned | not_uploaded | — |
 | L015 | 迷你專案：數位安全逃脫室 | planned | not_uploaded | — |
 | L016 | 成果發表：我的數位公民手冊 | planned | not_uploaded | — |
