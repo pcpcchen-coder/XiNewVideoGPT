@@ -51,10 +51,10 @@
       "title": "搜尋高手：把大問題拆成好問題",
       "learningObjectives": "學會關鍵字、引號、排除詞、時間條件與問題拆解",
       "productionStatus": "verified",
-      "publicationStatus": "awaiting_user_upload",
-      "publicationOwner": "user",
-      "videoUrl": null,
-      "evidence": "Produced 2026-10-07 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L005-v1 SHA-256 72f62864f23028a0572236a5bf519a27228a3aac77c8859cd8f2238d873a6757 delivered as 6 session attachments. See episodes/academy/l005-search-master/delivery.json and qc/manual-review.md.",
+      "publicationStatus": "published_verified",
+      "publicationOwner": "local-agent",
+      "videoUrl": "https://youtu.be/_vZlGoif3vs",
+      "evidence": "Produced 2026-10-07 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L005-v1 SHA-256 72f62864f23028a0572236a5bf519a27228a3aac77c8859cd8f2238d873a6757 delivered as 6 session attachments. See episodes/academy/l005-search-master/delivery.json and qc/manual-review.md. Public upload verified 2026-10-09; see publication/local-upload-review.md.",
       "episodePath": "episodes/academy/l005-search-master"
     },
     {

@@ -1,16 +1,47 @@
 {
   "lessonId": "L005",
-  "status": "awaiting_user_upload",
-  "publicationMode": "manual-user-upload",
-  "publisher": "user",
-  "videoUrl": null,
+  "status": "published_verified",
+  "publicationMode": "local-browser-assisted-upload",
+  "publisher": "local-agent",
+  "videoUrl": "https://youtu.be/_vZlGoif3vs",
   "targetTitle": "父子科技學院 L005｜搜尋高手：把大問題拆成好問題",
   "videoFile": "l005-search-master-zh-TW.mp4",
   "videoSha256": "1906edbce0208a2fe7b3ce6651c2b0dbbb53a4576ed2399a36a10324d8e1e207",
   "videoBytes": 77447258,
   "deliveryVersion": "L005-v1",
   "deliveryRecord": "delivery.json",
-  "authorizedToUpload": false,
-  "authorizedToPublish": false,
-  "note": "Produced and packaged 2026-10-07. Awaiting user playback and manual upload; no YouTube login, upload or publication attempted."
+  "authorizedToUpload": true,
+  "authorizedToPublish": true,
+  "note": "User explicitly authorized L005–L013 public upload on 2026-10-09. Restored original delivery bytes; inspected all 27 pre-existing Studio videos/drafts and found no matching episode. Uploaded once; Studio confirmed published.",
+  "videoId": "_vZlGoif3vs",
+  "privacyStatus": "public",
+  "channelName": "犀牛說",
+  "channelId": "UCLAQhbdu5MFIDoUPH6bDQuQ",
+  "observedAt": "2026-10-09T00:40:49.835Z",
+  "copyrightCheck": "no_issues_found",
+  "blockingReason": null,
+  "verificationRecord": "local-upload-review.md",
+  "fields": {
+    "title": "original delivery metadata",
+    "description": "original youtube-description.txt including chapters",
+    "thumbnail": "original thumbnail uploaded",
+    "captions": "original timed zh-TW.srt imported and saved with Done",
+    "madeForKids": false,
+    "videoLanguage": "zh-TW",
+    "category": "Education",
+    "paidPromotion": false,
+    "aiDisclosure": true
+  },
+  "restoration": {
+    "partsVerified": 6,
+    "internalFilesVerified": 20,
+    "packageSha256": "72f62864f23028a0572236a5bf519a27228a3aac77c8859cd8f2238d873a6757",
+    "videoSha256": "1906edbce0208a2fe7b3ce6651c2b0dbbb53a4576ed2399a36a10324d8e1e207",
+    "videoBytes": 77447258
+  },
+  "limitations": [
+    "No full human listening review in this local upload task; retain cloud QC limitations.",
+    "Source has burned-in subtitles; enabling CC may show two subtitle layers.",
+    "Studio requires additional verification for clickable external links; description URLs were preserved."
+  ]
 }

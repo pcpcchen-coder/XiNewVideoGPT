@@ -6,7 +6,7 @@
   "createdAt": "2026-10-07",
   "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
   "status": "verified",
-  "publicationStatus": "awaiting_user_upload",
+  "publicationStatus": "published_verified",
   "contentMode": "curriculum-based-preclass (no recording)",
   "durationSeconds": 410.368,
   "openingSeconds": 60.277,
@@ -205,11 +205,11 @@
     "nextLesson": "L006 真真假假：來源與證據偵探 (produced in the same session; see its own delivery.json)"
   },
   "publication": {
-    "status": "awaiting_user_upload",
-    "publisher": "user",
-    "uploaded": false,
-    "videoUrl": null,
+    "status": "published_verified",
+    "publisher": "local-agent",
+    "uploaded": true,
+    "videoUrl": "https://youtu.be/_vZlGoif3vs",
     "uploadFile": "l005-search-master-zh-TW.mp4",
-    "note": "No login, upload or publication was attempted."
+    "note": "Public upload explicitly authorized 2026-10-09; see publication/status.json and local-upload-review.md."
   }
 }
