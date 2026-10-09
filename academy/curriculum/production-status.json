@@ -95,10 +95,10 @@
       "title": "個資、照片與數位足跡",
       "learningObjectives": "理解個資分類、公開範圍、照片中隱藏資訊與永久性",
       "productionStatus": "verified",
-      "publicationStatus": "awaiting_user_upload",
-      "publicationOwner": "user",
-      "videoUrl": null,
-      "evidence": "Produced 2026-10-07 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L009-v1 SHA-256 8129b1e5551b4448e3d0b7b1e6ea6c37969e3776653cb082c8e9f4426fc54959 delivered as 6 session attachments. See episodes/academy/l009-digital-footprint/delivery.json and qc/manual-review.md.",
+      "publicationStatus": "published_verified",
+      "publicationOwner": "local-agent",
+      "videoUrl": "https://youtu.be/YxGX5Ax6YVs",
+      "evidence": "Produced 2026-10-07 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L009-v1 SHA-256 8129b1e5551b4448e3d0b7b1e6ea6c37969e3776653cb082c8e9f4426fc54959 delivered as 6 session attachments. See episodes/academy/l009-digital-footprint/delivery.json and qc/manual-review.md. Public upload verified 2026-10-09; see publication/local-upload-review.md.",
       "episodePath": "episodes/academy/l009-digital-footprint"
     },
     {

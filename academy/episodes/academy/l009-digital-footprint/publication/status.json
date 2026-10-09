@@ -1,16 +1,47 @@
 {
   "lessonId": "L009",
-  "status": "awaiting_user_upload",
-  "publicationMode": "manual-user-upload",
-  "publisher": "user",
-  "videoUrl": null,
+  "status": "published_verified",
+  "publicationMode": "local-browser-assisted-upload",
+  "publisher": "local-agent",
+  "videoUrl": "https://youtu.be/YxGX5Ax6YVs",
   "targetTitle": "父子科技學院 L009｜個資、照片與數位足跡",
   "videoFile": "l009-digital-footprint-zh-TW.mp4",
   "videoSha256": "360b8ac849ffbf4aff972f0355872cf40f1fdac3a97d7582b15001242f3cc564",
   "videoBytes": 74792733,
   "deliveryVersion": "L009-v1",
   "deliveryRecord": "delivery.json",
-  "authorizedToUpload": false,
-  "authorizedToPublish": false,
-  "note": "Produced and packaged 2026-10-07. Awaiting user playback and manual upload; no YouTube login, upload or publication attempted."
+  "authorizedToUpload": true,
+  "authorizedToPublish": true,
+  "note": "User explicitly authorized L005–L013 public upload on 2026-10-09. Restored original delivery bytes; inspected all 27 pre-existing Studio videos/drafts and found no matching episode. Uploaded once; Studio confirmed published.",
+  "videoId": "YxGX5Ax6YVs",
+  "privacyStatus": "public",
+  "channelName": "犀牛說",
+  "channelId": "UCLAQhbdu5MFIDoUPH6bDQuQ",
+  "observedAt": "2026-10-09T00:55:48.615Z",
+  "copyrightCheck": "in_progress",
+  "blockingReason": null,
+  "verificationRecord": "local-upload-review.md",
+  "fields": {
+    "title": "original delivery metadata",
+    "description": "original youtube-description.txt including chapters",
+    "thumbnail": "original thumbnail uploaded",
+    "captions": "original timed zh-TW.srt imported and saved with Done",
+    "madeForKids": false,
+    "videoLanguage": "zh-TW",
+    "category": "Education",
+    "paidPromotion": false,
+    "aiDisclosure": true
+  },
+  "restoration": {
+    "partsVerified": 6,
+    "internalFilesVerified": 20,
+    "packageSha256": "8129b1e5551b4448e3d0b7b1e6ea6c37969e3776653cb082c8e9f4426fc54959",
+    "videoSha256": "360b8ac849ffbf4aff972f0355872cf40f1fdac3a97d7582b15001242f3cc564",
+    "videoBytes": 74792733
+  },
+  "limitations": [
+    "No full human listening review in this local upload task; retain cloud QC limitations.",
+    "Source has burned-in subtitles; enabling CC may show two subtitle layers.",
+    "Studio requires additional verification for clickable external links; description URLs were preserved."
+  ]
 }

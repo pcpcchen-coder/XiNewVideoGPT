@@ -18,7 +18,7 @@
 | L006 | 真真假假：來源與證據偵探 | verified | published_verified | [YouTube](https://youtu.be/C5Aw2U88q10) |
 | L007 | 密碼城堡與雙重驗證 | verified | published_verified | [YouTube](https://youtu.be/5S83wW8ojAk) |
 | L008 | 釣魚郵件偵探社 | verified | published_verified | [YouTube](https://youtu.be/tZOsZSzrc34) |
-| L009 | 個資、照片與數位足跡 | verified | awaiting_user_upload | — |
+| L009 | 個資、照片與數位足跡 | verified | published_verified | [YouTube](https://youtu.be/YxGX5Ax6YVs) |
 | L010 | AI 是什麼、不是什麼 | verified | awaiting_user_upload | — |
 | L011 | 第一個好提示詞：任務、背景、限制、格式 | verified | awaiting_user_upload | — |
 | L012 | AI 會亂講：幻覺抓錯賽 | verified | awaiting_user_upload | — |

@@ -65,18 +65,24 @@ def status_blocks(data):
     delivered = []
     for x in data:
         record = ROOT / (x.get('episodePath') or '_') / 'delivery.json'
-        if x['productionStatus'] == 'verified' and x['publicationStatus'] == 'awaiting_user_upload' and record.is_file():
+        if x['productionStatus'] == 'verified' and record.is_file():
             delivered.append((x, json.loads(record.read_text(encoding='utf-8'))))
     nxt = next((x for x in data if x['productionStatus'] not in {'verified', 'completed_historical'}), None)
     following = f"{nxt['lessonId']}「{nxt['title']}」" if nxt else '（192 堂皆已製作）'
-    ids = _ranges(x['lessonId'] for x, _ in delivered) or '（尚無）'
+    ids = _ranges(x['lessonId'] for x, _ in delivered if x['publicationStatus'] == 'awaiting_user_upload') or '（尚無）'
     sentence = (f'{ids} 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；'
                 f'下一堂是 {following}，接手仍讀狀態表。')
+    published = _ranges(x['lessonId'] for x, _ in delivered if x['publicationStatus'].startswith('published_'))
+    if published:
+        sentence += f' {published} 已發布，影片網址及觀察證據見狀態表，不重複上傳。'
     lines, files = [], []
     for x, d in delivered:
         ep, v = x['episodePath'], d['validation']
+        publication = (f"已發布：[YouTube]({x['videoUrl']})" if x['publicationStatus'].startswith('published_')
+                       else '尚未上傳' if x['publicationStatus'] == 'awaiting_user_upload'
+                       else f"發布狀態 {x['publicationStatus']}")
         lines.append(f"- {x['lessonId']}「{x['title']}」：{d['createdAt']} 由 Claude 以可攜流程製作，verify {v['passed']}/{v['total']}、"
-                     f"逐頁與逐段檢視完成，{d['version']} 已交付；尚未上傳。紀錄見 [delivery.json]({ep}/delivery.json)、"
+                     f"逐頁與逐段檢視完成，{d['version']} 已交付；{publication}。紀錄見 [delivery.json]({ep}/delivery.json)、"
                      f"[manual-review.md]({ep}/qc/manual-review.md)。")
         rows = ''.join(f"| `{f['filename']}` | {f['bytes']:,} | `{f['sha256']}` |\n" for f in d['largeFiles'])
         pkg = d['package']
