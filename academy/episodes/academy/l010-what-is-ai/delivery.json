@@ -6,7 +6,7 @@
   "createdAt": "2026-10-07",
   "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
   "status": "verified",
-  "publicationStatus": "awaiting_user_upload",
+  "publicationStatus": "published_verified",
   "contentMode": "curriculum-based-preclass (no recording)",
   "durationSeconds": 378.752,
   "openingSeconds": 60.277,
@@ -207,11 +207,11 @@
     "nextLesson": "L011 第一個好提示詞：任務、背景、限制、格式 (not started; produce only when the user asks)"
   },
   "publication": {
-    "status": "awaiting_user_upload",
-    "publisher": "user",
-    "uploaded": false,
-    "videoUrl": null,
+    "status": "published_verified",
+    "publisher": "local-agent",
+    "uploaded": true,
+    "videoUrl": "https://youtu.be/Y5lDAh-5eFE",
     "uploadFile": "l010-what-is-ai-zh-TW.mp4",
-    "note": "No login, upload or publication was attempted."
+    "note": "Public upload explicitly authorized 2026-10-09; see publication/status.json and local-upload-review.md."
   }
 }
