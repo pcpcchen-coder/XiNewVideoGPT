@@ -6,7 +6,7 @@
   "createdAt": "2026-10-08",
   "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
   "status": "verified",
-  "publicationStatus": "awaiting_user_upload",
+  "publicationStatus": "published_verified",
   "contentMode": "curriculum-based-preclass (no recording)",
   "durationSeconds": 381.133,
   "openingSeconds": 60.277,
@@ -207,11 +207,11 @@
     "nextLesson": "L012「AI 會亂講：幻覺抓錯賽」（同一批次製作中，之後是 L013）"
   },
   "publication": {
-    "status": "awaiting_user_upload",
-    "publisher": "user",
-    "uploaded": false,
-    "videoUrl": null,
+    "status": "published_verified",
+    "publisher": "local-agent",
+    "uploaded": true,
+    "videoUrl": "https://youtu.be/IpHwXp56BnY",
     "uploadFile": "l011-first-good-prompt-zh-TW.mp4",
-    "note": "No login, upload or publication was attempted."
+    "note": "Public upload explicitly authorized 2026-10-09; see publication/status.json and local-upload-review.md."
   }
 }

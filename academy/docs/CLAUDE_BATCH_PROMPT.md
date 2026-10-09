@@ -1,7 +1,7 @@
 # 貼給 Claude 的逐集製作指令
 
 以下示範 L004–L006，共三集。George 可把停止課號改成希望的範圍。
-<!-- academy-status:sentence -->L004、L011–L013 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；下一堂是 L014「我們家的科技公約」，接手仍讀狀態表。 L005–L010 已發布，影片網址及觀察證據見狀態表，不重複上傳。<!-- /academy-status:sentence -->
+<!-- academy-status:sentence -->L004、L012–L013 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；下一堂是 L014「我們家的科技公約」，接手仍讀狀態表。 L005–L011 已發布，影片網址及觀察證據見狀態表，不重複上傳。<!-- /academy-status:sentence -->
 再次使用時請把起始課號改成下一堂，並同步修改不重製的清單。
 此文件是待使用者貼出的指令模板，本身不啟動背景製作，也不宣稱已取得未來課次 TTS 授權。
 

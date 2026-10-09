@@ -117,10 +117,10 @@
       "title": "第一個好提示詞：任務、背景、限制、格式",
       "learningObjectives": "學會以明確目的與輸出格式和 AI 協作",
       "productionStatus": "verified",
-      "publicationStatus": "awaiting_user_upload",
-      "publicationOwner": "user",
-      "videoUrl": null,
-      "evidence": "Produced 2026-10-08 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L011-v1 SHA-256 4f8c0fc229b2e92727d00c1fb09de0dfb6396bf506c9e377c32cd8ac7ce80762 delivered as 6 session attachments. See episodes/academy/l011-first-good-prompt/delivery.json and qc/manual-review.md.",
+      "publicationStatus": "published_verified",
+      "publicationOwner": "local-agent",
+      "videoUrl": "https://youtu.be/IpHwXp56BnY",
+      "evidence": "Produced 2026-10-08 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L011-v1 SHA-256 4f8c0fc229b2e92727d00c1fb09de0dfb6396bf506c9e377c32cd8ac7ce80762 delivered as 6 session attachments. See episodes/academy/l011-first-good-prompt/delivery.json and qc/manual-review.md. Public upload verified 2026-10-09; see publication/local-upload-review.md.",
       "episodePath": "episodes/academy/l011-first-good-prompt"
     },
     {
