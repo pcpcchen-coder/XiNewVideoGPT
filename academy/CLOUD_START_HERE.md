@@ -10,7 +10,7 @@
 - L009「個資、照片與數位足跡」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L009-v1 已交付；已發布：[YouTube](https://youtu.be/YxGX5Ax6YVs)。紀錄見 [delivery.json](episodes/academy/l009-digital-footprint/delivery.json)、[manual-review.md](episodes/academy/l009-digital-footprint/qc/manual-review.md)。
 - L010「AI 是什麼、不是什麼」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L010-v1 已交付；已發布：[YouTube](https://youtu.be/Y5lDAh-5eFE)。紀錄見 [delivery.json](episodes/academy/l010-what-is-ai/delivery.json)、[manual-review.md](episodes/academy/l010-what-is-ai/qc/manual-review.md)。
 - L011「第一個好提示詞：任務、背景、限制、格式」：2026-10-08 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L011-v1 已交付；已發布：[YouTube](https://youtu.be/IpHwXp56BnY)。紀錄見 [delivery.json](episodes/academy/l011-first-good-prompt/delivery.json)、[manual-review.md](episodes/academy/l011-first-good-prompt/qc/manual-review.md)。
-- L012「AI 會亂講：幻覺抓錯賽」：2026-10-08 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L012-v1 已交付；尚未上傳。紀錄見 [delivery.json](episodes/academy/l012-ai-hallucination/delivery.json)、[manual-review.md](episodes/academy/l012-ai-hallucination/qc/manual-review.md)。
+- L012「AI 會亂講：幻覺抓錯賽」：2026-10-08 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L012-v1 已交付；已發布：[YouTube](https://youtu.be/5dLnuaUvWuc)。紀錄見 [delivery.json](episodes/academy/l012-ai-hallucination/delivery.json)、[manual-review.md](episodes/academy/l012-ai-hallucination/qc/manual-review.md)。
 - L013「文字、圖片、聲音 AI 體驗站」：2026-10-08 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L013-v1 已交付；尚未上傳。紀錄見 [delivery.json](episodes/academy/l013-multimodal-stations/delivery.json)、[manual-review.md](episodes/academy/l013-multimodal-stations/qc/manual-review.md)。
 - L014–L192：課表與製作骨架可接續，並非影片已完成，也沒有啟動批次製作。
 - 下一堂 L014「我們家的科技公約」。

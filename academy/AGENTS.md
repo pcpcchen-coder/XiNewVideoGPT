@@ -10,7 +10,7 @@
 
 ## 執行邊界
 
-- 每次只做指定課次；使用者明確指定起訖範圍時，允許依序逐集完成，每集保存及 commit 後再進下一集。要求「下一集」時用 `pipeline/status.py --next` 找尚未製作的課，先核對課表。<!-- academy-status:sentence -->L004、L012–L013 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；下一堂是 L014「我們家的科技公約」，接手仍讀狀態表。 L005–L011 已發布，影片網址及觀察證據見狀態表，不重複上傳。<!-- /academy-status:sentence -->
+- 每次只做指定課次；使用者明確指定起訖範圍時，允許依序逐集完成，每集保存及 commit 後再進下一集。要求「下一集」時用 `pipeline/status.py --next` 找尚未製作的課，先核對課表。<!-- academy-status:sentence -->L004、L013 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；下一堂是 L014「我們家的科技公約」，接手仍讀狀態表。 L005–L012 已發布，影片網址及觀察證據見狀態表，不重複上傳。<!-- /academy-status:sentence -->
 - 系列預設不登入／上傳／公開 YouTube、不建立 OAuth、不安排背景批次。L003 最新明確例外是本機瀏覽器上傳並完成公開；先核對實際本機連線、頻道及既有影片。其他課次仍依原分工。
 - 沒有錄音就做課前教學版並明說；不可虛構逐字稿。私人錄音只放 `lessons/Lxxx/private/`，不得進公開 Git 或交付 ZIP。
 - 192 堂主題／目標以課表為準。576 組是 YouTube 搜尋入口，不是已核驗的固定影片；若選影片須逐支核對標題、網址、內容及適齡性。

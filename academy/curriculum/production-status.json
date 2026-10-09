@@ -128,10 +128,10 @@
       "title": "AI 會亂講：幻覺抓錯賽",
       "learningObjectives": "養成查核名稱、數字、日期、引用與不確定性的習慣",
       "productionStatus": "verified",
-      "publicationStatus": "awaiting_user_upload",
-      "publicationOwner": "user",
-      "videoUrl": null,
-      "evidence": "Produced 2026-10-08 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L012-v1 SHA-256 58d6f53f4b13a913faad431cee805051ede0e4a81aab78e3e95f964e1b35009e delivered as 6 session attachments. See episodes/academy/l012-ai-hallucination/delivery.json and qc/manual-review.md.",
+      "publicationStatus": "published_verified",
+      "publicationOwner": "local-agent",
+      "videoUrl": "https://youtu.be/5dLnuaUvWuc",
+      "evidence": "Produced 2026-10-08 by Claude (portable ooxml-template). verify 25/25; per-page and per-cue (36) frame review; machine ASR and waveform checks; no human listening review. Package L012-v1 SHA-256 58d6f53f4b13a913faad431cee805051ede0e4a81aab78e3e95f964e1b35009e delivered as 6 session attachments. See episodes/academy/l012-ai-hallucination/delivery.json and qc/manual-review.md. Public upload verified 2026-10-09; see publication/local-upload-review.md.",
       "episodePath": "episodes/academy/l012-ai-hallucination"
     },
     {

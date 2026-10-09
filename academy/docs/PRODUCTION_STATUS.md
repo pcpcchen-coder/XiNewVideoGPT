@@ -21,7 +21,7 @@
 | L009 | 個資、照片與數位足跡 | verified | published_verified | [YouTube](https://youtu.be/YxGX5Ax6YVs) |
 | L010 | AI 是什麼、不是什麼 | verified | published_verified | [YouTube](https://youtu.be/Y5lDAh-5eFE) |
 | L011 | 第一個好提示詞：任務、背景、限制、格式 | verified | published_verified | [YouTube](https://youtu.be/IpHwXp56BnY) |
-| L012 | AI 會亂講：幻覺抓錯賽 | verified | awaiting_user_upload | — |
+| L012 | AI 會亂講：幻覺抓錯賽 | verified | published_verified | [YouTube](https://youtu.be/5dLnuaUvWuc) |
 | L013 | 文字、圖片、聲音 AI 體驗站 | verified | awaiting_user_upload | — |
 | L014 | 我們家的科技公約 | planned | not_uploaded | — |
 | L015 | 迷你專案：數位安全逃脫室 | planned | not_uploaded | — |
