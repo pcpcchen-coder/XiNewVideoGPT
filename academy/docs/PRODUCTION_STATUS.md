@@ -17,7 +17,7 @@
 | L005 | 搜尋高手：把大問題拆成好問題 | verified | published_verified | [YouTube](https://youtu.be/_vZlGoif3vs) |
 | L006 | 真真假假：來源與證據偵探 | verified | published_verified | [YouTube](https://youtu.be/C5Aw2U88q10) |
 | L007 | 密碼城堡與雙重驗證 | verified | published_verified | [YouTube](https://youtu.be/5S83wW8ojAk) |
-| L008 | 釣魚郵件偵探社 | verified | awaiting_user_upload | — |
+| L008 | 釣魚郵件偵探社 | verified | published_verified | [YouTube](https://youtu.be/tZOsZSzrc34) |
 | L009 | 個資、照片與數位足跡 | verified | awaiting_user_upload | — |
 | L010 | AI 是什麼、不是什麼 | verified | awaiting_user_upload | — |
 | L011 | 第一個好提示詞：任務、背景、限制、格式 | verified | awaiting_user_upload | — |

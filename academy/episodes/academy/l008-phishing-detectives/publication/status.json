@@ -1,16 +1,47 @@
 {
   "lessonId": "L008",
-  "status": "awaiting_user_upload",
-  "publicationMode": "manual-user-upload",
-  "publisher": "user",
-  "videoUrl": null,
+  "status": "published_verified",
+  "publicationMode": "local-browser-assisted-upload",
+  "publisher": "local-agent",
+  "videoUrl": "https://youtu.be/tZOsZSzrc34",
   "targetTitle": "父子科技學院 L008｜釣魚郵件偵探社",
   "videoFile": "l008-phishing-detectives-zh-TW.mp4",
   "videoSha256": "d12ecf4d8bc80274c6e08f4c17f324ecd7abd0b54ce0d17b788c22ba448e8f46",
   "videoBytes": 75102796,
   "deliveryVersion": "L008-v1",
   "deliveryRecord": "delivery.json",
-  "authorizedToUpload": false,
-  "authorizedToPublish": false,
-  "note": "Produced and packaged 2026-10-07. Awaiting user playback and manual upload; no YouTube login, upload or publication attempted."
+  "authorizedToUpload": true,
+  "authorizedToPublish": true,
+  "note": "User explicitly authorized L005–L013 public upload on 2026-10-09. Restored original delivery bytes; inspected all 27 pre-existing Studio videos/drafts and found no matching episode. Uploaded once; Studio confirmed published.",
+  "videoId": "tZOsZSzrc34",
+  "privacyStatus": "public",
+  "channelName": "犀牛說",
+  "channelId": "UCLAQhbdu5MFIDoUPH6bDQuQ",
+  "observedAt": "2026-10-09T00:52:53.043Z",
+  "copyrightCheck": "no_issues_found",
+  "blockingReason": null,
+  "verificationRecord": "local-upload-review.md",
+  "fields": {
+    "title": "original delivery metadata",
+    "description": "original youtube-description.txt including chapters",
+    "thumbnail": "original thumbnail uploaded",
+    "captions": "original timed zh-TW.srt imported and saved with Done",
+    "madeForKids": false,
+    "videoLanguage": "zh-TW",
+    "category": "Education",
+    "paidPromotion": false,
+    "aiDisclosure": true
+  },
+  "restoration": {
+    "partsVerified": 6,
+    "internalFilesVerified": 20,
+    "packageSha256": "464d9880479843e7bf3ec1bfbc7c3eaa69a964fa47feb75dac74bec28584f064",
+    "videoSha256": "d12ecf4d8bc80274c6e08f4c17f324ecd7abd0b54ce0d17b788c22ba448e8f46",
+    "videoBytes": 75102796
+  },
+  "limitations": [
+    "No full human listening review in this local upload task; retain cloud QC limitations.",
+    "Source has burned-in subtitles; enabling CC may show two subtitle layers.",
+    "Studio requires additional verification for clickable external links; description URLs were preserved."
+  ]
 }

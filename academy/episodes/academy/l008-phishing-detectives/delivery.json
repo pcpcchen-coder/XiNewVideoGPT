@@ -6,7 +6,7 @@
   "createdAt": "2026-10-07",
   "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
   "status": "verified",
-  "publicationStatus": "awaiting_user_upload",
+  "publicationStatus": "published_verified",
   "contentMode": "curriculum-based-preclass (no recording)",
   "durationSeconds": 368.768,
   "openingSeconds": 60.277,
@@ -207,11 +207,11 @@
     "nextLesson": "L009 個資、照片與數位足跡 (in production in the same session; see its own delivery.json)"
   },
   "publication": {
-    "status": "awaiting_user_upload",
-    "publisher": "user",
-    "uploaded": false,
-    "videoUrl": null,
+    "status": "published_verified",
+    "publisher": "local-agent",
+    "uploaded": true,
+    "videoUrl": "https://youtu.be/tZOsZSzrc34",
     "uploadFile": "l008-phishing-detectives-zh-TW.mp4",
-    "note": "No login, upload or publication was attempted."
+    "note": "Public upload explicitly authorized 2026-10-09; see publication/status.json and local-upload-review.md."
   }
 }
