@@ -1,16 +1,47 @@
 {
   "lessonId": "L007",
-  "status": "awaiting_user_upload",
-  "publicationMode": "manual-user-upload",
-  "publisher": "user",
-  "videoUrl": null,
+  "status": "published_verified",
+  "publicationMode": "local-browser-assisted-upload",
+  "publisher": "local-agent",
+  "videoUrl": "https://youtu.be/5S83wW8ojAk",
   "targetTitle": "父子科技學院 L007｜密碼城堡與雙重驗證",
   "videoFile": "l007-password-castle-zh-TW.mp4",
   "videoSha256": "4fd72a7383cad5105150226b7824d2cbb1f3657bacd7afd14938c46ca55f9c96",
   "videoBytes": 75838863,
   "deliveryVersion": "L007-v1",
   "deliveryRecord": "delivery.json",
-  "authorizedToUpload": false,
-  "authorizedToPublish": false,
-  "note": "Produced and packaged 2026-10-07. Awaiting user playback and manual upload; no YouTube login, upload or publication attempted."
+  "authorizedToUpload": true,
+  "authorizedToPublish": true,
+  "note": "User explicitly authorized L005–L013 public upload on 2026-10-09. Restored original delivery bytes; inspected all 27 pre-existing Studio videos/drafts and found no matching episode. Uploaded once; Studio confirmed published.",
+  "videoId": "5S83wW8ojAk",
+  "privacyStatus": "public",
+  "channelName": "犀牛說",
+  "channelId": "UCLAQhbdu5MFIDoUPH6bDQuQ",
+  "observedAt": "2026-10-09T00:50:30.835Z",
+  "copyrightCheck": "no_issues_found",
+  "blockingReason": null,
+  "verificationRecord": "local-upload-review.md",
+  "fields": {
+    "title": "original delivery metadata",
+    "description": "original youtube-description.txt including chapters",
+    "thumbnail": "original thumbnail uploaded",
+    "captions": "original timed zh-TW.srt imported and saved with Done",
+    "madeForKids": false,
+    "videoLanguage": "zh-TW",
+    "category": "Education",
+    "paidPromotion": false,
+    "aiDisclosure": true
+  },
+  "restoration": {
+    "partsVerified": 6,
+    "internalFilesVerified": 20,
+    "packageSha256": "a0e9582f6380f84054deab526049b8c35877fa876b953c1a3a79a0e0f35e7356",
+    "videoSha256": "4fd72a7383cad5105150226b7824d2cbb1f3657bacd7afd14938c46ca55f9c96",
+    "videoBytes": 75838863
+  },
+  "limitations": [
+    "No full human listening review in this local upload task; retain cloud QC limitations.",
+    "Source has burned-in subtitles; enabling CC may show two subtitle layers.",
+    "Studio requires additional verification for clickable external links; description URLs were preserved."
+  ]
 }
