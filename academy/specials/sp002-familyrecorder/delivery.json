@@ -6,7 +6,7 @@
   "createdAt": "2026-10-17",
   "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
   "status": "verified",
-  "publicationStatus": "awaiting_user_upload",
+  "publicationStatus": "published_verified",
   "contentMode": "curriculum-based-preclass (no recording)",
   "durationSeconds": 376.567,
   "openingSeconds": 60.277,
@@ -207,11 +207,11 @@
     "nextLesson": "番外篇不影響課表；下一堂正課仍是 L014「我們家的科技公約」，只在 George 指定時製作"
   },
   "publication": {
-    "status": "awaiting_user_upload",
-    "publisher": "user",
-    "uploaded": false,
-    "videoUrl": null,
+    "status": "published_verified",
+    "publisher": "local-agent",
+    "uploaded": true,
+    "videoUrl": "https://youtu.be/C_qYp0hciXc",
     "uploadFile": "sp002-familyrecorder-zh-TW.mp4",
-    "note": "No login, upload or publication was attempted."
+    "note": "Public upload explicitly authorized 2026-10-17; see publication/status.json and local-upload-review.md."
   }
 }
