@@ -11,6 +11,8 @@ delivery/
 # Per-episode heavyweight outputs are saved separately with hashes.
 episodes/academy/*/output/*.mp4
 episodes/academy/*/output/narration-only.mp3
+specials/*/output/*.mp4
+specials/*/output/narration-only.mp3
 # OAuth is not part of the manual-upload pipeline.
 .env
 .env.*

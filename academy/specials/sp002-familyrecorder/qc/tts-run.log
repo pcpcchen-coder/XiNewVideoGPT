@@ -1,0 +1,132 @@
+Academy editorial structure valid (not visual acceptance)
+  retry 1 (WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=66fc09c556f34de2a3580c20c01ba484&Sec-MS-GEC=7BD9D93331621F1CB8DBC2C99C78CF8CACE3E2116BCAA8FC9F4CA5F4A74AAABE&Sec-MS-GEC-Version=1-143.0.3650.75'): 歡迎回到父子科技學院，我是陳犀牛...
+  retry 2 (WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=d69033bd2e004ce097b883f0ee1c2ee7&Sec-MS-GEC=7BD9D93331621F1CB8DBC2C99C78CF8CACE3E2116BCAA8FC9F4CA5F4A74AAABE&Sec-MS-GEC-Version=1-143.0.3650.75'): 歡迎回到父子科技學院，我是陳犀牛...
+  retry 3 (WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=1f0a2bac020e484b96d13040a813a455&Sec-MS-GEC=7BD9D93331621F1CB8DBC2C99C78CF8CACE3E2116BCAA8FC9F4CA5F4A74AAABE&Sec-MS-GEC-Version=1-143.0.3650.75'): 歡迎回到父子科技學院，我是陳犀牛...
+  retry 4 (WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=e924d4e74c564aacb5067435a532e5c9&Sec-MS-GEC=7BD9D93331621F1CB8DBC2C99C78CF8CACE3E2116BCAA8FC9F4CA5F4A74AAABE&Sec-MS-GEC-Version=1-143.0.3650.75'): 歡迎回到父子科技學院，我是陳犀牛...
+  retry 5 (WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=790d976e09ab44c69caa08f3911c63b9&Sec-MS-GEC=7BD9D93331621F1CB8DBC2C99C78CF8CACE3E2116BCAA8FC9F4CA5F4A74AAABE&Sec-MS-GEC-Version=1-143.0.3650.75'): 歡迎回到父子科技學院，我是陳犀牛...
+  retry 6 (WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=02b1926679bb43278e537f540a956345&Sec-MS-GEC=7BD9D93331621F1CB8DBC2C99C78CF8CACE3E2116BCAA8FC9F4CA5F4A74AAABE&Sec-MS-GEC-Version=1-143.0.3650.75'): 歡迎回到父子科技學院，我是陳犀牛...
+  retry 7 (WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=98fceca12f02468ba046bde4431e6273&Sec-MS-GEC=7BD9D93331621F1CB8DBC2C99C78CF8CACE3E2116BCAA8FC9F4CA5F4A74AAABE&Sec-MS-GEC-Version=1-143.0.3650.75'): 歡迎回到父子科技學院，我是陳犀牛...
+Traceback (most recent call last):
+  File "/home/claude/xinewvideogpt/academy/pipeline/scripts/synthesize_narration.py", line 206, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/claude/xinewvideogpt/academy/pipeline/scripts/synthesize_narration.py", line 149, in main
+    synthesize(spoken, raw)
+    ~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/claude/xinewvideogpt/academy/pipeline/scripts/synthesize_narration.py", line 123, in synthesize
+    raise RuntimeError(f"TTS incomplete after {ATTEMPTS} attempts ({reason}) for: {text}")
+RuntimeError: TTS incomplete after 7 attempts (WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=98fceca12f02468ba046bde4431e6273&Sec-MS-GEC=7BD9D93331621F1CB8DBC2C99C78CF8CACE3E2116BCAA8FC9F4CA5F4A74AAABE&Sec-MS-GEC-Version=1-143.0.3650.75') for: 歡迎回到父子科技學院，我是陳犀牛，今天是番外篇，要介紹爸爸放在網路上的開源專案；這是依專案公開的程式和文件製作的介紹，並非實際使用錄音。
+Traceback (most recent call last):
+  File "/home/claude/xinewvideogpt/academy/pipeline/academy.py", line 429, in <module>
+    main()
+    ~~~~^^
+  File "/home/claude/xinewvideogpt/academy/pipeline/academy.py", line 424, in main
+    run([sys.executable, ROOT / "pipeline/scripts" / f"{script}.py", "--episode", ep])
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/xinewvideogpt/academy/pipeline/academy.py", line 42, in run
+    subprocess.run([str(x) for x in cmd], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/home/claude/xinewvideogpt/academy/.venv/bin/python', '/home/claude/xinewvideogpt/academy/pipeline/scripts/synthesize_narration.py', '--episode', '/home/claude/xinewvideogpt/academy/specials/sp002-familyrecorder']' returned non-zero exit status 1.
+Academy editorial structure valid (not visual acceptance)
+  s01-01 12.75s 歡迎回到父子科技學院，我是陳犀牛，今天是
+  s01-02  5.81s 它的名字叫 Family Recorde
+  s01-03 10.13s 家裡的一句叮嚀、半夜想到的點子，常常說完
+scene 01: 28.73s
+  s02-01  8.55s 它做事只有三個步驟。第一步是聽：桌上的麥
+  s02-02  6.29s 第二步是寫：電腦自己把有人說話的片段變成
+  s02-03  8.12s 第三步是整理：每天半夜十二點十分，把前一
+scene 02: 22.99s
+  s03-01  9.58s 要讓它上班，需要準備三樣東西。第一，一支
+  s03-02  5.38s 第二，一台使用蘋果晶片的 Mac，負責辨
+  s03-03  9.17s 第三，想要每天的摘要，就用官方工具 Co
+scene 03: 24.17s
+  s04-01 10.56s 它有四個本事。第一是守門：先判斷這三十秒
+  s04-02  6.99s 第二是聽寫：語音辨識程式 Whisper
+  s04-03  8.07s 第三是防幻覺，第四是認聲音：猜猜看，這段
+scene 04: 25.66s
+  s05-01  6.03s 一般的雲端錄音服務，會把聲音檔上傳到別人
+  s05-02  7.49s 這個專案剛好相反：原始聲音、聲音特徵和資
+  s05-03 10.20s 每天只有一份逐字稿的文字，會送到你自己的
+scene 05: 23.76s
+  s06-01 11.00s 還記得第十二堂的幻覺嗎？語音辨識也會幻覺
+  s06-02 10.71s 所以它設了好幾道關卡：看麥克風硬體有沒有
+  s06-03  8.67s 被攔下來的句子不會丟掉，而是寫進一份檢查
+scene 06: 30.41s
+  s07-01  9.17s 再來是認聲音。每位家人先錄十五秒的聲音樣
+  s07-02  9.48s 麥克風陣列還會回報，聲音是從哪個角度傳來
+  s07-03  8.88s 所以逐字稿上寫的是可能說話者，而不是確認
+scene 07: 27.58s
+  s08-01  9.60s 一台一直開著麥克風的電腦，值得相信嗎？這
+  s08-02  9.89s 負責摘要的程式裡，根本沒有讀取聲音檔的功
+  s08-03  7.49s 文件裡還附了指令，讓你自己確認，安靜的時
+scene 08: 27.02s
+  s09-01  7.37s 它的核心，其實是一台當下記錄器；換掉整理
+  s09-02  9.36s 家庭聲音日誌已經完整做好；家教的課後複習
+  s09-03  7.06s 不過有一件事絕對不行：不能拿它來監控任何
+scene 09: 23.83s
+  s10-01  9.60s 早上起床，你會看到三樣東西。第一是逐字稿
+  s10-02  6.96s 第二是每日摘要：事件時間軸、待辦事項，還
+  s10-03  8.88s 第三是行事曆的候選事件，例如下週三的家長
+scene 10: 25.49s
+  s11-01  8.62s 我們跟著一句話走一趟。假設晚上七點四十分
+  s11-02  9.51s 這三十秒有人說話，所以通過守門，在電腦裡
+  s11-03  8.14s 半夜十二點十分，整理程式把它放進前一天的
+scene 11: 26.30s
+  s12-01 10.49s 最後，留三個問題給你和家人。第一，哪些話
+  s12-02 10.35s 第二，要在家裡收音，每個人都同意了嗎？客
+  s12-03  9.20s 這些問題，正好是下一堂正課的主題：我們家
+scene 12: 30.07s
+Synthesized 12 scenes (316.01s).
+Academy editorial structure valid (not visual acceptance)
+  s01-01 12.75s 歡迎回到父子科技學院，我是陳犀牛，今天是
+  s01-02  5.81s 它的名字叫 Family Recorde
+  s01-03 10.13s 家裡的一句叮嚀、半夜想到的點子，常常說完
+scene 01: 28.73s
+  s02-01  8.55s 它做事只有三個步驟。第一步是聽：桌上的麥
+  s02-02  6.29s 第二步是寫：電腦自己把有人說話的片段變成
+  s02-03  8.12s 第三步是整理：每天半夜十二點十分，把前一
+scene 02: 22.99s
+  s03-01  9.58s 要讓它上班，需要準備三樣東西。第一，一支
+  s03-02  5.38s 第二，一台使用蘋果晶片的 Mac，負責辨
+  s03-03  9.17s 第三，想要每天的摘要，就用官方工具 Co
+scene 03: 24.17s
+  s04-01 10.56s 它有四個本事。第一是守門：先判斷這三十秒
+  s04-02  6.99s 第二是聽寫：語音辨識程式 Whisper
+  s04-03  8.07s 第三是防幻覺，第四是認聲音：猜猜看，這段
+scene 04: 25.66s
+  s05-01  6.03s 一般的雲端錄音服務，會把聲音檔上傳到別人
+  s05-02  7.49s 這個專案剛好相反：原始聲音、聲音特徵和資
+  s05-03 10.20s 每天只有一份逐字稿的文字，會送到你自己的
+scene 05: 23.76s
+  s06-01 11.00s 還記得第十二堂的幻覺嗎？語音辨識也會幻覺
+  s06-02 10.71s 所以它設了好幾道關卡：看麥克風硬體有沒有
+  s06-03  8.67s 被攔下來的句子不會丟掉，而是寫進一份檢查
+scene 06: 30.41s
+  s07-01  9.17s 再來是認聲音。每位家人先錄十五秒的聲音樣
+  s07-02  9.48s 麥克風陣列還會回報，聲音是從哪個角度傳來
+  s07-03  8.88s 所以逐字稿上寫的是可能說話者，而不是確認
+scene 07: 27.58s
+  s08-01  9.60s 一台一直開著麥克風的電腦，值得相信嗎？這
+  s08-02  9.89s 負責摘要的程式裡，根本沒有讀取聲音檔的功
+  s08-03  7.49s 文件裡還附了指令，讓你自己確認，安靜的時
+scene 08: 27.02s
+  s09-01  7.37s 它的核心，其實是一台當下記錄器；換掉整理
+  s09-02  9.36s 家庭聲音日誌已經完整做好；家教的課後複習
+  s09-03  7.06s 不過有一件事絕對不行：不能拿它來監控任何
+scene 09: 23.83s
+  s10-01  9.60s 早上起床，你會看到三樣東西。第一是逐字稿
+  s10-02  6.96s 第二是每日摘要：事件時間軸、待辦事項，還
+  s10-03  9.15s 第三是行事曆的候選事件，例如下週三的親師
+scene 10: 25.75s
+  s11-01  8.62s 我們跟著一句話走一趟。假設晚上七點四十分
+  s11-02  9.51s 這三十秒有人說話，所以通過守門，在電腦裡
+  s11-03  8.14s 半夜十二點十分，整理程式把它放進前一天的
+scene 11: 26.30s
+  s12-01 10.49s 最後，留三個問題給你和家人。第一，哪些話
+  s12-02 10.35s 第二，要在家裡收音，每個人都同意了嗎？客
+  s12-03  9.20s 這些問題，正好是下一堂正課的主題：我們家
+scene 12: 30.07s
+Synthesized 12 scenes (316.27s).

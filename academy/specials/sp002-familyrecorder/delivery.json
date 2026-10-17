@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "SP002",
+  "episodePath": "specials/sp002-familyrecorder",
+  "version": "SP002-v1",
+  "createdAt": "2026-10-17",
+  "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
+  "status": "verified",
+  "publicationStatus": "awaiting_user_upload",
+  "contentMode": "curriculum-based-preclass (no recording)",
+  "durationSeconds": 376.567,
+  "openingSeconds": 60.277,
+  "voice": "zh-TW-YunJheNeural",
+  "ttsEngine": "edge-tts 7.3.1",
+  "backgroundMusic": "none under teaching slides",
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "validation": {
+    "passed": 25,
+    "total": 25,
+    "integratedLufs": -17.1,
+    "sceneAudioMaxLagMs": 0.0,
+    "sceneAudioMinCorrelation": 0.989549,
+    "asrMinSimilarity": 0.789,
+    "asrMeanSimilarity": 0.945,
+    "asrMinSoundSimilarity": 0.921,
+    "asrMeanSoundSimilarity": 0.992,
+    "captionLineBreak": "kinsoku",
+    "reviewRecords": [
+      "qc/report.md",
+      "qc/manual-review.md",
+      "qc/slide-visual-review.md"
+    ],
+    "notDone": [
+      "human full listening review",
+      "PowerPoint/Keynote open test",
+      "macOS hands-on test",
+      "YouTube copyright check",
+      "真人整段聽審；以 PowerPoint 或 Keynote 開啟 PPTX；安裝或執行 FamilyRecorder；實際帶孩子試玩討論包；YouTube 版權檢查與上傳"
+    ]
+  },
+  "package": {
+    "filename": "SP002-v1_父子科技學院_番外篇_FamilyRecorder_2026-10-17.zip",
+    "bytes": 162799035,
+    "sha256": "e7ff420b1e2a508af27eda6759934bb426e3e7f97c123b51da91fce23c2dded6",
+    "contents": "whitelisted package folder SP002-v1 with checksums.json (20 files)",
+    "internalChecksums": {
+      "UPLOAD_README.md": "e2203793c6e78ad131e7242ab3e331aafbec24a166b5c4855c2d89111ef1ee72",
+      "youtube-draft.json": "d4c8aafe39cabcdd7f2f1c0f4d6aecef2ad5d2ad864b99ab770d1d7964db2c44",
+      "youtube-metadata.json": "40c4743adbd11d2973a936e109e39a6636f0d83da89438dc47ce95a57881d795",
+      "manual-review.md": "2a45f3d2d10701bd6fc4c13354f6ae15aed116ca28d07821aeea71b3b07595a1",
+      "repo-guide.md": "f246c3f1c283dd89c3c0b20e64776d9c6c53c507ee9e29e8a255c4841d0152c9",
+      "sources.json": "105e7acb8006409c333d6de2631cfd59c36955177d28d9f201278de9735c2b47",
+      "narration-only.mp3": "66868a5b748dff37f7670794351d726d44967613b17959e434e671908f5bff71",
+      "report.json": "dd320a488a9c24d16ccc147879fe9fce275e8c694fbf36ab0ee3ae614f983bb6",
+      "fact-check.md": "7e88ed9d4214e6f790e923c030e454cb41692a54d7092d466beb4a4111bb7edf",
+      "classroom.zip": "30f47fc622ac314833490ba8c32dd49730c2a13129ec8252b6b278ba244a04b7",
+      "sp002-familyrecorder-master.mp4": "869ab3059133a4e898cdc8316789e61e79605515d23b94761e7e8125881cfe01",
+      "sp002-familyrecorder.pptx": "705468a76b5f3c18943a9c746bb75d6166683b0eee4614a2b7455490bade05d9",
+      "zh-TW.srt": "6c27f820537d93c84a93380b720990289de484175500fc12ef0153b8e645a6c9",
+      "sp002-familyrecorder-zh-TW.mp4": "746a0655121446b4bb2aa3fa422a8552d2e3499257b77a252b0a96aae911652c",
+      "report.md": "e425c51dbedaaf20a5ea0f61118f9bb9b807b920eb69979220ad9e2b23f870ac",
+      "youtube-description.txt": "5785d90856fa9625df53f745b9cadb0c36afc1ade874e6358f5dcd7074186308",
+      "chapters.txt": "ac48ee866ef4b5ab7de05ecfb9c1a387f035cf079d65e6e169469018a71f790e",
+      "thumbnail.png": "d712f98b4b4a8eae89c3285bb272cee66c2dc463e8d6764121cb56951760c7d4",
+      "narration-script.md": "ca7989a9f73c854abf71d613e8cf4e03e777cc2b7c4e7e570bf03f0b14798df7",
+      "START_HERE.md": "878494b92effab1fbc05de82373eed7fe6f96dbdf450afac8d9f7007cbfc8dd4"
+    }
+  },
+  "largeFiles": [
+    {
+      "filename": "sp002-familyrecorder-zh-TW.mp4",
+      "bytes": 74421903,
+      "sha256": "746a0655121446b4bb2aa3fa422a8552d2e3499257b77a252b0a96aae911652c",
+      "role": "captioned video for upload (burned zh-TW subtitles)",
+      "inGit": false
+    },
+    {
+      "filename": "sp002-familyrecorder-master.mp4",
+      "bytes": 77706182,
+      "sha256": "869ab3059133a4e898cdc8316789e61e79605515d23b94761e7e8125881cfe01",
+      "role": "master without burned subtitles",
+      "inGit": false
+    },
+    {
+      "filename": "narration-only.mp3",
+      "bytes": 7591725,
+      "sha256": "66868a5b748dff37f7670794351d726d44967613b17959e434e671908f5bff71",
+      "role": "narration only, no opening",
+      "inGit": false
+    }
+  ],
+  "inGit": [
+    {
+      "filename": "sp002-familyrecorder.pptx",
+      "bytes": 2509697,
+      "sha256": "705468a76b5f3c18943a9c746bb75d6166683b0eee4614a2b7455490bade05d9",
+      "path": "production/presentation/sp002-familyrecorder.pptx"
+    },
+    {
+      "filename": "zh-TW.srt",
+      "bytes": 5669,
+      "sha256": "6c27f820537d93c84a93380b720990289de484175500fc12ef0153b8e645a6c9",
+      "path": "subtitles/zh-TW.srt"
+    },
+    {
+      "filename": "thumbnail.png",
+      "bytes": 233814,
+      "sha256": "d712f98b4b4a8eae89c3285bb272cee66c2dc463e8d6764121cb56951760c7d4",
+      "path": "output/thumbnail.png"
+    },
+    {
+      "filename": "classroom.zip",
+      "bytes": 283632,
+      "sha256": "30f47fc622ac314833490ba8c32dd49730c2a13129ec8252b6b278ba244a04b7",
+      "path": "output/classroom.zip"
+    },
+    {
+      "filename": "contact-sheet.png",
+      "bytes": 976768,
+      "sha256": "a1aa152f8fa790960f427ccc35d3bb369b352a93c68b6127cb195d2eb17ad65e",
+      "path": "output/contact-sheet.png"
+    }
+  ],
+  "persistence": {
+    "location": "Attachments delivered in the Claude session that produced this lesson (private to the account owner)",
+    "session": "https://claude.ai/code/session_01GE2NEiPKZa5XzbFCCWKxiy",
+    "reason": "30 MiB per-file attachment limit; the package ZIP was split into 6 byte-exact parts",
+    "parts": [
+      {
+        "filename": "SP002-v1_父子科技學院_番外篇_FamilyRecorder_2026-10-17.zip.part01",
+        "bytes": 29360128,
+        "sha256": "0befa9cb969dddeb708acdbae183c582f8a2a59d7d5770ca18ec664ce9098cd6",
+        "conversationFileId": "622f5004-91b5-40fa-a076-8c00fbbc53ad"
+      },
+      {
+        "filename": "SP002-v1_父子科技學院_番外篇_FamilyRecorder_2026-10-17.zip.part02",
+        "bytes": 29360128,
+        "sha256": "7e99e7e33e12185f38fbabc6f47661bfa18b86a6ddc3de12f3b6ba6f1efd3012",
+        "conversationFileId": "b011c341-5a13-4136-ad0c-d4a24a2d3093"
+      },
+      {
+        "filename": "SP002-v1_父子科技學院_番外篇_FamilyRecorder_2026-10-17.zip.part03",
+        "bytes": 29360128,
+        "sha256": "161098965d2fa39ec8733928083fdc2068f0787c019db8ec2026dba2df312119",
+        "conversationFileId": "2872071f-38ec-49d9-adff-e046538f92ca"
+      },
+      {
+        "filename": "SP002-v1_父子科技學院_番外篇_FamilyRecorder_2026-10-17.zip.part04",
+        "bytes": 29360128,
+        "sha256": "d4d1d32d8740d0dfac69bbb32c26043cee7ce9d981b25bb99b15b2777abed95f",
+        "conversationFileId": "29310e61-fb18-45e1-9e45-4a3724f2f5a4"
+      },
+      {
+        "filename": "SP002-v1_父子科技學院_番外篇_FamilyRecorder_2026-10-17.zip.part05",
+        "bytes": 29360128,
+        "sha256": "46a5fe6c26a6aa1b791a1775755c1f7b803e2236395030530ceab3f138131804",
+        "conversationFileId": "9e9e9126-63b6-4d9a-8a4f-34a5b4de8585"
+      },
+      {
+        "filename": "SP002-v1_父子科技學院_番外篇_FamilyRecorder_2026-10-17.zip.part06",
+        "bytes": 15998395,
+        "sha256": "46d1a9f2a7071c634ffec147bfe1300805670d13aefe48bf2eedc7e118f8c7bb",
+        "conversationFileId": "9f17ea55-bb84-48b8-b596-980b4e53036f"
+      }
+    ],
+    "restore": "cat \"SP002-v1_父子科技學院_番外篇_FamilyRecorder_2026-10-17.zip\".part* > \"SP002-v1_父子科技學院_番外篇_FamilyRecorder_2026-10-17.zip\" && shasum -a 256 \"SP002-v1_父子科技學院_番外篇_FamilyRecorder_2026-10-17.zip\"",
+    "restoredZip": {
+      "filename": "SP002-v1_父子科技學院_番外篇_FamilyRecorder_2026-10-17.zip",
+      "bytes": 162799035,
+      "sha256": "e7ff420b1e2a508af27eda6759934bb426e3e7f97c123b51da91fce23c2dded6"
+    },
+    "restoreTested": "parts re-joined by pipeline/split_delivery.py in the producing session: SHA-256 equals the ZIP; ZIP integrity tested",
+    "notUsed": {
+      "gitHubRelease": "repository is public; a release would make the unpublished video public",
+      "googleDrive": "connector accepts only inline content; text records only, no large binaries",
+      "git": "large MP4/MP3 stay out of Git per .gitignore"
+    },
+    "ifAttachmentsUnavailable": "rebuild from Git: audio, slides, PPTX, SRT sources and the shared opening are tracked; run assemble → delivery → verify → package. A rebuild is a new version with new hashes."
+  },
+  "continuation": {
+    "state": "SP002 complete through package; nothing pending except user playback/listening and manual YouTube upload",
+    "rebuildCommands": [
+      "cd academy && ./setup-portable.sh",
+      "EP=specials/sp002-familyrecorder",
+      "./portable-runtime.sh python pipeline/academy.py run media-check --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run assemble --episode \"$EP\"   # ~20 min on 2 cores; run in background",
+      "./portable-runtime.sh python pipeline/delivery.py --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py run verify --episode \"$EP\"",
+      "./portable-runtime.sh python pipeline/academy.py package --episode \"$EP\" --output delivery/SP002-v2"
+    ],
+    "doNotRerunWithoutReason": "run tts (re-synthesises all audio and invalidates timing, subtitles, video and QC)",
+    "authoring": [
+      "authoring/sp002/classroom.py",
+      "authoring/sp002/prepare_content.py"
+    ],
+    "sharedTools": [
+      "pipeline/qa/subtitle_precheck.py",
+      "pipeline/qa/deck_check.py",
+      "pipeline/qa/media_review.py",
+      "pipeline/qa/asr_review.py",
+      "pipeline/split_delivery.py",
+      "pipeline/record_delivery.py"
+    ],
+    "nextLesson": "番外篇不影響課表；下一堂正課仍是 L014「我們家的科技公約」，只在 George 指定時製作"
+  },
+  "publication": {
+    "status": "awaiting_user_upload",
+    "publisher": "user",
+    "uploaded": false,
+    "videoUrl": null,
+    "uploadFile": "sp002-familyrecorder-zh-TW.mp4",
+    "note": "No login, upload or publication was attempted."
+  }
+}

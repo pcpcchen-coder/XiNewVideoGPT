@@ -14,9 +14,10 @@ import printpack  # noqa: E402
 R = Path(__file__).resolve().parents[1]
 
 
-def build(*, slug, folder, files, sheet, pack_html, pack_pdf, pack_pages, pack_needles, authoring_dir, extra):
-    """sheet = (csv file name, header list, rows list); extra = lesson-specific validation facts."""
-    E = R / 'episodes/academy' / slug
+def build(*, slug, folder, files, sheet, pack_html, pack_pdf, pack_pages, pack_needles, authoring_dir, extra, episode_dir=None):
+    """sheet = (csv file name, header list, rows list); extra = lesson-specific validation facts.
+    episode_dir: repo-relative episode folder; defaults to episodes/academy/<slug> (specials pass their own)."""
+    E = R / (episode_dir or f'episodes/academy/{slug}')
     D = E / 'classroom' / folder
     D.mkdir(parents=True, exist_ok=True)
     for stale in D.iterdir():  # the folder is fully owned by this script

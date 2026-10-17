@@ -2,7 +2,7 @@
 Pillow>=12,<13
 python-pptx>=1,<2
 openpyxl>=3.1,<4
-edge-tts==7.2.8
+edge-tts==7.3.1
 numpy>=2,<3
 scipy>=1.14,<2
 # Portable template editing uses lxml; PPTX inspection uses python-pptx.

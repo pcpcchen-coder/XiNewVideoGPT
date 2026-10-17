@@ -1,0 +1,110 @@
+[
+  {
+    "slide": 1,
+    "title": "FamilyRecorder：家裡的當下記錄器",
+    "purpose": "開場：番外篇揭露、專案名稱與它要解決的問題",
+    "visual": "封面版型：標籤、兩行主題、一句說明、番外篇揭露；原陳犀牛角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "猜猜看：家裡哪些話最容易說完就忘",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 2,
+    "title": "聽、寫、整理",
+    "purpose": "概念：聽、寫、整理三步驟",
+    "visual": "三步流程卡＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出三個步驟",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 3,
+    "title": "需要準備的三樣東西",
+    "purpose": "準備：麥克風陣列、Apple 晶片 Mac、ChatGPT 帳號",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "找出哪一樣只有要摘要時才需要",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 4,
+    "title": "四個本事",
+    "purpose": "概念：守門、聽寫、防幻覺、認聲音",
+    "visual": "面板四張卡＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出安靜的時候會發生什麼",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 5,
+    "title": "聲音留在家，文字才出門",
+    "purpose": "對比：一般雲端錄音 vs 本機辨識、只送文字",
+    "visual": "雙框對照＋白字＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出哪些資料不出門",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 6,
+    "title": "防幻覺：還記得第十二堂嗎",
+    "purpose": "連結第十二堂：語音辨識的幻覺與攔截關卡",
+    "visual": "三張步驟卡＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "想一想：為什麼不直接封鎖某些句子",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 7,
+    "title": "可能是誰？從哪裡來？",
+    "purpose": "認聲音：音色樣本與方向角度，可能說話者不是確認身分",
+    "visual": "路徑一行＋三張卡＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出它不能拿來做哪些事",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 8,
+    "title": "隱私承諾：能檢查，才可信",
+    "purpose": "隱私：能檢查才可信；摘要程式沒有讀聲音檔的功能",
+    "visual": "左三行＋右側「為什麼可以相信？」＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出每天出門的是哪一種資料",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 9,
+    "title": "換提示詞，換用途",
+    "purpose": "用途：換提示詞換用途；不能監控、不偷錄",
+    "visual": "左右比較卡＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "想一個你想試的用途",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 10,
+    "title": "早上會看到什麼",
+    "purpose": "產出：逐字稿、每日摘要、行事曆候選",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出行事曆事件怎麼加進去",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 11,
+    "title": "一句話的旅程",
+    "purpose": "流程：一句話從客廳到早上的待辦事項",
+    "visual": "六列時間軸＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "把六個步驟按順序說一遍",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 12,
+    "title": "帶回家的三個問題",
+    "purpose": "討論：三個問題；預告 L014 我們家的科技公約；固定結尾",
+    "visual": "三點條列＋陳犀牛＋結尾語（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "和家人討論三個問題",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  }
+]

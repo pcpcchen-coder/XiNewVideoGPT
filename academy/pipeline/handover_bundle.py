@@ -97,7 +97,7 @@ Git：https://github.com/pcpcchen-coder/XiNewVideoGPT（main，commit {a.commit}
     (out / names['report']).write_text(f'''<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{lesson} 製作交付報告 {date}</title><style>{CSS}</style></head><body>
 <h1>父子科技學院 {lesson}「{e(title)}」</h1>
-<p class="sub">製作交付報告｜{date}｜依課表製作的課前教學版（無課堂錄音）｜Git main <code>{e(a.commit)}</code></p>
+<p class="sub">製作交付報告｜{date}｜{e(manifest.get('deliveryLabel', '依課表製作的課前教學版（無課堂錄音）'))}｜Git main <code>{e(a.commit)}</code></p>
 <h2>1. 結論</h2><table>
 <tr><th style="width:26%">狀態</th><td><span class="ok">verified</span>／awaiting_user_upload；未登入、未上傳、未公開</td></tr>
 <tr><th>技術驗收</th><td><span class="ok">{v['passed']}/{v['total']}</span>；{d['durationSeconds']} 秒（片頭 {d['openingSeconds']}＋教學段落 {narration}）；1080p30 H.264／AAC 48 kHz；{v['integratedLufs']} LUFS</td></tr>

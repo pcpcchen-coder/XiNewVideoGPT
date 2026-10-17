@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "editorialStatus": "authored",
+  "recordingSource": null,
+  "slideCount": 12,
+  "transitionSeconds": 0.55,
+  "deckRenderer": "ooxml-template",
+  "templateEpisode": "episodes/academy/l001-mac-workstation",
+  "templateProvenance": "Original PPTX absent from v2 ZIP; restored from supplied build_l001.mjs and original assets.",
+  "layoutProfile": "academy-native-v1",
+  "seriesHeader": "父子科技學院  ·  FAMILY RECORDER",
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "zh-TW-YunJheNeural",
+    "persona": "陳犀牛 Chen XiNew",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "music": {
+    "backgroundMusic": "none — narration only under teaching slides",
+    "opening": "assets/opening/開場影片-v2.mp4"
+  },
+  "signoff": {
+    "text": "我是陳犀牛，保持好奇，我們下次見！"
+  },
+  "contentMode": "special-project-introduction",
+  "publicationMode": "manual-user-upload",
+  "autoPublish": false,
+  "episode": "SP002",
+  "slug": "sp002-familyrecorder",
+  "lessonIds": [],
+  "title": "FamilyRecorder：家裡的當下記錄器",
+  "subtitle": "父子科技學院 番外篇 SP002｜番外篇・依公開專案製作的介紹（無實際使用錄音）",
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "sources": {
+    "readme": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/README.md",
+    "use_cases": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/docs/use-cases.md",
+    "privacy": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/docs/privacy.md",
+    "speakers": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/docs/speakers.md",
+    "getting_started": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/docs/getting-started.md",
+    "daily_summary": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/docs/daily-summary.md",
+    "menu_bar": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/docs/menu-bar.md",
+    "config": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/config.example.yaml",
+    "summary_py": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/src/family_recorder/summary.py",
+    "next_lesson": "lessons/L014/lesson.json"
+  },
+  "deliveryLabel": "番外篇・依公開專案製作的介紹（無實際使用錄音）",
+  "classroomNote": "classroom.zip 是家庭討論包，約 30–45 分鐘；這集是番外篇，沒有 120 分鐘的課堂流程。",
+  "factCheck": {
+    "checkedAt": "2026-10-17",
+    "record": "production/fact-check.md",
+    "sources": "production/sources.json"
+  },
+  "authorization": {
+    "produceSP002": true,
+    "ttsConsent": {
+      "grantedBy": "user",
+      "grantedAt": "2026-10-17",
+      "service": "Microsoft Edge TTS",
+      "voice": "zh-TW-YunJheNeural",
+      "scope": "SP002 public narration script only",
+      "basis": "On 2026-10-17 the user asked for SP002; the producing agent stated before synthesis that the public script would go to Edge TTS on the same basis as L004–L013.",
+      "excluded": "private recordings or any other private data"
+    },
+    "paidLlmApi": false,
+    "uploadToYouTube": false,
+    "publish": false
+  }
+}

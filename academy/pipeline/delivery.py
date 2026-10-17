@@ -44,7 +44,7 @@ def build(ep):
     (p/'START_HERE.md').write_text(f"# {m['episode']} {m['title']}\n\n{summary}\n\n"
         f"播放 {ep.name}-zh-TW.mp4，實測 {assembly['masterDuration']:.2f} 秒。\n"
         f"全片字幕 zh-TW.srt 已含實測片頭 {intro:.3f} 秒；不可使用 source SRT 替代。\n\n"
-        'classroom.zip 是練習教材。課堂 120 分鐘與影片片長分開。\n'
+        +m.get('classroomNote','classroom.zip 是練習教材。課堂 120 分鐘與影片片長分開。')+'\n'
         '母帶無燒錄字幕，簡報可編輯，另附純旁白、文字稿、章節、來源與 QC。\n'
         '本包未上傳 YouTube，由使用者播放檢查及上傳。\n',encoding='utf-8')
     inputs=sum([['-i',str(ep/s['audio'])] for s in t['scenes']],[])

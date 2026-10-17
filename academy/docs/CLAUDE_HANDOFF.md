@@ -197,3 +197,17 @@ HANDOFF.md 必須含：lessonId、episodePath、最後成功階段、當前 comm
   L013 三站各有不用工具的做法，暖身題的圖用 SVG 簡單圖形自己畫並標示「不是 AI 生成」。
 - **旁白聲線的說法**：可以說「這支影片的旁白是文字轉語音合成的，不是真人錄的」；不要說這個聲音「不是任何真人的聲音」，它怎麼錄製、訓練沒有查核。
 - **背景合成要等前一次結束**：同一集的 `run tts` 不要重複啟動；誤觸會在 `tts-run.log` 多一筆全部取回快取的紀錄（L013 有一筆），要在 manual-review 寫明。
+
+## 12. 特別篇與 edge-tts 升級（SP002，2026-10-17）
+
+- **特別篇怎麼做**：`pipeline/academy.py new-episode` 只接受 L001–L192。特別篇改用 `authoring/special_builder.py`：
+  `authoring/spxxx/prepare_content.py` 呼叫 `special_builder.build(...)`，第一次執行時在 `specials/<slug>/` 建立骨架，
+  之後和正課走同一條流程（`run deck|tts|assemble|verify`、`delivery.py`、`package`），`--episode specials/<slug>`。
+  特別篇沒有 `lessons/Lxxx/lesson.json`、沒有 120 分鐘課堂，也不用「依課表製作的課前教學版」；揭露字樣、交付說明與教材說明由 build 參數寫進 manifest
+  （`deliveryLabel`、`classroomNote`）。`classroom_pack.build(..., episode_dir='specials/<slug>')`；`record_delivery.py` 遇到非課表課號不改 192 堂登記表。
+  特別篇的成片 MP4 與純旁白 MP3 已加進 `.gitignore`，和正課一樣只進交付包。
+- **edge-tts 7.2.8 被拒**：2026-10-17 起，7.2.8 在握手時收到 Microsoft 端的 403（回應帶 X-MSEdge-Ref，代理沒有失敗紀錄），7.3.1 正常。
+  `requirements-cloud.txt` 已改成 `edge-tts==7.3.1`；舊環境請 `.venv/bin/pip install edge-tts==7.3.1`。之後如果又整輪 403，先試最新版，不要繞過代理。
+- **「長」**：L013 之後再次遇到破音字，「家長會」可能念成 jiā cháng huì；旁白避開「長」，或換說法（SP002 用「親師座談會」）。
+- **既有測試失敗**：`tests/test_portable.py` 的 `test_status_blocks_summarise_delivered_range_and_next_lesson` 在 2026-10 的發布紀錄 commit 之後就失敗
+  （狀態句改成「不重複上傳」，測試仍找「不重製」）。SP002 沒有修改它；要修請先確認狀態句的正式寫法。

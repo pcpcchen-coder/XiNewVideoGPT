@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "SP002",
+  "checkedAt": "2026-10-17",
+  "method": "The producing agent cloned the public repo (commit ff76063) and read the README, docs and relevant source files itself; claims were mapped line by line (production/source-notes.md). The project was not installed or run.",
+  "sources": [
+    {
+      "id": "readme",
+      "title": "FamilyRecorder README（繁體中文）",
+      "publisher": "pcpcchen-coder/FamilyRecorder",
+      "url": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/README.md",
+      "usedFor": "定位、標語、需求、三步驟、核心功能、隱私承諾表、逐字稿與摘要範例、同意提醒"
+    },
+    {
+      "id": "use_cases",
+      "title": "應用場景指南",
+      "publisher": "pcpcchen-coder/FamilyRecorder",
+      "url": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/docs/use-cases.md",
+      "usedFor": "當下記錄器；家庭日誌已完整實作；家教複習與夢境記錄換 prompt 即可；倫理檢查"
+    },
+    {
+      "id": "privacy",
+      "title": "隱私與信任邊界",
+      "publisher": "pcpcchen-coder/FamilyRecorder",
+      "url": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/docs/privacy.md",
+      "usedFor": "什麼資料去哪裡；安靜時不存 WAV；「能被驗證，而不是被承諾」；自我驗證指令；明確禁止的用途"
+    },
+    {
+      "id": "speakers",
+      "title": "家庭成員與方向",
+      "publisher": "pcpcchen-coder/FamilyRecorder",
+      "url": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/docs/speakers.md",
+      "usedFor": "15 秒樣本；音色與方向是兩份獨立證據；不是身分驗證"
+    },
+    {
+      "id": "getting_started",
+      "title": "安裝與上手",
+      "publisher": "pcpcchen-coder/FamilyRecorder",
+      "url": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/docs/getting-started.md",
+      "usedFor": "Apple Silicon Mac、macOS 13 以上、reSpeaker XVF3800 USB 4-Mic Array"
+    },
+    {
+      "id": "daily_summary",
+      "title": "每日摘要與行事曆",
+      "publisher": "pcpcchen-coder/FamilyRecorder",
+      "url": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/docs/daily-summary.md",
+      "usedFor": "摘要內容；行事曆候選事件預設逐筆確認"
+    },
+    {
+      "id": "menu_bar",
+      "title": "選單列與服務管理",
+      "publisher": "pcpcchen-coder/FamilyRecorder",
+      "url": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/docs/menu-bar.md",
+      "usedFor": "暫停 15 分鐘、1 小時或直到手動恢復"
+    },
+    {
+      "id": "config",
+      "title": "config.example.yaml",
+      "publisher": "pcpcchen-coder/FamilyRecorder",
+      "url": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/config.example.yaml",
+      "usedFor": "30 秒一段；摘要 00:10；防幻覺各層與「不封鎖特定句子」；註冊樣本丟棄只留特徵"
+    },
+    {
+      "id": "summary_py",
+      "title": "src/family_recorder/summary.py",
+      "publisher": "pcpcchen-coder/FamilyRecorder",
+      "url": "https://github.com/pcpcchen-coder/FamilyRecorder/blob/ff76063ab82fc3884bfe898f45a010372d97607d/src/family_recorder/summary.py",
+      "usedFor": "Codex 以 --ephemeral、--sandbox read-only、暫存目錄執行；摘要程式沒有讀取音訊的實作"
+    },
+    {
+      "id": "next_lesson",
+      "title": "L014 我們家的科技公約（課表）",
+      "publisher": "父子科技學院課表",
+      "url": "lessons/L014/lesson.json",
+      "usedFor": "結尾預告下一堂正課"
+    }
+  ],
+  "notVerified": [
+    "沒有安裝或執行 FamilyRecorder，沒有接 XVF3800 實測；所有說法是文件與程式碼寫了什麼",
+    "辨識與人別的準確率文件沒有給數字，本片也不提",
+    "文件與程式有小出入：pyproject 版本 0.16.0、README 仍寫 0.14.4；docs/privacy.md 寫 summary.py 只 import config 與 storage、515 行，目前程式多 import history、522 行。本片不引用這些細節"
+  ]
+}

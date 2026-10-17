@@ -1,0 +1,39 @@
+{
+  "folder": "classroom/SP002_FamilyRecorder家庭討論包",
+  "files": [
+    "00_爸爸先讀.md",
+    "01_家庭討論卡.md",
+    "02_列印包_家庭討論包.pdf",
+    "03_資料去哪裡.csv",
+    "03_資料去哪裡_說明.md",
+    "04_解答與解說.md",
+    "05_和孩子一起讀專案.md"
+  ],
+  "fileCount": 7,
+  "utf8TextReadable": true,
+  "sheet": {
+    "file": "03_資料去哪裡.csv",
+    "rows": 8,
+    "columns": 4
+  },
+  "printPack": {
+    "file": "02_列印包_家庭討論包.pdf",
+    "pages": 3,
+    "allFontsEmbedded": true,
+    "renderedThisRun": true,
+    "source": "authoring/sp002/print/print-pack.html"
+  },
+  "activityMinutes": "30-45",
+  "needsAccount": false,
+  "needsInstall": false,
+  "journeyCards": 6,
+  "journeyAnswer": "BFDAEC",
+  "dataCards": 8,
+  "dataThatLeaves": [
+    "逐字稿文字",
+    "行事曆候選事件"
+  ],
+  "factsFrom": "FamilyRecorder README, docs/privacy.md, docs/speakers.md, docs/use-cases.md, config.example.yaml (commit ff76063)",
+  "privateData": "none",
+  "status": "PASS (structure); page-by-page visual review recorded separately"
+}

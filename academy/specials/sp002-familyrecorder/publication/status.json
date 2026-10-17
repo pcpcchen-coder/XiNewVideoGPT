@@ -1,0 +1,16 @@
+{
+  "lessonId": "SP002",
+  "status": "awaiting_user_upload",
+  "publicationMode": "manual-user-upload",
+  "publisher": "user",
+  "videoUrl": null,
+  "targetTitle": "父子科技學院 SP002｜FamilyRecorder：家裡的當下記錄器",
+  "videoFile": "sp002-familyrecorder-zh-TW.mp4",
+  "videoSha256": "746a0655121446b4bb2aa3fa422a8552d2e3499257b77a252b0a96aae911652c",
+  "videoBytes": 74421903,
+  "deliveryVersion": "SP002-v1",
+  "deliveryRecord": "delivery.json",
+  "authorizedToUpload": false,
+  "authorizedToPublish": false,
+  "note": "Produced and packaged 2026-10-17. Awaiting user playback and manual upload; no YouTube login, upload or publication attempted."
+}

@@ -144,7 +144,10 @@ def main():
 
     registry_path = ROOT / 'curriculum/production-status.json'
     registry = load(registry_path)
-    row = next(x for x in registry['lessons'] if x['lessonId'] == lesson)
+    row = next((x for x in registry['lessons'] if x['lessonId'] == lesson), None)
+    if row is None:  # specials (SP…) are not part of the 192-lesson registry
+        print(f'{lesson} is not a curriculum lesson: registry unchanged; delivery.json and publication/status.json written')
+        return
     row.update(productionStatus='verified', publicationStatus='awaiting_user_upload', videoUrl=None,
                episodePath=ep.relative_to(ROOT).as_posix(),
                evidence=(f"Produced {a.date} by Claude (portable ooxml-template). verify {report['passed']}/{report['total']}; per-page and "
