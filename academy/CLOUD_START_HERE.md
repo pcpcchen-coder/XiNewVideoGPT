@@ -2,7 +2,7 @@
 
 **Claude 已交付的課次（由 `pipeline/status.py --write` 產生）：**
 <!-- academy-status:list -->
-- L004「網路到底是什麼：封包接力賽」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L004-v1 已交付；尚未上傳。紀錄見 [delivery.json](episodes/academy/l004-network-relay/delivery.json)、[manual-review.md](episodes/academy/l004-network-relay/qc/manual-review.md)。
+- L004「網路到底是什麼：封包接力賽」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L004-v1 已交付；已發布：[YouTube](https://youtu.be/ual61Tzuyfk)。紀錄見 [delivery.json](episodes/academy/l004-network-relay/delivery.json)、[manual-review.md](episodes/academy/l004-network-relay/qc/manual-review.md)。
 - L005「搜尋高手：把大問題拆成好問題」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L005-v1 已交付；已發布：[YouTube](https://youtu.be/_vZlGoif3vs)。紀錄見 [delivery.json](episodes/academy/l005-search-master/delivery.json)、[manual-review.md](episodes/academy/l005-search-master/qc/manual-review.md)。
 - L006「真真假假：來源與證據偵探」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L006-v1 已交付；已發布：[YouTube](https://youtu.be/C5Aw2U88q10)。紀錄見 [delivery.json](episodes/academy/l006-source-evidence/delivery.json)、[manual-review.md](episodes/academy/l006-source-evidence/qc/manual-review.md)。
 - L007「密碼城堡與雙重驗證」：2026-10-07 由 Claude 以可攜流程製作，verify 25/25、逐頁與逐段檢視完成，L007-v1 已交付；已發布：[YouTube](https://youtu.be/5S83wW8ojAk)。紀錄見 [delivery.json](episodes/academy/l007-password-castle/delivery.json)、[manual-review.md](episodes/academy/l007-password-castle/qc/manual-review.md)。

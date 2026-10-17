@@ -69,9 +69,10 @@ def status_blocks(data):
             delivered.append((x, json.loads(record.read_text(encoding='utf-8'))))
     nxt = next((x for x in data if x['productionStatus'] not in {'verified', 'completed_historical'}), None)
     following = f"{nxt['lessonId']}「{nxt['title']}」" if nxt else '（192 堂皆已製作）'
-    ids = _ranges(x['lessonId'] for x, _ in delivered if x['publicationStatus'] == 'awaiting_user_upload') or '（尚無）'
+    ids = _ranges(x['lessonId'] for x, _ in delivered if x['publicationStatus'] == 'awaiting_user_upload')
     sentence = (f'{ids} 已由 Claude 製作並交付（verified／awaiting_user_upload，尚未上傳），不重製；'
-                f'下一堂是 {following}，接手仍讀狀態表。')
+                if ids else '目前沒有待上傳的已驗收交付；')
+    sentence += f'下一堂是 {following}，接手仍讀狀態表。'
     published = _ranges(x['lessonId'] for x, _ in delivered if x['publicationStatus'].startswith('published_'))
     if published:
         sentence += f' {published} 已發布，影片網址及觀察證據見狀態表，不重複上傳。'

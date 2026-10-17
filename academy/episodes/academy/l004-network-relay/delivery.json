@@ -6,7 +6,7 @@
   "createdAt": "2026-10-07",
   "producedBy": "Claude (cloud Linux session) via portable-runtime.sh + ooxml-template",
   "status": "verified",
-  "publicationStatus": "awaiting_user_upload",
+  "publicationStatus": "published_verified",
   "contentMode": "curriculum-based-preclass (no recording)",
   "durationSeconds": 420.309,
   "openingSeconds": 60.277,
@@ -194,11 +194,11 @@
     "nextLesson": "L005 搜尋高手：把大問題拆成好問題 (not started; only on user request)"
   },
   "publication": {
-    "status": "awaiting_user_upload",
-    "publisher": "user",
-    "uploaded": false,
-    "videoUrl": null,
+    "status": "published_verified",
+    "publisher": "local-agent",
+    "uploaded": true,
+    "videoUrl": "https://youtu.be/ual61Tzuyfk",
     "uploadFile": "l004-network-relay-zh-TW.mp4",
-    "note": "No login, upload or publication was attempted."
+    "note": "Public upload explicitly authorized 2026-10-17; see publication/status.json and local-upload-review.md."
   }
 }
