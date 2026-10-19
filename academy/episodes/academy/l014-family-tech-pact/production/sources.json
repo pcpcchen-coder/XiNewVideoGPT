@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "L014",
+  "checkedAt": "2026-10-19",
+  "method": "The producing environment could not reach any external site on 2026-10-19 (proxy 403 / ENOTFOUND). Claims rest on verbatim quotes captured by earlier lessons' research (not re-read) and on web-search summaries; see production/source-notes.md. Not a human full read; no source page was read this time.",
+  "curriculum": "curriculum/catalog.json：L014；來源 V2 Excel 逐堂課程第 14 堂",
+  "sources": [
+    {
+      "id": "moe_genai",
+      "title": "中小學使用「生成式人工智慧」注意事項 2.1（學生版；115 年 2 月 11 日核定）",
+      "publisher": "教育部（師大附中國中部網站轉載的 PDF）",
+      "url": "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+      "usedFor": "六（四）依規定註明所使用的工具及用途，不得將生成內容直接當作自己原創作品繳交；六（三）不輸入姓名、照片、聯絡方式、住址、學號等個資；工具無法自行判斷結果的正確性，要查證（先前課次逐字查核，本次未重讀：l011、l012、l013 source-notes）"
+    },
+    {
+      "id": "eliteracy",
+      "title": "中小學數位素養教育資源網【個人資料正確用】教案",
+      "publisher": "教育部",
+      "url": "https://eliteracy.edu.tw/",
+      "usedFor": "可以讓別人知道我們身分的資料都算個人資料（先前課次逐字查核，本次未重讀：l009 source-notes）"
+    },
+    {
+      "id": "apple_screen_time",
+      "title": "在 Mac 上使用「影像樂園」製作獨創影像",
+      "publisher": "Apple 支援（台灣）",
+      "url": "https://support.apple.com/zh-tw/guide/mac-help/mchld5412d00/mac",
+      "usedFor": "Mac 有「螢幕使用時間」設定，可阻擋功能（先前課次逐字查核，本次未重讀：l013 source-notes）"
+    },
+    {
+      "id": "apple_screen_time_family",
+      "title": "如何在 Mac 上使用「螢幕使用時間」管理孩子的裝置",
+      "publisher": "Apple 支援（香港）",
+      "url": "https://support.apple.com/zh-hk/108784",
+      "usedFor": "教材：停用時間、App 與網站限額；替孩子管理通常先設定家人共享（本次只有搜尋摘要，未讀原頁）"
+    },
+    {
+      "id": "apple_ask_to_buy",
+      "title": "在 Mac 上管理「家人共享」中的共享和分級保護設定（macOS 15）",
+      "publisher": "Apple 支援（台灣）",
+      "url": "https://support.apple.com/zh-tw/guide/mac-help/mchlcdcc9382/15.0/mac/15.0",
+      "usedFor": "教材：家人共享組織者可管理「購買前詢問」（本次只有搜尋摘要，未讀原頁）"
+    },
+    {
+      "id": "ftc_iap",
+      "title": "Statement on Apple in-app purchases settlement（2014）",
+      "publisher": "U.S. Federal Trade Commission",
+      "url": "https://www.ftc.gov/system/files/documents/public_statements/590281/141001carumobile.pdf",
+      "usedFor": "免費遊戲裡可能有花真錢的 App 內購買；孩子可能分不出虛擬貨幣和真錢（本次只有搜尋摘要，未讀原頁；美國 2014 年資料，只作旁證）"
+    },
+    {
+      "id": "aap_fmp",
+      "title": "How to Make a Family Media Use Plan",
+      "publisher": "American Academy of Pediatrics（HealthyChildren.org）",
+      "url": "https://www.healthychildren.org/English/family-life/Media/Pages/How-to-Make-a-Family-Media-Use-Plan.aspx",
+      "usedFor": "教材：全家一起訂規則、替每位家庭成員（包括大人）都做計畫、定期重新檢視（本次只有搜尋摘要，未讀原頁）"
+    },
+    {
+      "id": "iwin",
+      "title": "iWIN 網路內容防護機構",
+      "publisher": "iWIN（依兒少法第 46 條設立）",
+      "url": "https://i.win.org.tw/",
+      "usedFor": "教材：諮詢專線 02-2577-5118（先前課次逐字查核，本次未重讀：l009 source-notes）"
+    },
+    {
+      "id": "moi_165",
+      "title": "通話中直接撥打165？小心詐騙集團假冒警察",
+      "publisher": "內政部",
+      "url": "https://www.moi.gov.tw/News_Content.aspx?n=2&s=323333",
+      "usedFor": "教材：165 反詐騙專線；先掛斷電話，後查證（先前課次逐字查核，本次未重讀：l013 source-notes）"
+    },
+    {
+      "id": "catalog_reference",
+      "title": "Google Safety Center：Security tips",
+      "publisher": "Google（課表 R24 的主要參考網址）",
+      "url": "https://safety.google/intl/en_us/safety/security-tips/",
+      "usedFor": "課表列出的參考入口；本次讀不到，沒有引用其中任何內容"
+    }
+  ],
+  "notVerified": [
+    "本次讀不到任何原始頁面：外部網站一律被製作環境的網路政策擋下",
+    "教育部注意事項、教育部數位素養教案、Apple 螢幕使用時間、iWIN、內政部的引文來自先前課次（2026-10-07／08）的逐字查核，本次未重讀",
+    "Apple「停用時間」「App 限額」「購買前詢問」、AAP Family Media Plan、FTC 遊戲內購買只有本次搜尋摘要，未讀原頁",
+    "台灣繁中的家長控制選單名稱與步驟沒有查核；教材請爸爸以自己的畫面為準",
+    "課表 R24（Google Safety Center）讀不到，沒有引用",
+    "陳犀牛角色圖像的來源本次沒有查核，影片沒有對它做任何說明"
+  ],
+  "youtubeSearchEntries": {
+    "status": "not selected, not watched",
+    "note": "課表的三組 YouTube 連結是動態搜尋入口，本次未挑選或觀看任何影片，也未在影片或教材中引用。"
+  }
+}

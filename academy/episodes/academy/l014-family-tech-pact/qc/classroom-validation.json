@@ -1,0 +1,49 @@
+{
+  "folder": "classroom/L014_我們家的科技公約",
+  "files": [
+    "00_爸爸先讀.md",
+    "01_規則競速與協商.md",
+    "02_列印包_科技公約.pdf",
+    "03_規則協商表.csv",
+    "03_規則協商表_填寫說明.md",
+    "04_五個主題解說.md",
+    "05_自選規則與功能.md",
+    "06_驗收與回顧.md",
+    "07_公約小抄.md"
+  ],
+  "fileCount": 9,
+  "utf8TextReadable": true,
+  "sheet": {
+    "file": "03_規則協商表.csv",
+    "rows": 12,
+    "columns": 11
+  },
+  "printPack": {
+    "file": "02_列印包_科技公約.pdf",
+    "pages": 6,
+    "allFontsEmbedded": true,
+    "renderedThisRun": true,
+    "source": "authoring/l014/print/print-pack.html"
+  },
+  "ruleCards": {
+    "child": 5,
+    "father": 5,
+    "onePerTopic": true
+  },
+  "topics": [
+    "使用時間",
+    "花錢",
+    "隱私",
+    "作業和 AI",
+    "求助"
+  ],
+  "warmUpVagueRules": 4,
+  "exampleRulesPerTopic": 1,
+  "minutesInExamplesAreNotAdvice": true,
+  "needsChildAccount": false,
+  "needsAiTool": false,
+  "helpLines": "iWIN 02-2577-5118 and 165, from earlier lessons' source checks (not re-read 2026-10-19)",
+  "parentalControlNames": "Screen Time / Family Sharing / Ask to Buy from web-search summaries only; parent told to follow own screen",
+  "privateData": "none",
+  "status": "PASS (structure); page-by-page visual review recorded separately"
+}

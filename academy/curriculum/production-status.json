@@ -149,12 +149,12 @@
       "lessonId": "L014",
       "title": "我們家的科技公約",
       "learningObjectives": "共同建立使用時間、付費、隱私、AI 作業與求助規則",
-      "productionStatus": "planned",
+      "productionStatus": "deck_ready",
       "publicationStatus": "not_uploaded",
       "publicationOwner": "user",
       "videoUrl": null,
-      "evidence": "none",
-      "episodePath": null
+      "evidence": "2026-10-19 Claude：內容、PPTX、逐頁檢查與教材完成；Edge TTS 被製作環境網路政策擋下，未合成、未組裝、未驗收。見 episodes/academy/l014-family-tech-pact/HANDOFF.md",
+      "episodePath": "episodes/academy/l014-family-tech-pact"
     },
     {
       "lessonId": "L015",
