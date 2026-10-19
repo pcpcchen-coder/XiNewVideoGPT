@@ -1,0 +1,110 @@
+[
+  {
+    "slide": 1,
+    "title": "我們家的科技公約",
+    "purpose": "開場：課前教學版揭露、公約是什麼、今天的五個主題",
+    "visual": "封面版型：任務標籤、兩行主題、一句任務說明；原陳犀牛角色（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "準備規則卡與公約紙；預告五個主題",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 2,
+    "title": "公約三步驟",
+    "purpose": "概念：公約三步驟，各自提出 → 一起協商 → 寫下來",
+    "visual": "三步流程卡＋黃字作品說明（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出今天要完成的作品",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 3,
+    "title": "好規則的三個條件",
+    "purpose": "概念：好規則的三個條件（說得清楚、做得到、檢查得到），加上理由與補救",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "把一條模糊的規則說清楚",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 4,
+    "title": "主題一：使用時間",
+    "purpose": "主題一：使用時間的四個問題；螢幕使用時間只是幫忙",
+    "visual": "面板四張卡＋黃字範例（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "用四個問題改寫「不要玩太久」",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 5,
+    "title": "主題二：花錢",
+    "purpose": "主題二：花錢，模糊規則 → 做得到的規則；免費遊戲也可能要付錢",
+    "visual": "雙框（模糊 → 做得到）＋白字＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出一個會花真錢的東西",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 6,
+    "title": "主題三：隱私",
+    "purpose": "主題三：隱私，個資、照片、密碼",
+    "visual": "三張卡＋黃字提問（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出哪些資料能讓陌生人找到你",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 7,
+    "title": "主題四：作業和 AI",
+    "purpose": "主題四：作業和 AI，先自己想、再問、自己檢查、照實註明",
+    "visual": "路徑一行＋三張卡＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "說出作業用 AI 的順序",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 8,
+    "title": "主題五：求助",
+    "purpose": "主題五：求助訊號、越早說越容易處理；寫給爸爸的一條",
+    "visual": "左側三行；右側「先找誰？」與寫給爸爸（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "暫停影片：說出可以求助的兩個大人",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 9,
+    "title": "規則競速",
+    "purpose": "共同實作：規則競速（計時八分鐘各寫五條），再一條一條協商；大人也要遵守",
+    "visual": "左右比較卡（第一回合／第二回合）＋黃字（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成十條規則卡與協商紀錄",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 10,
+    "title": "換你改造：公約 v1.0",
+    "purpose": "獨立改造：整理成公約 v1.0、加一個自選規則或功能、請爸爸試一次",
+    "visual": "三點條列＋陳犀牛（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "完成公約 v1.0 草稿",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 11,
+    "title": "兩小時的公約會議",
+    "purpose": "120 分鐘安排：10／15／40／10／30／10／5",
+    "visual": "六列時間表與今日生活技能（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "依時間表進行；休息十分鐘",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  },
+  {
+    "slide": 12,
+    "title": "最後一關：教爸爸好規則",
+    "purpose": "作品驗收與回顧：說出三個條件、指出一個容易錯的地方；固定結尾",
+    "visual": "三點驗收條列＋陳犀牛＋結尾語（L001 還原版型的原生可編輯文字與圖形）",
+    "activity": "孩子教爸爸；錄音回答四個問題；公約命名、簽名、存檔",
+    "motion": "static + 0.55s fade",
+    "narrationSentences": 3
+  }
+]

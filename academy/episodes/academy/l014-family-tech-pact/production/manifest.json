@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "editorialStatus": "authored",
+  "recordingSource": null,
+  "slideCount": 12,
+  "transitionSeconds": 0.55,
+  "deckRenderer": "ooxml-template",
+  "templateEpisode": "episodes/academy/l001-mac-workstation",
+  "templateProvenance": "Original PPTX absent from v2 ZIP; restored from supplied build_l001.mjs and original assets.",
+  "layoutProfile": "academy-native-v1",
+  "seriesHeader": "父子科技學院  ·  FAMILY TECH PACT",
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "zh-TW-YunJheNeural",
+    "persona": "陳犀牛 Chen XiNew",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "music": {
+    "backgroundMusic": "none — narration only under teaching slides",
+    "opening": "assets/opening/開場影片-v2.mp4"
+  },
+  "signoff": {
+    "text": "我是陳犀牛，保持好奇，我們下次見！"
+  },
+  "contentMode": "curriculum-based-preclass",
+  "publicationMode": "manual-user-upload",
+  "autoPublish": false,
+  "episode": "L014",
+  "slug": "l014-family-tech-pact",
+  "title": "我們家的科技公約",
+  "subtitle": "父子科技學院 第十四堂｜依課表製作的課前教學版",
+  "lessonIds": [
+    "L014"
+  ],
+  "sources": {
+    "curriculum": "curriculum/catalog.json：L014；來源 V2 Excel 逐堂課程第 14 堂",
+    "moe_genai": "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2026/02/中小學使用「生成式人工智慧」注意事項2.1.pdf",
+    "eliteracy": "https://eliteracy.edu.tw/",
+    "apple_screen_time": "https://support.apple.com/zh-tw/guide/mac-help/mchld5412d00/mac",
+    "apple_screen_time_family": "https://support.apple.com/zh-hk/108784",
+    "apple_ask_to_buy": "https://support.apple.com/zh-tw/guide/mac-help/mchlcdcc9382/15.0/mac/15.0",
+    "ftc_iap": "https://www.ftc.gov/system/files/documents/public_statements/590281/141001carumobile.pdf",
+    "aap_fmp": "https://www.healthychildren.org/English/family-life/Media/Pages/How-to-Make-a-Family-Media-Use-Plan.aspx",
+    "iwin": "https://i.win.org.tw/",
+    "moi_165": "https://www.moi.gov.tw/News_Content.aspx?n=2&s=323333",
+    "catalog_reference": "https://safety.google/intl/en_us/safety/security-tips/"
+  },
+  "renderOptions": {
+    "asianLatinAutoSpace": false,
+    "captionLineBreak": "kinsoku"
+  },
+  "factCheck": {
+    "checkedAt": "2026-10-19",
+    "record": "production/fact-check.md",
+    "sources": "production/sources.json"
+  },
+  "authorization": {
+    "produceL014": true,
+    "ttsConsent": {
+      "grantedBy": "user",
+      "grantedAt": "2026-10-19",
+      "service": "Microsoft Edge TTS",
+      "voice": "zh-TW-YunJheNeural",
+      "scope": "L014 public narration script only",
+      "basis": "On 2026-10-19 the user, in the L014 production request, explicitly allowed sending the public narration script to Microsoft Edge TTS for synthesis with zh-TW-YunJheNeural, excluding private recordings and other private data.",
+      "excluded": "private recordings or any other private data"
+    },
+    "paidLlmApi": false,
+    "uploadToYouTube": false,
+    "publish": false
+  }
+}
